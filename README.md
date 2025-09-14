@@ -245,12 +245,227 @@
 
 # Capítulo II: Requirements Development and Software Solution Design
 ## 2.1. Competidores
+
+**MarketMan** <br>
+Plataforma SaaS enfocada en control de inventarios y costos (COGS) con gestión de proveedores y reportes avanzados. Es robusta y escalable, ideal para negocios con mayor complejidad operativa. Para el segmento de cafeterías de 1–3 locales puede resultar costosa/excesiva, pero marca el estándar en costeo y control.
+
+**Stock & Inventory Simple** <br>
+App Android de control de stock ligera: alta/baja de productos, cantidades, costos básicos, alertas y exportaciones. Su propuesta es la simplicidad y la rápida adopción, pero sin profundidad en métricas de costos ni analítica para la toma de decisiones del dueño.
+
+**Cafe Manager** <br>
+App móvil orientada a operaciones diarias (ventas/pedidos) con inventario simple. Es rápida y accesible, pero no prioriza la gestión interna (métricas de desperdicio, análisis de costos, precios sugeridos), por lo que se alinea parcialmente con el enfoque “solo dueño”.
+
 ### 2.1.1. Análisis competitivo
+
+<table border="1" cellpadding="8" cellspacing="0" style="border-collapse: collapse; width: 100%;">
+  <!-- Título -->
+  <tr>
+    <th colspan="6" style="text-align:center; border: 1px solid #000;">
+      Competitive Analysis Landscape
+    </th>
+  </tr>
+
+  <!-- Justificación -->
+  <tr>
+    <th style="text-align:center; border: 1px solid #000;">¿Por qué llevar a cabo este análisis?</th>
+    <td colspan="5" style="border: 1px solid #000;">
+      Identificar el posicionamiento de iCafe frente a software cloud/móvil que resuelve (total o parcialmente)
+      la gestión interna de cafeterías: inventario, costos y métricas. Este análisis permite definir foco de valor
+      (simplicidad móvil, costo bajo, enfoque cafeterías de 1–3 locales, decisiones rápidas con datos) y tácticas de entrada.
+    </td>
+  </tr>
+
+  <!-- Encabezados -->
+  <tr>
+    <th style="border: 1px solid #000;"></th>
+    <th style="border: 1px solid #000;"></th>
+    <th style="text-align:center; border: 1px solid #000;">
+      iCafe (SyncCafe)<br>
+      <img src="public/assets/images/brand/icafe-logo.png" alt="Logo iCafe" width="120">
+    </th>
+    <th style="text-align:center; border: 1px solid #000;">
+      MarketMan<br>
+      <img src="public/assets/images/competitors/marketman.png" alt="Logo MarketMan" width="120">
+    </th>
+    <th style="text-align:center; border: 1px solid #000;">
+      Stock &amp; Inventory Simple<br>
+      <img src="public/assets/images/competitors/stockinventorysimple.png" alt="Logo Stock & Inventory Simple" width="120">
+    </th>
+    <th style="text-align:center; border: 1px solid #000;">
+      Cafe Manager<br>
+      <img src="public/assets/images/competitors/cafemanager.png" alt="Logo Cafe Manager" width="120">
+    </th>
+  </tr>
+
+  <!-- PERFIL -->
+  <tr>
+    <th rowspan="3" style="text-align:center; border: 1px solid #000;">Perfil</th>
+    <td style="border: 1px solid #000;"><strong>Overview</strong></td>
+    <td style="border: 1px solid #000;">App móvil (Android → Flutter) centrada en el dueño: recetas, inventario, métricas de desperdicio y gestor de costos con reportes PDF.</td>
+    <td style="border: 1px solid #000;">Plataforma cloud para inventarios, costos y proveedores, con módulos avanzados de control (más robusta y premium).</td>
+    <td style="border: 1px solid #000;">App Android genérica de control de stock y costos básicos; muy ligera y simple.</td>
+    <td style="border: 1px solid #000;">App móvil enfocada en operaciones básicas (ventas/pedidos) con inventario simple; menos alineada a gestión interna pura.</td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid #000;"><strong>Ventaja competitiva</strong></td>
+    <td style="border: 1px solid #000;">Mobile-first, simplicidad, enfoque cafetero, métricas de desperdicio, precios sugeridos y PDF listo para compartir.</td>
+    <td style="border: 1px solid #000;">Costeo/COGS sólido, gestión de proveedores, analítica avanzada y escalabilidad.</td>
+    <td style="border: 1px solid #000;">Curva de aprendizaje mínima, exportaciones simples, alertas de stock; muy accesible.</td>
+    <td style="border: 1px solid #000;">Interfaz simple y rápida para operaciones diarias.</td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid #000;"><strong>Clientes</strong></td>
+    <td style="border: 1px solid #000;">Dueños de cafeterías 1–3 locales en zonas urbanas/semiurbanas.</td>
+    <td style="border: 1px solid #000;">Restaurantes/cafeterías con foco fuerte en control de costos e inventario.</td>
+    <td style="border: 1px solid #000;">Emprendedores y micro-negocios que requieren control básico de stock.</td>
+    <td style="border: 1px solid #000;">Dueños que priorizan rapidez operativa y registro de ventas simples.</td>
+  </tr>
+
+  <!-- MARKETING -->
+  <tr>
+    <th rowspan="2" style="text-align:center; border: 1px solid #000;">Perfil de Marketing</th>
+    <td style="border: 1px solid #000;"><strong>Mercado objetivo</strong></td>
+    <td style="border: 1px solid #000;">Cafeterías independientes y micro-cadenas en latinoamérica.</td>
+    <td style="border: 1px solid #000;">F&amp;B global que prioriza COGS, inventario y compliance.</td>
+    <td style="border: 1px solid #000;">Negocios pequeños que buscan control básico de inventario en móvil.</td>
+    <td style="border: 1px solid #000;">Micro-negocios que requieren operar rápido desde el teléfono.</td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid #000;"><strong>Estrategias de marketing</strong></td>
+    <td style="border: 1px solid #000;">Contenido educativo, demos rápidas, alianzas con proveedores de café.</td>
+    <td style="border: 1px solid #000;">Casos de éxito, integraciones y ROI explícito en costos/mermas.</td>
+    <td style="border: 1px solid #000;">ASO/Play Store, reseñas, simplicidad como propuesta de valor.</td>
+    <td style="border: 1px solid #000;">Visibilidad en tiendas de apps y marketing de boca a boca.</td>
+  </tr>
+
+  <!-- PRODUCTO -->
+  <tr>
+    <th rowspan="3" style="text-align:center; border: 1px solid #000;">Perfil de Producto</th>
+    <td style="border: 1px solid #000;"><strong>Productos y Servicios</strong></td>
+    <td style="border: 1px solid #000;">Recetas (solo dueño), inventario, métricas de desperdicio, gestor de costos, precios sugeridos y PDF.</td>
+    <td style="border: 1px solid #000;">Inventario, costos, proveedores, reportes avanzados.</td>
+    <td style="border: 1px solid #000;">Inventario básico, movimientos, costos simples, exportaciones.</td>
+    <td style="border: 1px solid #000;">Ventas/pedidos e inventario simple (menos foco en métricas/costos).</td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid #000;"><strong>Precios y Costos</strong></td>
+    <td style="border: 1px solid #000;">Suscripción accesible (plan básico con reportes PDF incluidos).</td>
+    <td style="border: 1px solid #000;">Planes por sede/usuario; inversión mayor que iCafe.</td>
+    <td style="border: 1px solid #000;">Gratuito o muy bajo costo; funciones limitadas.</td>
+    <td style="border: 1px solid #000;">Muy accesible; alcance funcional reducido.</td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid #000;"><strong>Canales de distribución</strong></td>
+    <td style="border: 1px solid #000;">App Android (Kotlin) y luego Flutter; API REST propia; landing.</td>
+    <td style="border: 1px solid #000;">Web + app móvil (SaaS).</td>
+    <td style="border: 1px solid #000;">App móvil Android.</td>
+    <td style="border: 1px solid #000;">App móvil Android.</td>
+  </tr>
+
+  <!-- SWOT -->
+  <tr>
+    <th rowspan="4" style="text-align:center; border: 1px solid #000;">ANÁLISIS SWOT</th>
+    <td style="border: 1px solid #000;"><strong>Fortalezas</strong></td>
+    <td style="border: 1px solid #000;">UX sencilla, mobile-first, enfoque cafeterías, métricas visuales y PDF compartible.</td>
+    <td style="border: 1px solid #000;">Costeo/COGS sólido, gestión de proveedores, analítica y escalabilidad.</td>
+    <td style="border: 1px solid #000;">Simplicidad extrema, curva de aprendizaje baja, exportaciones rápidas.</td>
+    <td style="border: 1px solid #000;">Rapidez operativa para ventas simples; fácil de usar.</td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid #000;"><strong>Debilidades</strong></td>
+    <td style="border: 1px solid #000;">Marca nueva, menos integraciones; sin historial de mercado.</td>
+    <td style="border: 1px solid #000;">Curva de adopción y costo para micro-negocios.</td>
+    <td style="border: 1px solid #000;">Limitado en métricas de costos y sin módulos de decisiones.</td>
+    <td style="border: 1px solid #000;">Menor foco en métricas y costos; menos alineada a gestión interna pura.</td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid #000;"><strong>Oportunidades</strong></td>
+    <td style="border: 1px solid #000;">Digitalización de cafeterías; nicho LATAM poco atendido con mobile simple.</td>
+    <td style="border: 1px solid #000;">Planes para SMBs y verticalización por segmentos.</td>
+    <td style="border: 1px solid #000;">Evolucionar a métricas/costos para F&amp;B pequeños.</td>
+    <td style="border: 1px solid #000;">Añadir módulo de costos para mayor valor al dueño.</td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid #000;"><strong>Amenazas</strong></td>
+    <td style="border: 1px solid #000;">Entrada de suites consolidadas al nicho cafetero; inercia de Excel.</td>
+    <td style="border: 1px solid #000;">Competencia de apps móviles más baratas y simples.</td>
+    <td style="border: 1px solid #000;">Desplazamiento por soluciones más completas del sector.</td>
+    <td style="border: 1px solid #000;">Ser reemplazada por apps con mejor gestión interna.</td>
+  </tr>
+</table>
+
+
 
 ### 2.1.2. Estrategias y tácticas frente a competidores
 
+**Estrategia de diferenciación (foco en el dueño):**
+
+- Simplicidad y velocidad de uso (mobile-first)
+
+- Métricas clave: consumo real vs. ideal, % desperdicio, margen de ganancia, precios sugeridos
+
+- Reportes PDF descargables y compartibles por WhatsApp o correo
+
+- Precio accesible (plan básico con métricas incluidas)
+
+**Tácticas concretas:**
+
+- Contenido educativo (mini videos, plantillas de recetas e insumos)
+
+- Alertas inteligentes: stock bajo, desperdicio alto, margen bajo
+
+- Simulador “qué pasaría si” para ajustar precios según costos
+
+- Planificador de compras (sin órdenes, solo lista sugerida en PDF)
+
+
 ## 2.2. Entrevistas
 ### 2.2.1. Diseño de entrevistas
+
+**Gestión de inventarios:**
+
+¿Cómo registras actualmente los insumos que ingresan y salen de tu cafetería?
+
+¿Con qué frecuencia actualizas tu inventario?
+
+¿Has tenido problemas con faltantes o sobrantes de stock? ¿Cómo los detectas?
+
+¿Llevas algún control de desperdicios o mermas? ¿Cómo lo haces actualmente?
+
+Si tuvieras una herramienta que muestre el consumo ideal vs. real y un % de desperdicio, ¿la usarías regularmente?
+
+**Costos y márgenes de ganancia:**
+
+¿Tienes claridad sobre el costo real de los productos que vendes (por ejemplo, una taza de café)?
+
+¿Cómo decides el precio de venta de tus productos?
+
+¿Consideras los sueldos, servicios o alquiler al definir tus precios?
+
+¿Con qué frecuencia analizas tus costos mensuales totales?
+
+¿Qué tan útil sería una app que calcule automáticamente tu margen de ganancia por receta?
+
+**Uso de herramientas digitales**
+
+¿Qué herramientas usas actualmente para gestionar tu cafetería? (Excel, libretas, apps, otras)
+
+¿Has probado aplicaciones móviles de gestión antes? ¿Qué dificultades encontraste?
+
+¿Qué dispositivo usas más para administrar tu negocio: celular, laptop u otro?
+
+En una escala del 1 al 5, ¿qué tan cómodo te sientes usando apps móviles?
+
+**Necesidades y expectativas**
+
+Si pudieras tener un panel de métricas rápidas, ¿qué información te gustaría ver primero?
+
+¿Qué tipo de reportes te gustaría generar (PDF mensual, semanal, inventario, recetas, otros)?
+
+¿Qué funcionalidad consideras más prioritaria: inventario, costos, métricas de desperdicio o precios sugeridos?
+
+¿Qué función innovadora crees que marcaría la diferencia y te haría usar una app de este tipo?
+
 
 ### 2.2.2. Registro de entrevistas
 
