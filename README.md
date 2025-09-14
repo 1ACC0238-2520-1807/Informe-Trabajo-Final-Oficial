@@ -226,12 +226,47 @@
 # Capítulo I: Presentación
 ## 1.1. Startup Profile
 ### 1.1.1. Descripción de la Startup
-
+Nuestra startup se llama SyncCafe y surge con el propósito de transformar la manera en que las cafeterías administran sus operaciones diarias. Actualmente, muchos de estos negocios todavía dependen de registros manuales o herramientas dispersas como libretas, hojas de cálculo o aplicaciones poco integradas, lo que genera desorganización, pérdida de información y costos innecesarios que afectan directamente la rentabilidad y el crecimiento. Para responder a esta problemática, desarrollamos iCafe, una plataforma digital diseñada para que los dueños y administradores de cafeterías puedan centralizar sus procesos en un solo lugar, controlando costos de manera más precisa, registrando proveedores y empleados, gestionando inventarios y compartiendo recetas estandarizadas con su equipo. Nuestro objetivo es simplificar la gestión sin necesidad de conocimientos técnicos avanzados, ofreciendo una solución clara, eficiente y accesible que permita a los propietarios enfocarse en lo más importante: brindar una mejor experiencia a sus clientes, asegurar la calidad de sus productos y hacer crecer su negocio.
 ### 1.1.2. Perfiles de integrantes del equipo
-
+| Foto | Información |
+|------|-------------|
+| | **Nombres y apellidos:** <br>**Código:** <br>**Carrera:** <br>**Descripción:**|
+| | **Nombres y apellidos:** <br>**Código:** <br>**Carrera:** <br>**Descripción:**|
+| | **Nombres y apellidos:** <br>**Código:** <br>**Carrera:** <br>**Descripción:**|
+| <img src="img/jasmin.jpg" alt="Foto de Jasmin" width="210"> | **Nombres y apellidos:** Jasmin Adriana Urrutia Peña<br>**Código:** U202310008<br>**Carrera:** Ing. de Software<br>**Descripción:** Soy una persona responsable, creativa y empática, cualidades que me permiten establecer buenas conexiones con quienes me rodean. Valoro el trabajo en equipo porque me da la oportunidad de compartir ideas y aprender de otras perspectivas. Tengo conocimientos en lenguajes de programación como C + +, HTML, CSS , entre otros. Me gusta todo lo que es Frontend  y Diseño UX. |
+| <img src="https://i.postimg.cc/vHksZbw6/Sebastian-Ramos-foto-perfil.jpg" alt="SebasPerfil" width="210"> | **Nombres y apellidos:** Sebastian Alexander Ramos Calagua<br>**Código:** U202222846<br>**Carrera:** Ing. de Software<br>**Descripción:** Desarrollador full-stack con experiencia en arquitectura modular. Me apasiona aplicar la tecnología para resolver desafíos sociales en educación, salud y justicia. |
 ## 1.2. Solution Profile
 ### 1.2.1. Antecedentes y problemática
 
+**Descripción de la problemática.**
+En la actualidad, muchas cafeterías todavía realizan la gestión de sus operaciones de manera manual o con herramientas poco integradas. Este enfoque genera problemas de organización, falta de control sobre los costos e insumos, errores humanos y una administración poco eficiente. Los dueños y administradores enfrentan dificultades para tener información clara y en tiempo real, lo cual se traduce en pérdidas económicas, sobrecarga de trabajo y menor productividad.
+
+Aunque existen sistemas de gestión para negocios en el mercado, muchos de ellos están orientados a grandes empresas, presentan costos elevados o son demasiado complejos para la realidad de una cafetería pequeña o mediana. Además, gran parte de estas soluciones no se ajustan a la dinámica del sector cafetero, que requiere practicidad, rapidez y accesibilidad.
+
+En este contexto, surge la necesidad de una herramienta digital centralizada, intuitiva y accesible que permita a los administradores de cafeterías gestionar sus operaciones de manera más ordenada. Una solución que simplifique el control de costos, facilite el registro de proveedores y empleados, organice los inventarios y permita compartir recetas de forma práctica con el personal. Con este propósito nace iCafe, un producto diseñado por la startup SyncCafe, cuyo enfoque es brindar un sistema moderno, económico y adaptado a las necesidades reales de cafeterías independientes y cadenas pequeñas.
+
+**Aplicación de la metodología 5W y 2H**
+
+-What (¿Qué?)
+Las cafeterías enfrentan problemas de gestión por depender de procesos manuales y dispersos. Esto ocasiona errores en el control de costos, inventarios y personal, lo que afecta directamente la rentabilidad del negocio.
+
+-Who (¿Quién?)
+Los principales afectados son los dueños y administradores de cafeterías, así como los empleados que deben trabajar sin lineamientos claros en cuanto a recetas o insumos disponibles.
+
+-Where (¿Dónde?)
+Este problema se presenta en cafeterías independientes, cadenas pequeñas y medianas, así como en cafeterías institucionales dentro de universidades o empresas que carecen de herramientas digitales adaptadas a sus necesidades.
+
+-When (¿Cuándo?)
+La problemática se da todos los días en las actividades básicas de una cafetería: compras de insumos, registro de proveedores, control de inventarios, organización de personal y elaboración de recetas.
+
+-Why (¿Por qué?)
+La falta de digitalización y de un sistema centralizado obliga a llevar los procesos manualmente. Esto no solo consume tiempo, sino que también aumenta la posibilidad de errores, genera desorden y dificulta la toma de decisiones basadas en datos.
+
+-How (¿Cómo?)
+Actualmente los administradores utilizan métodos tradicionales como libretas, hojas sueltas o documentos de Excel, lo que fragmenta la información. Esto ocasiona duplicidad de tareas, pérdida de registros y falta de visibilidad sobre los recursos disponibles.
+
+-How much (¿Cuánto?)
+Las pérdidas varían según el tamaño de la cafetería, pero en muchos casos pueden representar entre el 10% y 20% de los ingresos mensuales, ya sea por compras innecesarias, desperdicio de insumos o falta de control en costos. Una solución digital adaptada a este sector permitiría reducir significativamente estos porcentajes, generando mayor eficiencia y rentabilidad.
 ### 1.2.2. Lean UX Process
 #### 1.2.2.1. Lean UX Problem Statements
 
@@ -242,7 +277,16 @@
 #### 1.2.2.4. Lean UX Canvas
 
 ## 1.3. Segmentos objetivo
+**Segmento 1: Dueños de Cafeterías**
+-Pequeños y medianos negocios de café que buscan mejorar su organización interna y optimizar sus recursos.
 
+-Propietarios que, en la mayoría de los casos, administran directamente las operaciones del negocio y no cuentan con herramientas digitales especializadas.
+
+-Emprendedores con edades entre 25 y 45 años, interesados en reducir pérdidas y mejorar la eficiencia del control de costos, inventarios y proveedores.
+
+-Cafeterías con 1 a 3 locales, que requieren un sistema sencillo, práctico y accesible para estandarizar procesos y capacitar a su personal.
+
+-Ubicadas en zonas urbanas y semiurbanas, con un nivel básico de familiaridad con herramientas digitales, pero que en muchos casos aún utilizan registros manuales o poco integrados.
 # Capítulo II: Requirements Development and Software Solution Design
 ## 2.1. Competidores
 ### 2.1.1. Análisis competitivo
