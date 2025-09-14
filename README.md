@@ -398,73 +398,20 @@ App móvil orientada a operaciones diarias (ventas/pedidos) con inventario simpl
 
 ### 2.1.2. Estrategias y tácticas frente a competidores
 
-**Estrategia de diferenciación (foco en el dueño):**
+**Disponibilidad 100 % gratuita y sin registros extensos:** acceso inmediato solo con nombre de negocio.
 
-- Simplicidad y velocidad de uso (mobile-first)
+**Interfaz minimalista y clara:** colores acorde al tema, pocas pantallas, iconografía directa, prioriza velocidad sobre densidad de funciones.
 
-- Métricas clave: consumo real vs. ideal, % desperdicio, margen de ganancia, precios sugeridos
+**Visualización de métricas inmediatas:** gráficos de stock, consumo, desperdicio y costos en el inicio para dar valor apenas se usan los datos.
 
-- Reportes PDF descargables y compartibles por WhatsApp o correo
+**Alertas automáticas de gestión:** avisos de stock bajo, altos niveles de desperdicio y sobrecostos detectados.
 
-- Precio accesible (plan básico con métricas incluidas)
+**Generación de reportes PDF simples:** exportación directa de inventario, costos y recetas para respaldar decisiones administrativas.
 
-**Tácticas concretas:**
-
-- Contenido educativo (mini videos, plantillas de recetas e insumos)
-
-- Alertas inteligentes: stock bajo, desperdicio alto, margen bajo
-
-- Simulador “qué pasaría si” para ajustar precios según costos
-
-- Planificador de compras (sin órdenes, solo lista sugerida en PDF)
-
+**Optimización offline:** permitir funcionamiento sin conexión para que los dueños puedan registrar datos desde el local sin depender de internet.
 
 ## 2.2. Entrevistas
 ### 2.2.1. Diseño de entrevistas
-
-**Gestión de inventarios:**
-
-¿Cómo registras actualmente los insumos que ingresan y salen de tu cafetería?
-
-¿Con qué frecuencia actualizas tu inventario?
-
-¿Has tenido problemas con faltantes o sobrantes de stock? ¿Cómo los detectas?
-
-¿Llevas algún control de desperdicios o mermas? ¿Cómo lo haces actualmente?
-
-Si tuvieras una herramienta que muestre el consumo ideal vs. real y un % de desperdicio, ¿la usarías regularmente?
-
-**Costos y márgenes de ganancia:**
-
-¿Tienes claridad sobre el costo real de los productos que vendes (por ejemplo, una taza de café)?
-
-¿Cómo decides el precio de venta de tus productos?
-
-¿Consideras los sueldos, servicios o alquiler al definir tus precios?
-
-¿Con qué frecuencia analizas tus costos mensuales totales?
-
-¿Qué tan útil sería una app que calcule automáticamente tu margen de ganancia por receta?
-
-**Uso de herramientas digitales**
-
-¿Qué herramientas usas actualmente para gestionar tu cafetería? (Excel, libretas, apps, otras)
-
-¿Has probado aplicaciones móviles de gestión antes? ¿Qué dificultades encontraste?
-
-¿Qué dispositivo usas más para administrar tu negocio: celular, laptop u otro?
-
-En una escala del 1 al 5, ¿qué tan cómodo te sientes usando apps móviles?
-
-**Necesidades y expectativas**
-
-Si pudieras tener un panel de métricas rápidas, ¿qué información te gustaría ver primero?
-
-¿Qué tipo de reportes te gustaría generar (PDF mensual, semanal, inventario, recetas, otros)?
-
-¿Qué funcionalidad consideras más prioritaria: inventario, costos, métricas de desperdicio o precios sugeridos?
-
-¿Qué función innovadora crees que marcaría la diferencia y te haría usar una app de este tipo?
 
 
 ### 2.2.2. Registro de entrevistas
