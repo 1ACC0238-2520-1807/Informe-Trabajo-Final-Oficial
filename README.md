@@ -277,7 +277,9 @@ Las pérdidas varían según el tamaño de la cafetería, pero en muchos casos p
 #### 1.2.2.4. Lean UX Canvas
 
 ## 1.3. Segmentos objetivo
-**Segmento 1: Dueños de Cafeterías**
+**Segmento 1: Dueños de Cafeterías** </br>
+
+
 -Pequeños y medianos negocios de café que buscan mejorar su organización interna y optimizar sus recursos.
 
 -Propietarios que, en la mayoría de los casos, administran directamente las operaciones del negocio y no cuentan con herramientas digitales especializadas.
