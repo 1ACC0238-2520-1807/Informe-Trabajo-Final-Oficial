@@ -226,7 +226,7 @@
 # Capítulo I: Presentación
 ## 1.1. Startup Profile
 ### 1.1.1. Descripción de la Startup
-Nuestra startup se llama SyncCafe y surge con el propósito de transformar la manera en que las cafeterías administran sus operaciones diarias. Actualmente, muchos de estos negocios todavía dependen de registros manuales o herramientas dispersas como libretas, hojas de cálculo o aplicaciones poco integradas, lo que genera desorganización, pérdida de información y costos innecesarios que afectan directamente la rentabilidad y el crecimiento. Para responder a esta problemática, desarrollamos iCafe, una plataforma digital diseñada para que los dueños y administradores de cafeterías puedan centralizar sus procesos en un solo lugar, controlando costos de manera más precisa, registrando proveedores y empleados, gestionando inventarios y compartiendo recetas estandarizadas con su equipo. Nuestro objetivo es simplificar la gestión sin necesidad de conocimientos técnicos avanzados, ofreciendo una solución clara, eficiente y accesible que permita a los propietarios enfocarse en lo más importante: brindar una mejor experiencia a sus clientes, asegurar la calidad de sus productos y hacer crecer su negocio.
+Nuestra startup se llama SyncCafe y surge con el propósito de transformar la manera en que las cafeterías administran sus operaciones diarias. Actualmente, muchos de estos negocios todavía dependen de registros manuales o herramientas dispersas como libretas, hojas de cálculo o aplicaciones poco integradas, lo que genera desorganización, pérdida de información y costos innecesarios que afectan directamente la rentabilidad y el crecimiento. Para responder a esta problemática, desarrollamos iCafe, una plataforma digital diseñada para que los dueños y administradores de cafeterías puedan centralizar sus procesos en un solo lugar, controlando costos de manera más precisa, registrando proveedores y empleados y gestionando inventarios. Nuestro objetivo es simplificar la gestión sin necesidad de conocimientos técnicos avanzados, ofreciendo una solución clara, eficiente y accesible que permita a los propietarios enfocarse en lo más importante: brindar una mejor experiencia a sus clientes, asegurar la calidad de sus productos y hacer crecer su negocio.
 ### 1.1.2. Perfiles de integrantes del equipo
 | Foto | Información |
 |------|-------------|
@@ -243,7 +243,7 @@ En la actualidad, muchas cafeterías todavía realizan la gestión de sus operac
 
 Aunque existen sistemas de gestión para negocios en el mercado, muchos de ellos están orientados a grandes empresas, presentan costos elevados o son demasiado complejos para la realidad de una cafetería pequeña o mediana. Además, gran parte de estas soluciones no se ajustan a la dinámica del sector cafetero, que requiere practicidad, rapidez y accesibilidad.
 
-En este contexto, surge la necesidad de una herramienta digital centralizada, intuitiva y accesible que permita a los administradores de cafeterías gestionar sus operaciones de manera más ordenada. Una solución que simplifique el control de costos, facilite el registro de proveedores y empleados, organice los inventarios y permita compartir recetas de forma práctica con el personal. Con este propósito nace iCafe, un producto diseñado por la startup SyncCafe, cuyo enfoque es brindar un sistema moderno, económico y adaptado a las necesidades reales de cafeterías independientes y cadenas pequeñas.
+En este contexto, surge la necesidad de una herramienta digital centralizada, intuitiva y accesible que permita a los administradores de cafeterías gestionar sus operaciones de manera más ordenada. Una solución que simplifique el control de costos, facilite el registro de proveedores y empleados y organice los inventarios. Con este propósito nace iCafe, un producto diseñado por la startup SyncCafe, cuyo enfoque es brindar un sistema moderno, económico y adaptado a las necesidades reales de cafeterías independientes y cadenas pequeñas.
 
 **Aplicación de la metodología 5W y 2H**
 
@@ -257,7 +257,7 @@ Los principales afectados son los dueños y administradores de cafeterías, así
 Este problema se presenta en cafeterías independientes, cadenas pequeñas y medianas, así como en cafeterías institucionales dentro de universidades o empresas que carecen de herramientas digitales adaptadas a sus necesidades.
 
 -When (¿Cuándo?)
-La problemática se da todos los días en las actividades básicas de una cafetería: compras de insumos, registro de proveedores, control de inventarios, organización de personal y elaboración de recetas.
+La problemática se da todos los días en las actividades básicas de una cafetería: compras de insumos, registro de proveedores, control de inventarios y organización de personal.
 
 -Why (¿Por qué?)
 La falta de digitalización y de un sistema centralizado obliga a llevar los procesos manualmente. Esto no solo consume tiempo, sino que también aumenta la posibilidad de errores, genera desorden y dificulta la toma de decisiones basadas en datos.
