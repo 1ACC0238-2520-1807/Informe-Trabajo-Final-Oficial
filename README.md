@@ -150,15 +150,51 @@
       - [2.5.3.2. Software Architecture Container Level Diagrams](#2532-software-architecture-container-level-diagrams)
       - [2.5.3.3. Software Architecture Deployment Diagrams](#2533-software-architecture-deployment-diagrams)
   - [2.6. Tactical-Level Domain-Driven Design](#26-tactical-level-domain-driven-design)
-    - [2.6.x. Bounded Context: <Bounded Context Name>](#26x-bounded-context-bounded-context-name)
-      - [2.6.x.1. Domain Layer](#26x1-domain-layer)
-      - [2.6.x.2. Interface Layer](#26x2-interface-layer)
-      - [2.6.x.3. Application Layer](#26x3-application-layer)
-      - [2.6.x.4. Infrastructure Layer](#26x4-infrastructure-layer)
-      - [2.6.x.5. Bounded Context Software Architecture Component Level Diagrams](#26x5-bounded-context-software-architecture-component-level-diagrams)
-      - [2.6.x.6. Bounded Context Software Architecture Code Level Diagrams](#26x6-bounded-context-software-architecture-code-level-diagrams)
-        - [2.6.x.6.1. Bounded Context Domain Layer Class Diagrams](#26x61-bounded-context-domain-layer-class-diagrams)
-        - [2.6.x.6.2. Bounded Context Database Design Diagram](#26x62-bounded-context-database-design-diagram)
+        - [2.6.1. Bounded Context: Contacts](#26x-bounded-context-bounded-context-name)
+      - [2.6.1.1. Domain Layer](#26x1-domain-layer)
+      - [2.6.1.2. Interface Layer](#26x2-interface-layer)
+      - [2.6.1.3. Application Layer](#26x3-application-layer)
+      - [2.6.1.4. Infrastructure Layer](#26x4-infrastructure-layer)
+      - [2.6.1.5. Bounded Context Software Architecture Component Level Diagrams](#26x5-bounded-context-software-architecture-component-level-diagrams)
+      - [2.6.1.6. Bounded Context Software Architecture Code Level Diagrams](#26x6-bounded-context-software-architecture-code-level-diagrams)
+        - [2.6.1.6.1. Bounded Context Domain Layer Class Diagrams](#26x61-bounded-context-domain-layer-class-diagrams)
+        - [2.6.1.6.2. Bounded Context Database Design Diagram](#26x62-bounded-context-database-design-diagram)
+    - [2.6.2. Bounded Context: Product](#26x-bounded-context-bounded-context-name)
+      - [2.6.2.1. Domain Layer](#26x1-domain-layer)
+      - [2.6.2.2. Interface Layer](#26x2-interface-layer)
+      - [2.6.2.3. Application Layer](#26x3-application-layer)
+      - [2.6.2.4. Infrastructure Layer](#26x4-infrastructure-layer)
+      - [2.6.2.5. Bounded Context Software Architecture Component Level Diagrams](#26x5-bounded-context-software-architecture-component-level-diagrams)
+      - [2.6.2.6. Bounded Context Software Architecture Code Level Diagrams](#26x6-bounded-context-software-architecture-code-level-diagrams)
+        - [2.6.2.6.1. Bounded Context Domain Layer Class Diagrams](#26x61-bounded-context-domain-layer-class-diagrams)
+        - [2.6.2.6.2. Bounded Context Database Design Diagram](#26x62-bounded-context-database-design-diagram)
+    - [2.6.3. Bounded Context: Inventory](#26x-bounded-context-bounded-context-name)
+      - [2.6.3.1. Domain Layer](#26x1-domain-layer)
+      - [2.6.3.2. Interface Layer](#26x2-interface-layer)
+      - [2.6.3.3. Application Layer](#26x3-application-layer)
+      - [2.6.3.4. Infrastructure Layer](#26x4-infrastructure-layer)
+      - [2.6.3.5. Bounded Context Software Architecture Component Level Diagrams](#26x5-bounded-context-software-architecture-component-level-diagrams)
+      - [2.6.3.6. Bounded Context Software Architecture Code Level Diagrams](#26x6-bounded-context-software-architecture-code-level-diagrams)
+        - [2.6.3.6.1. Bounded Context Domain Layer Class Diagrams](#26x61-bounded-context-domain-layer-class-diagrams)
+        - [2.6.3.6.2. Bounded Context Database Design Diagram](#26x62-bounded-context-database-design-diagram)
+    - [2.6.4. Bounded Context: Sales](#26x-bounded-context-bounded-context-name)
+      - [2.6.4.1. Domain Layer](#26x1-domain-layer)
+      - [2.6.4.2. Interface Layer](#26x2-interface-layer)
+      - [2.6.4.3. Application Layer](#26x3-application-layer)
+      - [2.6.4.4. Infrastructure Layer](#26x4-infrastructure-layer)
+      - [2.6.4.5. Bounded Context Software Architecture Component Level Diagrams](#26x5-bounded-context-software-architecture-component-level-diagrams)
+      - [2.6.4.6. Bounded Context Software Architecture Code Level Diagrams](#26x6-bounded-context-software-architecture-code-level-diagrams)
+        - [2.6.4.6.1. Bounded Context Domain Layer Class Diagrams](#26x61-bounded-context-domain-layer-class-diagrams)
+        - [2.6.4.6.2. Bounded Context Database Design Diagram](#26x62-bounded-context-database-design-diagram)
+    - [2.6.5. Bounded Context: Finances](#26x-bounded-context-bounded-context-name)
+      - [2.6.5.1. Domain Layer](#26x1-domain-layer)
+      - [2.6.5.2. Interface Layer](#26x2-interface-layer)
+      - [2.6.5.3. Application Layer](#26x3-application-layer)
+      - [2.6.5.4. Infrastructure Layer](#26x4-infrastructure-layer)
+      - [2.6.5.5. Bounded Context Software Architecture Component Level Diagrams](#26x5-bounded-context-software-architecture-component-level-diagrams)
+      - [2.6.5.6. Bounded Context Software Architecture Code Level Diagrams](#26x6-bounded-context-software-architecture-code-level-diagrams)
+        - [2.6.5.6.1. Bounded Context Domain Layer Class Diagrams](#26x61-bounded-context-domain-layer-class-diagrams)
+        - [2.6.5.6.2. Bounded Context Database Design Diagram](#26x62-bounded-context-database-design-diagram)
 - [Capítulo III: Solution UI/UX Design](#capítulo-iii-solution-uiux-design)
   - [3.1. Product design](#31-product-design)
     - [3.1.1. Style Guidelines](#311-style-guidelines)
@@ -618,20 +654,40 @@ Si pudieras tener un panel de métricas rápidas, ¿qué información te gustar�
 #### 2.5.3.3. Software Architecture Deployment Diagrams
 
 ## 2.6. Tactical-Level Domain-Driven Design
-### 2.6.x. Bounded Context: <Bounded Context Name>
-#### 2.6.x.1. Domain Layer
-#### 2.6.x.2. Interface Layer
-#### 2.6.x.3. Application Layer
-#### 2.6.x.4. Infrastructure Layer
-#### 2.6.x.5. Bounded Context Software Architecture Component Level Diagrams
-#### 2.6.x.6. Bounded Context Software Architecture Code Level Diagrams
-##### 2.6.x.6.1. Bounded Context Domain Layer Class Diagrams
-##### 2.6.x.6.2. Bounded Context Database Design Diagram
+### 2.6.1. Bounded Context: Finances
+#### 2.6.1.1. Domain Layer
 
-### 2.6.1. Bounded Context: <Bounded Context Inventory>
+#### 2.6.1.2. Interface Layer
+
+#### 2.6.1.3. Application Layer
+
+#### 2.6.1.4. Infrastructure Layer
+
+#### 2.6.1.5. Bounded Context Software Architecture Component Level Diagrams
+
+#### 2.6.1.6. Bounded Context Software Architecture Code Level Diagrams
+##### 2.6.1.6.1. Bounded Context Domain Layer Class Diagrams
+
+##### 2.6.1.6.2. Bounded Context Database Design Diagram
+### 2.6.2. Bounded Context: Product
+#### 2.6.2.1. Domain Layer
+
+#### 2.6.2.2. Interface Layer
+
+#### 2.6.2.3. Application Layer
+
+#### 2.6.2.4. Infrastructure Layer
+
+#### 2.6.2.5. Bounded Context Software Architecture Component Level Diagrams
+
+#### 2.6.2.6. Bounded Context Software Architecture Code Level Diagrams
+##### 2.6.2.6.1. Bounded Context Domain Layer Class Diagrams
+
+##### 2.6.2.6.2. Bounded Context Database Design Diagram
+### 2.6.3. Bounded Context: Inventory
 El bounded context Inventory se encarga de la gestión de los insumos de la cafetería, como café, azúcar o leche. Su objetivo es registrar cada insumo disponible y controlar el flujo de entradas y salidas del stock, ya sea por compras, consumo en pedidos, desperdicio o ajustes de inventario. Además, permite generar alertas cuando un insumo alcanza niveles bajos para garantizar la continuidad en la preparación de productos.
 
-#### 2.6.1.1. Domain Layer
+#### 2.6.3.1. Domain Layer
 | Tipo            | Clase / Nombre             | Descripción                                                                 | Atributos / Valores                                         |
 |-----------------|----------------------------|-----------------------------------------------------------------------------|-------------------------------------------------------------|
 | Aggregate       | SupplyManagement           | Gestiona el inventario de insumos como una unidad de consistencia.           | supplyItems, transactions                                   |
@@ -645,8 +701,7 @@ El bounded context Inventory se encarga de la gestión de los insumos de la cafe
 | Enum            | TransactionType            | Define los tipos de movimientos en el inventario.                           | ENTRADA, SALIDA, AJUSTE                                     |
 | Enum            | UnitMeasureType            | Define los tipos de unidades disponibles para medir insumos.                | GRAMOS, KILOGRAMOS, LITROS, UNIDADES                        |
 
-
-#### 2.6.1.2. Interface Layer
+#### 2.6.3.2. Interface Layer
 # Interface Layer - Bounded Context: Inventory
 
 | Tipo        | Clase / Nombre            | Descripción                                                                 | Métodos / Endpoints principales                         |
@@ -656,13 +711,46 @@ El bounded context Inventory se encarga de la gestión de los insumos de la cafe
 | DTO         | InventoryTransactionResource | Objeto de transferencia para recibir datos de movimientos de inventario.    | tipoMovimiento, cantidad, referencia                     |
 | DTO         | SupplyItemResource        | Objeto de transferencia que devuelve datos de insumos            | id, nombre, unidadMedida, cantidadActual, puntoDeReorden |
 
-#### 2.6.1.3. Application Layer
-#### 2.6.1.4. Infrastructure Layer
-#### 2.6.1.5. Bounded Context Software Architecture Component Level Diagrams
-#### 2.6.1.6. Bounded Context Software Architecture Code Level Diagrams
-##### 2.6.1.6.1. Bounded Context Domain Layer Class Diagrams
-##### 2.6.1.6.2. Bounded Context Database Design Diagram 
+#### 2.6.3.3. Application Layer
 
+#### 2.6.3.4. Infrastructure Layer
+
+#### 2.6.3.5. Bounded Context Software Architecture Component Level Diagrams
+
+#### 2.6.3.6. Bounded Context Software Architecture Code Level Diagrams
+##### 2.6.3.6.1. Bounded Context Domain Layer Class Diagrams
+
+##### 2.6.3.6.2. Bounded Context Database Design Diagram
+### 2.6.4. Bounded Context: Sales
+#### 2.6.4.1. Domain Layer
+
+#### 2.6.4.2. Interface Layer
+
+#### 2.6.4.3. Application Layer
+
+#### 2.6.4.4. Infrastructure Layer
+
+#### 2.6.4.5. Bounded Context Software Architecture Component Level Diagrams
+
+#### 2.6.4.6. Bounded Context Software Architecture Code Level Diagrams
+##### 2.6.4.6.1. Bounded Context Domain Layer Class Diagrams
+
+##### 2.6.4.6.2. Bounded Context Database Design Diagram
+### 2.6.5. Bounded Context: Finances
+#### 2.6.5.1. Domain Layer
+
+#### 2.6.5.2. Interface Layer
+
+#### 2.6.5.3. Application Layer
+
+#### 2.6.5.4. Infrastructure Layer
+
+#### 2.6.5.5. Bounded Context Software Architecture Component Level Diagrams
+
+#### 2.6.5.6. Bounded Context Software Architecture Code Level Diagrams
+##### 2.6.5.6.1. Bounded Context Domain Layer Class Diagrams
+
+##### 2.6.5.6.2. Bounded Context Database Design Diagram
 
 # Capítulo III: Solution UI/UX Design
 ## 3.1. Product design
