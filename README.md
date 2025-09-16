@@ -584,7 +584,7 @@ Si pudieras tener un panel de métricas rápidas, ¿qué información te gustar�
 
 #### 2.5.3.2. Software Architecture Container Level Diagrams
 ![Container Diagram](./img/chapter-2/ContainerLevel.png)
-![Coponent Diagram](./img/chapter-2/ComponentLevel.png)
+![Coponent Diagram](./img/chapter-2/Component.png)
 #### 2.5.3.3. Software Architecture Deployment Diagrams
 
 ## 2.6. Tactical-Level Domain-Driven Design
