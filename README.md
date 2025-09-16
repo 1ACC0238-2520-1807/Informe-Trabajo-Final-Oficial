@@ -620,19 +620,49 @@ Si pudieras tener un panel de métricas rápidas, ¿qué información te gustar�
 ## 2.6. Tactical-Level Domain-Driven Design
 ### 2.6.x. Bounded Context: <Bounded Context Name>
 #### 2.6.x.1. Domain Layer
-
 #### 2.6.x.2. Interface Layer
-
 #### 2.6.x.3. Application Layer
-
 #### 2.6.x.4. Infrastructure Layer
-
 #### 2.6.x.5. Bounded Context Software Architecture Component Level Diagrams
-
 #### 2.6.x.6. Bounded Context Software Architecture Code Level Diagrams
 ##### 2.6.x.6.1. Bounded Context Domain Layer Class Diagrams
-
 ##### 2.6.x.6.2. Bounded Context Database Design Diagram
+
+### 2.6.1. Bounded Context: <Bounded Context Inventory>
+El bounded context Inventory se encarga de la gestión de los insumos de la cafetería, como café, azúcar o leche. Su objetivo es registrar cada insumo disponible y controlar el flujo de entradas y salidas del stock, ya sea por compras, consumo en pedidos, desperdicio o ajustes de inventario. Además, permite generar alertas cuando un insumo alcanza niveles bajos para garantizar la continuidad en la preparación de productos.
+
+#### 2.6.1.1. Domain Layer
+| Tipo            | Clase / Nombre             | Descripción                                                                 | Atributos / Valores                                         |
+|-----------------|----------------------------|-----------------------------------------------------------------------------|-------------------------------------------------------------|
+| Aggregate       | SupplyManagement           | Gestiona el inventario de insumos como una unidad de consistencia.           | supplyItems, transactions                                   |
+| Aggregate Root  | SupplyItem                 | Representa cada insumo dentro del inventario.                               | id, nombre, unidadMedida, cantidadActual, puntoDeReorden    |
+| Entity          | InventoryTransaction       | Registra un movimiento de inventario.                                       | id, tipoMovimiento, cantidad, fecha, referencia             |
+| Value Object    | Quantity                   | Representa una cantidad con su medida, garantiza consistencia.               | valor, unidadMedida                                         |
+| Value Object    | UnitOfMeasure              | Define la unidad de medida utilizada.                                       | gramos, kilogramos, litros, unidades, etc.                  |
+| Value Object    | ReorderPoint               | Valor mínimo que dispara la alerta de reabastecimiento.                      | cantidadMinima                                              |
+| Domain Service  | StockConsumptionService    | Encapsula la lógica de reducción de stock cuando se consumen insumos.       | consumirInsumo(supplyItem, quantity)                        |
+| Domain Service  | StockReplenishmentService  | Encapsula la lógica de reabastecimiento al registrar nuevas entradas.       | reabastecer(supplyItem, quantity)                           |
+| Enum            | TransactionType            | Define los tipos de movimientos en el inventario.                           | ENTRADA, SALIDA, AJUSTE                                     |
+| Enum            | UnitMeasureType            | Define los tipos de unidades disponibles para medir insumos.                | GRAMOS, KILOGRAMOS, LITROS, UNIDADES                        |
+
+
+#### 2.6.1.2. Interface Layer
+# Interface Layer - Bounded Context: Inventory
+
+| Tipo        | Clase / Nombre            | Descripción                                                                 | Métodos / Endpoints principales                         |
+|-------------|---------------------------|-----------------------------------------------------------------------------|---------------------------------------------------------|
+| Controller  | InventoryController       | Expone endpoints REST para la gestión del inventario. Llama a la capa Application. | - GET /inventory/items → listar insumos <br> - GET /inventory/items/{id} → obtener detalle de un insumo <br> - POST /inventory/items → registrar un nuevo insumo <br> - PUT /inventory/items/{id} → actualizar datos de un insumo <br> - DELETE /inventory/items/{id} → eliminar insumo |
+| Controller  | StockMovementController   | Maneja operaciones relacionadas con entradas y salidas de inventario.       | - POST /inventory/movements → registrar un movimiento (entrada, salida, ajuste) <br> - GET /inventory/movements → listar movimientos <br> - GET /inventory/movements/{id} → detalle de un movimiento |
+| DTO         | InventoryTransactionResource | Objeto de transferencia para recibir datos de movimientos de inventario.    | tipoMovimiento, cantidad, referencia                     |
+| DTO         | SupplyItemResource        | Objeto de transferencia que devuelve datos de insumos            | id, nombre, unidadMedida, cantidadActual, puntoDeReorden |
+
+#### 2.6.1.3. Application Layer
+#### 2.6.1.4. Infrastructure Layer
+#### 2.6.1.5. Bounded Context Software Architecture Component Level Diagrams
+#### 2.6.1.6. Bounded Context Software Architecture Code Level Diagrams
+##### 2.6.1.6.1. Bounded Context Domain Layer Class Diagrams
+##### 2.6.1.6.2. Bounded Context Database Design Diagram 
+
 
 # Capítulo III: Solution UI/UX Design
 ## 3.1. Product design
