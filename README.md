@@ -712,6 +712,8 @@ El bounded context Inventory se encarga de la gestión de los insumos de la cafe
 
 #### 2.6.3.3. Application Layer
 
+aqui estara algo bueno
+
 #### 2.6.3.4. Infrastructure Layer
 
 #### 2.6.3.5. Bounded Context Software Architecture Component Level Diagrams
