@@ -465,13 +465,43 @@ Si pudieras tener un panel de métricas rápidas, ¿qué información te gustar�
 ## 2.3. Needfinding
 ### 2.3.1. User Personas
 
+![User Persona](./img/chapter-2/userpersona.png)
+
 ### 2.3.2. User Task Matrix
+
+| Tarea (Task)                                  | Frecuencia | Importancia |
+|-----------------------------------------------|------------|-------------|
+| Gestionar el inventario de insumos            | Alta       | Alta        |
+| Realizar pedidos a proveedores                | Media      | Alta        |
+| Controlar la calidad de los insumos recibidos | Media      | Alta        |
+| Gestionar el personal (horarios, turnos)      | Alta       | Alta        |
+| Capacitar a nuevos empleados                  | Baja       | Media       |
+| Supervisar la preparación de recetas          | Alta       | Alta        |
+| Asegurar la estandarización de recetas        | Alta       | Alta        |
+| Realizar el cuadre de caja diario             | Alta       | Alta        |
+| Analizar las ventas y el rendimiento          | Media      | Alta        |
+| Gestionar la atención al cliente y quejas     | Alta       | Alta        |
+| Mantener la limpieza y orden del local        | Alta       | Media       |
 
 ### 2.3.3. User Journey Mapping
 
+![Journey Mapping](./img/chapter-2/journeymap.png)
+
 ### 2.3.4. Empathy Mapping
 
+![Empathy Mapping](./img/chapter-2/empatymap.png)
+
 ### 2.3.5. Ubiquitous Language
+
+| Término | Definición |
+| :--- | :--- |
+| **Inventory** | Stock de todos los insumos y productos disponibles en la cafetería. |
+| **Provider** | empresa que abastece de insumos a la cafetería. |
+| **Recipe** | Instrucciones estandarizadas para la preparación de un producto, garantizando consistencia y calidad. |
+| **Product** | Artículo final que se ofrece a la venta al cliente. |
+| **Employer** | Empleado de la cafetería responsable de las operaciones diarias y atención al cliente. |
+| **Purchase** | Proceso de adquisición de insumos y materiales necesarios para el funcionamiento de la cafetería. |
+| **Sales** | Transacciones comerciales realizadas con los clientes para la venta de productos y servicios. |
 
 ## 2.4. Requirements specification
 ### 2.4.1. User Stories
