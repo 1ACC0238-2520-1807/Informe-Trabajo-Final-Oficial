@@ -702,7 +702,6 @@ El bounded context Inventory se encarga de la gestión de los insumos de la cafe
 | Enum            | UnitMeasureType            | Define los tipos de unidades disponibles para medir insumos.                | GRAMOS, KILOGRAMOS, LITROS, UNIDADES                        |
 
 #### 2.6.3.2. Interface Layer
-# Interface Layer - Bounded Context: Inventory
 
 | Tipo        | Clase / Nombre            | Descripción                                                                 | Métodos / Endpoints principales                         |
 |-------------|---------------------------|-----------------------------------------------------------------------------|---------------------------------------------------------|
