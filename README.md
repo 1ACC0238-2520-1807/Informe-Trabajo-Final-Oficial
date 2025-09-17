@@ -229,7 +229,7 @@
 ### 1.1.1. Descripción de la Startup
 Nuestra startup se llama SyncCafe y surge con el propósito de transformar la manera en que las cafeterías administran sus operaciones diarias. Actualmente, muchos de estos negocios todavía dependen de registros manuales o herramientas dispersas como libretas, hojas de cálculo o aplicaciones poco integradas, lo que genera desorganización, pérdida de información y costos innecesarios que afectan directamente la rentabilidad y el crecimiento. Para responder a esta problemática, desarrollamos iCafe, una plataforma digital diseñada para que los dueños y administradores de cafeterías puedan centralizar sus procesos en un solo lugar, controlando costos de manera más precisa, registrando proveedores y empleados y gestionando inventarios. Nuestro objetivo es simplificar la gestión sin necesidad de conocimientos técnicos avanzados, ofreciendo una solución clara, eficiente y accesible que permita a los propietarios enfocarse en lo más importante: brindar una mejor experiencia a sus clientes, asegurar la calidad de sus productos y hacer crecer su negocio.
 
-![ruben](./img/chapter-1/logocafe.png)
+<img src="./img/chapter-1/logocafe.png" alt="logo" width="200"/>
 
 ### 1.1.2. Perfiles de integrantes del equipo
 | Foto | Información |
