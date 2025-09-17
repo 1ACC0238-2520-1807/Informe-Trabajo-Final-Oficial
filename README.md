@@ -632,6 +632,8 @@ Si pudieras tener un panel de métricas rápidas, ¿qué información te gustar�
 El bounded context Inventory se encarga de la gestión de los insumos de la cafetería, como café, azúcar o leche. Su objetivo es registrar cada insumo disponible y controlar el flujo de entradas y salidas del stock, ya sea por compras, consumo en pedidos, desperdicio o ajustes de inventario. Además, permite generar alertas cuando un insumo alcanza niveles bajos para garantizar la continuidad en la preparación de productos.
 
 #### 2.6.1.1. Domain Layer
+En esta capa se definen los elementos principales del dominio del inventario. Aquí se modelan los agregados, entidades, value objects y servicios de dominio que representan la lógica central de cómo se gestionan los insumos y sus movimientos. El objetivo es mantener la consistencia del negocio y las reglas que garantizan el control del stock.
+
 | Tipo            | Clase / Nombre             | Descripción                                                                 | Atributos / Valores                                         |
 |-----------------|----------------------------|-----------------------------------------------------------------------------|-------------------------------------------------------------|
 | Aggregate       | SupplyManagement           | Gestiona el inventario de insumos como una unidad de consistencia.           | supplyItems, transactions                                   |
@@ -647,6 +649,8 @@ El bounded context Inventory se encarga de la gestión de los insumos de la cafe
 
 
 #### 2.6.1.2. Interface Layer
+En esta capa se encuentran los controladores y objetos de transferencia (DTOs) que sirven como punto de comunicación entre el sistema y los usuarios o clientes externos. Su función principal es exponer endpoints REST para la gestión de insumos y movimientos, facilitando la interacción con la aplicación de una forma clara y estructurada.
+
 # Interface Layer - Bounded Context: Inventory
 
 | Tipo        | Clase / Nombre            | Descripción                                                                 | Métodos / Endpoints principales                         |
@@ -657,12 +661,26 @@ El bounded context Inventory se encarga de la gestión de los insumos de la cafe
 | DTO         | SupplyItemResource        | Objeto de transferencia que devuelve datos de insumos            | id, nombre, unidadMedida, cantidadActual, puntoDeReorden |
 
 #### 2.6.1.3. Application Layer
+Esta capa maneja los flujos de procesos del inventario mediante el uso de command handlers y event handlers. Su rol es coordinar las operaciones del negocio, orquestando las acciones que se solicitan desde la interfaz y delegando la lógica al dominio. Aquí se asegura que cada comando o evento dispare el proceso adecuado dentro del contexto de inventario.
+
+| Tipo             | Clase / Nombre                   | Descripción                                                                 | Métodos / Comandos manejados                        |
+|------------------|----------------------------------|-----------------------------------------------------------------------------|-----------------------------------------------------|
+| Command Handler  | RegisterSupplyItemHandler        | Maneja el proceso de registrar un nuevo insumo en el inventario.            | - handle(RegisterSupplyItemCommand)                 |
+| Command Handler  | UpdateSupplyItemHandler          | Maneja la actualización de datos de un insumo existente.                    | - handle(UpdateSupplyItemCommand)                   |
+| Command Handler  | RemoveSupplyItemHandler          | Maneja la eliminación de un insumo del inventario.                          | - handle(RemoveSupplyItemCommand)                   |
+| Command Handler  | RegisterInventoryTransactionHandler | Maneja el registro de movimientos de inventario (entrada, salida, ajuste).  | - handle(RegisterInventoryTransactionCommand)       |
+| Event Handler    | LowStockEventHandler             | Escucha el evento de dominio `StockBajoDetectado` y dispara acciones como notificación o reabastecimiento. | - on(StockBajoDetectado) |
 #### 2.6.1.4. Infrastructure Layer
+En esta capa se implementa la conexión con servicios externos, principalmente la base de datos. Incluye los repositorios que persisten la información de los insumos y transacciones de inventario utilizando JPA/Hibernate. De esta manera, el dominio se mantiene independiente de la tecnología, mientras la infraestructura garantiza el acceso confiable a los datos.
+
+| Tipo             | Clase / Nombre                         | Descripción                                                                 | Notas Técnicas |
+|------------------|----------------------------------------|-----------------------------------------------------------------------------|----------------|
+| Repository Impl  | SupplyItemRepository                | Implementación de `SupplyItemRepository` usando JPA/Hibernate para persistir insumos. | Mapea `SupplyItem` a tabla `supply_items`. |
+| Repository Impl  | InventoryTransactionRepository      | Implementación de `InventoryTransactionRepository` usando JPA/Hibernate.    | Mapea `InventoryTransaction` a tabla `inventory_transactions`. |
 #### 2.6.1.5. Bounded Context Software Architecture Component Level Diagrams
 #### 2.6.1.6. Bounded Context Software Architecture Code Level Diagrams
 ##### 2.6.1.6.1. Bounded Context Domain Layer Class Diagrams
 ##### 2.6.1.6.2. Bounded Context Database Design Diagram 
-
 
 # Capítulo III: Solution UI/UX Design
 ## 3.1. Product design
