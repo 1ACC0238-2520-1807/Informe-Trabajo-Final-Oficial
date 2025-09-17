@@ -467,8 +467,29 @@ Preguntas Especificas:</br>
 
 ### 2.2.2. Registro de entrevistas
 
+**Entrevista 3:**
+Datos del entrevistador:
+- Nombre: Urrutia Peña, Jasmin Adriana
+  
+Datos del entrevistado:
+- Nombre: Melanie Espinoza
+- Edad: 34 años
+- Residencia: Huancayo
+- Enlace: https://youtu.be/i0tlp6LbB0A
+  
+![Entrevista ](./img/chapter-2/entrevistajas.png)
+
+**Resumen de la entrevista:**
+La entrevista con Melanie Espinoza, dueña de la cafetería Catrín, revela que su principal problema es la falta de organización en la gestión de inventario y costos, ya que actualmente depende de libretas y hojas de Excel que resultan tediosas, poco confiables y propensas a errores u olvidos por parte del personal. Esta situación genera pérdidas económicas debido a la caducidad de productos perecibles como la leche y a la escasez de insumos clave como el café. Además, no cuentan con un control estructurado de gastos fijos ni sueldos, lo que dificulta la planificación financiera. Frente a ello, la aplicación propuesta representa una oportunidad clara al ofrecer una solución móvil, accesible y automatizada que permitiría centralizar la información, generar alertas de stock y vencimiento, facilitar el control de costos y mejorar la rentabilidad y eficiencia del negocio.
+
 
 ### 2.2.3. Análisis de entrevistas
+
+Análisis del Primer Segmento Objetivo: Dueños de Cafeterias.
+
+Los dueños de cafeterías suelen enfrentar problemas comunes relacionados con la gestión de inventario, ya que muchos todavía dependen de métodos manuales como libretas o archivos de Excel. Esto genera errores, olvidos y pérdidas económicas por productos perecibles o desbalance entre insumos. Asimismo, existe una falta de control financiero estructurado, pues no registran de manera organizada gastos como sueldos, alquileres o costos de insumos. A esto se suma la limitada digitalización, ya que suelen contar con una laptop básica en la tienda, pero no sistemas especializados que faciliten el registro en tiempo real. Pese a ello, muestran alta disposición a adoptar soluciones móviles porque valoran la accesibilidad y simplicidad, especialmente desde sus teléfonos. En resumen, el segmento tiene una necesidad latente de herramientas digitales accesibles que integren inventario, costos y proveedores, con recordatorios y reportes que optimicen su rentabilidad y reduzcan pérdidas.
+
+![Grafico ](./img/chapter-2/graficoentrevista.png)
 
 ## 2.3. Needfinding
 ### 2.3.1. User Personas
