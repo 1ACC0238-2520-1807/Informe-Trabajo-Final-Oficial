@@ -345,17 +345,7 @@ Cuando los usuarios reporten una mejora en la organización del negocio, reducci
 
 ### 1.2.2.4. Lean UX Canvas
 
-| **Sección**         | **Contenido** |
-|---------------------|----------------------------------------------------------------------------------------------------------------------------------|
-| **1. Problema**     | ¿Cómo ayudar a los administradores de cafeterías a gestionar sus operaciones diarias de forma eficiente, ordenada y accesible desde dispositivos móviles? |
-| **2. Usuarios**     | - Dueños de cafeterías independientes<br>- Administradores de cadenas pequeñas<br>- Personal operativo que accede a recetas e inventarios |
-| **3. Resultados**   | - Reducción de pérdidas operativas<br>- Mejora en la organización interna<br>- Aumento de la productividad<br>- Posicionamiento de SyncCafe como solución líder en gestión de cafeterías |
-| **4. Hipótesis**    | Creemos que los administradores de cafeterías necesitan una herramienta móvil que centralice sus procesos. Si les proporcionamos una app intuitiva y accesible, podrán mejorar la eficiencia y rentabilidad de sus negocios. |
-| **5. Qué aprender** | - Qué funcionalidades son más críticas para los usuarios<br>- Qué tipo de interfaz facilita la adopción tecnológica<br>- Qué métricas son relevantes para evaluar eficiencia operativa |
-| **6. Ideas de solución** | - Aplicación móvil con módulos de gestión de inventarios, proveedores, empleados y recetas<br>- Dashboard con métricas clave<br>- Sistema de recetas estandarizadas compartibles entre el equipo |
-| **7. Beneficios usuarios** | Administradores: mayor control de operaciones, reducción de errores, ahorro de tiempo<br>Empleados: acceso claro a recetas e insumos<br>Negocio: mejora en la toma de decisiones y rentabilidad |
-| **8. MVP / Experimentar** | - Prototipo funcional con módulo de inventario y recetas<br>- Pruebas con usuarios reales en cafeterías<br>- Validación de interfaz y flujo de uso mediante entrevistas y métricas de interacción |
-
+<img src="./img/chapter-1/lean ux canvas.jpg"/>
 
 ## 1.3. Segmentos objetivo
 **Segmento 1: Dueños de Cafeterías** </br>
