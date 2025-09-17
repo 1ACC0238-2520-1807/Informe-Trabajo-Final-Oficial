@@ -666,7 +666,7 @@ Link: https://miro.com/welcomeonboard/TzdJdEdvSWJQa2pYS2FIdU5DWE9ZV2w5MjkycmZRZz
 #### 2.5.3.3. Software Architecture Deployment Diagrams
 
 ## 2.6. Tactical-Level Domain-Driven Design
-### 2.6.1. Bounded Context: Finances
+### 2.6.1. Bounded Context: Contacts
 #### 2.6.1.1. Domain Layer
 
 #### 2.6.1.2. Interface Layer
