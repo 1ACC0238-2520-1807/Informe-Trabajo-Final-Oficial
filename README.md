@@ -58,7 +58,7 @@
         Sebastian Alexander Ramos Calagua
       </td>
       <td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">
-        -
+        En esta entrega realizamos el Capitulo 1 y Capitulo 2.
       </td>
     </tr>
     <tr>
