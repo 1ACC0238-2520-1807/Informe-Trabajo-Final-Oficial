@@ -236,7 +236,7 @@ Para el desarrollo del informe correspondiente a la entrega TB1, se estableció 
 |Christian Fabrizio Inga Orihuela |  |  |
 |Hallasi Saravia, Miguel Angel  |  |  |
 |Urrutia Peña, Jasmin Adriana |En el próximo año, quiero comenzar mis prácticas por lo que obtendré una posición de practicante en una empresa de desarrollo frontend que utilice tecnologías como React.js o JavaScript avanzado.  | Conseguir un puesto de trabajo como desarrollador frontend junior en una empresa tecnológica, aplicando a al menos 20 vacantes y asistiendo a 5 eventos de networking en los primeros 9 meses tras mi graduación en diciembre de 2026.  |
-|Sebastian Alexander Ramos Calagua |  |  |
+|Sebastian Alexander Ramos Calagua |Desarrollar y publicar el módulo de gestión de inventario de iCafe en 6 meses, permitiendo el registro y tracking de insumos en tiempo real, con al menos 3 cafeterías piloto usando la funcionalidad.  |Obtener la certificación AWS Cloud Practitioner en los próximos 4 meses, dedicando 6 horas semanales al estudio, para mejorar la infraestructura técnica de SyncCafe con soluciones escalables en la nube.  |
 
 # Capítulo I: Presentación
 ## 1.1. Startup Profile
