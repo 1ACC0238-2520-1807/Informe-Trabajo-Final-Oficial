@@ -718,7 +718,7 @@ En esta capa se implementa la conexión con servicios externos, principalmente l
 | Repository | EmployeeRepository          | Implementación JPA/Hibernate para persistir empleados.                      | Mapa Employee a tabla employees.            |
 
 #### 2.6.1.5. Bounded Context Software Architecture Component Level Diagrams
-
+![ContactsComponentDiagram](./img/chapter-2/diagramacontactosjas.png)
 #### 2.6.1.6. Bounded Context Software Architecture Code Level Diagrams
 ##### 2.6.1.6.1. Bounded Context Domain Layer Class Diagrams
 
