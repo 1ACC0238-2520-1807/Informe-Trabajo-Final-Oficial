@@ -44,9 +44,9 @@ Para el desarrollo del informe correspondiente a la entrega TB1, se estableció 
 |Integrante|Tareas Asignadas|
 |-|-|
 | Ruben Velasquez Chambi | User Stories, Impact Mapping, Product Backlog, Software Architecture Context Level Diagrams, Software Architecture Container Level Diagrams, Bounded Context: Inventory |
-| Christian Fabrizio Inga Orihuela |Análisis competitivo, Estrategias y tácticas frente a competidores, Diseño de entrevistas, Registro de entrevistas, Análisis de entrevistas, Candidate Context Discovery, Domain Message Flows Modeling, y  Bounded Context: Product  |
+| Christian Fabrizio Inga Orihuela |Análisis competitivo, Estrategias y tácticas frente a competidores, Diseño de entrevistas, Registro de entrevistas, Análisis de entrevistas, Domain Message Flows Modeling, y  Bounded Context: Product  |
 | Hallasi Saravia, Miguel Angel |User Personas, User Task Matrix, User Journey Mapping, Empathy Mapping, Ubiquitous Language, Context Mapping, Software Architecture Deployment Diagrams, Bounded Context: Finances   |
-| Urrutia Peña, Jasmin Adriana |Descripción de la Startup, Solution Profile, Antecedentes y problemática,  Diseño de entrevistas, Registro de entrevistas, Análisis de entrevistas, EventStorming y Bounded Context: Contacts    |
+| Urrutia Peña, Jasmin Adriana |Descripción de la Startup, Solution Profile, Antecedentes y problemática,  Diseño de entrevistas, Registro de entrevistas, Análisis de entrevistas, EventStorming, Candidate Context Discovery y Bounded Context: Contacts    |
 | Sebastian Alexander Ramos Calagua |Lean UX Process, Bounded Context Canvases, Bounded Context: Sales |
 
 ## Registro de Versiones del Informe
