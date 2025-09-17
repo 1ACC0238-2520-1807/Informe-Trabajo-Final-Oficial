@@ -448,53 +448,25 @@ App móvil orientada a operaciones diarias (ventas/pedidos) con inventario simpl
 
 ## 2.2. Entrevistas
 ### 2.2.1. Diseño de entrevistas
+En esta seccion se plantearan las preguntas para validad nuestra aplicación y conoces las necesidades de nuestro segmento objetivo.
 
-**Gestión de inventarios:**
+Preguntas Generales:
+¿Cómo te llamas y a que te dedicas?
 
-¿Cómo registras actualmente los insumos que ingresan y salen de tu cafetería?
-
-¿Con qué frecuencia actualizas tu inventario?
-
-¿Has tenido problemas con faltantes o sobrantes de stock? ¿Cómo los detectas?
-
-¿Llevas algún control de desperdicios o mermas? ¿Cómo lo haces actualmente?
-
-Si tuvieras una herramienta que muestre el consumo ideal vs. real y un % de desperdicio, ¿la usarías regularmente?
-
-**Costos y márgenes de ganancia:**
-
-¿Tienes claridad sobre el costo real de los productos que vendes (por ejemplo, una taza de café)?
-
-¿Cómo decides el precio de venta de tus productos?
-
-¿Consideras los sueldos, servicios o alquiler al definir tus precios?
-
-¿Con qué frecuencia analizas tus costos mensuales totales?
-
-¿Qué tan útil sería una app que calcule automáticamente tu margen de ganancia por receta?
-
-**Uso de herramientas digitales**
-
-¿Qué herramientas usas actualmente para gestionar tu cafetería? (Excel, libretas, apps, otras)
-
-¿Has probado aplicaciones móviles de gestión antes? ¿Qué dificultades encontraste?
-
-¿Qué dispositivo usas más para administrar tu negocio: celular, laptop u otro?
-
-En una escala del 1 al 5, ¿qué tan cómodo te sientes usando apps móviles?
-
-**Necesidades y expectativas**
-
-Si pudieras tener un panel de métricas rápidas, ¿qué información te gustaría ver primero?
-
-¿Qué tipo de reportes te gustaría generar (PDF mensual, semanal, inventario, recetas, otros)?
-
-¿Qué funcionalidad consideras más prioritaria: inventario, costos, métricas de desperdicio o precios sugeridos?
-
-¿Qué función innovadora crees que marcaría la diferencia y te haría usar una app de este tipo?
+Preguntas Especificas:
+¿Cómo anotas lo que entra y sale de tus ingredientes en la cafetería?
+¿Cada cuánto miras o actualizas tu lista de productos en stock?
+¿Te ha pasado quedarte sin algo o tener de más? ¿O tirar comida? ¿Cómo lo arreglas?
+¿Te gustaría una app que te muestre si usas bien los ingredientes y cuánto tiras?
+¿Sabes cuánto te cuesta de verdad hacer un café? ¿Cómo pones el precio para venderlo?
+¿Piensas en gastos como sueldos o renta al poner precios? ¿Cada cuánto chequeas tus gastos totales?
+¿Qué usas ahora para organizar tu cafetería? ¿Como Excel, cuadernos o alguna app?
+¿Qué usas más para manejar tu negocio: celular, computadora u otro? ¿Del 1 al 5, qué tan fácil te resulta usar apps en el celular?
+¿Si tuvieras una pantalla rápida con números clave, qué querrías ver primero? ¿Y qué opción nueva te haría usar una app todos los días?
 
 
 ### 2.2.2. Registro de entrevistas
+
 
 ### 2.2.3. Análisis de entrevistas
 
