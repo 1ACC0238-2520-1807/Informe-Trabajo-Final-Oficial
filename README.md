@@ -450,10 +450,10 @@ App móvil orientada a operaciones diarias (ventas/pedidos) con inventario simpl
 ### 2.2.1. Diseño de entrevistas
 En esta seccion se plantearan las preguntas para validad nuestra aplicación y conoces las necesidades de nuestro segmento objetivo.
 
-Preguntas Generales:
-¿Cómo te llamas y a que te dedicas?
+Preguntas Generales: </br>
+¿Cómo te llamas y a que te dedicas?</br>
 
-Preguntas Especificas:
+Preguntas Especificas:</br>
 ¿Cómo anotas lo que entra y sale de tus ingredientes en la cafetería?
 ¿Cada cuánto miras o actualizas tu lista de productos en stock?
 ¿Te ha pasado quedarte sin algo o tener de más? ¿O tirar comida? ¿Cómo lo arreglas?
