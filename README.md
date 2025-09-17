@@ -723,6 +723,7 @@ En esta capa se implementa la conexión con servicios externos, principalmente l
 ##### 2.6.1.6.1. Bounded Context Domain Layer Class Diagrams
 
 ##### 2.6.1.6.2. Bounded Context Database Design Diagram
+![ContactsDataBase](./img/chapter-2/ContactsDataBase.png)
 ### 2.6.2. Bounded Context: Product
 #### 2.6.2.1. Domain Layer
 
