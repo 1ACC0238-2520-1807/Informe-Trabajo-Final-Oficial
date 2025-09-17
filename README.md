@@ -217,7 +217,7 @@
 ## Objetivos SMART
 | Miembro del Equipo         | Objetivo SMART 1                          | Objetivo SMART 2                          |
 |----------------------------|-------------------------------------------|-------------------------------------------|
-|Ruben Velasquez Chambi     |  |  |
+|Ruben Velasquez Chambi     | En los proximos 12 meses, conseguir una posición de practicante  en una empresa de software que utilice tecnologías móviles (Kotlin,java, Flutter o Jetpack Compose). Para lograrlo, construire un portafolio con al menos 3 aplicaciones móviles publicadas en GitHub | En los 18 meses posteriores a mi graduación, completar una certificación en pruebas de software (como ISTQB Foundation Level) dedicando al menos 5 horas semanales de estudio y práctica en plataformas de testing. Con ello, fortaleceré mis conocimientos en aseguramiento de calidad y aumentaré mis oportunidades para aplicar a puestos QA dentro del área de desarrollo de software. |
 |Christian Fabrizio Inga Orihuela |  |  |
 |Hallasi Saravia, Miguel Angel  |  |  |
 |Urrutia Peña, Jasmin Adriana |  |  |
@@ -232,7 +232,7 @@ Nuestra startup se llama SyncCafe y surge con el propósito de transformar la ma
 |------|-------------|
 | | **Nombres y apellidos:** <br>**Código:** <br>**Carrera:** <br>**Descripción:**|
 | | **Nombres y apellidos:** <br>**Código:** <br>**Carrera:** <br>**Descripción:**|
-| | **Nombres y apellidos:** <br>**Código:** <br>**Carrera:** <br>**Descripción:**|
+|![ruben](./img/chapter-1/Integrante-Ruben.jpeg) | **Nombres y apellidos:** Rubén Genaro Velásquez Chambi <br>**Código:** U202117342<br>**Carrera:** Ing. de Software <br>**Descripción:** Soy estudiante de la Universidad Peruana de Ciencias Aplicadas y actualmente estoy cursando el septimo ciclo de la carrera de Ingeniería de Software, tengo 25 años. Me destaco en el trabajo en equipo y en encontrar formas de mejorar la eficiencia del equipo.Tengo un nivel intermedio de conocimiento en C++, Node.js y TypeScript,Java así como habilidades en Angular,vue.js HTML, CSS.Tambien manejo el desarrollo bajo los principios SOLID|
 | <img src="img/jasmin.jpg" alt="Foto de Jasmin" width="210"> | **Nombres y apellidos:** Jasmin Adriana Urrutia Peña<br>**Código:** U202310008<br>**Carrera:** Ing. de Software<br>**Descripción:** Soy una persona responsable, creativa y empática, cualidades que me permiten establecer buenas conexiones con quienes me rodean. Valoro el trabajo en equipo porque me da la oportunidad de compartir ideas y aprender de otras perspectivas. Tengo conocimientos en lenguajes de programación como C + +, HTML, CSS , entre otros. Me gusta todo lo que es Frontend  y Diseño UX. |
 | <img src="https://i.postimg.cc/vHksZbw6/Sebastian-Ramos-foto-perfil.jpg" alt="SebasPerfil" width="210"> | **Nombres y apellidos:** Sebastian Alexander Ramos Calagua<br>**Código:** U202222846<br>**Carrera:** Ing. de Software<br>**Descripción:** Desarrollador full-stack con experiencia en arquitectura modular. Me apasiona aplicar la tecnología para resolver desafíos sociales en educación, salud y justicia. |
 ## 1.2. Solution Profile
