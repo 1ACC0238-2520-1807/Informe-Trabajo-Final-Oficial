@@ -744,10 +744,11 @@ En esta capa se implementa la conexión con servicios externos, principalmente l
 |------------------|----------------------------------------|-----------------------------------------------------------------------------|----------------|
 | Repository Impl  | SupplyItemRepository                | Implementación de `SupplyItemRepository` usando JPA/Hibernate para persistir insumos. | Mapea `SupplyItem` a tabla `supply_items`. |
 | Repository Impl  | InventoryTransactionRepository      | Implementación de `InventoryTransactionRepository` usando JPA/Hibernate.    | Mapea `InventoryTransaction` a tabla `inventory_transactions`. |
-#### 2.6.1.5. Bounded Context Software Architecture Component Level Diagrams
-#### 2.6.1.6. Bounded Context Software Architecture Code Level Diagrams
-##### 2.6.1.6.1. Bounded Context Domain Layer Class Diagrams
-##### 2.6.1.6.2. Bounded Context Database Design Diagram 
+#### 2.6.3.5. Bounded Context Software Architecture Component Level Diagrams
+![component-inventory](./img/chapter-2/component-inventory.png)
+#### 2.6.3.6. Bounded Context Software Architecture Code Level Diagrams
+##### 2.6.3.6.1. Bounded Context Domain Layer Class Diagrams
+##### 2.6.3.6.2. Bounded Context Database Design Diagram 
 
 # Capítulo III: Solution UI/UX Design
 ## 3.1. Product design
