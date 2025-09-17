@@ -291,11 +291,71 @@ Las pérdidas varían según el tamaño de la cafetería, pero en muchos casos p
 ### 1.2.2. Lean UX Process
 #### 1.2.2.1. Lean UX Problem Statements
 
+En el contexto actual, los administradores de cafeterías enfrentan dificultades para gestionar sus operaciones de forma eficiente. La falta de herramientas digitales integradas genera desorganización, pérdida de información y errores humanos que afectan la rentabilidad del negocio.
+
+Hemos identificado que el principal problema radica en la ausencia de una solución móvil que permita gestionar inventarios, proveedores, empleados y recetas de forma centralizada y accesible desde cualquier lugar.
+
+**¿Cómo podemos ayudar a los administradores de cafeterías a gestionar sus operaciones diarias de forma más eficiente y ordenada, utilizando una aplicación móvil intuitiva y adaptada a sus necesidades reales?**
+
+---
+
 #### 1.2.2.2. Lean UX Assumptions
+
+**¿Quiénes son nuestros usuarios?**  
+Dueños y administradores de cafeterías pequeñas y medianas que buscan mejorar la gestión de sus negocios sin depender de herramientas complejas o costosas.
+
+**¿Dónde encaja nuestro servicio en su vida?**  
+iCafe se integra en la rutina diaria de los administradores, permitiéndoles registrar compras, controlar inventarios, gestionar personal y compartir recetas desde su dispositivo móvil, en tiempo real.
+
+**¿Qué problemas podría tener nuestro producto?**
+- Resistencia al cambio por parte de usuarios acostumbrados a métodos tradicionales.
+- Dificultad para adaptar la interfaz a distintos niveles de experiencia tecnológica.
+- Necesidad de sincronización entre dispositivos si hay más de un administrador.
+
+**¿Cómo y cuándo se usa nuestro producto?**  
+Se utiliza durante las operaciones diarias de la cafetería: al recibir insumos, registrar proveedores, actualizar inventarios, capacitar al personal y revisar recetas. El acceso móvil permite su uso en cualquier momento, incluso fuera del local.
+
+**¿Qué características son importantes?**
+- Interfaz simple y amigable.
+- Registro rápido de insumos, proveedores y empleados.
+- Visualización clara de costos e inventarios.
+- Compartir recetas estandarizadas con el equipo.
+- Seguridad y respaldo de datos.
+
+**¿Cómo debe verse y comportarse nuestro producto?**  
+Debe ser visualmente limpio, con navegación intuitiva, accesible desde dispositivos Android e iOS, y con funcionalidades que se adapten al flujo de trabajo de una cafetería.
+
+---
 
 #### 1.2.2.3. Lean UX Hypothesis Statements
 
-#### 1.2.2.4. Lean UX Canvas
+**Business Hypothesis**  
+Creemos que al ofrecer una aplicación móvil especializada en la gestión de cafeterías, podremos posicionar a SyncCafe como una solución líder en el sector gastronómico independiente.
+
+**Sabremos que hemos logrado nuestra visión**  
+Cuando observemos que iCafe sea adoptada por cafeterías en distintas regiones del país, con una base de usuarios activa y creciente.
+
+**User Hypothesis**  
+Creemos que los administradores de cafeterías valorarán una herramienta móvil que les permita gestionar sus operaciones de forma rápida, ordenada y sin necesidad de conocimientos técnicos avanzados.
+
+**Sabremos que hemos logrado satisfacer sus necesidades**  
+Cuando los usuarios reporten una mejora en la organización del negocio, reducción de errores y mayor control sobre sus costos e inventarios.
+
+---
+
+### 1.2.2.4. Lean UX Canvas
+
+| **Sección**         | **Contenido** |
+|---------------------|----------------------------------------------------------------------------------------------------------------------------------|
+| **1. Problema**     | ¿Cómo ayudar a los administradores de cafeterías a gestionar sus operaciones diarias de forma eficiente, ordenada y accesible desde dispositivos móviles? |
+| **2. Usuarios**     | - Dueños de cafeterías independientes<br>- Administradores de cadenas pequeñas<br>- Personal operativo que accede a recetas e inventarios |
+| **3. Resultados**   | - Reducción de pérdidas operativas<br>- Mejora en la organización interna<br>- Aumento de la productividad<br>- Posicionamiento de SyncCafe como solución líder en gestión de cafeterías |
+| **4. Hipótesis**    | Creemos que los administradores de cafeterías necesitan una herramienta móvil que centralice sus procesos. Si les proporcionamos una app intuitiva y accesible, podrán mejorar la eficiencia y rentabilidad de sus negocios. |
+| **5. Qué aprender** | - Qué funcionalidades son más críticas para los usuarios<br>- Qué tipo de interfaz facilita la adopción tecnológica<br>- Qué métricas son relevantes para evaluar eficiencia operativa |
+| **6. Ideas de solución** | - Aplicación móvil con módulos de gestión de inventarios, proveedores, empleados y recetas<br>- Dashboard con métricas clave<br>- Sistema de recetas estandarizadas compartibles entre el equipo |
+| **7. Beneficios usuarios** | Administradores: mayor control de operaciones, reducción de errores, ahorro de tiempo<br>Empleados: acceso claro a recetas e insumos<br>Negocio: mejora en la toma de decisiones y rentabilidad |
+| **8. MVP / Experimentar** | - Prototipo funcional con módulo de inventario y recetas<br>- Pruebas con usuarios reales en cafeterías<br>- Validación de interfaz y flujo de uso mediante entrevistas y métricas de interacción |
+
 
 ## 1.3. Segmentos objetivo
 **Segmento 1: Dueños de Cafeterías** </br>
