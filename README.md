@@ -609,13 +609,14 @@ Si pudieras tener un panel de métricas rápidas, ¿qué información te gustar�
 ### 2.4.2. Impact Mapping
 ![impact-mapping](./img/chapter-2/impact-mapping.png)
 ### 2.4.3. Product Backlog
+Esta seccion servirá como guía para organizar el trabajo del equipo, asegurando que siempre avancemos lo más importante del proyecto.
 <div align="center">
 
 | # Orden | User Story Id | Título                       | Story Points (1/2/3/5/8) |
 | ------- | ------------- | ---------------------------- | ------------------------ |
 |1        | SS001         | Investigación sobre librería Charts.kt| 3|
-|2        |  SS02          | Investigación de servicios externos para autenticación y autorización|3|
-|3        |  SS03         |Investigación de servicios externos para almacenamiento de imágenes|3|
+|2        |  SS002          | Investigación de servicios externos para autenticación y autorización|3|
+|3        |  SS003         |Investigación de servicios externos para almacenamiento de imágenes|3|
 | 4       | US020         | Ver sección Home             | 1                        |
 | 5       | US021         | Ver sección About            | 1                        |
 | 6       | US022         | Ver sección Features         | 1                        |
