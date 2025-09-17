@@ -716,10 +716,9 @@ En esta capa se definen los elementos principales del dominio del inventario. Aq
 | Enum            | UnitMeasureType            | Define los tipos de unidades disponibles para medir insumos.                | GRAMOS, KILOGRAMOS, LITROS, UNIDADES                        |
 
 
-#### 2.6.1.2. Interface Layer
+#### 2.6.3.2. Interface Layer
 En esta capa se encuentran los controladores y objetos de transferencia (DTOs) que sirven como punto de comunicación entre el sistema y los usuarios o clientes externos. Su función principal es exponer endpoints REST para la gestión de insumos y movimientos, facilitando la interacción con la aplicación de una forma clara y estructurada.
 
-# Interface Layer - Bounded Context: Inventory
 
 | Tipo        | Clase / Nombre            | Descripción                                                                 | Métodos / Endpoints principales                         |
 |-------------|---------------------------|-----------------------------------------------------------------------------|---------------------------------------------------------|
@@ -728,7 +727,7 @@ En esta capa se encuentran los controladores y objetos de transferencia (DTOs) q
 | DTO         | InventoryTransactionResource | Objeto de transferencia para recibir datos de movimientos de inventario.    | tipoMovimiento, cantidad, referencia                     |
 | DTO         | SupplyItemResource        | Objeto de transferencia que devuelve datos de insumos            | id, nombre, unidadMedida, cantidadActual, puntoDeReorden |
 
-#### 2.6.1.3. Application Layer
+#### 2.6.3.3. Application Layer
 Esta capa maneja los flujos de procesos del inventario mediante el uso de command handlers y event handlers. Su rol es coordinar las operaciones del negocio, orquestando las acciones que se solicitan desde la interfaz y delegando la lógica al dominio. Aquí se asegura que cada comando o evento dispare el proceso adecuado dentro del contexto de inventario.
 
 | Tipo             | Clase / Nombre                   | Descripción                                                                 | Métodos / Comandos manejados                        |
@@ -738,7 +737,7 @@ Esta capa maneja los flujos de procesos del inventario mediante el uso de comman
 | Command Handler  | RemoveSupplyItemHandler          | Maneja la eliminación de un insumo del inventario.                          | - handle(RemoveSupplyItemCommand)                   |
 | Command Handler  | RegisterInventoryTransactionHandler | Maneja el registro de movimientos de inventario (entrada, salida, ajuste).  | - handle(RegisterInventoryTransactionCommand)       |
 | Event Handler    | LowStockEventHandler             | Escucha el evento de dominio `StockBajoDetectado` y dispara acciones como notificación o reabastecimiento. | - on(StockBajoDetectado) |
-#### 2.6.1.4. Infrastructure Layer
+#### 2.6.3.4. Infrastructure Layer
 En esta capa se implementa la conexión con servicios externos, principalmente la base de datos. Incluye los repositorios que persisten la información de los insumos y transacciones de inventario utilizando JPA/Hibernate. De esta manera, el dominio se mantiene independiente de la tecnología, mientras la infraestructura garantiza el acceso confiable a los datos.
 
 | Tipo             | Clase / Nombre                         | Descripción                                                                 | Notas Técnicas |
