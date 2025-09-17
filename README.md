@@ -805,21 +805,79 @@ En esta sección se diseño el diagrama de base de datos relacional de el bounde
 ![database-inventory](./img/chapter-2/database-inventory.png)
 
 
-### 2.6.4. Bounded Context: Sales
+# 2.6.4. Bounded Context: Sales
+
 #### 2.6.4.1. Domain Layer
+En esta capa se definen los elementos principales del dominio de ventas. Aquí se modelan los agregados, entidades, value objects y servicios de dominio que representan la lógica central de cómo se gestionan las órdenes, pagos y transacciones comerciales.
+
+| Tipo            | Clase / Nombre             | Descripción                                                                 | Atributos / Valores                                         |
+|-----------------|----------------------------|-----------------------------------------------------------------------------|-------------------------------------------------------------|
+| Aggregate       | OrderManagement            | Gestiona el ciclo de vida completo de una orden como unidad de consistencia. | orders, payments                                           |
+| Aggregate Root  | Order                      | Representa una orden de venta con todos sus items.                         | id, fecha, estado, total, empleadoId, items                |
+| Entity          | OrderItem                  | Representa un item dentro de una orden.                                    | id, productoId, cantidad, precioUnitario, subtotal         |
+| Entity          | Payment                    | Registra el pago asociado a una orden.                                     | id, ordenId, monto, metodoPago, fecha, estado              |
+| Value Object    | Money                      | Representa valores monetarios con currency.                                | monto, currency                                            |
+| Value Object    | OrderStatus                | Define los estados posibles de una orden.                                  | CREADA, PAGADA, EN_PROCESO, COMPLETADA, CANCELADA          |
+| Value Object    | PaymentMethod              | Define los métodos de pago aceptados.                                      | EFECTIVO, TARJETA, TRANSFERENCIA                           |
+| Domain Service  | OrderCalculationService    | Calcula totales, impuestos y descuentos de una orden.                      | calcularTotal(order)                                       |
+| Domain Service  | PaymentProcessingService   | Gestiona el procesamiento de pagos.                                        | procesarPago(order, paymentMethod)                         |
+| Domain Event    | OrderCreatedEvent          | Evento disparado cuando se crea una nueva orden.                           | orderId, fecha, total                                      |
+| Domain Event    | PaymentReceivedEvent       | Evento disparado cuando se recibe un pago.                                 | orderId, monto, metodoPago                                 |
+| Enum            | OrderStatusType            | Define los tipos de estado de orden.                                       | CREATED, PAID, PROCESSING, COMPLETED, CANCELLED            |
+| Enum            | PaymentMethodType          | Define los tipos de métodos de pago.                                       | CASH, CARD, TRANSFER                                       |
 
 #### 2.6.4.2. Interface Layer
+En esta capa se encuentran los controladores y DTOs que sirven como interfaz entre el sistema y los usuarios/clientes externos.
+
+| Tipo        | Clase / Nombre            | Descripción                                                                 | Métodos / Endpoints principales                         |
+|-------------|---------------------------|-----------------------------------------------------------------------------|---------------------------------------------------------|
+| Controller  | SalesController           | Expone endpoints REST para la gestión de ventas.                           | - POST /sales/orders → crear nueva orden<br>- GET /sales/orders → listar órdenes<br>- GET /sales/orders/{id} → obtener orden específica<br>- PUT /sales/orders/{id} → actualizar orden<br>- DELETE /sales/orders/{id} → cancelar orden |
+| Controller  | PaymentController         | Maneja operaciones relacionadas con pagos.                                 | - POST /sales/payments → procesar pago<br>- GET /sales/payments → listar pagos<br>- GET /sales/payments/{id} → detalle de pago |
+| DTO         | OrderRequest              | Objeto para recibir datos de creación de orden.                            | items, empleadoId, metodoPago                           |
+| DTO         | OrderResponse             | Objeto para devolver datos de orden.                                       | id, fecha, estado, total, items                         |
+| DTO         | PaymentRequest            | Objeto para recibir datos de pago.                                         | ordenId, monto, metodoPago                              |
+| DTO         | PaymentResponse           | Objeto para devolver datos de pago.                                        | id, ordenId, monto, estado, fecha                       |
 
 #### 2.6.4.3. Application Layer
+Esta capa maneja los flujos de procesos de ventas mediante command handlers y event handlers.
+
+| Tipo             | Clase / Nombre                   | Descripción                                                                 | Métodos / Comandos manejados                        |
+|------------------|----------------------------------|-----------------------------------------------------------------------------|-----------------------------------------------------|
+| Command Handler  | CreateOrderHandler               | Maneja la creación de una nueva orden.                                     | - handle(CreateOrderCommand)                        |
+| Command Handler  | ProcessPaymentHandler            | Maneja el procesamiento de pagos.                                          | - handle(ProcessPaymentCommand)                     |
+| Command Handler  | UpdateOrderStatusHandler         | Maneja la actualización del estado de una orden.                           | - handle(UpdateOrderStatusCommand)                  |
+| Command Handler  | CancelOrderHandler               | Maneja la cancelación de órdenes.                                          | - handle(CancelOrderCommand)                        |
+| Event Handler    | InventoryUpdateEventHandler      | Escucha eventos de actualización de inventario.                            | - on(InventoryUpdatedEvent)                         |
+| Event Handler    | PaymentConfirmedEventHandler     | Escucha eventos de confirmación de pago.                                   | - on(PaymentConfirmedEvent)                         |
 
 #### 2.6.4.4. Infrastructure Layer
+En esta capa se implementa la conexión con servicios externos y la persistencia de datos.
 
-#### 2.643.5. Bounded Context Software Architecture Component Level Diagrams
+| Tipo             | Clase / Nombre                         | Descripción                                                                 | Notas Técnicas |
+|------------------|----------------------------------------|-----------------------------------------------------------------------------|----------------|
+| Repository Impl  | OrderRepositoryImpl                    | Implementación de OrderRepository usando JPA/Hibernate.                    | Mapea Order a tabla orders |
+| Repository Impl  | PaymentRepositoryImpl                  | Implementación de PaymentRepository usando JPA/Hibernate.                  | Mapea Payment a tabla payments |
+| External Service | InventoryServiceClient                 | Cliente para comunicación con servicio de inventario.                      | REST client para Inventory API |
+| External Service | PaymentGatewayClient                   | Cliente para comunicación con pasarela de pagos.                           | Integración con Stripe/PayPal |
+
+#### 2.6.4.5. Bounded Context Software Architecture Component Level Diagrams
+![component-sales](./img/chapter-2/component-sales.png)
 
 #### 2.6.4.6. Bounded Context Software Architecture Code Level Diagrams
 ##### 2.6.4.6.1. Bounded Context Domain Layer Class Diagrams
+El diagrama de clases del bounded context Sales representa los principales elementos del Domain Layer, mostrando las relaciones entre órdenes, items de orden, pagos y servicios de dominio. El diagrama fue elaborado usando PlantUML.
+
+![diagram-class-sales](./img/chapter-2/diagrama-clases-sales.png)
 
 ##### 2.6.4.6.2. Bounded Context Database Design Diagram
+En esta sección se diseña el diagrama de base de datos relacional para el bounded context Sales.
+
+* **orders**: almacena las órdenes de venta
+* **order_items**: almacena los items de cada orden
+* **payments**: registra los pagos asociados a las órdenes
+* **employees**: información de empleados que realizan ventas
+
+![database-sales](./img/chapter-2/database-sales.png)
 
 ### 2.6.5. Bounded Context: Finances
 #### 2.6.5.1. Domain Layer
