@@ -454,15 +454,15 @@ Preguntas Generales: </br>
 ¿Cómo te llamas y a que te dedicas?</br>
 
 Preguntas Especificas:</br>
-¿Cómo anotas lo que entra y sale de tus ingredientes en la cafetería?
-¿Cada cuánto miras o actualizas tu lista de productos en stock?
-¿Te ha pasado quedarte sin algo o tener de más? ¿O tirar comida? ¿Cómo lo arreglas?
-¿Te gustaría una app que te muestre si usas bien los ingredientes y cuánto tiras?
-¿Sabes cuánto te cuesta de verdad hacer un café? ¿Cómo pones el precio para venderlo?
-¿Piensas en gastos como sueldos o renta al poner precios? ¿Cada cuánto chequeas tus gastos totales?
-¿Qué usas ahora para organizar tu cafetería? ¿Como Excel, cuadernos o alguna app?
-¿Qué usas más para manejar tu negocio: celular, computadora u otro? ¿Del 1 al 5, qué tan fácil te resulta usar apps en el celular?
-¿Si tuvieras una pantalla rápida con números clave, qué querrías ver primero? ¿Y qué opción nueva te haría usar una app todos los días?
+¿Cómo anotas lo que entra y sale de tus ingredientes en la cafetería?</br>
+¿Cada cuánto miras o actualizas tu lista de productos en stock?</br>
+¿Te ha pasado quedarte sin algo o tener de más? ¿O tirar comida? ¿Cómo lo arreglas?</br>
+¿Te gustaría una app que te muestre si usas bien los ingredientes y cuánto tiras?</br>
+¿Sabes cuánto te cuesta de verdad hacer un café? ¿Cómo pones el precio para venderlo?</br>
+¿Piensas en gastos como sueldos o renta al poner precios? ¿Cada cuánto chequeas tus gastos totales?</br>
+¿Qué usas ahora para organizar tu cafetería? ¿Como Excel, cuadernos o alguna app?</br>
+¿Qué usas más para manejar tu negocio: celular, computadora u otro? ¿Del 1 al 5, qué tan fácil te resulta usar apps en el celular?</br>
+¿Si tuvieras una pantalla rápida con números clave, qué querrías ver primero? ¿Y qué opción nueva te haría usar una app todos los días?</br>
 
 
 ### 2.2.2. Registro de entrevistas
@@ -485,7 +485,7 @@ La entrevista con Melanie Espinoza, dueña de la cafetería Catrín, revela que 
 
 ### 2.2.3. Análisis de entrevistas
 
-Análisis del Primer Segmento Objetivo: Dueños de Cafeterias.
+Análisis del Primer Segmento Objetivo: Dueños de Cafeterias.</br>
 
 Los dueños de cafeterías suelen enfrentar problemas comunes relacionados con la gestión de inventario, ya que muchos todavía dependen de métodos manuales como libretas o archivos de Excel. Esto genera errores, olvidos y pérdidas económicas por productos perecibles o desbalance entre insumos. Asimismo, existe una falta de control financiero estructurado, pues no registran de manera organizada gastos como sueldos, alquileres o costos de insumos. A esto se suma la limitada digitalización, ya que suelen contar con una laptop básica en la tienda, pero no sistemas especializados que faciliten el registro en tiempo real. Pese a ello, muestran alta disposición a adoptar soluciones móviles porque valoran la accesibilidad y simplicidad, especialmente desde sus teléfonos. En resumen, el segmento tiene una necesidad latente de herramientas digitales accesibles que integren inventario, costos y proveedores, con recordatorios y reportes que optimicen su rentabilidad y reduzcan pérdidas.
 
