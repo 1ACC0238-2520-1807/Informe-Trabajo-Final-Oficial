@@ -279,16 +279,8 @@ Las pérdidas varían según el tamaño de la cafetería, pero en muchos casos p
 ## 1.3. Segmentos objetivo
 **Segmento 1: Dueños de Cafeterías** </br>
 
+Personas que cuentan con un emprendimiento de cafeterías, en su mayoría pequeños y medianos negocios, y que administran directamente las operaciones del día a día. Se trata de propietarios que buscan mejorar la organización interna de su local y optimizar el uso de recursos, pero que aún dependen de registros manuales o herramientas poco integradas. Generalmente son emprendedores jóvenes y adultos, entre 25 y 45 años, con un nivel básico de familiaridad con soluciones digitales, interesados en reducir pérdidas, controlar costos e inventarios, y gestionar de manera más eficiente a sus proveedores y personal.
 
--Pequeños y medianos negocios de café que buscan mejorar su organización interna y optimizar sus recursos.
-
--Propietarios que, en la mayoría de los casos, administran directamente las operaciones del negocio y no cuentan con herramientas digitales especializadas.
-
--Emprendedores con edades entre 25 y 45 años, interesados en reducir pérdidas y mejorar la eficiencia del control de costos, inventarios y proveedores.
-
--Cafeterías con 1 a 3 locales, que requieren un sistema sencillo, práctico y accesible para estandarizar procesos y capacitar a su personal.
-
--Ubicadas en zonas urbanas y semiurbanas, con un nivel básico de familiaridad con herramientas digitales, pero que en muchos casos aún utilizan registros manuales o poco integrados.
 # Capítulo II: Requirements Development and Software Solution Design
 ## 2.1. Competidores
 ### 2.1.1. Análisis competitivo
