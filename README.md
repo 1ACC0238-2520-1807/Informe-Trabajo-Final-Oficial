@@ -635,7 +635,19 @@ Si pudieras tener un panel de métricas rápidas, ¿qué información te gustar�
 </div>
 
 ## 2.5. Strategic-Level Domain-Driven Design
+En esta sección se mostrará la aplicación del Domain-Driven Design (DDD) a nivel estratégico dentro del proyecto. El objetivo es identificar los distintos bounded context que intervienen en el dominio, así como las relaciones entre ellos, con el fin de establecer una arquitectura clara que permita escalar la solución y adaptarla a las necesidades del negocio.
 ### 2.5.1. EventStorming
+![Step1](./img/chapter-2/step1.png)
+![Step2](./img/chapter-2/step2.png)
+![Step3](./img/chapter-2/step3.png)
+![Step4](./img/chapter-2/step4.png)
+![Step5](./img/chapter-2/step5.png)
+![Step6](./img/chapter-2/step6.png)
+![Step7](./img/chapter-2/step7.png)
+![Step8](./img/chapter-2/step8.png)
+![Step9](./img/chapter-2/step9.png)
+
+Link: https://miro.com/welcomeonboard/TzdJdEdvSWJQa2pYS2FIdU5DWE9ZV2w5MjkycmZRZzB2OUFQWkhOemVGUTd6ekE4R0tlVW11TmNMMVIrd1lnWHRQbk5IWHN2VEs3M0ttajJ5TG1LUXZ6SVhjZ255RHJzTjZ5eEZRSXFkZisvOVo3VjhaRmdSL0s4T0tBMmhQd1F3VHhHVHd5UWtSM1BidUtUYmxycDRnPT0hdjE=?share_link_id=804149752797
 #### 2.5.1.1. Candidate Context Discovery
 
 #### 2.5.1.2. Domain Message Flows Modeling
