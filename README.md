@@ -676,20 +676,63 @@ Link: https://miro.com/welcomeonboard/TzdJdEdvSWJQa2pYS2FIdU5DWE9ZV2w5MjkycmZRZz
 
 ## 2.6. Tactical-Level Domain-Driven Design
 ### 2.6.1. Bounded Context: Contacts
+El bounded context Contacts se encarga de la gestión de proveedores y empleados de la cafetería. Su objetivo es registrar, actualizar y eliminar estos contactos, permitiendo al dueño listar todos los registros para una administración eficiente y centralizada de las relaciones externas e internas.
 #### 2.6.1.1. Domain Layer
+En esta capa se definen los elementos principales del dominio de contactos. Se modelan los agregados, entidades, value objects y servicios de dominio que representan la lógica central de cómo se gestionan los proveedores y empleados. El objetivo es mantener la consistencia del negocio y las reglas que garantizan el control y la validación de los datos de contactos.
 
+| Tipo          | Clase / Nombre          | Descripción                                                                 | Atributos / Valores                  |
+|---------------|-------------------------|-----------------------------------------------------------------------------|--------------------------------------|
+| Aggregate     | ContactManagement       | Gestión de contactos como una unidad de consistencia                        | suppliers, employees                 |
+| Root          | Supplier                | Representa un proveedor del inventario                                      | id, name, contactInfo, category      |
+| Entity        | Employee                | Representa un empleado de la cafetería                                      | id, name, position, contactInfo      |
+| Value Object  | Address                 | Representa una dirección física o de contacto                               | street, city, zipCode, country       |
+| Value Object  | PhoneNumber             | Representa un número de teléfono con tipo                                   | number, type (MOBILE, OFFICE)        |
+| Domain Service| ContactValidationService| Valida la unicidad y consistencia de datos de contactos                     | validateSupplier(), validateEmployee()|
+| Enum          | ContactType             | Define los tipos de contactos disponibles                                   | SUPPLIER, EMPLOYEE                   |
 #### 2.6.1.2. Interface Layer
+
+En esta capa se encuentran los controladores y objetos de transferencia (DTOs) que sirven como punto de comunicación entre el sistema y los usuarios o clientes externos. Su función principal es exponer endpoints REST para la gestión de proveedores y empleados, facilitando la interacción con la aplicación de una forma clara y estructurada.
+
+| Tipo       | Clase / Nombre              | Descripción                                                                 | Métodos / Endpoints principales                  |
+|------------|-----------------------------|-----------------------------------------------------------------------------|--------------------------------------------------|
+| Controller | ContactController           | Expone endpoints REST para la gestión general de contactos. Llama a la capa de aplicación. | - GET /contacts — listar todos los contactos<br>- GET /contacts/{id} — obtener detalle |
+| Controller | SupplierController          | Maneja operaciones relacionadas con proveedores (registrar, actualizar, eliminar). | - POST /suppliers — registrar nuevo proveedor<br>- PUT /suppliers/{id} — actualizar datos<br>- DELETE /suppliers/{id} — eliminar proveedor |
+| Controller | EmployeeController          | Maneja operaciones relacionadas con empleados (registrar, actualizar, eliminar). | - POST /employees — registrar nuevo empleado<br>- PUT /employees/{id} — actualizar datos<br>- DELETE /employees/{id} — eliminar empleado |
+| DTO        | SupplierResource            | Objeto de transferencia que devuelve datos de proveedores.                  | id, name, contactInfo, category                  |
+| DTO        | EmployeeResource            | Objeto de transferencia que devuelve datos de empleados.                    | id, name, position, contactInfo                  |
+| DTO        | ContactCommandResource      | Objeto de transferencia para recibir comandos de creación/actualización.    | type, name, contactInfo                          |
+
 
 #### 2.6.1.3. Application Layer
 
+Esta capa maneja los flujos de procesos de contactos mediante el uso de command handlers y event handlers. Su rol es coordinar las operaciones del negocio, orquestando las acciones que se solicitan desde la interfaz y delegando la lógica al dominio. Así se asegura que cada comando o evento dispare el proceso adecuado dentro del contexto de contactos.
+
+| Tipo          | Clase / Nombre                  | Descripción                                                                 | Método / Comandos manejados                  |
+|---------------|---------------------------------|-----------------------------------------------------------------------------|----------------------------------------------|
+| Command Handler | RegisterSupplierHandler         | Maneja el proceso de registrar un nuevo proveedor en el sistema.            | - handle(RegisterSupplierCommand)            |
+| Command Handler | UpdateSupplierHandler           | Maneja la actualización de datos de un proveedor existente.                 | - handle(UpdateSupplierCommand)              |
+| Command Handler | RemoveSupplierHandler           | Maneja la eliminación de un proveedor.                                      | - handle(RemoveSupplierCommand)              |
+| Command Handler | RegisterEmployeeHandler         | Maneja el proceso de registrar un nuevo empleado.                           | - handle(RegisterEmployeeCommand)            |
+| Command Handler | UpdateEmployeeHandler           | Maneja la actualización de datos de un empleado existente.                  | - handle(UpdateEmployeeCommand)              |
+| Command Handler | RemoveEmployeeHandler           | Maneja la eliminación de un empleado.                                       | - handle(RemoveEmployeeCommand)              |
+| Event Handler | ContactUpdatedHandler           | Escucha eventos de dominio de actualización de contactos y dispara notificaciones o auditoría. | - on(ContactUpdatedEvent)                    |
+
 #### 2.6.1.4. Infrastructure Layer
 
-#### 2.6.1.5. Bounded Context Software Architecture Component Level Diagrams
+En esta capa se implementa la conexión con servicios externos, principalmente la base de datos. Incluye los repositorios que persisten la información de proveedores y empleados utilizando JPA/Hibernate. De esta manera, el dominio se mantiene independiente de la tecnología, mientras la infraestructura garantiza el acceso confiable a los datos.
 
+| Tipo       | Clase / Nombre              | Descripción                                                                 | Notas Técnicas                              |
+|------------|-----------------------------|-----------------------------------------------------------------------------|---------------------------------------------|
+| Repository | SupplierRepository          | Implementación JPA/Hibernate para persistir proveedores.                    | Mapa Supplier a tabla suppliers.            |
+| Repository | EmployeeRepository          | Implementación JPA/Hibernate para persistir empleados.                      | Mapa Employee a tabla employees.            |
+
+#### 2.6.1.5. Bounded Context Software Architecture Component Level Diagrams
+![ContactsComponentDiagram](./img/chapter-2/diagramacontactosjas.png)
 #### 2.6.1.6. Bounded Context Software Architecture Code Level Diagrams
 ##### 2.6.1.6.1. Bounded Context Domain Layer Class Diagrams
-
+![UMLcontact](./img/chapter-2/UMLcontact.png)
 ##### 2.6.1.6.2. Bounded Context Database Design Diagram
+![ContactsDataBase](./img/chapter-2/ContactsDataBase.png)
 ### 2.6.2. Bounded Context: Product
 #### 2.6.2.1. Domain Layer
 
@@ -767,6 +810,39 @@ En esta sección se diseño el diagrama de base de datos relacional de el bounde
 * **stocks**: disponibilidad de insumos
 * **inventory_movements**: el moviento dentro del inventario.
 ![database-inventory](./img/chapter-2/database-inventory.png)
+
+
+### 2.6.4. Bounded Context: Sales
+#### 2.6.4.1. Domain Layer
+
+#### 2.6.4.2. Interface Layer
+
+#### 2.6.4.3. Application Layer
+
+#### 2.6.4.4. Infrastructure Layer
+
+#### 2.643.5. Bounded Context Software Architecture Component Level Diagrams
+
+#### 2.6.4.6. Bounded Context Software Architecture Code Level Diagrams
+##### 2.6.4.6.1. Bounded Context Domain Layer Class Diagrams
+
+##### 2.6.4.6.2. Bounded Context Database Design Diagram
+
+### 2.6.5. Bounded Context: Finances
+#### 2.6.5.1. Domain Layer
+
+#### 2.6.5.2. Interface Layer
+
+#### 2.6.5.3. Application Layer
+
+#### 2.6.5.4. Infrastructure Layer
+
+#### 2.6.5.5. Bounded Context Software Architecture Component Level Diagrams
+
+#### 2.6.5.6. Bounded Context Software Architecture Code Level Diagrams
+##### 2.6.5.6.1. Bounded Context Domain Layer Class Diagrams
+
+##### 2.6.5.6.2. Bounded Context Database Design Diagram
 
 # Capítulo III: Solution UI/UX Design
 ## 3.1. Product design
