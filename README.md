@@ -749,6 +749,12 @@ En esta capa se implementa la conexión con servicios externos, principalmente l
 #### 2.6.3.6. Bounded Context Software Architecture Code Level Diagrams
 ##### 2.6.3.6.1. Bounded Context Domain Layer Class Diagrams
 ##### 2.6.3.6.2. Bounded Context Database Design Diagram 
+En esta sección se diseño el diagrama de base de datos relacional de el bounded context inventory.
+* **Category** : agrupa los insumos en familias o tipos
+* **supplyItems**: insumo gestionado en el inventario
+* **stocks**: disponibilidad de insumos
+* **inventory_movements**: el moviento dentro del inventario.
+![database-inventory](./img/chapter-2/database-inventory.png)
 
 # Capítulo III: Solution UI/UX Design
 ## 3.1. Product design
