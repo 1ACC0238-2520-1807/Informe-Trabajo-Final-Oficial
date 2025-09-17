@@ -748,6 +748,9 @@ En esta capa se implementa la conexión con servicios externos, principalmente l
 ![component-inventory](./img/chapter-2/component-inventory.png)
 #### 2.6.3.6. Bounded Context Software Architecture Code Level Diagrams
 ##### 2.6.3.6.1. Bounded Context Domain Layer Class Diagrams
+El diagrama de clases del bounded context Inventory representa los principales elementos del Domain Layer, incluyendo agregados, entidades, value objects, servicios de dominio, enumeraciones e interfaces de repositorios. Su objetivo es mostrar las relaciones y responsabilidades de cada componente dentro de la gestión de insumos y movimientos de inventario en la cafetería. Para su elaboración se utilizó PlantUML.
+
+![diagram-class-inventory](./img/chapter-2/diagrama-clases-inventory.png)
 ##### 2.6.3.6.2. Bounded Context Database Design Diagram 
 En esta sección se diseño el diagrama de base de datos relacional de el bounded context inventory.
 * **Category** : agrupa los insumos en familias o tipos
