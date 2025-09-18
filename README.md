@@ -35,6 +35,20 @@
 
 ## Project Report Collaboration Insights
 
+Enlace de la organización para el reporte del proyecto: https://github.com/orgs/1ACC0238-2520-1807/dashboard 
+
+**TB1**
+
+Para el desarrollo del informe correspondiente a la entrega TB1, se estableció la implementación de secciones de la siguiente manera para cada integrante del equipo:
+
+|Integrante|Tareas Asignadas|
+|-|-|
+| Ruben Velasquez Chambi | User Stories, Impact Mapping, Product Backlog, Software Architecture Context Level Diagrams, Software Architecture Container Level Diagrams, Bounded Context: Inventory |
+| Christian Fabrizio Inga Orihuela |Análisis competitivo, Estrategias y tácticas frente a competidores, Diseño de entrevistas, Registro de entrevistas, Análisis de entrevistas, Domain Message Flows Modeling, y  Bounded Context: Product  |
+| Hallasi Saravia, Miguel Angel |User Personas, User Task Matrix, User Journey Mapping, Empathy Mapping, Ubiquitous Language, Context Mapping, Software Architecture Deployment Diagrams, Bounded Context: Finances   |
+| Urrutia Peña, Jasmin Adriana |Descripción de la Startup, Solution Profile, Antecedentes y problemática,  Diseño de entrevistas, Registro de entrevistas, Análisis de entrevistas, EventStorming, Candidate Context Discovery y Bounded Context: Contacts    |
+| Sebastian Alexander Ramos Calagua |Lean UX Process, Bounded Context Canvases, Bounded Context: Sales |
+
 ## Registro de Versiones del Informe
 
 <table style="border-collapse:collapse;border-spacing:0" class="tg">
@@ -58,7 +72,7 @@
         Sebastian Alexander Ramos Calagua
       </td>
       <td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">
-        -
+        En esta entrega realizamos el Capitulo 1 y Capitulo 2.
       </td>
     </tr>
     <tr>
@@ -209,39 +223,135 @@
 
 
 ## Student Outcome
-| Criterio especifico                       | Acciones realizadas | Conclusiones |
-|-------------------------------------------|---------------------|--------------|
-| Actualizan conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de software. |                     |              |
-| Reconocen la necesidad del aprendizaje permanente profesional y el desarrollo de proyectos en soluciones de software. |                     |              |
+
+| Criterio especifico | Acciones realizadas | Conclusiones |
+|---------------------|---------------------|--------------|
+| Actualizan conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de software. | **Ruben Genaro Velasquez Chambi**<br>**TB1**<br>Me encargué de la elaboración de los **User Stories**, así como de las **Spike Stories** para investigar las bibliotecas y tecnologías que se podrían utilizar en el proyecto. Además, estructuré el **Product Backlog** y participé en la creación del **diagrama C4** para definir los niveles de arquitectura del sistema.<br><br>**Jasmin Adriana Urrutia Peña**<br>**TB1**<br>Para esta entrega, completé tareas como el perfil de la startup, antecedentes, problemática y segmento objetivo, lo que me permitió obtener una visión más clara y estructurada del proyecto.<br><br>**Sebastian Alexander Ramos Calagua**<br>**TB1**<br>Investigué y definí los **Bounded Contexts** clave del sistema. Colaboré en el diseño del **Context Map** para visualizar las relaciones entre los subsistemas. | La elaboración de user stories y spike stories me permitió **actualizar y reforzar mis conocimientos sobre metodologías ágiles** y la forma en que estas ayudan a definir los requerimientos y las tecnologías adecuadas para el desarrollo de software. Asimismo, trabajar en el product backlog y el diagrama C4 me ayudó a comprender mejor la **importancia de la planificación y la arquitectura** en el ciclo de vida del software. La identificación de Bounded Contexts fue fundamental para dividir el sistema en componentes manejables y cohesionados. |
+| Reconocen la necesidad del aprendizaje permanente profesional y el desarrollo de proyectos en soluciones de software. | **Ruben Genaro Velasquez Chambi**<br>**TB1**<br>En este proyecto aprendí que al momento de investigar tecnologías mediante las **Spike Stories**, es fundamental estar en constante actualización para seleccionar las bibliotecas más adecuadas. También reconocí la importancia de aplicar herramientas de análisis y diseño como el **C4 Model**, que requieren un aprendizaje continuo para mejorar las habilidades de diseño arquitectónico.<br><br>**Jasmin Adriana Urrutia Peña**<br>**TB1**<br>Realicé el **Event Storming** lo que me ayudó a darme cuenta de la importancia que tiene saber reconocer los bounded context ya que es importante para un buen inicio de trabajo.<br><br>**Sebastian Alexander Ramos Calagua**<br>**TB1**<br>Analicé las interacciones entre Bounded Contexts para garantizar la consistencia y escalabilidad del sistema. Estudié patrones de diseño DDD (Domain-Driven Design) para aplicar en la arquitectura del proyecto. | La experiencia con la investigación de bibliotecas y el diseño arquitectónico refuerza la idea de que un profesional debe **mantenerse actualizado** y ser capaz de aplicar nuevas técnicas y herramientas en el desarrollo de soluciones de software. El Event Storming evidenció la relevancia de dominar conceptos como Bounded Contexts para una planificación efectiva. El análisis de interacciones y el estudio de DDD destacaron la importancia de diseñar sistemas modulares y bien estructurados. |                                                                                   |
+                  
 
 ## Objetivos SMART
 | Miembro del Equipo         | Objetivo SMART 1                          | Objetivo SMART 2                          |
 |----------------------------|-------------------------------------------|-------------------------------------------|
-|Ruben Velasquez Chambi     |  |  |
+|Ruben Velasquez Chambi     | En los proximos 12 meses, conseguir una posición de practicante  en una empresa de software que utilice tecnologías móviles (Kotlin,java, Flutter o Jetpack Compose). Para lograrlo, construire un portafolio con al menos 3 aplicaciones móviles publicadas en GitHub | En los 18 meses posteriores a mi graduación, completar una certificación en pruebas de software (como ISTQB Foundation Level) dedicando al menos 5 horas semanales de estudio y práctica en plataformas de testing. Con ello, fortaleceré mis conocimientos en aseguramiento de calidad y aumentaré mis oportunidades para aplicar a puestos QA dentro del área de desarrollo de software. |
 |Christian Fabrizio Inga Orihuela |  |  |
-|Hallasi Saravia, Miguel Angel  |  |  |
-|Urrutia Peña, Jasmin Adriana |  |  |
-|Sebastian Alexander Ramos Calagua |  |  |
+|Hallasi Saravia, Miguel Angel  | Durante este ciclo me comprometo a dominar los fundamentos del desarrollo móvil utilizando Flutter y Kotlin | Para finales del ciclo 2025-2, implementaré un proyecto móvil completo que integre autenticación, base de datos y al menos 3 funcionalidades principales, documentando el proceso. |
+|Urrutia Peña, Jasmin Adriana |En el próximo año, quiero comenzar mis prácticas por lo que obtendré una posición de practicante en una empresa de desarrollo frontend que utilice tecnologías como React.js o JavaScript avanzado.  | Conseguir un puesto de trabajo como desarrollador frontend junior en una empresa tecnológica, aplicando a al menos 20 vacantes y asistiendo a 5 eventos de networking en los primeros 9 meses tras mi graduación en diciembre de 2026.  |
+|Sebastian Alexander Ramos Calagua |Desarrollar y publicar el módulo de gestión de inventario de iCafe en 6 meses, permitiendo el registro y tracking de insumos en tiempo real, con al menos 3 cafeterías piloto usando la funcionalidad.  |Obtener la certificación AWS Cloud Practitioner en los próximos 4 meses, dedicando 6 horas semanales al estudio, para mejorar la infraestructura técnica de SyncCafe con soluciones escalables en la nube.  |
 
 # Capítulo I: Presentación
 ## 1.1. Startup Profile
 ### 1.1.1. Descripción de la Startup
+Nuestra startup se llama SyncCafe y surge con el propósito de transformar la manera en que las cafeterías administran sus operaciones diarias. Actualmente, muchos de estos negocios todavía dependen de registros manuales o herramientas dispersas como libretas, hojas de cálculo o aplicaciones poco integradas, lo que genera desorganización, pérdida de información y costos innecesarios que afectan directamente la rentabilidad y el crecimiento. Para responder a esta problemática, desarrollamos iCafe, una plataforma digital diseñada para que los dueños y administradores de cafeterías puedan centralizar sus procesos en un solo lugar, controlando costos de manera más precisa, registrando proveedores y empleados y gestionando inventarios. Nuestro objetivo es simplificar la gestión sin necesidad de conocimientos técnicos avanzados, ofreciendo una solución clara, eficiente y accesible que permita a los propietarios enfocarse en lo más importante: brindar una mejor experiencia a sus clientes, asegurar la calidad de sus productos y hacer crecer su negocio.
+
+<img src="./img/chapter-1/logocafe.png" alt="logo" width="200"/>
 
 ### 1.1.2. Perfiles de integrantes del equipo
-
+| Foto | Información |
+|------|-------------|
+|![Chris](./img/chapter-1/Chris.jpeg)| **Nombres y apellidos:** Christian Inga Orihuela <br>**Código:** 20231C111<br>**Carrera:** Ingenieria de Software <br>**Descripción:** Tengo 10 años y actualmente estoy estudiando la carrera de Ingenieria de Software, cursando el sexto ciclo. Tengo conocimientos en los lenguajes de programación de C++, Python y Javascript. Considero que puedo adaptarme a diferentes formas de trabajo para alcanzar un objetivo. Me considero una persona responsable y confiable. |
+|<img src="./img/chapter-1/m-hallasi.png" alt="MiguelHallasi-Image-Profile" width="200"> | **Nombres y apellidos:** Miguel Hallasi Saravia<br>**Código:** U202312391<br>**Carrera:** Ingeniería de Software<br>**Descripción:** Soy Miguel Hallasi, estudiante del sexto ciclo de la carrera de Ingeniería de Software. Me gusta el aprendizaje continuo y adquirir nuevas experiencias.|
+|![ruben](./img/chapter-1/Integrante-Ruben.jpeg) | **Nombres y apellidos:** Rubén Genaro Velásquez Chambi <br>**Código:** U202117342<br>**Carrera:** Ing. de Software <br>**Descripción:** Soy estudiante de la Universidad Peruana de Ciencias Aplicadas y actualmente estoy cursando el septimo ciclo de la carrera de Ingeniería de Software, tengo 25 años. Me destaco en el trabajo en equipo y en encontrar formas de mejorar la eficiencia del equipo.Tengo un nivel intermedio de conocimiento en C++, Node.js y TypeScript,Java así como habilidades en Angular,vue.js HTML, CSS.Tambien manejo el desarrollo bajo los principios SOLID|
+| ![jasmin](./img/chapter-1/jasmin.jpg) | **Nombres y apellidos:** Jasmin Adriana Urrutia Peña<br>**Código:** U202310008<br>**Carrera:** Ing. de Software<br>**Descripción:** Soy una persona responsable, creativa y empática, cualidades que me permiten establecer buenas conexiones con quienes me rodean. Valoro el trabajo en equipo porque me da la oportunidad de compartir ideas y aprender de otras perspectivas. Tengo conocimientos en lenguajes de programación como C + +, HTML, CSS , entre otros. Me gusta todo lo que es Frontend  y Diseño UX. |
+| <img src="https://i.postimg.cc/vHksZbw6/Sebastian-Ramos-foto-perfil.jpg" alt="SebasPerfil" width="210"> | **Nombres y apellidos:** Sebastian Alexander Ramos Calagua<br>**Código:** U202222846<br>**Carrera:** Ing. de Software<br>**Descripción:** Desarrollador full-stack con experiencia en arquitectura modular. Me apasiona aplicar la tecnología para resolver desafíos sociales en educación, salud y justicia. |
 ## 1.2. Solution Profile
 ### 1.2.1. Antecedentes y problemática
 
+**Descripción de la problemática.**
+En la actualidad, muchas cafeterías todavía realizan la gestión de sus operaciones de manera manual o con herramientas poco integradas. Este enfoque genera problemas de organización, falta de control sobre los costos e insumos, errores humanos y una administración poco eficiente. Los dueños y administradores enfrentan dificultades para tener información clara y en tiempo real, lo cual se traduce en pérdidas económicas, sobrecarga de trabajo y menor productividad.
+
+Aunque existen sistemas de gestión para negocios en el mercado, muchos de ellos están orientados a grandes empresas, presentan costos elevados o son demasiado complejos para la realidad de una cafetería pequeña o mediana. Además, gran parte de estas soluciones no se ajustan a la dinámica del sector cafetero, que requiere practicidad, rapidez y accesibilidad.
+
+En este contexto, surge la necesidad de una herramienta digital centralizada, intuitiva y accesible que permita a los administradores de cafeterías gestionar sus operaciones de manera más ordenada. Una solución que simplifique el control de costos, facilite el registro de proveedores y empleados y organice los inventarios. Con este propósito nace iCafe, un producto diseñado por la startup SyncCafe, cuyo enfoque es brindar un sistema moderno, económico y adaptado a las necesidades reales de cafeterías independientes y cadenas pequeñas.
+
+
+
+
+**Aplicación de la metodología 5W y 2H**
+
+-What (¿Qué?)
+Las cafeterías enfrentan problemas de gestión por depender de procesos manuales y dispersos. Esto ocasiona errores en el control de costos, inventarios y personal, lo que afecta directamente la rentabilidad del negocio.
+
+-Who (¿Quién?)
+Los principales afectados son los dueños y administradores de cafeterías, así como los empleados que deben trabajar sin lineamientos claros en cuanto a recetas o insumos disponibles.
+
+-Where (¿Dónde?)
+Este problema se presenta en cafeterías independientes, cadenas pequeñas y medianas, así como en cafeterías institucionales dentro de universidades o empresas que carecen de herramientas digitales adaptadas a sus necesidades.
+
+-When (¿Cuándo?)
+La problemática se da todos los días en las actividades básicas de una cafetería: compras de insumos, registro de proveedores, control de inventarios y organización de personal.
+
+-Why (¿Por qué?)
+La falta de digitalización y de un sistema centralizado obliga a llevar los procesos manualmente. Esto no solo consume tiempo, sino que también aumenta la posibilidad de errores, genera desorden y dificulta la toma de decisiones basadas en datos.
+
+-How (¿Cómo?)
+Actualmente los administradores utilizan métodos tradicionales como libretas, hojas sueltas o documentos de Excel, lo que fragmenta la información. Esto ocasiona duplicidad de tareas, pérdida de registros y falta de visibilidad sobre los recursos disponibles.
+
+-How much (¿Cuánto?)
+Las pérdidas varían según el tamaño de la cafetería, pero en muchos casos pueden representar entre el 10% y 20% de los ingresos mensuales, ya sea por compras innecesarias, desperdicio de insumos o falta de control en costos. Una solución digital adaptada a este sector permitiría reducir significativamente estos porcentajes, generando mayor eficiencia y rentabilidad.
 ### 1.2.2. Lean UX Process
 #### 1.2.2.1. Lean UX Problem Statements
 
+En el contexto actual, los administradores de cafeterías enfrentan dificultades para gestionar sus operaciones de forma eficiente. La falta de herramientas digitales integradas genera desorganización, pérdida de información y errores humanos que afectan la rentabilidad del negocio.
+
+Hemos identificado que el principal problema radica en la ausencia de una solución móvil que permita gestionar inventarios, proveedores, empleados y recetas de forma centralizada y accesible desde cualquier lugar.
+
+**¿Cómo podemos ayudar a los administradores de cafeterías a gestionar sus operaciones diarias de forma más eficiente y ordenada, utilizando una aplicación móvil intuitiva y adaptada a sus necesidades reales?**
+
+---
+
 #### 1.2.2.2. Lean UX Assumptions
+
+**¿Quiénes son nuestros usuarios?**  
+Dueños y administradores de cafeterías pequeñas y medianas que buscan mejorar la gestión de sus negocios sin depender de herramientas complejas o costosas.
+
+**¿Dónde encaja nuestro servicio en su vida?**  
+iCafe se integra en la rutina diaria de los administradores, permitiéndoles registrar compras, controlar inventarios, gestionar personal y compartir recetas desde su dispositivo móvil, en tiempo real.
+
+**¿Qué problemas podría tener nuestro producto?**
+- Resistencia al cambio por parte de usuarios acostumbrados a métodos tradicionales.
+- Dificultad para adaptar la interfaz a distintos niveles de experiencia tecnológica.
+- Necesidad de sincronización entre dispositivos si hay más de un administrador.
+
+**¿Cómo y cuándo se usa nuestro producto?**  
+Se utiliza durante las operaciones diarias de la cafetería: al recibir insumos, registrar proveedores, actualizar inventarios, capacitar al personal y revisar recetas. El acceso móvil permite su uso en cualquier momento, incluso fuera del local.
+
+**¿Qué características son importantes?**
+- Interfaz simple y amigable.
+- Registro rápido de insumos, proveedores y empleados.
+- Visualización clara de costos e inventarios.
+- Compartir recetas estandarizadas con el equipo.
+- Seguridad y respaldo de datos.
+
+**¿Cómo debe verse y comportarse nuestro producto?**  
+Debe ser visualmente limpio, con navegación intuitiva, accesible desde dispositivos Android e iOS, y con funcionalidades que se adapten al flujo de trabajo de una cafetería.
+
+---
 
 #### 1.2.2.3. Lean UX Hypothesis Statements
 
-#### 1.2.2.4. Lean UX Canvas
+**Business Hypothesis**  
+Creemos que al ofrecer una aplicación móvil especializada en la gestión de cafeterías, podremos posicionar a SyncCafe como una solución líder en el sector gastronómico independiente.
+
+**Sabremos que hemos logrado nuestra visión**  
+Cuando observemos que iCafe sea adoptada por cafeterías en distintas regiones del país, con una base de usuarios activa y creciente.
+
+**User Hypothesis**  
+Creemos que los administradores de cafeterías valorarán una herramienta móvil que les permita gestionar sus operaciones de forma rápida, ordenada y sin necesidad de conocimientos técnicos avanzados.
+
+**Sabremos que hemos logrado satisfacer sus necesidades**  
+Cuando los usuarios reporten una mejora en la organización del negocio, reducción de errores y mayor control sobre sus costos e inventarios.
+
+---
+
+### 1.2.2.4. Lean UX Canvas
+
+<img src="./img/chapter-1/lean ux canvas.jpg"/>
 
 ## 1.3. Segmentos objetivo
+**Segmento 1: Dueños de Cafeterías** </br>
+
+Personas que cuentan con un emprendimiento de cafeterías, en su mayoría pequeños y medianos negocios, y que administran directamente las operaciones del día a día. Se trata de propietarios que buscan mejorar la organización interna de su local y optimizar el uso de recursos, pero que aún dependen de registros manuales o herramientas poco integradas. Generalmente son emprendedores jóvenes y adultos, entre 25 y 45 años, con un nivel básico de familiaridad con soluciones digitales, interesados en reducir pérdidas, controlar costos e inventarios, y gestionar de manera más eficiente a sus proveedores y personal.
 
 # Capítulo II: Requirements Development and Software Solution Design
 ## 2.1. Competidores
