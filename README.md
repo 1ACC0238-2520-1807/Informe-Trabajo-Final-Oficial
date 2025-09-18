@@ -881,20 +881,82 @@ En esta sección se diseña el diagrama de base de datos relacional para el boun
 ![database-sales](./img/chapter-2/database-sales.png)
 
 ### 2.6.5. Bounded Context: Finances
+El bounded context Finances se encarga de la gestión financiera de la cafetería, incluyendo el registro de ingresos, gastos, control de costos, generación de reportes financieros y análisis de rentabilidad.
 #### 2.6.5.1. Domain Layer
+En esta capa se definen los elementos principales del dominio financiero. Aquí se modelan los agregados, entidades, value objects y servicios de dominio que representan la lógica central.
+
+| Tipo            | Clase / Nombre             | Descripción                                                                 | Atributos / Valores                                         |
+|-----------------|----------------------------|-----------------------------------------------------------------------------|-------------------------------------------------------------|
+| Aggregate       | FinancialManagement        | Gestiona las operaciones financieras como una unidad de consistencia.       | transactions, budgets, reports                              |
+| Aggregate Root  | Transaction                | Representa una transacción financiera (ingreso o gasto).                    | id, tipo, monto, fecha, categoría, descripción, referencia  |
+| Entity          | Budget                     | Define un presupuesto para un período y categoría específicos.              | id, categoría, montoAsignado, montoUtilizado, período       |
+| Entity          | FinancialReport            | Representa un informe financiero generado para un período.                  | id, tipo, período, fechaGeneración, datos                   |
+| Value Object    | Money                      | Representa valores monetarios con su moneda.                                | valor, moneda                                               |
+| Value Object    | Period                     | Define un período de tiempo para análisis financiero.                       | fechaInicio, fechaFin                                       |
+| Value Object    | Category                   | Categoría para clasificar transacciones financieras.                        | id, nombre, tipo                                            |
+| Domain Service  | ProfitCalculationService   | Calcula la rentabilidad basada en ingresos y gastos.                        | calcularRentabilidad(period)                                |
+| Domain Service  | BudgetAnalysisService      | Analiza el cumplimiento de presupuestos y desviaciones.                     | analizarPresupuesto(budget, period)                         |
+| Domain Event    | TransactionRegisteredEvent | Evento disparado cuando se registra una nueva transacción.                  | transactionId, tipo, monto, fecha                           |
+| Domain Event    | BudgetExceededEvent        | Evento disparado cuando un gasto supera el presupuesto asignado.            | budgetId, categoría, montoExcedido                          |
+| Enum            | TransactionType            | Define los tipos de transacciones financieras.                              | INGRESO, GASTO                                              |
+| Enum            | ReportType                 | Define los tipos de informes financieros disponibles.                       | BALANCE, FLUJO_CAJA, RENTABILIDAD, PRESUPUESTO              |
 
 #### 2.6.5.2. Interface Layer
 
+En esta capa se encuentran los controladores y DTOs que sirven como interfaz entre el sistema y los usuarios o clientes externos.
+
+| Tipo        | Clase / Nombre            | Descripción                                                                 | Métodos / Endpoints principales                         |
+|-------------|---------------------------|-----------------------------------------------------------------------------|---------------------------------------------------------|
+| Controller  | TransactionController     | Expone endpoints REST para la gestión de transacciones financieras.         | - POST /finances/transactions → registrar transacción<br>- GET /finances/transactions → listar transacciones<br>- GET /finances/transactions/{id} → obtener detalle<br>- PUT /finances/transactions/{id} → actualizar transacción<br>- DELETE /finances/transactions/{id} → eliminar transacción |
+| Controller  | BudgetController          | Maneja operaciones relacionadas con presupuestos.                           | - POST /finances/budgets → crear presupuesto<br>- GET /finances/budgets → listar presupuestos<br>- GET /finances/budgets/{id} → detalle de presupuesto<br>- PUT /finances/budgets/{id} → actualizar presupuesto |
+| Controller  | ReportController          | Gestiona la generación y consulta de informes financieros.                  | - POST /finances/reports → generar informe<br>- GET /finances/reports → listar informes<br>- GET /finances/reports/{id} → obtener informe específico |
+| DTO         | TransactionRequest        | Objeto para recibir datos de creación de transacción.                       | tipo, monto, categoría, descripción, referencia         |
+| DTO         | TransactionResponse       | Objeto para devolver datos de transacción.                                  | id, tipo, monto, fecha, categoría, descripción          |
+| DTO         | BudgetRequest             | Objeto para recibir datos de creación de presupuesto.                       | categoría, montoAsignado, fechaInicio, fechaFin         |
+| DTO         | ReportRequest             | Objeto para solicitar generación de informes.                               | tipo, fechaInicio, fechaFin                             |
+
 #### 2.6.5.3. Application Layer
+
+Esta capa maneja los flujos de procesos financieros mediante command handlers y event handlers.
+
+| Tipo             | Clase / Nombre                   | Descripción                                                                 | Métodos / Comandos manejados                        |
+|------------------|----------------------------------|-----------------------------------------------------------------------------|-----------------------------------------------------|
+| Command Handler  | RegisterTransactionHandler       | Maneja el registro de nuevas transacciones financieras.                     | - handle(RegisterTransactionCommand)                |
+| Command Handler  | CreateBudgetHandler              | Maneja la creación de nuevos presupuestos.                                  | - handle(CreateBudgetCommand)                       |
+| Command Handler  | GenerateFinancialReportHandler   | Maneja la generación de informes financieros.                               | - handle(GenerateFinancialReportCommand)            |
+| Command Handler  | UpdateBudgetHandler              | Maneja la actualización de presupuestos existentes.                         | - handle(UpdateBudgetCommand)                       |
+| Event Handler    | SaleCompletedEventHandler        | Escucha eventos de ventas completadas para registrar ingresos.              | - on(SaleCompletedEvent)                            |
+| Event Handler    | InventoryPurchaseEventHandler    | Escucha eventos de compras de inventario para registrar gastos.             | - on(InventoryPurchaseEvent)                        |
+| Event Handler    | BudgetExceededEventHandler       | Maneja acciones cuando se excede un presupuesto.                            | - on(BudgetExceededEvent)                           |
 
 #### 2.6.5.4. Infrastructure Layer
 
+En esta capa se implementa la conexión con servicios externos, principalmente la base de datos. Incluye los repositorios que persisten la información financiera utilizando JPA/Hibernate.
+
+| Tipo             | Clase / Nombre                         | Descripción                                                                 | Notas Técnicas |
+|------------------|----------------------------------------|-----------------------------------------------------------------------------|----------------|
+| Repository Impl  | TransactionRepositoryImpl              | Implementación de TransactionRepository usando JPA/Hibernate.               | Mapea Transaction a tabla transactions |
+| Repository Impl  | BudgetRepositoryImpl                   | Implementación de BudgetRepository usando JPA/Hibernate.                    | Mapea Budget a tabla budgets |
+| Repository Impl  | FinancialReportRepositoryImpl          | Implementación de FinancialReportRepository usando JPA/Hibernate.           | Mapea FinancialReport a tabla financial_reports |
+| External Service | SalesServiceClient                     | Cliente para comunicación con servicio de ventas.                           | REST client para Sales API |
+| External Service | InventoryServiceClient                 | Cliente para comunicación con servicio de inventario.                       | REST client para Inventory API |
+| External Service | ReportGenerationService                | Servicio para generación de reportes en diferentes formatos (PDF, Excel).   | Utiliza bibliotecas como Apache POI, iText |
+
 #### 2.6.5.5. Bounded Context Software Architecture Component Level Diagrams
+![component-finances](./img/chapter-2/component-finances.png)
 
 #### 2.6.5.6. Bounded Context Software Architecture Code Level Diagrams
 ##### 2.6.5.6.1. Bounded Context Domain Layer Class Diagrams
+![diagram-class-finances](./img/chapter-2/diagrama-clases-finances.png)
 
 ##### 2.6.5.6.2. Bounded Context Database Design Diagram
+* **transactions**: almacena todas las transacciones financieras (ingresos y gastos)
+* **categories**: categorías para clasificar transacciones
+* **budgets**: presupuestos asignados por categoría y período
+* **financial_reports**: informes financieros generados
+* **report_data**: datos específicos incluidos en cada informe
+
+![database-finances](./img/chapter-2/database-finances.png)
 
 # Capítulo III: Solution UI/UX Design
 ## 3.1. Product design
