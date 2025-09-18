@@ -666,6 +666,7 @@ Link: https://miro.com/welcomeonboard/TzdJdEdvSWJQa2pYS2FIdU5DWE9ZV2w5MjkycmZRZz
 ![Container Diagram](./img/chapter-2/ContainerLevel.png)
 ![Coponent Diagram](./img/chapter-2/Component.png)
 #### 2.5.3.3. Software Architecture Deployment Diagrams
+![Deployment Diagram](./img/chapter-2/c4-deployment.png)
 
 ## 2.6. Tactical-Level Domain-Driven Design
 ### 2.6.1. Bounded Context: Contacts
