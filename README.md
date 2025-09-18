@@ -654,6 +654,14 @@ En esta sección se mostrará la aplicación del Domain-Driven Design (DDD) a ni
 Link: https://miro.com/welcomeonboard/TzdJdEdvSWJQa2pYS2FIdU5DWE9ZV2w5MjkycmZRZzB2OUFQWkhOemVGUTd6ekE4R0tlVW11TmNMMVIrd1lnWHRQbk5IWHN2VEs3M0ttajJ5TG1LUXZ6SVhjZ255RHJzTjZ5eEZRSXFkZisvOVo3VjhaRmdSL0s4T0tBMmhQd1F3VHhHVHd5UWtSM1BidUtUYmxycDRnPT0hdjE=?share_link_id=804149752797
 #### 2.5.1.2. Domain Message Flows Modeling
 
+
+![Domain Message Flow Modeling 1](./img/chapter-2/dmfm/dmfm1.jpg)
+![Domain Message Flow Modeling 2](./img/chapter-2/dmfm/dmfm2.jpg)
+![Domain Message Flow Modeling 3](./img/chapter-2/dmfm/dmfm3.jpg)
+![Domain Message Flow Modeling 4](./img/chapter-2/dmfm/dmfm4.jpg)
+![Domain Message Flow Modeling 5](./img/chapter-2/dmfm/dmfm5.jpg)
+
+
 #### 2.5.1.3. Bounded Context Canvases
 
 ### 2.5.2. Context Mapping
