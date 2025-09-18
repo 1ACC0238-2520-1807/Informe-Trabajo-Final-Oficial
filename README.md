@@ -317,19 +317,19 @@ App móvil orientada a operaciones diarias (ventas/pedidos) con inventario simpl
     <th style="border: 1px solid #000;"></th>
     <th style="text-align:center; border: 1px solid #000;">
       iCafe (SyncCafe)<br>
-      <img src="public/assets/images/brand/icafe-logo.png" alt="Logo iCafe" width="120">
+      <img src="img/chapter-2/logocafe.png" alt="Logo iCafe" width="120">
     </th>
     <th style="text-align:center; border: 1px solid #000;">
       MarketMan<br>
-      <img src="public/assets/images/competitors/marketman.png" alt="Logo MarketMan" width="120">
+      <img src="img/chapter-2/competitors/marketman.png" alt="Logo MarketMan" width="120">
     </th>
     <th style="text-align:center; border: 1px solid #000;">
       Stock &amp; Inventory Simple<br>
-      <img src="public/assets/images/competitors/stockinventorysimple.png" alt="Logo Stock & Inventory Simple" width="120">
+      <img src="img/chapter-2/competitors/stockinventorysimple.png" alt="Logo Stock & Inventory Simple" width="120">
     </th>
     <th style="text-align:center; border: 1px solid #000;">
       Cafe Manager<br>
-      <img src="public/assets/images/competitors/cafemanager.png" alt="Logo Cafe Manager" width="120">
+      <img src="img/chapter-2/competitors/cafemanager.webp" alt="Logo Cafe Manager" width="120">
     </th>
   </tr>
 
@@ -378,14 +378,14 @@ App móvil orientada a operaciones diarias (ventas/pedidos) con inventario simpl
   <tr>
     <th rowspan="3" style="text-align:center; border: 1px solid #000;">Perfil de Producto</th>
     <td style="border: 1px solid #000;"><strong>Productos y Servicios</strong></td>
-    <td style="border: 1px solid #000;">Recetas (solo dueño), inventario, métricas de desperdicio, gestor de costos, precios sugeridos y PDF.</td>
+    <td style="border: 1px solid #000;">Productos, inventario, métricas de desperdicio, gestor de costos, precios sugeridos y PDF.</td>
     <td style="border: 1px solid #000;">Inventario, costos, proveedores, reportes avanzados.</td>
     <td style="border: 1px solid #000;">Inventario básico, movimientos, costos simples, exportaciones.</td>
     <td style="border: 1px solid #000;">Ventas/pedidos e inventario simple (menos foco en métricas/costos).</td>
   </tr>
   <tr>
     <td style="border: 1px solid #000;"><strong>Precios y Costos</strong></td>
-    <td style="border: 1px solid #000;">Suscripción accesible (plan básico con reportes PDF incluidos).</td>
+    <td style="border: 1px solid #000;">Aplicación Gratuita</td>
     <td style="border: 1px solid #000;">Planes por sede/usuario; inversión mayor que iCafe.</td>
     <td style="border: 1px solid #000;">Gratuito o muy bajo costo; funciones limitadas.</td>
     <td style="border: 1px solid #000;">Muy accesible; alcance funcional reducido.</td>
