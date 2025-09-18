@@ -467,7 +467,23 @@ Preguntas Especificas:</br>
 
 ### 2.2.2. Registro de entrevistas
 
-**Entrevista 3:**
+**Entrevista 1:**
+Datos del entrevistador:
+- Nombre: Inga Orihuela, Christian Fabrizio
+  
+Datos del entrevistado:
+- Nombre: Jazmin
+- Edad: 30 años
+- Residencia: Lima
+- Enlace: https://youtu.be/CFkBNErNY6s
+  
+![Entrevista ](./img/chapter-2/entrevista1.png)
+
+**Resumen de la entrevista:**
+
+Jazmín es dueña y administradora total de su cafetería. Lleva el control de insumos en un cuaderno y a veces de memoria, revisa el stock solo cuando nota faltantes y ha tenido pérdidas por sobrecompra (frutas) y quiebres de stock (leche, pan). No calcula con exactitud los costos de sus productos, fija precios por referencia a la competencia y revisa sus gastos mensualmente. Usa más el celular que la computadora y se siente cómoda usando apps (4/5). Le gustaría una app que le muestre ventas diarias, stock bajo, alertas de gasto excesivo y uso de ingredientes.
+
+**Entrevista 2:**
 Datos del entrevistador:
 - Nombre: Urrutia Peña, Jasmin Adriana
   
