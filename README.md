@@ -669,7 +669,7 @@ Link: [Domain Message Flows Modeling](https://miro.com/welcomeonboard/MERVd3QrN0
 
 #### 2.5.1.3. Bounded Context Canvases
 
----
+![Bounded Context Canvases Products](./img/chapter-2/BoundedContextCanvasesProducts.jpg)
 
 ### Contacts Bounded Context Canvas
 
