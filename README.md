@@ -655,13 +655,13 @@ Link: https://miro.com/welcomeonboard/TzdJdEdvSWJQa2pYS2FIdU5DWE9ZV2w5MjkycmZRZz
 #### 2.5.1.2. Domain Message Flows Modeling
 
 #### 2.5.1.3. Bounded Context Canvases
-![Context Canvases](./img/chapter-2/ContextLevel.png)
+![Context Canvases](./img/chapter-2/BoundedContextCanvases.png)
 
 ### 2.5.2. Context Mapping
 
 ### 2.5.3. Software Architecture
 #### 2.5.3.1. Software Architecture Context Level Diagrams
-![Context Diagram](./img/chapter-2/Bounded Context Canvases.png)
+![Context Diagram](./img/chapter-2/ContextLevel.png)
 
 #### 2.5.3.2. Software Architecture Container Level Diagrams
 ![Container Diagram](./img/chapter-2/ContainerLevel.png)
