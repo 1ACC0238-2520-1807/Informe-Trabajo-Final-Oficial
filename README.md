@@ -876,13 +876,13 @@ En esta capa se implementa la conexión con servicios externos y la persistencia
 | External Service | PaymentGatewayClient                   | Cliente para comunicación con pasarela de pagos.                           | Integración con Stripe/PayPal |
 
 #### 2.6.4.5. Bounded Context Software Architecture Component Level Diagrams
-![component-sales](./img/chapter-2/component-sales.png)
+![component-sales](./img/chapter-2/ComponentLevelDiagram.jpg)
 
 #### 2.6.4.6. Bounded Context Software Architecture Code Level Diagrams
 ##### 2.6.4.6.1. Bounded Context Domain Layer Class Diagrams
 El diagrama de clases del bounded context Sales representa los principales elementos del Domain Layer, mostrando las relaciones entre órdenes, items de orden, pagos y servicios de dominio. El diagrama fue elaborado usando PlantUML.
 
-![diagram-class-sales](./img/chapter-2/diagrama-clases-sales.png)
+![diagram-class-sales](./img/chapter-2/DomainLayerClassDiagram.jpg)
 
 ##### 2.6.4.6.2. Bounded Context Database Design Diagram
 En esta sección se diseña el diagrama de base de datos relacional para el bounded context Sales.
@@ -892,7 +892,7 @@ En esta sección se diseña el diagrama de base de datos relacional para el boun
 * **payments**: registra los pagos asociados a las órdenes
 * **employees**: información de empleados que realizan ventas
 
-![database-sales](./img/chapter-2/database-sales.png)
+![database-sales](./img/chapter-2/DatabaseDesignDiagram.png)
 
 ### 2.6.5. Bounded Context: Finances
 El bounded context Finances se encarga de la gestión financiera de la cafetería, incluyendo el registro de ingresos, gastos, control de costos, generación de reportes financieros y análisis de rentabilidad.
