@@ -685,139 +685,38 @@ Link: [Domain Message Flows Modeling](https://miro.com/welcomeonboard/MERVd3QrN0
 
 #### 2.5.1.3. Bounded Context Canvases
 
----
+![Bounded Context Canvases Products](./img/chapter-2/BoundedContextCanvasesProducts.jpg)
 
-### Contacts Bounded Context Canvas
-
-**Name:** Contacts  
-**Purpose:** Gestionar el registro y administración de proveedores y empleados.  
-**Strategic Classification:** Core  
-**Business Model:** Compliance, Cost reduction  
-**Domain Roles:** Proveedor, Empleado, Categoría  
-
-**Inbound Communication:**
-| Collaborator | Messages |
-|--------------|----------|
-| HR           | NewEmployeeHired (Command) |
-| PROCUREMENT  | NewSupplierAdded (Command) |
-| Contacto     | EmployeeValidationRequest (Query) |
-
-**Outbound Communication:**
-| Messages                | Collaborator |
-|------------------------|--------------|
-| SupplierUpdated         | INVENTORY (Command) |
-| ContactValidationResult | ALL CONTEXTS (Event) |
-
-**Ubiquitous Language:** contacto, proveedor, empleado, categoría  
-**Assumptions:** Todos los contactos deben estar registrados antes de operar.  
-**Verification Metrics:** 100% de contactos registrados, 0% errores en validación.  
-**Open Questions:** ¿Cómo manejar actualizaciones masivas de contactos?
-
----
-
-### Sales Bounded Context Canvas
-
-**Name:** Sales  
-**Purpose:** Gestionar órdenes de venta, pagos y actualización de inventario.  
-**Strategic Classification:** Core  
-**Business Model:** Revenue, Cost reduction  
-**Domain Roles:** Orden, Item, Pago, Empleado  
-
-**Inbound Communication:**
-| Collaborator | Messages |
-|--------------|----------|
-| Interface    | CreateOrder (Command) |
-| Interface    | ProcessPayment (Command) |
-
-**Outbound Communication:**
-| Messages         | Collaborator |
-|------------------|--------------|
-| InventoryUpdated | INVENTORY (Event) |
-| PaymentConfirmed | FINANCES (Event) |
-
-**Ubiquitous Language:** orden, item, pago, estado, método de pago  
-**Assumptions:** Cada orden debe tener al menos un producto. El pago debe estar asociado a una orden válida.  
-**Verification Metrics:** 100% de órdenes registradas, tiempo de respuesta <500ms, 0% errores en pagos.  
-**Open Questions:** ¿Cómo validar productos omitidos en la orden?
-
----
-
-### Inventory Bounded Context Canvas
-
-**Name:** Inventory  
-**Purpose:** Controlar insumos, salidas, ajustes y consolidación de stock.  
-**Strategic Classification:** Supporting  
-**Business Model:** Cost reduction  
-**Domain Roles:** Insumo, Stock, Ajuste, Salida  
-
-**Inbound Communication:**
-| Collaborator | Messages |
-|--------------|----------|
-| Sales        | InventoryUpdated (Event) |
-| Purchases    | StockConsolidated (Command) |
-
-**Outbound Communication:**
-| Messages     | Collaborator |
-|--------------|--------------|
-| StockAlert   | FINANCES (Event) |
-
-**Ubiquitous Language:** insumo, stock, ajuste, salida, consolidación  
-**Assumptions:** No se permite stock negativo. Las salidas deben estar justificadas.  
-**Verification Metrics:** 100% de movimientos registrados, 0% inconsistencias de stock.  
-**Open Questions:** ¿Cómo auditar ajustes manuales de inventario?
-
----
-
-### Finances Bounded Context Canvas
-
-**Name:** Finances  
-**Purpose:** Gestionar precios, reportes financieros y análisis de ingresos/gastos.  
-**Strategic Classification:** Supporting  
-**Business Model:** Revenue, Cost reduction  
-**Domain Roles:** Precio, Ingreso, Gasto, Reporte  
-
-**Inbound Communication:**
-| Collaborator | Messages |
-|--------------|----------|
-| Sales        | PaymentConfirmed (Event) |
-| Inventory    | StockAlert (Event) |
-
-**Outbound Communication:**
-| Messages                | Collaborator |
-|------------------------|--------------|
-| FinancialReportGenerated | ADMIN (Event) |
-
-**Ubiquitous Language:** precio, ingreso, gasto, reporte, gráfico  
-**Assumptions:** Los precios deben reflejar el costo real. Los reportes deben ser consistentes.  
-**Verification Metrics:** 100% de reportes generados, 0% errores en cálculos.  
-**Open Questions:** ¿Cómo manejar diferencias entre conteo físico y sistema?
-
----
-
-### Product Bounded Context Canvas
-
-**Name:** Product  
-**Purpose:** Gestionar productos, validación de componentes y ciclo de vida.  
-**Strategic Classification:** Core  
-**Business Model:** Revenue  
-**Domain Roles:** Producto, Componente, Receta  
-
-**Inbound Communication:**
-| Collaborator | Messages |
-|--------------|----------|
-| Inventory    | ComponentAvailability (Query) |
-
-**Outbound Communication:**
-| Messages       | Collaborator |
-|----------------|--------------|
-| ProductCreated | SALES (Event) |
-
-**Ubiquitous Language:** producto, componente, receta, stock  
-**Assumptions:** Un producto debe tener componentes disponibles en stock.  
-**Verification Metrics:** 100% de productos validados, 0% duplicados por nombre.  
-**Open Questions:** ¿Cómo manejar eliminación de productos en uso?
+![Bounded Context Canvases Sales](./img/chapter-2/BoundedContextCanvasesSales.jpg)
 
 ### 2.5.2. Context Mapping
+
+Context Mapping es la práctica de definir los límites de cada Bounded Context, dispone de su propia tecnología, lenguaje y arquitectura para reflejar fielmente su parte del dominio. A través de las Context Maps se describen las relaciones entre diferentes contextos, estableciendo reglas de traducción (Translation Maps) y señalando quién expone servicios (Upstream) y quién los consume (Downstream) para mantener la coherencia e independencia de cada modelo.
+
+#### Autenticación y autorización (IAM Context)
+IAM expone verificación de identidad y emisión/validación de tokens en JSON como OHS/PL. Sales, Inventory, Product, Finances y Contacts consumen este contrato sin transformación bajo un patrón Conformist.
+
+![Context Mapping 1](./img/chapter-2/cm-1.png)
+
+#### Catálogo y recetas (Product Context)
+Product expone catálogo y recetas. Sales traduce y negocia atributos (ACL + Customer–Supplier), Inventory influye en la estructura (Customer–Supplier) y Finances consume el modelo estándar (Conformist).
+
+![Context Mapping 2](./img/chapter-2/cm-2.png)
+
+#### Stock (Inventory Context)
+Inventory ofrece disponibilidad. Sales y Finances consultan estos datos directamente bajo un patrón Conformist.
+
+![Context Mapping 3](./img/chapter-2/cm-3.png)
+
+#### Reportes y comprobantes (Finances Context)
+Finances expone generacion de reportes y comprobantes. Sales traduce requisitos fiscales y negocia formatos (ACL + Customer–Supplier), mientras Contacts consume datos contables sin adaptaciones (Conformist).
+
+![Context Mapping 4](./img/chapter-2/cm-4.png)
+
+#### Contactos (Contact Context)
+Contacts expone datos de los clientes/proveedores. Sales y Finances consumen esta información sin transformación bajo un patrón Conformist.
+
+![Context Mapping 5](./img/chapter-2/cm-5.png)
 
 ### 2.5.3. Software Architecture
 #### 2.5.3.1. Software Architecture Context Level Diagrams
@@ -1081,13 +980,13 @@ En esta capa se implementa la conexión con servicios externos y la persistencia
 | External Service | PaymentGatewayClient                   | Cliente para comunicación con pasarela de pagos.                           | Integración con Stripe/PayPal |
 
 #### 2.6.4.5. Bounded Context Software Architecture Component Level Diagrams
-![component-sales](./img/chapter-2/component-sales.png)
+![component-sales](./img/chapter-2/ComponentLevelDiagram.jpg)
 
 #### 2.6.4.6. Bounded Context Software Architecture Code Level Diagrams
 ##### 2.6.4.6.1. Bounded Context Domain Layer Class Diagrams
 El diagrama de clases del bounded context Sales representa los principales elementos del Domain Layer, mostrando las relaciones entre órdenes, items de orden, pagos y servicios de dominio. El diagrama fue elaborado usando PlantUML.
 
-![diagram-class-sales](./img/chapter-2/diagrama-clases-sales.png)
+![diagram-class-sales](./img/chapter-2/DomainLayerClassDiagram.jpg)
 
 ##### 2.6.4.6.2. Bounded Context Database Design Diagram
 En esta sección se diseña el diagrama de base de datos relacional para el bounded context Sales.
@@ -1097,7 +996,7 @@ En esta sección se diseña el diagrama de base de datos relacional para el boun
 * **payments**: registra los pagos asociados a las órdenes
 * **employees**: información de empleados que realizan ventas
 
-![database-sales](./img/chapter-2/database-sales.png)
+![database-sales](./img/chapter-2/DatabaseDesignDiagram.png)
 
 ### 2.6.5. Bounded Context: Finances
 El bounded context Finances se encarga de la gestión financiera de la cafetería, incluyendo el registro de ingresos, gastos, control de costos, generación de reportes financieros y análisis de rentabilidad.
@@ -1256,6 +1155,8 @@ En esta capa se implementa la conexión con servicios externos, principalmente l
 # Glosario
 
 # Bibliografía
+
+Cuéllar, J. (2016). *Domain-Driven Design: Context Maps*. Jose Cuéllar .net. https://josecuellar.net/domain-driven-design-episodio-ii-context-maps/
 
 # Anexos
 
