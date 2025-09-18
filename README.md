@@ -933,12 +933,12 @@ En esta capa se modela el agregado Product (root) y sus value objects, junto con
 
 #### 2.6.2.5. Bounded Context Software Architecture Component Level Diagrams
 
-![component-inventory](./img/chapter-2/ProductComponentDiagram.png)
+![component-product](./img/chapter-2/ProductComponentDiagram.png)
 
 #### 2.6.2.6. Bounded Context Software Architecture Code Level Diagrams
 ##### 2.6.2.6.1. Bounded Context Domain Layer Class Diagrams
 
-
+![component-product](./img/chapter-2/ProductDomainLayerClassDiagram.png)
 
 ##### 2.6.2.6.2. Bounded Context Database Design Diagram
 
