@@ -1061,7 +1061,7 @@ En esta capa se implementa la conexión con servicios externos, principalmente l
 | External Service | ReportGenerationService                | Servicio para generación de reportes en diferentes formatos (PDF, Excel).   | Utiliza bibliotecas como Apache POI, iText |
 
 #### 2.6.5.5. Bounded Context Software Architecture Component Level Diagrams
-![component-finances](./img/chapter-2/component-finances.png)
+![component-finances](./img/chapter-2/ta.png)
 
 #### 2.6.5.6. Bounded Context Software Architecture Code Level Diagrams
 ##### 2.6.5.6.1. Bounded Context Domain Layer Class Diagrams
