@@ -668,7 +668,138 @@ Link: https://miro.com/welcomeonboard/TzdJdEdvSWJQa2pYS2FIdU5DWE9ZV2w5MjkycmZRZz
 Link: [Domain Message Flows Modeling](https://miro.com/welcomeonboard/MERVd3QrN05xUEQ0TU8wK3F5U0pTTWVMNHpNUTV2b3FZbHltdHhvbkpvWUVQTG1KZkgrRVpzcE5uQ0R3emYzOEJ3Zk5ocWZGTDZ1VlFSYzlRSjBnMnZwbHZGRzYwVVRTSHhVQzhyYjJJSnZjUFNGR0xndk40RFZ0cXdwQTdGTm5hWWluRVAxeXRuUUgwWDl3Mk1qRGVRPT0hdjE=?share_link_id=573543137048)
 
 #### 2.5.1.3. Bounded Context Canvases
-![Context Canvases](./img/chapter-2/BoundedContextCanvases.png)
+
+![Bounded Context Canvases Products](./img/chapter-2/BoundedContextCanvasesProducts.jpg)
+
+### Contacts Bounded Context Canvas
+
+**Name:** Contacts  
+**Purpose:** Gestionar el registro y administración de proveedores y empleados.  
+**Strategic Classification:** Core  
+**Business Model:** Compliance, Cost reduction  
+**Domain Roles:** Proveedor, Empleado, Categoría  
+
+**Inbound Communication:**
+| Collaborator | Messages |
+|--------------|----------|
+| HR           | NewEmployeeHired (Command) |
+| PROCUREMENT  | NewSupplierAdded (Command) |
+| Contacto     | EmployeeValidationRequest (Query) |
+
+**Outbound Communication:**
+| Messages                | Collaborator |
+|------------------------|--------------|
+| SupplierUpdated         | INVENTORY (Command) |
+| ContactValidationResult | ALL CONTEXTS (Event) |
+
+**Ubiquitous Language:** contacto, proveedor, empleado, categoría  
+**Assumptions:** Todos los contactos deben estar registrados antes de operar.  
+**Verification Metrics:** 100% de contactos registrados, 0% errores en validación.  
+**Open Questions:** ¿Cómo manejar actualizaciones masivas de contactos?
+
+---
+
+### Sales Bounded Context Canvas
+
+**Name:** Sales  
+**Purpose:** Gestionar órdenes de venta, pagos y actualización de inventario.  
+**Strategic Classification:** Core  
+**Business Model:** Revenue, Cost reduction  
+**Domain Roles:** Orden, Item, Pago, Empleado  
+
+**Inbound Communication:**
+| Collaborator | Messages |
+|--------------|----------|
+| Interface    | CreateOrder (Command) |
+| Interface    | ProcessPayment (Command) |
+
+**Outbound Communication:**
+| Messages         | Collaborator |
+|------------------|--------------|
+| InventoryUpdated | INVENTORY (Event) |
+| PaymentConfirmed | FINANCES (Event) |
+
+**Ubiquitous Language:** orden, item, pago, estado, método de pago  
+**Assumptions:** Cada orden debe tener al menos un producto. El pago debe estar asociado a una orden válida.  
+**Verification Metrics:** 100% de órdenes registradas, tiempo de respuesta <500ms, 0% errores en pagos.  
+**Open Questions:** ¿Cómo validar productos omitidos en la orden?
+
+---
+
+### Inventory Bounded Context Canvas
+
+**Name:** Inventory  
+**Purpose:** Controlar insumos, salidas, ajustes y consolidación de stock.  
+**Strategic Classification:** Supporting  
+**Business Model:** Cost reduction  
+**Domain Roles:** Insumo, Stock, Ajuste, Salida  
+
+**Inbound Communication:**
+| Collaborator | Messages |
+|--------------|----------|
+| Sales        | InventoryUpdated (Event) |
+| Purchases    | StockConsolidated (Command) |
+
+**Outbound Communication:**
+| Messages     | Collaborator |
+|--------------|--------------|
+| StockAlert   | FINANCES (Event) |
+
+**Ubiquitous Language:** insumo, stock, ajuste, salida, consolidación  
+**Assumptions:** No se permite stock negativo. Las salidas deben estar justificadas.  
+**Verification Metrics:** 100% de movimientos registrados, 0% inconsistencias de stock.  
+**Open Questions:** ¿Cómo auditar ajustes manuales de inventario?
+
+---
+
+### Finances Bounded Context Canvas
+
+**Name:** Finances  
+**Purpose:** Gestionar precios, reportes financieros y análisis de ingresos/gastos.  
+**Strategic Classification:** Supporting  
+**Business Model:** Revenue, Cost reduction  
+**Domain Roles:** Precio, Ingreso, Gasto, Reporte  
+
+**Inbound Communication:**
+| Collaborator | Messages |
+|--------------|----------|
+| Sales        | PaymentConfirmed (Event) |
+| Inventory    | StockAlert (Event) |
+
+**Outbound Communication:**
+| Messages                | Collaborator |
+|------------------------|--------------|
+| FinancialReportGenerated | ADMIN (Event) |
+
+**Ubiquitous Language:** precio, ingreso, gasto, reporte, gráfico  
+**Assumptions:** Los precios deben reflejar el costo real. Los reportes deben ser consistentes.  
+**Verification Metrics:** 100% de reportes generados, 0% errores en cálculos.  
+**Open Questions:** ¿Cómo manejar diferencias entre conteo físico y sistema?
+
+---
+
+### Product Bounded Context Canvas
+
+**Name:** Product  
+**Purpose:** Gestionar productos, validación de componentes y ciclo de vida.  
+**Strategic Classification:** Core  
+**Business Model:** Revenue  
+**Domain Roles:** Producto, Componente, Receta  
+
+**Inbound Communication:**
+| Collaborator | Messages |
+|--------------|----------|
+| Inventory    | ComponentAvailability (Query) |
+
+**Outbound Communication:**
+| Messages       | Collaborator |
+|----------------|--------------|
+| ProductCreated | SALES (Event) |
+
+**Ubiquitous Language:** producto, componente, receta, stock  
+**Assumptions:** Un producto debe tener componentes disponibles en stock.  
+**Verification Metrics:** 100% de productos validados, 0% duplicados por nombre.  
+**Open Questions:** ¿Cómo manejar eliminación de productos en uso?
 
 ### 2.5.2. Context Mapping
 
@@ -771,18 +902,76 @@ En esta capa se implementa la conexión con servicios externos, principalmente l
 ### 2.6.2. Bounded Context: Product
 #### 2.6.2.1. Domain Layer
 
+El bounded context Product se encarga de definir el estándar del dueño para cada producto del menú. Su objetivo es crear, actualizar, archivar o eliminar productos garantizando consistencia: nombre único por sucursal, componentes válidos y control de versionado para que otros contextos (p. ej., Sales) calculen consumos con el producto correcto.
+
+| Tipo           | Clase / Nombre            | Descripción                                                                                                  | Atributos / Valores clave                                                                                                                                                                               |
+| -------------- | ------------------------- | ------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Aggregate      | Product                   | Agregado raíz que modela un producto del menú, soportando modalidad SIMPLE o COMPOSED con control de versión | id, ownerId, sucursalId, name, category, type (SIMPLE, COMPOSED), portions, steps, version, directItem (DirectItemSpec?), components: List<RecipeItem>, createdAt, updatedAt |
+| Root           | Product                   | Root del agregado; garantiza invariantes y emite eventos                                                     | —                                                                                                                                                                                                       |
+| Value Object   | RecipeItem                | Ítem de la receta COMPOSED: insumo y cantidad por porción                                                    | itemId, qtyPerPortion (> 0), unit (g, ml, unidad)                                                                                                                                                       |
+| Value Object   | DirectItemSpec            | Especificación para producto SIMPLE: vínculo al insumo de inventario y conversión a porción                  | itemId, portionFactor (> 0), unit (unidad por porción)                                                                                                                                                  |
+| Domain Service | ProductPolicy             | Reglas transversales: unicidad de nombre, normalización de unidades, validación de referencias a Inventory   | ensureUniqueName(), normalizeUnits(), validateItemsExist()                                                                                                                                              |
+| Domain Event   | ProductCreated            | Producto creado con receta inicial o referencia directa                                                      | productId, name, type, version, components\[]?, directItem?                                                                                                                                             |
+| Domain Event   | ProductUpdated            | Cambios en datos generales y/o receta; si cambia COMPOSED o portions, version++                              | productId, changedFields, version, components\[]?, directItem?                                                                                                                                          |
+| Domain Event   | ProductArchived           | Producto archivado                                                                                           | productId                                                                                                                                                                                               |
+| Domain Event   | ProductActivated          | Producto reactivado                                                                                          | productId                                                                                                                                                                                               |
+| Domain Event   | ProductDeleted (opcional) | Eliminación lógica/física según política                                                                     | productId                                                                                                                                                                                               |
+
+
 #### 2.6.2.2. Interface Layer
+
+En esta capa se modela el agregado Product (root) y sus value objects, junto con reglas de negocio e invariantes.
+
+| Tipo       | Clase / Nombre                    | Descripción                                                     | Métodos / Endpoints principales                                                                                                                                 |
+| ---------- | --------------------------------- | --------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Controller | ProductController                 | CRUD de productos y lectura de receta vigente                   | POST /products · PUT /products/{id} · PATCH /products/{id}/archive · PATCH /products/{id}/activate · DELETE /products/{id} · GET /products/{id} · GET /products |
+| Controller | RecipeExportController (opcional) | Solicita exportación de recetario PDF (delegado a Documents)    | POST /products/exports/recipes-pdf                                                                                                                              |
+| DTO (in)   | ProductCommandResource            | Payload de creación/actualización con soporte SIMPLE o COMPOSED | name, category, type, portions, steps, directItem: {itemId, portionFactor, unit}?, components: \[{itemId, qtyPerPortion, unit}]?                                |
+| DTO (out)  | ProductResource                   | Respuesta de producto normalizada                               | id, name, category, type, portions, steps, status, version, directItem?, components\[], createdAt, updatedAt                                                    |
+| DTO (out)  | RecipeItemResource                | Ítem de receta para COMPOSED                                    | itemId, name, qtyPerPortion, unit                                                                                                                               |
+| DTO (out)  | DirectItemResource                | Especificación de producto SIMPLE                               | itemId, name, portionFactor, unit                                                                                                                               |
+
+
 
 #### 2.6.2.3. Application Layer
 
+| Tipo            | Clase / Nombre                  | Descripción                                                                                                           | Métodos / Comandos manejados                                          |
+| --------------- | ------------------------------- | --------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------- |
+| Command Handler | CreateProductHandler            | Crea producto. Valida unicidad, existencia de itemId en Inventory (ACL) y coherencia entre type/directItem/components | handle(CreateProductCommand)                                          |
+| Command Handler | UpdateProductHandler            | Actualiza datos; si cambia components o portions ⇒ version++                                                          | handle(UpdateProductCommand)                                          |
+| Command Handler | ArchiveProductHandler           | Marca producto como ARCHIVED                                                                                          | handle(ArchiveProductCommand)                                         |
+| Command Handler | ActivateProductHandler          | Reactiva producto                                                                                                     | handle(ActivateProductCommand)                                        |
+| Command Handler | DeleteProductHandler (opcional) | Elimina o soft-delete según política                                                                                  | handle(DeleteProductCommand)                                          |
+| Event Handler   | ProductChangedProjection        | Actualiza read models para listados y exportación                                                                     | on(ProductCreated, ProductUpdated, ProductArchived, ProductActivated) |
+| Event Handler   | ProductChangedPublisher         | Publica cambios para invalidar cachés o actualizar catálogos en Sales                                                 | on(ProductCreated, ProductUpdated)                                    |
+
+
 #### 2.6.2.4. Infrastructure Layer
 
+| Tipo        | Clase / Nombre             | Descripción                                                      | Notas Técnicas                                                                                                                                |
+| ----------- | -------------------------- | ---------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
+| Repository  | ProductRepository          | Persistencia del agregado Product                                | JPA/Hibernate o equivalente; tablas products y product\_components; para SIMPLE, tabla product\_direct\_item; índices por owner+sucursal+name |
+| Mapper      | ProductJpaMapper           | Mapear entidades JPA a dominio (VOs RecipeItem y DirectItemSpec) | Conversión de unidades consistente; collections embebidas versionadas                                                                         |
+| Messaging   | DomainEventOutbox          | Publicación transaccional de eventos de dominio                  | Tabla outbox\_events + publicador asíncrono                                                                                                   |
+| Integration | InventoryACLClient         | Validar existencia de itemId contra Inventory                    | REST/gRPC GET /inventory/items/{id} con timeout/retry/circuit breaker                                                                         |
+| Projection  | ProductReadModelRepository | Proyección denormalizada para listados y exportación PDF         | Vistas materializadas con name, type, version, components/directItem                                                                          |
+
+
+
 #### 2.6.2.5. Bounded Context Software Architecture Component Level Diagrams
+
+![component-product](./img/chapter-2/ProductComponentDiagram.png)
 
 #### 2.6.2.6. Bounded Context Software Architecture Code Level Diagrams
 ##### 2.6.2.6.1. Bounded Context Domain Layer Class Diagrams
 
+![class-product](./img/chapter-2/ProductDomainLayerClassDiagram.png)
+
 ##### 2.6.2.6.2. Bounded Context Database Design Diagram
+
+
+![db-product](./img/chapter-2/ProductsDB.png)
+
 ### 2.6.3. Bounded Context: Inventory
 El bounded context Inventory se encarga de la gestión de los insumos de la cafetería, como café, azúcar o leche. Su objetivo es registrar cada insumo disponible y controlar el flujo de entradas y salidas del stock, ya sea por compras, consumo en pedidos, desperdicio o ajustes de inventario. Además, permite generar alertas cuando un insumo alcanza niveles bajos para garantizar la continuidad en la preparación de productos.
 
@@ -847,7 +1036,7 @@ En esta sección se diseño el diagrama de base de datos relacional de el bounde
 ![database-inventory](./img/chapter-2/database-inventory.png)
 
 
-# 2.6.4. Bounded Context: Sales
+### 2.6.4. Bounded Context: Sales
 
 #### 2.6.4.1. Domain Layer
 En esta capa se definen los elementos principales del dominio de ventas. Aquí se modelan los agregados, entidades, value objects y servicios de dominio que representan la lógica central de cómo se gestionan las órdenes, pagos y transacciones comerciales.
