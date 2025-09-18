@@ -875,18 +875,75 @@ En esta capa se implementa la conexión con servicios externos, principalmente l
 ### 2.6.2. Bounded Context: Product
 #### 2.6.2.1. Domain Layer
 
+El bounded context Product se encarga de definir el estándar del dueño para cada producto del menú. Su objetivo es crear, actualizar, archivar o eliminar productos garantizando consistencia: nombre único por sucursal, componentes válidos y control de versionado para que otros contextos (p. ej., Sales) calculen consumos con el producto correcto.
+
+| Tipo           | Clase / Nombre            | Descripción                                                                                                  | Atributos / Valores clave                                                                                                                                                                               |
+| -------------- | ------------------------- | ------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Aggregate      | Product                   | Agregado raíz que modela un producto del menú, soportando modalidad SIMPLE o COMPOSED con control de versión | id, ownerId, sucursalId, name, category, type (SIMPLE, COMPOSED), portions, steps, version, directItem (DirectItemSpec?), components: List<RecipeItem>, createdAt, updatedAt |
+| Root           | Product                   | Root del agregado; garantiza invariantes y emite eventos                                                     | —                                                                                                                                                                                                       |
+| Value Object   | RecipeItem                | Ítem de la receta COMPOSED: insumo y cantidad por porción                                                    | itemId, qtyPerPortion (> 0), unit (g, ml, unidad)                                                                                                                                                       |
+| Value Object   | DirectItemSpec            | Especificación para producto SIMPLE: vínculo al insumo de inventario y conversión a porción                  | itemId, portionFactor (> 0), unit (unidad por porción)                                                                                                                                                  |
+| Domain Service | ProductPolicy             | Reglas transversales: unicidad de nombre, normalización de unidades, validación de referencias a Inventory   | ensureUniqueName(), normalizeUnits(), validateItemsExist()                                                                                                                                              |
+| Domain Event   | ProductCreated            | Producto creado con receta inicial o referencia directa                                                      | productId, name, type, version, components\[]?, directItem?                                                                                                                                             |
+| Domain Event   | ProductUpdated            | Cambios en datos generales y/o receta; si cambia COMPOSED o portions, version++                              | productId, changedFields, version, components\[]?, directItem?                                                                                                                                          |
+| Domain Event   | ProductArchived           | Producto archivado                                                                                           | productId                                                                                                                                                                                               |
+| Domain Event   | ProductActivated          | Producto reactivado                                                                                          | productId                                                                                                                                                                                               |
+| Domain Event   | ProductDeleted (opcional) | Eliminación lógica/física según política                                                                     | productId                                                                                                                                                                                               |
+
+
 #### 2.6.2.2. Interface Layer
+
+En esta capa se modela el agregado Product (root) y sus value objects, junto con reglas de negocio e invariantes.
+
+| Tipo       | Clase / Nombre                    | Descripción                                                     | Métodos / Endpoints principales                                                                                                                                 |
+| ---------- | --------------------------------- | --------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Controller | ProductController                 | CRUD de productos y lectura de receta vigente                   | POST /products · PUT /products/{id} · PATCH /products/{id}/archive · PATCH /products/{id}/activate · DELETE /products/{id} · GET /products/{id} · GET /products |
+| Controller | RecipeExportController (opcional) | Solicita exportación de recetario PDF (delegado a Documents)    | POST /products/exports/recipes-pdf                                                                                                                              |
+| DTO (in)   | ProductCommandResource            | Payload de creación/actualización con soporte SIMPLE o COMPOSED | name, category, type, portions, steps, directItem: {itemId, portionFactor, unit}?, components: \[{itemId, qtyPerPortion, unit}]?                                |
+| DTO (out)  | ProductResource                   | Respuesta de producto normalizada                               | id, name, category, type, portions, steps, status, version, directItem?, components\[], createdAt, updatedAt                                                    |
+| DTO (out)  | RecipeItemResource                | Ítem de receta para COMPOSED                                    | itemId, name, qtyPerPortion, unit                                                                                                                               |
+| DTO (out)  | DirectItemResource                | Especificación de producto SIMPLE                               | itemId, name, portionFactor, unit                                                                                                                               |
+
+
 
 #### 2.6.2.3. Application Layer
 
+| Tipo            | Clase / Nombre                  | Descripción                                                                                                           | Métodos / Comandos manejados                                          |
+| --------------- | ------------------------------- | --------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------- |
+| Command Handler | CreateProductHandler            | Crea producto. Valida unicidad, existencia de itemId en Inventory (ACL) y coherencia entre type/directItem/components | handle(CreateProductCommand)                                          |
+| Command Handler | UpdateProductHandler            | Actualiza datos; si cambia components o portions ⇒ version++                                                          | handle(UpdateProductCommand)                                          |
+| Command Handler | ArchiveProductHandler           | Marca producto como ARCHIVED                                                                                          | handle(ArchiveProductCommand)                                         |
+| Command Handler | ActivateProductHandler          | Reactiva producto                                                                                                     | handle(ActivateProductCommand)                                        |
+| Command Handler | DeleteProductHandler (opcional) | Elimina o soft-delete según política                                                                                  | handle(DeleteProductCommand)                                          |
+| Event Handler   | ProductChangedProjection        | Actualiza read models para listados y exportación                                                                     | on(ProductCreated, ProductUpdated, ProductArchived, ProductActivated) |
+| Event Handler   | ProductChangedPublisher         | Publica cambios para invalidar cachés o actualizar catálogos en Sales                                                 | on(ProductCreated, ProductUpdated)                                    |
+
+
 #### 2.6.2.4. Infrastructure Layer
 
+| Tipo        | Clase / Nombre             | Descripción                                                      | Notas Técnicas                                                                                                                                |
+| ----------- | -------------------------- | ---------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
+| Repository  | ProductRepository          | Persistencia del agregado Product                                | JPA/Hibernate o equivalente; tablas products y product\_components; para SIMPLE, tabla product\_direct\_item; índices por owner+sucursal+name |
+| Mapper      | ProductJpaMapper           | Mapear entidades JPA a dominio (VOs RecipeItem y DirectItemSpec) | Conversión de unidades consistente; collections embebidas versionadas                                                                         |
+| Messaging   | DomainEventOutbox          | Publicación transaccional de eventos de dominio                  | Tabla outbox\_events + publicador asíncrono                                                                                                   |
+| Integration | InventoryACLClient         | Validar existencia de itemId contra Inventory                    | REST/gRPC GET /inventory/items/{id} con timeout/retry/circuit breaker                                                                         |
+| Projection  | ProductReadModelRepository | Proyección denormalizada para listados y exportación PDF         | Vistas materializadas con name, type, version, components/directItem                                                                          |
+
+
+
 #### 2.6.2.5. Bounded Context Software Architecture Component Level Diagrams
+
+![component-inventory](./img/chapter-2/ProductComponentDiagram.png)
 
 #### 2.6.2.6. Bounded Context Software Architecture Code Level Diagrams
 ##### 2.6.2.6.1. Bounded Context Domain Layer Class Diagrams
 
+
+
 ##### 2.6.2.6.2. Bounded Context Database Design Diagram
+
+
+
 ### 2.6.3. Bounded Context: Inventory
 El bounded context Inventory se encarga de la gestión de los insumos de la cafetería, como café, azúcar o leche. Su objetivo es registrar cada insumo disponible y controlar el flujo de entradas y salidas del stock, ya sea por compras, consumo en pedidos, desperdicio o ajustes de inventario. Además, permite generar alertas cuando un insumo alcanza niveles bajos para garantizar la continuidad en la preparación de productos.
 
@@ -951,7 +1008,7 @@ En esta sección se diseño el diagrama de base de datos relacional de el bounde
 ![database-inventory](./img/chapter-2/database-inventory.png)
 
 
-# 2.6.4. Bounded Context: Sales
+### 2.6.4. Bounded Context: Sales
 
 #### 2.6.4.1. Domain Layer
 En esta capa se definen los elementos principales del dominio de ventas. Aquí se modelan los agregados, entidades, value objects y servicios de dominio que representan la lógica central de cómo se gestionan las órdenes, pagos y transacciones comerciales.
@@ -1007,13 +1064,13 @@ En esta capa se implementa la conexión con servicios externos y la persistencia
 | External Service | PaymentGatewayClient                   | Cliente para comunicación con pasarela de pagos.                           | Integración con Stripe/PayPal |
 
 #### 2.6.4.5. Bounded Context Software Architecture Component Level Diagrams
-![component-sales](./img/chapter-2/ComponentLevelDiagram.jpg)
+![component-sales](./img/chapter-2/component-sales.png)
 
 #### 2.6.4.6. Bounded Context Software Architecture Code Level Diagrams
 ##### 2.6.4.6.1. Bounded Context Domain Layer Class Diagrams
 El diagrama de clases del bounded context Sales representa los principales elementos del Domain Layer, mostrando las relaciones entre órdenes, items de orden, pagos y servicios de dominio. El diagrama fue elaborado usando PlantUML.
 
-![diagram-class-sales](./img/chapter-2/DomainLayerClassDiagram.jpg)
+![diagram-class-sales](./img/chapter-2/diagrama-clases-sales.png)
 
 ##### 2.6.4.6.2. Bounded Context Database Design Diagram
 En esta sección se diseña el diagrama de base de datos relacional para el bounded context Sales.
@@ -1023,7 +1080,7 @@ En esta sección se diseña el diagrama de base de datos relacional para el boun
 * **payments**: registra los pagos asociados a las órdenes
 * **employees**: información de empleados que realizan ventas
 
-![database-sales](./img/chapter-2/DatabaseDesignDiagram.png)
+![database-sales](./img/chapter-2/database-sales.png)
 
 ### 2.6.5. Bounded Context: Finances
 El bounded context Finances se encarga de la gestión financiera de la cafetería, incluyendo el registro de ingresos, gastos, control de costos, generación de reportes financieros y análisis de rentabilidad.
