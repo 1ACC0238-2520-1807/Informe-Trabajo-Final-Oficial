@@ -996,7 +996,7 @@ En esta sección se diseña el diagrama de base de datos relacional para el boun
 * **payments**: registra los pagos asociados a las órdenes
 * **employees**: información de empleados que realizan ventas
 
-![database-sales](./img/chapter-2/DatabaseDesignDiagram.png)
+![database-sales](./img/chapter-2/DatabaseDesignDiagrams.jpg)
 
 ### 2.6.5. Bounded Context: Finances
 El bounded context Finances se encarga de la gestión financiera de la cafetería, incluyendo el registro de ingresos, gastos, control de costos, generación de reportes financieros y análisis de rentabilidad.
