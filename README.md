@@ -317,19 +317,19 @@ App móvil orientada a operaciones diarias (ventas/pedidos) con inventario simpl
     <th style="border: 1px solid #000;"></th>
     <th style="text-align:center; border: 1px solid #000;">
       iCafe (SyncCafe)<br>
-      <img src="public/assets/images/brand/icafe-logo.png" alt="Logo iCafe" width="120">
+      <img src="img/chapter-2/logocafe.png" alt="Logo iCafe" width="120">
     </th>
     <th style="text-align:center; border: 1px solid #000;">
       MarketMan<br>
-      <img src="public/assets/images/competitors/marketman.png" alt="Logo MarketMan" width="120">
+      <img src="img/chapter-2/competitors/marketman.png" alt="Logo MarketMan" width="120">
     </th>
     <th style="text-align:center; border: 1px solid #000;">
       Stock &amp; Inventory Simple<br>
-      <img src="public/assets/images/competitors/stockinventorysimple.png" alt="Logo Stock & Inventory Simple" width="120">
+      <img src="img/chapter-2/competitors/stockinventorysimple.png" alt="Logo Stock & Inventory Simple" width="120">
     </th>
     <th style="text-align:center; border: 1px solid #000;">
       Cafe Manager<br>
-      <img src="public/assets/images/competitors/cafemanager.png" alt="Logo Cafe Manager" width="120">
+      <img src="img/chapter-2/competitors/cafemanager.webp" alt="Logo Cafe Manager" width="120">
     </th>
   </tr>
 
@@ -378,14 +378,14 @@ App móvil orientada a operaciones diarias (ventas/pedidos) con inventario simpl
   <tr>
     <th rowspan="3" style="text-align:center; border: 1px solid #000;">Perfil de Producto</th>
     <td style="border: 1px solid #000;"><strong>Productos y Servicios</strong></td>
-    <td style="border: 1px solid #000;">Recetas (solo dueño), inventario, métricas de desperdicio, gestor de costos, precios sugeridos y PDF.</td>
+    <td style="border: 1px solid #000;">Productos, inventario, métricas de desperdicio, gestor de costos, precios sugeridos y PDF.</td>
     <td style="border: 1px solid #000;">Inventario, costos, proveedores, reportes avanzados.</td>
     <td style="border: 1px solid #000;">Inventario básico, movimientos, costos simples, exportaciones.</td>
     <td style="border: 1px solid #000;">Ventas/pedidos e inventario simple (menos foco en métricas/costos).</td>
   </tr>
   <tr>
     <td style="border: 1px solid #000;"><strong>Precios y Costos</strong></td>
-    <td style="border: 1px solid #000;">Suscripción accesible (plan básico con reportes PDF incluidos).</td>
+    <td style="border: 1px solid #000;">Aplicación Gratuita</td>
     <td style="border: 1px solid #000;">Planes por sede/usuario; inversión mayor que iCafe.</td>
     <td style="border: 1px solid #000;">Gratuito o muy bajo costo; funciones limitadas.</td>
     <td style="border: 1px solid #000;">Muy accesible; alcance funcional reducido.</td>
@@ -654,7 +654,21 @@ En esta sección se mostrará la aplicación del Domain-Driven Design (DDD) a ni
 Link: https://miro.com/welcomeonboard/TzdJdEdvSWJQa2pYS2FIdU5DWE9ZV2w5MjkycmZRZzB2OUFQWkhOemVGUTd6ekE4R0tlVW11TmNMMVIrd1lnWHRQbk5IWHN2VEs3M0ttajJ5TG1LUXZ6SVhjZ255RHJzTjZ5eEZRSXFkZisvOVo3VjhaRmdSL0s4T0tBMmhQd1F3VHhHVHd5UWtSM1BidUtUYmxycDRnPT0hdjE=?share_link_id=804149752797
 #### 2.5.1.2. Domain Message Flows Modeling
 
+
+![Domain Message Flow Modeling 1](./img/chapter-2/dmfm/dmfm1.jpg)
+
+![Domain Message Flow Modeling 2](./img/chapter-2/dmfm/dmfm2.jpg)
+
+![Domain Message Flow Modeling 3](./img/chapter-2/dmfm/dmfm3.jpg)
+
+![Domain Message Flow Modeling 4](./img/chapter-2/dmfm/dmfm4.jpg)
+
+![Domain Message Flow Modeling 5](./img/chapter-2/dmfm/dmfm5.jpg)
+
+Link: [Domain Message Flows Modeling](https://miro.com/welcomeonboard/MERVd3QrN05xUEQ0TU8wK3F5U0pTTWVMNHpNUTV2b3FZbHltdHhvbkpvWUVQTG1KZkgrRVpzcE5uQ0R3emYzOEJ3Zk5ocWZGTDZ1VlFSYzlRSjBnMnZwbHZGRzYwVVRTSHhVQzhyYjJJSnZjUFNGR0xndk40RFZ0cXdwQTdGTm5hWWluRVAxeXRuUUgwWDl3Mk1qRGVRPT0hdjE=?share_link_id=573543137048)
+
 #### 2.5.1.3. Bounded Context Canvases
+![Context Canvases](./img/chapter-2/BoundedContextCanvases.png)
 
 ### 2.5.2. Context Mapping
 
