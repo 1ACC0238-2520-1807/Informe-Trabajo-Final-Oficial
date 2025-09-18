@@ -656,11 +656,16 @@ Link: https://miro.com/welcomeonboard/TzdJdEdvSWJQa2pYS2FIdU5DWE9ZV2w5MjkycmZRZz
 
 
 ![Domain Message Flow Modeling 1](./img/chapter-2/dmfm/dmfm1.jpg)
+
 ![Domain Message Flow Modeling 2](./img/chapter-2/dmfm/dmfm2.jpg)
+
 ![Domain Message Flow Modeling 3](./img/chapter-2/dmfm/dmfm3.jpg)
+
 ![Domain Message Flow Modeling 4](./img/chapter-2/dmfm/dmfm4.jpg)
+
 ![Domain Message Flow Modeling 5](./img/chapter-2/dmfm/dmfm5.jpg)
 
+Link: [Domain Message Flows Modeling](https://miro.com/welcomeonboard/MERVd3QrN05xUEQ0TU8wK3F5U0pTTWVMNHpNUTV2b3FZbHltdHhvbkpvWUVQTG1KZkgrRVpzcE5uQ0R3emYzOEJ3Zk5ocWZGTDZ1VlFSYzlRSjBnMnZwbHZGRzYwVVRTSHhVQzhyYjJJSnZjUFNGR0xndk40RFZ0cXdwQTdGTm5hWWluRVAxeXRuUUgwWDl3Mk1qRGVRPT0hdjE=?share_link_id=573543137048)
 
 #### 2.5.1.3. Bounded Context Canvases
 ![Context Canvases](./img/chapter-2/BoundedContextCanvases.png)
