@@ -672,6 +672,33 @@ Link: [Domain Message Flows Modeling](https://miro.com/welcomeonboard/MERVd3QrN0
 
 ### 2.5.2. Context Mapping
 
+Context Mapping es la práctica de definir los límites de cada Bounded Context, dispone de su propia tecnología, lenguaje y arquitectura para reflejar fielmente su parte del dominio. A través de las Context Maps se describen las relaciones entre diferentes contextos, estableciendo reglas de traducción (Translation Maps) y señalando quién expone servicios (Upstream) y quién los consume (Downstream) para mantener la coherencia e independencia de cada modelo.
+
+#### Autenticación y autorización (IAM Context)
+IAM expone verificación de identidad y emisión/validación de tokens en JSON como OHS/PL. Sales, Inventory, Product, Finances y Contacts consumen este contrato sin transformación bajo un patrón Conformist.
+
+![Context Mapping 1](./img/chapter-2/cm-1.png)
+
+#### Catálogo y recetas (Product Context)
+Product expone catálogo y recetas. Sales traduce y negocia atributos (ACL + Customer–Supplier), Inventory influye en la estructura (Customer–Supplier) y Finances consume el modelo estándar (Conformist).
+
+![Context Mapping 2](./img/chapter-2/cm-2.png)
+
+#### Stock (Inventory Context)
+Inventory ofrece disponibilidad. Sales y Finances consultan estos datos directamente bajo un patrón Conformist.
+
+![Context Mapping 3](./img/chapter-2/cm-3.png)
+
+#### Reportes y comprobantes (Finances Context)
+Finances expone generacion de reportes y comprobantes. Sales traduce requisitos fiscales y negocia formatos (ACL + Customer–Supplier), mientras Contacts consume datos contables sin adaptaciones (Conformist).
+
+![Context Mapping 4](./img/chapter-2/cm-4.png)
+
+#### Contactos (Contact Context)
+Contacts expone datos de los clientes/proveedores. Sales y Finances consumen esta información sin transformación bajo un patrón Conformist.
+
+![Context Mapping 5](./img/chapter-2/cm-5.png)
+
 ### 2.5.3. Software Architecture
 #### 2.5.3.1. Software Architecture Context Level Diagrams
 ![Context Diagram](./img/chapter-2/ContextLevel.png)
@@ -1051,6 +1078,8 @@ En esta capa se implementa la conexión con servicios externos, principalmente l
 # Glosario
 
 # Bibliografía
+
+Cuéllar, J. (2016). *Domain-Driven Design: Context Maps*. Jose Cuéllar .net. https://josecuellar.net/domain-driven-design-episodio-ii-context-maps/
 
 # Anexos
 
