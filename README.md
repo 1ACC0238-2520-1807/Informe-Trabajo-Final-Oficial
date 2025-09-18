@@ -938,11 +938,12 @@ En esta capa se modela el agregado Product (root) y sus value objects, junto con
 #### 2.6.2.6. Bounded Context Software Architecture Code Level Diagrams
 ##### 2.6.2.6.1. Bounded Context Domain Layer Class Diagrams
 
-![component-product](./img/chapter-2/ProductDomainLayerClassDiagram.png)
+![class-product](./img/chapter-2/ProductDomainLayerClassDiagram.png)
 
 ##### 2.6.2.6.2. Bounded Context Database Design Diagram
 
 
+![db-product](./img/chapter-2/ProductsDB.png)
 
 ### 2.6.3. Bounded Context: Inventory
 El bounded context Inventory se encarga de la gestión de los insumos de la cafetería, como café, azúcar o leche. Su objetivo es registrar cada insumo disponible y controlar el flujo de entradas y salidas del stock, ya sea por compras, consumo en pedidos, desperdicio o ajustes de inventario. Además, permite generar alertas cuando un insumo alcanza niveles bajos para garantizar la continuidad en la preparación de productos.
