@@ -663,6 +663,7 @@ Link: https://miro.com/welcomeonboard/TzdJdEdvSWJQa2pYS2FIdU5DWE9ZV2w5MjkycmZRZz
 
 
 #### 2.5.1.3. Bounded Context Canvases
+![Context Canvases](./img/chapter-2/BoundedContextCanvases.png)
 
 ### 2.5.2. Context Mapping
 
