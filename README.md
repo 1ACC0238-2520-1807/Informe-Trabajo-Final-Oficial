@@ -1278,40 +1278,68 @@ móviles** y orientada a flujos de tareas como registro de ventas o
 seguimiento de inventario.
 
 #### 3.1.2.1. Organization Systems
+La aplicación se estructura a través de diferentes sistemas de organización, según el tipo de información y la necesidad del usuario.
 
--   **Estructura Jerárquica**: Autenticación, Panel, Personal,
-    Inventario, Transacciones.
--   **Agrupación**: Ej. "Mi Cafetería" → Sede 1, Sede 2.
--   **Secuenciación**: Registro → Inicio de Sesión → Panel.
--   **Categorización**: Prefijo "Registrar" (ej. Registrar Empleados).
--   
+**Jerárquica:**
+- **Inventario:** Los productos (café, insumos, utensilios) se listan según categorías definidas: Materias primas, Bebidas, Complementos.  
+- **Personal:** Lista de empleados organizada por roles (barista, cajero, administrador).  
+- **Transacciones:** Historial de ventas presentado cronológicamente, mostrando primero las más recientes.  
+- **Panel de control:** Muestra indicadores clave (ventas diarias, stock bajo, desempeño del personal).  
+
+**Secuencial:**
+- **Registro de ventas:** Paso a paso para seleccionar producto, cantidad y medio de pago.  
+- **Registro de empleados:** Proceso que guía desde datos personales hasta asignación de rol.  
+- **Onboarding inicial:** Explicación guiada desde el inicio de sesión hasta la configuración básica de la cafetería.  
+
+**Matricial:**
+- **Gestión de sedes:** Cuando la cafetería posee más de un local, el sistema muestra un panel tipo cuadrícula con cada sede. Desde allí se puede acceder al inventario, ventas y personal de forma independiente.  
+- **Calendario de turnos:** Agenda visual que organiza horarios de empleados según días y horas.  
+
+---
+
 #### 3.1.2.2. Labelling Systems
--   Consistentes en **verbo + sustantivo** (ej. "Registrar Ventas").
--   Claridad y brevedad (ej. "Nombre de Cafetería").
--   Jerarquía visual con tipografías.
--   Íconos acompañados de texto.
--   Contenido localizado en **español** (con planes de expansión a
-    inglés).
+Se aplicará un etiquetado simple y claro, con el formato **verbo + sustantivo**, acompañado de íconos.  
+
+- Ejemplos: *Registrar Ventas, Gestionar Inventario, Añadir Empleado*.  
+- Campos de entrada con etiquetas breves: *Nombre de Cafetería, Correo electrónico, Contraseña*.  
+- Jerarquía visual mediante tipografías diferenciadas para títulos, subtítulos y contenido.  
+- Todo el contenido estará localizado en español, con planes de traducción futura al inglés.  
+
+---
 
 #### 3.1.2.3. SEO Tags and Meta Tags
+**Para la Landing Page:**
+- **Title:** iCafe – Gestión inteligente para tu cafetería  
+- **Description:** Plataforma digital para administrar ventas, inventario y personal en tu cafetería de manera sencilla y eficiente.  
+- **Keywords:** cafeterías, gestión de inventario, control de ventas, administración de café, dueños de cafeterías.  
+- **Author:** Equipo iCafe  
 
+**Para la Aplicación Móvil (ASO):**
+- **App Title:** iCafe  
+- **App Subtitle:** Administración de cafeterías en tu bolsillo  
+- **App Keywords:** café, cafetería, ventas, inventario, gestión  
+- **App Description:** iCafe es la app que ayuda a dueños de cafeterías a organizar su negocio de forma eficiente: controla ventas, inventario, personal y proveedores desde tu celular.  
+
+---
 
 #### 3.1.2.4. Searching Systems
--   **Global**: búsqueda transversal (ej. empleados, productos).
--   **Facetada**: filtros por categoría, proveedor, costos.
--   **Autocompletado**: precios.
--   **Resultados**: listas con miniaturas, ordenables.
--   **Avanzado**: palabras clave, comodines, negaciones.
--   **Offline**: indexación interna para funcionar sin internet.
+El sistema de búsqueda permitirá localizar rápidamente información clave:  
+
+- **Global:** búsqueda transversal de productos, empleados y transacciones.  
+- **Facetada:** filtros por categorías de producto (café, insumos, postres), proveedores o costos.  
+- **Autocompletado:** sugerencias al escribir precios, nombres de productos o empleados.  
+- **Resultados:** presentados en listas con miniaturas (para productos) o tarjetas (para empleados).  
+- **Offline:** búsqueda indexada para casos sin conexión a internet.  
+
+---
 
 #### 3.1.2.5. Navigation Systems
--   **Principal**: pestañas inferiores → Panel, Inventario, Personal,
-    Transacciones, Configuración.
--   **Secundaria**: acordeones o tarjetas (ej. sedes).
--   **Elementos globales**: logotipo, menú hamburguesa, notificaciones.
--   **Navegación atrás**: botón o gesto de deslizamiento.
--   **Gestos**: swipe para listas o sedes.
--   **Onboarding**: desde registro hasta panel con guía inicial.
+Se implementan diferentes formas de navegación, adaptadas a la web y la app móvil:  
+
+- **Landing Page:** navegación superior con secciones: *Inicio, Servicios, Beneficios, Costos, Contacto*.  
+- **Aplicación móvil:** navegación principal mediante pestañas inferiores: *Panel, Inventario, Personal, Gestion de Costos , Registro de compra y venta*.  
+- **Secundaria:** menús desplegables y tarjetas para acceder a funciones dentro de cada módulo (ejemplo: *Inventario → Materias Primas*).  
+- **Gestos:** *swipe lateral* para cambiar entre listas de ventas o turnos de empleados.  
 
 ### 3.1.3. Landing Page UI Design
 #### 3.1.3.1. Landing Page Wireframe
