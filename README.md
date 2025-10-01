@@ -1188,19 +1188,117 @@ En esta capa se implementa la conexión con servicios externos, principalmente l
 
 # Capítulo III: Solution UI/UX Design
 ## 3.1. Product design
+Esta sección describe el diseño del producto para **iCafe**, una
+plataforma digital creada para optimizar la gestión de cafeterías.\
+El enfoque principal es la simplicidad, eficiencia y accesibilidad,
+pensada para propietarios y administradores sin necesidad de
+conocimientos técnicos avanzados.
+
 ### 3.1.1. Style Guidelines
+Las guías de estilo definen la identidad visual de **iCafe**, asegurando
+consistencia en pantallas y componentes.\
+Se adopta un **enfoque minimalista** con colores inspirados en el café,
+tipografías modernas e íconos discretos.\
+De esta manera, la interfaz es **profesional, amigable y accesible**,
+alineada con la meta de simplificar operaciones.
+
 #### 3.1.1.1. General Style Guidelines
+**Paleta de Colores**\
+Transmiten una atmósfera cálida y acogedora:
+
+-   Gris Oscuro: `#51514F` → textos y bordes.\
+-   Gris Medio: `#929190` → textos secundarios, íconos.\
+-   Gris Claro: `#D9D9D9` → fondos sutiles.\
+-   Marrón Oscuro: `#8F4C32` → botones principales, encabezados.\
+-   Marrón Medio: `#77574B` → navegación.\
+-   Verde Oliva: `#695E30` → indicadores de éxito, sostenibilidad.\
+-   Durazno Claro: `#FFDBCE` → tarjetas, secciones de
+    ventas/inventario.\
+-   Rosa Suave: `#FFF8F6` → fondos claros, formularios.\
+-   Blanco: `#FFFFFF` → espacios principales, limpieza visual.
+
+Los botones:\
+- **Primarios**: marrón oscuro (#8F4C32).\
+- **Secundarios**: durazno claro (#FFDBCE).\
+- **Terciarios**: verde oliva (#695E30).\
+Todos con esquinas redondeadas y aspecto táctil.
+
+**Tipografía**\
+- Fuente Principal: **Poppins** (sans-serif) → encabezados, cuerpo de
+texto y botones.\
+- Fuente Secundaria: **Pridi** (serif) → subtítulos o textos
+decorativos.
+
+Directrices:\
+- Encabezados: Poppins bold (24--32 pt).\
+- Texto principal: Poppins regular (14--16 pt).\
+- Contraste sutil con Pridi en etiquetas o subtítulos.
+
+**Íconos**\
+- Íconos minimalistas en gris medio (#929190) o colores de acento.\
+- Ejemplos: usuario, menú, editar, notificaciones, buscar.\
+- Logotipo: taza de café humeante en tonos marrones.\
+- Ilustraciones simples y planas, sin sobrecargar la interfaz.
+
+**Diseño y Espaciado**\
+- Fondos claros (#FFF8F6 / #FFFFFF).\
+- Amplio espacio en blanco.\
+- Botones con forma de píldora.\
+- Campos con esquinas redondeadas y sombras suaves.\
+- Diseño **mobile**.
+
+**Accesibilidad**\
+- Tema claro por defecto.\
+- Contraste alto según normas **WCAG**.\
+- Texto escalable.\
+- Compatible con daltonismo.\
+- Áreas de interacción mínimas: **48x48 dp**.
 
 ### 3.1.2. Information Architecture
+La arquitectura de información organiza el contenido de manera lógica
+para facilitar acceso rápido a funciones esenciales:\
+registro, inicio de sesión, panel de control y herramientas de
+operación.
+
+Se prioriza la **estructura jerárquica, optimizada para dispositivos
+móviles** y orientada a flujos de tareas como registro de ventas o
+seguimiento de inventario.
+
 #### 3.1.2.1. Organization Systems
 
+-   **Estructura Jerárquica**: Autenticación, Panel, Personal,
+    Inventario, Transacciones.\
+-   **Agrupación**: Ej. "Mi Cafetería" → Sede 1, Sede 2.\
+-   **Secuenciación**: Registro → Inicio de Sesión → Panel.\
+-   **Categorización**: Prefijo "Registrar" (ej. Registrar Empleados).
+-   
 #### 3.1.2.2. Labelling Systems
+-   Consistentes en **verbo + sustantivo** (ej. "Registrar Ventas").\
+-   Claridad y brevedad (ej. "Nombre de Cafetería").\
+-   Jerarquía visual con tipografías.\
+-   Íconos acompañados de texto.\
+-   Contenido localizado en **español** (con planes de expansión a
+    inglés).
 
 #### 3.1.2.3. SEO Tags and Meta Tags
 
+
 #### 3.1.2.4. Searching Systems
+-   **Global**: búsqueda transversal (ej. empleados, productos).\
+-   **Facetada**: filtros por categoría, proveedor, costos.\
+-   **Autocompletado**: precios.\
+-   **Resultados**: listas con miniaturas, ordenables.\
+-   **Avanzado**: palabras clave, comodines, negaciones.\
+-   **Offline**: indexación interna para funcionar sin internet.
 
 #### 3.1.2.5. Navigation Systems
+-   **Principal**: pestañas inferiores → Panel, Inventario, Personal,
+    Transacciones, Configuración.\
+-   **Secundaria**: acordeones o tarjetas (ej. sedes).\
+-   **Elementos globales**: logotipo, menú hamburguesa, notificaciones.\
+-   **Navegación atrás**: botón o gesto de deslizamiento.\
+-   **Gestos**: swipe para listas o sedes.\
+-   **Onboarding**: desde registro hasta panel con guía inicial.
 
 ### 3.1.3. Landing Page UI Design
 #### 3.1.3.1. Landing Page Wireframe
