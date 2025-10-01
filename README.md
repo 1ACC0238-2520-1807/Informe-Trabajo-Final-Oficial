@@ -800,6 +800,12 @@ Link: [Domain Message Flows Modeling](https://miro.com/welcomeonboard/MERVd3QrN0
 
 ![Bounded Context Canvases Sales](./img/chapter-2/BoundedContextCanvasesSales.jpg)
 
+![Bounded Context Canvases Products](./img/chapter-2/BoundedContextCanvasesInventory.jpg)
+
+![Bounded Context Canvases Sales](./img/chapter-2/BoundedContextCanvasesFinances.jpg)
+
+![Bounded Context Canvases Contacts](./img/chapter-2/BoundedContextCanvasesContacts.jpg)
+
 ### 2.5.2. Context Mapping
 
 Context Mapping es la práctica de definir los límites de cada Bounded Context, dispone de su propia tecnología, lenguaje y arquitectura para reflejar fielmente su parte del dominio. A través de las Context Maps se describen las relaciones entre diferentes contextos, estableciendo reglas de traducción (Translation Maps) y señalando quién expone servicios (Upstream) y quién los consume (Downstream) para mantener la coherencia e independencia de cada modelo.
