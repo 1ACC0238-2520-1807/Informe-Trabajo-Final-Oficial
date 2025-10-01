@@ -1189,74 +1189,87 @@ En esta capa se implementa la conexión con servicios externos, principalmente l
 # Capítulo III: Solution UI/UX Design
 ## 3.1. Product design
 Esta sección describe el diseño del producto para **iCafe**, una
-plataforma digital creada para optimizar la gestión de cafeterías.\
+plataforma digital creada para optimizar la gestión de cafeterías.
 El enfoque principal es la simplicidad, eficiencia y accesibilidad,
 pensada para propietarios y administradores sin necesidad de
 conocimientos técnicos avanzados.
 
 ### 3.1.1. Style Guidelines
 Las guías de estilo definen la identidad visual de **iCafe**, asegurando
-consistencia en pantallas y componentes.\
+consistencia en pantallas y componentes.
 Se adopta un **enfoque minimalista** con colores inspirados en el café,
-tipografías modernas e íconos discretos.\
+tipografías modernas e íconos discretos.
 De esta manera, la interfaz es **profesional, amigable y accesible**,
 alineada con la meta de simplificar operaciones.
 
 #### 3.1.1.1. General Style Guidelines
-**Paleta de Colores**\
+**Logo**
+Se diseñó un logo que, a simple vista, se percibe como una taza de café, ya que nuestro público objetivo son personas con cafeterías.
+![Logo](./img/chapter-3/Logo.png)
+
+
+**Paleta de Colores**
 Transmiten una atmósfera cálida y acogedora:
 
--   Gris Oscuro: `#51514F` → textos y bordes.\
--   Gris Medio: `#929190` → textos secundarios, íconos.\
--   Gris Claro: `#D9D9D9` → fondos sutiles.\
--   Marrón Oscuro: `#8F4C32` → botones principales, encabezados.\
--   Marrón Medio: `#77574B` → navegación.\
--   Verde Oliva: `#695E30` → indicadores de éxito, sostenibilidad.\
+-   Gris Oscuro: `#51514F` → textos y bordes.
+-   Gris Medio: `#929190` → textos secundarios, íconos.
+-   Gris Claro: `#D9D9D9` → fondos sutiles.
+-   Marrón Oscuro: `#8F4C32` → botones principales, encabezados.
+-   Marrón Medio: `#77574B` → navegación.
+-   Verde Oliva: `#695E30` → indicadores de éxito, sostenibilidad.
 -   Durazno Claro: `#FFDBCE` → tarjetas, secciones de
-    ventas/inventario.\
--   Rosa Suave: `#FFF8F6` → fondos claros, formularios.\
+    ventas/inventario.
+-   Rosa Suave: `#FFF8F6` → fondos claros, formularios.
 -   Blanco: `#FFFFFF` → espacios principales, limpieza visual.
 
-Los botones:\
-- **Primarios**: marrón oscuro (#8F4C32).\
-- **Secundarios**: durazno claro (#FFDBCE).\
-- **Terciarios**: verde oliva (#695E30).\
+![PaletaColor](./img/chapter-3/PaletaColor.png)
+
+Los botones:
+- **Primarios**: marrón oscuro (#8F4C32).
+- **Secundarios**: durazno claro (#FFDBCE).
+- **Terciarios**: verde oliva (#695E30).
 Todos con esquinas redondeadas y aspecto táctil.
 
-**Tipografía**\
+![Botones](./img/chapter-3/Botones.png)
+
+**Tipografía**
 - Fuente Principal: **Poppins** (sans-serif) → encabezados, cuerpo de
-texto y botones.\
+texto y botones.
 - Fuente Secundaria: **Pridi** (serif) → subtítulos o textos
 decorativos.
 
-Directrices:\
-- Encabezados: Poppins bold (24--32 pt).\
-- Texto principal: Poppins regular (14--16 pt).\
+Directrices:
+- Encabezados: Poppins bold (24--32 pt).
+- Texto principal: Poppins regular (14--16 pt).
 - Contraste sutil con Pridi en etiquetas o subtítulos.
 
-**Íconos**\
-- Íconos minimalistas en gris medio (#929190) o colores de acento.\
-- Ejemplos: usuario, menú, editar, notificaciones, buscar.\
-- Logotipo: taza de café humeante en tonos marrones.\
+![Tipografia](./img/chapter-3/Tipografia.png)
+
+**Íconos**
+- Íconos minimalistas en gris medio (#929190) o colores de acento.
+- Ejemplos: usuario, menú, editar, notificaciones, buscar.
+- Logotipo: taza de café humeante en tonos marrones.
 - Ilustraciones simples y planas, sin sobrecargar la interfaz.
 
-**Diseño y Espaciado**\
-- Fondos claros (#FFF8F6 / #FFFFFF).\
-- Amplio espacio en blanco.\
-- Botones con forma de píldora.\
-- Campos con esquinas redondeadas y sombras suaves.\
+![Iconos](./img/chapter-3/Iconos.png)
+
+**Diseño y Espaciado**
+- Fondos claros (#FFF8F6 / #FFFFFF).
+- Amplio espacio en blanco.
+- Botones con forma de píldora.
+- Campos con esquinas redondeadas y sombras suaves.
 - Diseño **mobile**.
 
-**Accesibilidad**\
-- Tema claro por defecto.\
-- Contraste alto según normas **WCAG**.\
-- Texto escalable.\
-- Compatible con daltonismo.\
+**Accesibilidad**
+- Tema claro por defecto.
+- Contraste alto según normas **WCAG**.
+- Texto escalable.
+- Compatible con daltonismo.
 - Áreas de interacción mínimas: **48x48 dp**.
 
 ### 3.1.2. Information Architecture
 La arquitectura de información organiza el contenido de manera lógica
-para facilitar acceso rápido a funciones esenciales:\
+para facilitar acceso rápido a funciones esenciales:
 registro, inicio de sesión, panel de control y herramientas de
 operación.
 
@@ -1267,16 +1280,16 @@ seguimiento de inventario.
 #### 3.1.2.1. Organization Systems
 
 -   **Estructura Jerárquica**: Autenticación, Panel, Personal,
-    Inventario, Transacciones.\
--   **Agrupación**: Ej. "Mi Cafetería" → Sede 1, Sede 2.\
--   **Secuenciación**: Registro → Inicio de Sesión → Panel.\
+    Inventario, Transacciones.
+-   **Agrupación**: Ej. "Mi Cafetería" → Sede 1, Sede 2.
+-   **Secuenciación**: Registro → Inicio de Sesión → Panel.
 -   **Categorización**: Prefijo "Registrar" (ej. Registrar Empleados).
 -   
 #### 3.1.2.2. Labelling Systems
--   Consistentes en **verbo + sustantivo** (ej. "Registrar Ventas").\
--   Claridad y brevedad (ej. "Nombre de Cafetería").\
--   Jerarquía visual con tipografías.\
--   Íconos acompañados de texto.\
+-   Consistentes en **verbo + sustantivo** (ej. "Registrar Ventas").
+-   Claridad y brevedad (ej. "Nombre de Cafetería").
+-   Jerarquía visual con tipografías.
+-   Íconos acompañados de texto.
 -   Contenido localizado en **español** (con planes de expansión a
     inglés).
 
@@ -1284,37 +1297,76 @@ seguimiento de inventario.
 
 
 #### 3.1.2.4. Searching Systems
--   **Global**: búsqueda transversal (ej. empleados, productos).\
--   **Facetada**: filtros por categoría, proveedor, costos.\
--   **Autocompletado**: precios.\
--   **Resultados**: listas con miniaturas, ordenables.\
--   **Avanzado**: palabras clave, comodines, negaciones.\
+-   **Global**: búsqueda transversal (ej. empleados, productos).
+-   **Facetada**: filtros por categoría, proveedor, costos.
+-   **Autocompletado**: precios.
+-   **Resultados**: listas con miniaturas, ordenables.
+-   **Avanzado**: palabras clave, comodines, negaciones.
 -   **Offline**: indexación interna para funcionar sin internet.
 
 #### 3.1.2.5. Navigation Systems
 -   **Principal**: pestañas inferiores → Panel, Inventario, Personal,
-    Transacciones, Configuración.\
--   **Secundaria**: acordeones o tarjetas (ej. sedes).\
--   **Elementos globales**: logotipo, menú hamburguesa, notificaciones.\
--   **Navegación atrás**: botón o gesto de deslizamiento.\
--   **Gestos**: swipe para listas o sedes.\
+    Transacciones, Configuración.
+-   **Secundaria**: acordeones o tarjetas (ej. sedes).
+-   **Elementos globales**: logotipo, menú hamburguesa, notificaciones.
+-   **Navegación atrás**: botón o gesto de deslizamiento.
+-   **Gestos**: swipe para listas o sedes.
 -   **Onboarding**: desde registro hasta panel con guía inicial.
 
 ### 3.1.3. Landing Page UI Design
 #### 3.1.3.1. Landing Page Wireframe
+En esta sección se presentan los wireframes de la landing page, los cuales representan la estructura básica de la interfaz. El objetivo es definir la distribución de los elementos principales que comunicarán de manera clara los servicios de la aplicación y facilitarán la navegación a los usuarios.
+| Landing Page Wireframe | Landing Page Wireframe Responsive |
+|-------------------------|-----------------------------------|
+| ![LandingMockup](./img/chapter-3/LandingMockup.png) | ![LandingMockupResponsive](./img/chapter-3/LandingMockupResponsive.png) |
+
+-Link: https://www.figma.com/design/c61JnVMaZZcReGqcVzwikH/Untitled?node-id=0-1&t=gB15ysIlrLllfRAw-1 
 
 #### 3.1.3.2. Landing Page Mock-up
+Aquí se muestran los mock-ups de la landing page, donde se integran aspectos visuales como colores, tipografía e imágenes. Estos diseños permiten visualizar con mayor fidelidad cómo se verá la página final y cómo transmitirá la identidad de la marca enfocada en cafeterías.
+| LandingPage Mock-up | LandingPage Mock-up Responsive |
+|-------------------------|-----------------------------------|
+|![LandingWireframe](./img/chapter-3/LandingWireframe.png)|![LandingWireframeResponsive](./img/chapter-3/LandingWireframeResponsive.png)| 
+
+-Link: https://www.figma.com/design/c61JnVMaZZcReGqcVzwikH/Untitled?node-id=0-1&t=gB15ysIlrLllfRAw-1 
 
 ### 3.1.4. Mobile Applications UX/UI Design
+Esta sección aborda el diseño de la experiencia de usuario (UX) y la interfaz gráfica (UI) de la aplicación móvil. Se busca crear una plataforma intuitiva, atractiva y funcional que permita a los administradores de cafeterías gestionar sus negocios de forma sencilla y eficiente.
 #### 3.1.4.1. Mobile Applications Wireframes
+Se presentan los wireframes de la aplicación móvil, que representan la base estructural de cada pantalla. Estos bocetos iniciales permiten definir la jerarquía de información y la organización de los elementos.
+![MockUps](./img/chapter-3/MockUps.png)
+Link: https://www.figma.com/design/c61JnVMaZZcReGqcVzwikH/Untitled?node-id=0-1&t=gB15ysIlrLllfRAw-1 
 
 #### 3.1.4.2. Mobile Applications Wireflow Diagrams
+En este apartado se incluyen los wireflow diagrams, los cuales combinan los wireframes con el flujo de navegación. Esto permite visualizar cómo interactúa el usuario al desplazarse por las distintas pantallas de la aplicación.
 
 #### 3.1.4.3. Mobile Applications Mock-ups
+Aquí se presentan los mock-ups de la aplicación móvil, en los que se incorporan los elementos visuales definitivos. Estos diseños muestran cómo se verán las pantallas finales, alineadas con la identidad gráfica de la marca.<br>
+-**Inicio de Sesión**<br>
+![wireframe1](./img/chapter-3/wireframe1.png)<br>
+-**Agregar Empleados**<br>
+![wireframe2](./img/chapter-3/Wireframe2.png)<br>
+-**Agregar Proveedores**<br>
+![wireframe3](./img/chapter-3/Wireframe3.png)<br>
+-**Agregar Insumos**<br>
+![wireframe4](./img/chapter-3/Wireframe4.png)<br>
+-**Agregar Producto**<br>
+![wireframe5](./img/chapter-3/Wireframe5.png)<br>
+-**Registrar Compra**<br>
+![wireframe6](./img/chapter-3/Wireframe6.png)<br>
+-**Registrar Venta**<br>
+![wireframe7](./img/chapter-3/Wireframe7.png)<br>
+-**Inventario y Grestion de Costos**<br>
+![wireframe8](./img/chapter-3/Wwireframe8.png)<br>
+
+Link: https://www.figma.com/design/c61JnVMaZZcReGqcVzwikH/Untitled?node-id=0-1&t=gB15ysIlrLllfRAw-1 
 
 #### 3.1.4.4. Mobile Applications User Flow Diagrams
+Este apartado expone los user flow diagrams, que ilustran los caminos que puede seguir un usuario dentro de la aplicación. Su objetivo es asegurar una experiencia de uso fluida y coherente en cada interacción.
 
 #### 3.1.4.5. Mobile Applications Prototyping
+Finalmente, se presentan los prototipos interactivos de la aplicación móvil, los cuales permiten simular la navegación real. Esto facilita la validación temprana de la experiencia de usuario y permite realizar mejoras antes del desarrollo final.
+
 
 # Capítulo IV: Product Implementation & Validation
 ## 4.1. Software Configuration Management
