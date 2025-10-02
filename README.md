@@ -1097,7 +1097,7 @@ En esta capa se implementa la conexión con servicios externos y la persistencia
 | External Service | PaymentGatewayClient                   | Cliente para comunicación con pasarela de pagos.                           | Integración con Stripe/PayPal |
 
 #### 2.6.4.5. Bounded Context Software Architecture Component Level Diagrams
-![component-sales](./img/chapter-2/ComponentLevelDiagram.jpg)
+![component-sales](./img/chapter-2/ComponentLevelDiagramSales.jpg)
 
 #### 2.6.4.6. Bounded Context Software Architecture Code Level Diagrams
 ##### 2.6.4.6.1. Bounded Context Domain Layer Class Diagrams
