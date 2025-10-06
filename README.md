@@ -293,15 +293,11 @@ Nuestra startup se llama SyncCafe y surge con el propósito de transformar la ma
 ## 1.2. Solution Profile
 ### 1.2.1. Antecedentes y problemática
 
-**Descripción de la problemática.**
-En la actualidad, muchas cafeterías todavía realizan la gestión de sus operaciones de manera manual o con herramientas poco integradas. Este enfoque genera problemas de organización, falta de control sobre los costos e insumos, errores humanos y una administración poco eficiente. Los dueños y administradores enfrentan dificultades para tener información clara y en tiempo real, lo cual se traduce en pérdidas económicas, sobrecarga de trabajo y menor productividad.
+*Descripción de la problemática*
 
-Aunque existen sistemas de gestión para negocios en el mercado, muchos de ellos están orientados a grandes empresas, presentan costos elevados o son demasiado complejos para la realidad de una cafetería pequeña o mediana. Además, gran parte de estas soluciones no se ajustan a la dinámica del sector cafetero, que requiere practicidad, rapidez y accesibilidad.
-
-En este contexto, surge la necesidad de una herramienta digital centralizada, intuitiva y accesible que permita a los administradores de cafeterías gestionar sus operaciones de manera más ordenada. Una solución que simplifique el control de costos, facilite el registro de proveedores y empleados y organice los inventarios. Con este propósito nace iCafe, un producto diseñado por la startup SyncCafe, cuyo enfoque es brindar un sistema moderno, económico y adaptado a las necesidades reales de cafeterías independientes y cadenas pequeñas.
-
-
-
+En la actualidad, muchas cafeterías independientes y de tamaño pequeño o mediano gestionan sus operaciones de forma manual o con herramientas poco integradas, lo que genera problemas de organización, control de costos, errores humanos y baja eficiencia. Los dueños enfrentan dificultades para acceder a información en tiempo real, resultando en pérdidas económicas y menor productividad (Molina, 2023). Aunque hay sistemas de gestión disponibles, suelen ser costosos, complejos o inadaptados al sector cafetero, que demanda practicidad y accesibilidad (Sidabutar, 2023).
+En este contexto, surge la necesidad de una herramienta digital centralizada e intuitiva para simplificar el control de costos, proveedores, empleados e inventarios. Así nace iCafe, de la startup SyncCafe, un sistema moderno y económico adaptado a cafeterías pequeñas.
+Una clave en cafeterías de especialidad es la retención de clientes, donde el 35% son recurrentes, enfatizando estrategias para fomentar lealtad (Lee, 2022). Las cafeterías pequeñas, sin marketing masivo, deben priorizar interacciones personalizadas para retener clientes, a diferencia de cadenas grandes que usan imagen de marca (Huang,2023).
 
 **Aplicación de la metodología 5W y 2H**
 
@@ -1568,6 +1564,14 @@ Finalmente, se presentan los prototipos interactivos de la aplicación móvil, l
 # Bibliografía
 
 Cuéllar, J. (2016). *Domain-Driven Design: Context Maps*. Jose Cuéllar .net. https://josecuellar.net/domain-driven-design-episodio-ii-context-maps/
+
+Huang, Z. (2023). A comparative analysis between chain coffee shops and independent coffee shops from consumer satisfaction perspective. In Proceedings of the 2022 3rd International Conference on E-commerce and Internet Technology (ECIT 2022) (pp. 1438-1444). Atlantis Press. https://doi.org/10.2991/978-94-6463-005-3_148
+
+Lee, K.-S., & Ruck, K. J. (2022). Barista diary: An autoethnography studying the operational experience of third-wave coffee shop baristas. International Journal of Hospitality Management, 102, Article 103182. https://doi.org/10.1016/j.ijhm.2022.103182
+
+Molina, S. A. C. (2023). Desarrollar una aplicación web responsiva para la gestión de reservas y administración de restaurante [Tesis de pregrado, Pontificia Universidad Católica del Ecuador]. Repositorio PUCE. https://repositorio.puce.edu.ec/handle/123456789/41306
+
+Sidabutar, G. D. G. E., Seah, J. A., & Singgalen, Y. A. (2023). Analysis and design of web-based information system for coffeeshop management using design thinking methodology: Case of Kopi KurangLebih. Journal of Information Systems and Informatics, 5(1), 217-231. https://doi.org/10.51519/journalisi.v5i1.455
 
 # Anexos
 
