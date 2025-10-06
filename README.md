@@ -1507,7 +1507,7 @@ Este apartado expone los user flow diagrams, que ilustran los caminos que puede 
 | <img src="./img/chapter-3/UserFlow7.png" alt="MockUps" width="800"> |
 
 <br>
-- Link:  https://lucid.app/lucidchart/22f7abe1-aca2-4970-9925-f24fdd1c166f/edit?viewport_loc=-18984%2C-19367%2C24587%2C35020%2CHWEp-vi-RSFO&invitationId=inv_72f97110-024a-4131-a9e3-c460ec619fa9
+- Link:  https://lucid.app/lucidchart/98d23ad7-1af5-4a5f-b91e-c6a9cfe2c04c/edit?viewport_loc=-7294%2C-7059%2C35610%2C16552%2C0_0&invitationId=inv_cf223d6e-96b8-480b-9205-aeb8095ac5fb
 
 
 
