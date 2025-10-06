@@ -1348,6 +1348,7 @@ En esta sección se presentan los wireframes de la landing page, los cuales repr
 |-------------------------|-----------------------------------|
 | ![LandingMockup](./img/chapter-3/LandingMockup.png) | ![LandingMockupResponsive](./img/chapter-3/LandingMockupResponsive.png) |
 
+<br>
 -Link: https://www.figma.com/design/c61JnVMaZZcReGqcVzwikH/Untitled?node-id=0-1&t=gB15ysIlrLllfRAw-1 
 
 #### 3.1.3.2. Landing Page Mock-up
@@ -1356,6 +1357,7 @@ Aquí se muestran los mock-ups de la landing page, donde se integran aspectos vi
 |-------------------------|-----------------------------------|
 |![LandingWireframe](./img/chapter-3/LandingWireframe.png)|![LandingWireframeResponsive](./img/chapter-3/LandingWireframeResponsive.png)| 
 
+<br>
 -Link: https://www.figma.com/design/c61JnVMaZZcReGqcVzwikH/Untitled?node-id=0-1&t=gB15ysIlrLllfRAw-1 
 
 ### 3.1.4. Mobile Applications UX/UI Design
@@ -1363,10 +1365,60 @@ Esta sección aborda el diseño de la experiencia de usuario (UX) y la interfaz 
 #### 3.1.4.1. Mobile Applications Wireframes
 Se presentan los wireframes de la aplicación móvil, que representan la base estructural de cada pantalla. Estos bocetos iniciales permiten definir la jerarquía de información y la organización de los elementos.
 ![MockUps](./img/chapter-3/MockUps.png)
+<br>
 Link: https://www.figma.com/design/c61JnVMaZZcReGqcVzwikH/Untitled?node-id=0-1&t=gB15ysIlrLllfRAw-1 
 
 #### 3.1.4.2. Mobile Applications Wireflow Diagrams
 En este apartado se incluyen los wireflow diagrams, los cuales combinan los wireframes con el flujo de navegación. Esto permite visualizar cómo interactúa el usuario al desplazarse por las distintas pantallas de la aplicación.
+
+| User Persona: Dueños de cafeterias. |
+|----------------------------------|
+| User Goal: Como usuario, deseo registrarme e iniciar sesion antes de visualizar el panel principal. |
+| ![MockUps](./img/chapter-3/WireFlow1.png) |
+
+| User Persona: Dueños de cafeterias. |
+|----------------------------------|
+| User Goal: Como usuario, deseo agregar, editar y eliminar empleados cuando yo quiera. |
+| ![MockUps](./img/chapter-3/WireFlow2.png) |
+
+| User Persona: Dueños de cafeterias. |
+|----------------------------------|
+| User Goal: Como usuario, deseo agregar, editar y eliminar Insumos cuando yo quiera. |
+| ![MockUps](./img/chapter-3/WireFlow3.png) |
+
+| User Persona: Dueños de cafeterias. |
+|----------------------------------|
+| User Goal: Como usuario, deseo agregar, editar y eliminar proveedor cuando yo quiera. |
+| ![MockUps](./img/chapter-3/WireFlow4.png) |
+
+| User Persona: Dueños de cafeterias. |
+|----------------------------------|
+| User Goal: Como usuario, deseo agregar, editar y eliminar Producto cuando yo quiera. |
+| ![MockUps](./img/chapter-3/WireFlow5.png) |
+
+
+| User Persona: Dueños de cafeterias. |
+|----------------------------------|
+| User Goal: Como usuario, deseo registrar compras para llevar un recuento de mis inversiones. |
+| ![MockUps](./img/chapter-3/WireFlow6.png) |
+
+| User Persona: Dueños de cafeterias. |
+|----------------------------------|
+| User Goal: Como usuario, deseo registrar ventas para llevar un recuento de mis ganancias. |
+| ![MockUps](./img/chapter-3/WireFlow7.png) |
+
+| User Persona: Dueños de cafeterias. |
+|----------------------------------|
+| User Goal: Como usuario, deseo una seccion de inventario tonde tenga el recuento de movimientos que realizo constantemente. |
+| ![MockUps](./img/chapter-3/WireFlow8.png) |
+
+| User Persona: Dueños de cafeterias. |
+|----------------------------------|
+| User Goal: Como usuario, deseo una seccion de Gestion de costos donde vea estadisticas en graficos de temas relevantes para mi cafeteria. |
+| ![MockUps](./img/chapter-3/WireFlow9.png) |
+
+<br>
+- Link:  https://lucid.app/lucidchart/22f7abe1-aca2-4970-9925-f24fdd1c166f/edit?viewport_loc=-18984%2C-19367%2C24587%2C35020%2CHWEp-vi-RSFO&invitationId=inv_72f97110-024a-4131-a9e3-c460ec619fa9
 
 #### 3.1.4.3. Mobile Applications Mock-ups
 Aquí se presentan los mock-ups de la aplicación móvil, en los que se incorporan los elementos visuales definitivos. Estos diseños muestran cómo se verán las pantallas finales, alineadas con la identidad gráfica de la marca.<br>
@@ -1387,10 +1439,61 @@ Aquí se presentan los mock-ups de la aplicación móvil, en los que se incorpor
 -**Inventario y Grestion de Costos**<br>
 ![wireframe8](./img/chapter-3/Wwireframe8.png)<br>
 
+<br>
 Link: https://www.figma.com/design/c61JnVMaZZcReGqcVzwikH/Untitled?node-id=0-1&t=gB15ysIlrLllfRAw-1 
 
 #### 3.1.4.4. Mobile Applications User Flow Diagrams
 Este apartado expone los user flow diagrams, que ilustran los caminos que puede seguir un usuario dentro de la aplicación. Su objetivo es asegurar una experiencia de uso fluida y coherente en cada interacción.
+
+| User Persona: Dueños de cafeterias. |
+|----------------------------------|
+| User Goal: Como usuario, deseo registrarme e iniciar sesion antes de visualizar el panel principal. |
+| ![MockUps](./img/chapter-3/UserFlow1.png) |
+
+| User Persona: Dueños de cafeterias. |
+|----------------------------------|
+| User Goal: Como usuario, deseo agregar, editar y eliminar empleados cuando yo quiera. |
+| ![MockUps](./img/chapter-3/UserFlow2.png) |
+
+| User Persona: Dueños de cafeterias. |
+|----------------------------------|
+| User Goal: Como usuario, deseo agregar, editar y eliminar Insumos cuando yo quiera. |
+| ![MockUps](./img/chapter-3/UserFlow3.png) |
+
+| User Persona: Dueños de cafeterias. |
+|----------------------------------|
+| User Goal: Como usuario, deseo agregar, editar y eliminar proveedor cuando yo quiera. |
+| ![MockUps](./img/chapter-3/UserFlow4.png) |
+
+| User Persona: Dueños de cafeterias. |
+|----------------------------------|
+| User Goal: Como usuario, deseo agregar, editar y eliminar Producto cuando yo quiera. |
+| ![MockUps](./img/chapter-3/UserFlow5.png) |
+
+
+| User Persona: Dueños de cafeterias. |
+|----------------------------------|
+| User Goal: Como usuario, deseo registrar compras para llevar un recuento de mis inversiones. |
+| ![MockUps](./img/chapter-3/UserFlow8.png) |
+
+| User Persona: Dueños de cafeterias. |
+|----------------------------------|
+| User Goal: Como usuario, deseo registrar ventas para llevar un recuento de mis ganancias. |
+| ![MockUps](./img/chapter-3/UserFlow9.png) |
+
+| User Persona: Dueños de cafeterias. |
+|----------------------------------|
+| User Goal: Como usuario, deseo una seccion de inventario tonde tenga el recuento de movimientos que realizo constantemente. |
+| ![MockUps](./img/chapter-3/UserFlow6.png) |
+
+| User Persona: Dueños de cafeterias. |
+|----------------------------------|
+| User Goal: Como usuario, deseo una seccion de Gestion de costos donde vea estadisticas en graficos de temas relevantes para mi cafeteria. |
+| ![MockUps](./img/chapter-3/UserFlow7.png) |
+
+<br>
+- Link:  https://lucid.app/lucidchart/22f7abe1-aca2-4970-9925-f24fdd1c166f/edit?viewport_loc=-18984%2C-19367%2C24587%2C35020%2CHWEp-vi-RSFO&invitationId=inv_72f97110-024a-4131-a9e3-c460ec619fa9
+
 
 #### 3.1.4.5. Mobile Applications Prototyping
 Finalmente, se presentan los prototipos interactivos de la aplicación móvil, los cuales permiten simular la navegación real. Esto facilita la validación temprana de la experiencia de usuario y permite realizar mejoras antes del desarrollo final.
