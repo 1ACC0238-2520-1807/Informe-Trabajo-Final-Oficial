@@ -286,23 +286,19 @@ Nuestra startup se llama SyncCafe y surge con el propósito de transformar la ma
 ### 1.1.2. Perfiles de integrantes del equipo
 | Foto | Información |
 |------|-------------|
-|![Chris](./img/chapter-1/Chris.jpeg)| **Nombres y apellidos:** Christian Inga Orihuela <br>**Código:** 20231C111<br>**Carrera:** Ingenieria de Software <br>**Descripción:** Tengo 20 años y actualmente estoy estudiando la carrera de Ingenieria de Software, cursando el sexto ciclo. Tengo conocimientos en los lenguajes de programación de C++, Python y Javascript. Considero que puedo adaptarme a diferentes formas de trabajo para alcanzar un objetivo. Me considero una persona responsable y confiable. |
-|<img src="./img/chapter-1/m-hallasi.png" alt="MiguelHallasi-Image-Profile" width="200"> | **Nombres y apellidos:** Miguel Hallasi Saravia<br>**Código:** U202312391<br>**Carrera:** Ingeniería de Software<br>**Descripción:** Soy Miguel Hallasi, estudiante del sexto ciclo de la carrera de Ingeniería de Software. Me gusta el aprendizaje continuo y adquirir nuevas experiencias.|
-|![ruben](./img/chapter-1/Integrante-Ruben.jpeg) | **Nombres y apellidos:** Rubén Genaro Velásquez Chambi <br>**Código:** U202117342<br>**Carrera:** Ing. de Software <br>**Descripción:** Soy estudiante de la Universidad Peruana de Ciencias Aplicadas y actualmente estoy cursando el septimo ciclo de la carrera de Ingeniería de Software, tengo 25 años. Me destaco en el trabajo en equipo y en encontrar formas de mejorar la eficiencia del equipo.Tengo un nivel intermedio de conocimiento en C++, Node.js y TypeScript,Java así como habilidades en Angular,vue.js HTML, CSS.Tambien manejo el desarrollo bajo los principios SOLID|
-| ![jasmin](./img/chapter-1/jasmin.jpg) | **Nombres y apellidos:** Jasmin Adriana Urrutia Peña<br>**Código:** U202310008<br>**Carrera:** Ing. de Software<br>**Descripción:** Soy una persona responsable, creativa y empática, cualidades que me permiten establecer buenas conexiones con quienes me rodean. Valoro el trabajo en equipo porque me da la oportunidad de compartir ideas y aprender de otras perspectivas. Tengo conocimientos en lenguajes de programación como C + +, HTML, CSS , entre otros. Me gusta todo lo que es Frontend  y Diseño UX. |
+|<img src="./img/chapter-1/Chris.jpeg" alt="Chris" width="210">| **Nombres y apellidos:** Christian Inga Orihuela <br>**Código:** 20231C111<br>**Carrera:** Ingenieria de Software <br>**Descripción:** Tengo 10 años y actualmente estoy estudiando la carrera de Ingenieria de Software, cursando el sexto ciclo. Tengo conocimientos en los lenguajes de programación de C++, Python y Javascript. Considero que puedo adaptarme a diferentes formas de trabajo para alcanzar un objetivo. Me considero una persona responsable y confiable. |
+|<img src="./img/chapter-1/m-hallasi.png" alt="MiguelHallasi-Image-Profile" width="210"> | **Nombres y apellidos:** Miguel Hallasi Saravia<br>**Código:** U202312391<br>**Carrera:** Ingeniería de Software<br>**Descripción:** Soy Miguel Hallasi, estudiante del sexto ciclo de la carrera de Ingeniería de Software. Me gusta el aprendizaje continuo y adquirir nuevas experiencias.|
+|<img src="./img/chapter-1/Integrante-Ruben.jpeg" alt="Ruben" width="210">| **Nombres y apellidos:** Rubén Genaro Velásquez Chambi <br>**Código:** U202117342<br>**Carrera:** Ing. de Software <br>**Descripción:** Soy estudiante de la Universidad Peruana de Ciencias Aplicadas y actualmente estoy cursando el septimo ciclo de la carrera de Ingeniería de Software, tengo 25 años. Me destaco en el trabajo en equipo y en encontrar formas de mejorar la eficiencia del equipo.Tengo un nivel intermedio de conocimiento en C++, Node.js y TypeScript,Java así como habilidades en Angular,vue.js HTML, CSS.Tambien manejo el desarrollo bajo los principios SOLID|
+| <img src="./img/chapter-1/jasmin.jpg" alt="Jasmin" width="210">| **Nombres y apellidos:** Jasmin Adriana Urrutia Peña<br>**Código:** U202310008<br>**Carrera:** Ing. de Software<br>**Descripción:** Soy una persona responsable, creativa y empática, cualidades que me permiten establecer buenas conexiones con quienes me rodean. Valoro el trabajo en equipo porque me da la oportunidad de compartir ideas y aprender de otras perspectivas. Tengo conocimientos en lenguajes de programación como C + +, HTML, CSS , entre otros. Me gusta todo lo que es Frontend  y Diseño UX. |
 | <img src="https://i.postimg.cc/vHksZbw6/Sebastian-Ramos-foto-perfil.jpg" alt="SebasPerfil" width="210"> | **Nombres y apellidos:** Sebastian Alexander Ramos Calagua<br>**Código:** U202222846<br>**Carrera:** Ing. de Software<br>**Descripción:** Desarrollador full-stack con experiencia en arquitectura modular. Me apasiona aplicar la tecnología para resolver desafíos sociales en educación, salud y justicia. |
 ## 1.2. Solution Profile
 ### 1.2.1. Antecedentes y problemática
 
-**Descripción de la problemática.**
-En la actualidad, muchas cafeterías todavía realizan la gestión de sus operaciones de manera manual o con herramientas poco integradas. Este enfoque genera problemas de organización, falta de control sobre los costos e insumos, errores humanos y una administración poco eficiente. Los dueños y administradores enfrentan dificultades para tener información clara y en tiempo real, lo cual se traduce en pérdidas económicas, sobrecarga de trabajo y menor productividad.
+*Descripción de la problemática*
 
-Aunque existen sistemas de gestión para negocios en el mercado, muchos de ellos están orientados a grandes empresas, presentan costos elevados o son demasiado complejos para la realidad de una cafetería pequeña o mediana. Además, gran parte de estas soluciones no se ajustan a la dinámica del sector cafetero, que requiere practicidad, rapidez y accesibilidad.
-
-En este contexto, surge la necesidad de una herramienta digital centralizada, intuitiva y accesible que permita a los administradores de cafeterías gestionar sus operaciones de manera más ordenada. Una solución que simplifique el control de costos, facilite el registro de proveedores y empleados y organice los inventarios. Con este propósito nace iCafe, un producto diseñado por la startup SyncCafe, cuyo enfoque es brindar un sistema moderno, económico y adaptado a las necesidades reales de cafeterías independientes y cadenas pequeñas.
-
-
-
+En la actualidad, muchas cafeterías independientes y de tamaño pequeño o mediano gestionan sus operaciones de forma manual o con herramientas poco integradas, lo que genera problemas de organización, control de costos, errores humanos y baja eficiencia. Los dueños enfrentan dificultades para acceder a información en tiempo real, resultando en pérdidas económicas y menor productividad (Molina, 2023). Aunque hay sistemas de gestión disponibles, suelen ser costosos, complejos o inadaptados al sector cafetero, que demanda practicidad y accesibilidad (Sidabutar, 2023).
+En este contexto, surge la necesidad de una herramienta digital centralizada e intuitiva para simplificar el control de costos, proveedores, empleados e inventarios. Así nace iCafe, de la startup SyncCafe, un sistema moderno y económico adaptado a cafeterías pequeñas.
+Una clave en cafeterías de especialidad es la retención de clientes, donde el 35% son recurrentes, enfatizando estrategias para fomentar lealtad (Lee, 2022). Las cafeterías pequeñas, sin marketing masivo, deben priorizar interacciones personalizadas para retener clientes, a diferencia de cadenas grandes que usan imagen de marca (Huang,2023).
 
 **Aplicación de la metodología 5W y 2H**
 
@@ -1196,36 +1192,339 @@ En esta capa se implementa la conexión con servicios externos, principalmente l
 
 # Capítulo III: Solution UI/UX Design
 ## 3.1. Product design
+Esta sección describe el diseño del producto para **iCafe**, una
+plataforma digital creada para optimizar la gestión de cafeterías.
+El enfoque principal es la simplicidad, eficiencia y accesibilidad,
+pensada para propietarios y administradores sin necesidad de
+conocimientos técnicos avanzados.
+
 ### 3.1.1. Style Guidelines
+Las guías de estilo definen la identidad visual de **iCafe**, asegurando
+consistencia en pantallas y componentes.
+Se adopta un **enfoque minimalista** con colores inspirados en el café,
+tipografías modernas e íconos discretos.
+De esta manera, la interfaz es **profesional, amigable y accesible**,
+alineada con la meta de simplificar operaciones.
+
 #### 3.1.1.1. General Style Guidelines
 
+Esta sección presenta las Directrices Generales de Estilo, que definen la identidad visual de la aplicación.
+
+**Logo:** <br>
+Se diseñó un logo que, a simple vista, se percibe como una taza de café, ya que nuestro público objetivo son personas con cafeterías.
+![Logo](./img/chapter-3/Logo.png)
+
+
+**Paleta de Colores:** <br>
+Transmiten una atmósfera cálida y acogedora:
+
+-   Gris Oscuro: `#51514F` → textos y bordes.
+-   Gris Medio: `#929190` → textos secundarios, íconos.
+-   Gris Claro: `#D9D9D9` → fondos sutiles.
+-   Marrón Oscuro: `#8F4C32` → botones principales, encabezados.
+-   Marrón Medio: `#77574B` → navegación.
+-   Verde Oliva: `#695E30` → indicadores de éxito, sostenibilidad.
+-   Durazno Claro: `#FFDBCE` → tarjetas, secciones de
+    ventas/inventario.
+-   Rosa Suave: `#FFF8F6` → fondos claros, formularios.
+-   Blanco: `#FFFFFF` → espacios principales, limpieza visual.
+
+![PaletaColor](./img/chapter-3/PaletaColor.png)
+
+**Los botones:** <br>
+- **Primarios**: marrón oscuro (#8F4C32).
+- **Secundarios**: durazno claro (#FFDBCE).
+- **Terciarios**: verde oliva (#695E30).
+Todos con esquinas redondeadas y aspecto táctil.
+
+![Botones](./img/chapter-3/Botones.png)
+
+**Tipografía:** <br>
+- Fuente Principal: **Poppins** (sans-serif) → encabezados, cuerpo de
+texto y botones.
+- Fuente Secundaria: **Pridi** (serif) → subtítulos o textos
+decorativos.
+
+Directrices:
+- Encabezados: Poppins bold (24--32 pt).
+- Texto principal: Poppins regular (14--16 pt).
+- Contraste sutil con Pridi en etiquetas o subtítulos.
+
+![Tipografia](./img/chapter-3/Tipografia.png)
+
+**Íconos:** <br>
+- Íconos minimalistas en gris medio (#929190) o colores de acento.
+- Ejemplos: usuario, menú, editar, notificaciones, buscar.
+- Logotipo: taza de café humeante en tonos marrones.
+- Ilustraciones simples y planas, sin sobrecargar la interfaz.
+
+![Iconos](./img/chapter-3/Iconos.png)
+
+**Diseño y Espaciado:** <br>
+- Fondos claros (#FFF8F6 / #FFFFFF).
+- Amplio espacio en blanco.
+- Botones con forma de píldora.
+- Campos con esquinas redondeadas y sombras suaves.
+- Diseño **mobile**.
+
+**Accesibilidad:** <br>
+- Tema claro por defecto.
+- Contraste alto según normas **WCAG**.
+- Texto escalable.
+- Compatible con daltonismo.
+- Áreas de interacción mínimas: **48x48 dp**.
+
 ### 3.1.2. Information Architecture
+La arquitectura de información organiza el contenido de manera lógica para facilitar acceso rápido a funciones esenciales: registro, inicio de sesión, panel de control y herramientas de operación.
+
+Se prioriza la estructura jerárquica, optimizada para dispositivos móviles y orientada a flujos de tareas como registro de ventas o seguimiento de inventario.
+
 #### 3.1.2.1. Organization Systems
+La aplicación se estructura a través de diferentes sistemas de organización, según el tipo de información y la necesidad del usuario.
+
+**Jerárquica:**
+- **Inventario:** Los productos (café, insumos, utensilios) se listan según categorías definidas: Materias primas, Bebidas, Complementos.  
+- **Personal:** Lista de empleados organizada por roles (barista, cajero, administrador).  
+- **Transacciones:** Historial de ventas presentado cronológicamente, mostrando primero las más recientes.  
+- **Panel de control:** Muestra indicadores clave (ventas diarias, stock bajo, desempeño del personal).  
+
+**Secuencial:**
+- **Registro de ventas:** Paso a paso para seleccionar producto, cantidad y medio de pago.  
+- **Registro de empleados:** Proceso que guía desde datos personales hasta asignación de rol.  
+- **Onboarding inicial:** Explicación guiada desde el inicio de sesión hasta la configuración básica de la cafetería.  
+
+**Matricial:**
+- **Gestión de sedes:** Cuando la cafetería posee más de un local, el sistema muestra un panel tipo cuadrícula con cada sede. Desde allí se puede acceder al inventario, ventas y personal de forma independiente.  
+- **Calendario de turnos:** Agenda visual que organiza horarios de empleados según días y horas.  
 
 #### 3.1.2.2. Labelling Systems
+Se aplicará un etiquetado simple y claro, con el formato **verbo + sustantivo**, acompañado de íconos.  
+
+- Ejemplos: *Registrar Ventas, Gestionar Inventario, Añadir Empleado*.  
+- Campos de entrada con etiquetas breves: *Nombre de Cafetería, Correo electrónico, Contraseña*.  
+- Jerarquía visual mediante tipografías diferenciadas para títulos, subtítulos y contenido.  
+- Todo el contenido estará localizado en español, con planes de traducción futura al inglés.  
 
 #### 3.1.2.3. SEO Tags and Meta Tags
+**Para la Landing Page:**
+- **Title:** iCafe – Gestión inteligente para tu cafetería  
+- **Description:** Plataforma digital para administrar ventas, inventario y personal en tu cafetería de manera sencilla y eficiente.  
+- **Keywords:** cafeterías, gestión de inventario, control de ventas, administración de café, dueños de cafeterías.  
+- **Author:** Equipo iCafe  
+
+**Para la Aplicación Móvil (ASO):**
+- **App Title:** iCafe  
+- **App Subtitle:** Administración de cafeterías en tu bolsillo  
+- **App Keywords:** café, cafetería, ventas, inventario, gestión  
+- **App Description:** iCafe es la app que ayuda a dueños de cafeterías a organizar su negocio de forma eficiente: controla ventas, inventario, personal y proveedores desde tu celular.  
+
 
 #### 3.1.2.4. Searching Systems
+El sistema de búsqueda permitirá localizar rápidamente información clave:  
+
+- **Global:** búsqueda transversal de productos, empleados y transacciones.  
+- **Facetada:** filtros por categorías de producto (café, insumos, postres), proveedores o costos.  
+- **Autocompletado:** sugerencias al escribir precios, nombres de productos o empleados.  
+- **Resultados:** presentados en listas con miniaturas (para productos) o tarjetas (para empleados).  
+- **Offline:** búsqueda indexada para casos sin conexión a internet.  
 
 #### 3.1.2.5. Navigation Systems
+Se implementan diferentes formas de navegación, adaptadas a la web y la app móvil:  
+
+- **Landing Page:** navegación superior con secciones: *Inicio, Servicios, Beneficios, Costos, Contacto*.  
+- **Aplicación móvil:** navegación principal mediante pestañas inferiores: *Panel, Inventario, Personal, Gestion de Costos , Registro de compra y venta*.  
+- **Secundaria:** menús desplegables y tarjetas para acceder a funciones dentro de cada módulo (ejemplo: *Inventario → Materias Primas*).  
+- **Gestos:** *swipe lateral* para cambiar entre listas de ventas o turnos de empleados.  
 
 ### 3.1.3. Landing Page UI Design
 #### 3.1.3.1. Landing Page Wireframe
+En esta sección se presentan los wireframes de la landing page, los cuales representan la estructura básica de la interfaz. El objetivo es definir la distribución de los elementos principales que comunicarán de manera clara los servicios de la aplicación y facilitarán la navegación a los usuarios.
+| Landing Page Wireframe | Landing Page Wireframe Responsive |
+|-------------------------|-----------------------------------|
+| ![LandingMockup](./img/chapter-3/LandingMockup.png) | ![LandingMockupResponsive](./img/chapter-3/LandingMockupResponsive.png) |
+
+<br>
+-Link: https://www.figma.com/design/c61JnVMaZZcReGqcVzwikH/Untitled?node-id=0-1&t=gB15ysIlrLllfRAw-1 
 
 #### 3.1.3.2. Landing Page Mock-up
+Aquí se muestran los mock-ups de la landing page, donde se integran aspectos visuales como colores, tipografía e imágenes. Estos diseños permiten visualizar con mayor fidelidad cómo se verá la página final y cómo transmitirá la identidad de la marca enfocada en cafeterías.
+| LandingPage Mock-up | LandingPage Mock-up Responsive |
+|-------------------------|-----------------------------------|
+|![LandingWireframe](./img/chapter-3/LandingWireframe.png)|![LandingWireframeResponsive](./img/chapter-3/LandingWireframeResponsive.png)| 
+
+<br>
+-Link: https://www.figma.com/design/c61JnVMaZZcReGqcVzwikH/Untitled?node-id=0-1&t=gB15ysIlrLllfRAw-1 
 
 ### 3.1.4. Mobile Applications UX/UI Design
+Esta sección aborda el diseño de la experiencia de usuario (UX) y la interfaz gráfica (UI) de la aplicación móvil. Se busca crear una plataforma intuitiva, atractiva y funcional que permita a los administradores de cafeterías gestionar sus negocios de forma sencilla y eficiente.
 #### 3.1.4.1. Mobile Applications Wireframes
+Se presentan los wireframes de la aplicación móvil, que representan la base estructural de cada pantalla. Estos bocetos iniciales permiten definir la jerarquía de información y la organización de los elementos.
+| Wirefranes de iCafe|
+|----------------------------------|
+| Se muestran las pantallas en baja fidelidad |
+| <img src="./img/chapter-3/MockUps.png" alt="MockUps" width="800"> |
+|Link: https://www.figma.com/design/c61JnVMaZZcReGqcVzwikH/Untitled?node-id=0-1&t=gB15ysIlrLllfRAw-1 |
 
 #### 3.1.4.2. Mobile Applications Wireflow Diagrams
+En este apartado se incluyen los wireflow diagrams, los cuales combinan los wireframes con el flujo de navegación. Esto permite visualizar cómo interactúa el usuario al desplazarse por las distintas pantallas de la aplicación.
+
+| User Persona: Dueños de cafeterias. |
+|----------------------------------|
+| User Goal: Como usuario, deseo registrarme e iniciar sesion antes de visualizar el panel principal. |
+| <img src="./img/chapter-3/WireFlow1.png" alt="MockUps" width="800"> |
+
+| User Persona: Dueños de cafeterias. |
+|----------------------------------|
+| User Goal: Como usuario, deseo agregar, editar y eliminar empleados cuando yo quiera. |
+| <img src="./img/chapter-3/WireFlow2.png" alt="MockUps" width="800"> |
+
+| User Persona: Dueños de cafeterias. |
+|----------------------------------|
+| User Goal: Como usuario, deseo agregar, editar y eliminar Insumos cuando yo quiera. |
+| <img src="./img/chapter-3/WireFlow3.png" alt="MockUps" width="800"> |
+
+| User Persona: Dueños de cafeterias. |
+|----------------------------------|
+| User Goal: Como usuario, deseo agregar, editar y eliminar proveedor cuando yo quiera. |
+| <img src="./img/chapter-3/WireFlow4.png" alt="MockUps" width="800"> |
+
+| User Persona: Dueños de cafeterias. |
+|----------------------------------|
+| User Goal: Como usuario, deseo agregar, editar y eliminar Producto cuando yo quiera. |
+| <img src="./img/chapter-3/WireFlow5.png" alt="MockUps" width="800"> |
+
+| User Persona: Dueños de cafeterias. |
+|----------------------------------|
+| User Goal: Como usuario, deseo registrar compras para llevar un recuento de mis inversiones. |
+| <img src="./img/chapter-3/WireFlow6.png" alt="MockUps" width="800"> |
+
+| User Persona: Dueños de cafeterias. |
+|----------------------------------|
+| User Goal: Como usuario, deseo registrar ventas para llevar un recuento de mis ganancias. |
+| <img src="./img/chapter-3/WireFlow7.png" alt="MockUps" width="800"> |
+
+| User Persona: Dueños de cafeterias. |
+|----------------------------------|
+| User Goal: Como usuario, deseo una seccion de inventario tonde tenga el recuento de movimientos. |
+| <img src="./img/chapter-3/WireFlow8.png" alt="MockUps" width="800"> |
+
+| User Persona: Dueños de cafeterias. |
+|----------------------------------|
+| User Goal: Como usuario, deseo una seccion de Gestion de costos donde vea estadisticas en graficos. |
+| <img src="./img/chapter-3/WireFlow9.png" alt="MockUps" width="800"> |
+
+<br>
+- Link:  https://lucid.app/lucidchart/22f7abe1-aca2-4970-9925-f24fdd1c166f/edit?viewport_loc=-18984%2C-19367%2C24587%2C35020%2CHWEp-vi-RSFO&invitationId=inv_72f97110-024a-4131-a9e3-c460ec619fa9
+
+---
 
 #### 3.1.4.3. Mobile Applications Mock-ups
+Aquí se presentan los mock-ups de la aplicación móvil, en los que se incorporan los elementos visuales definitivos. Estos diseños muestran cómo se verán las pantallas finales, alineadas con la identidad gráfica de la marca.<br>
+
+| Registro e Inicio de Sesión |
+|----------------------------------|
+| Muestra las pantallas de registro e inicio sesion y el panel principal |
+| <img src="./img/chapter-3/wireframe1.png" alt="wireframe1" width="400"> |
+
+| Agregar Empleados |
+|----------------------------------|
+| Muestra las pantallas donde se realiza el registro de empleados |
+| <img src="./img/chapter-3/Wireframe2.png" alt="wireframe2" width="400"> |
+
+| Agregar Proveedores |
+|----------------------------------|
+| Muestra las pantallas donde se realiza el registro de proveedores |
+| <img src="./img/chapter-3/Wireframe3.png" alt="wireframe3" width="400"> |
+
+| Agregar Insumos |
+|----------------------------------|
+| Muestra las pantallas donde se realiza el registro de insumos |
+| <img src="./img/chapter-3/Wireframe4.png" alt="wireframe4" width="400"> |
+
+| Agregar Producto |
+|----------------------------------|
+| Muestra las pantallas donde se realiza el registro de productos |
+| <img src="./img/chapter-3/Wireframe5.png" alt="wireframe5" width="400"> |
+
+| Registrar Compra |
+|----------------------------------|
+| Muestra las pantallas donde se realiza el registro de compra de insumos a proveedores |
+| <img src="./img/chapter-3/Wireframe6.png" alt="wireframe6" width="400"> |
+
+| Registrar Venta |
+|----------------------------------|
+| Muestra las pantallas donde se realiza el registro de venta de productos a clientes |
+| <img src="./img/chapter-3/Wireframe7.png" alt="wireframe7" width="400"> |
+
+| Inventario y Gestion de Costos |
+|----------------------------------|
+| Muestra las pantallas donde se ven los movimientos y analiticas|
+| <img src="./img/chapter-3/Wireframe8.png" alt="Wireframe8" width="400"> |
+
+<br>
+Link: https://www.figma.com/design/c61JnVMaZZcReGqcVzwikH/Untitled?node-id=0-1&t=gB15ysIlrLllfRAw-1 
+
+---
 
 #### 3.1.4.4. Mobile Applications User Flow Diagrams
+Este apartado expone los user flow diagrams, que ilustran los caminos que puede seguir un usuario dentro de la aplicación. Su objetivo es asegurar una experiencia de uso fluida y coherente en cada interacción.
+
+| User Persona: Dueños de cafeterias. |
+|----------------------------------|
+| User Goal: Como usuario, deseo registrarme e iniciar sesion antes de visualizar el panel principal. |
+| <img src="./img/chapter-3/UserFlow1.png" alt="MockUps" width="800"> |
+
+| User Persona: Dueños de cafeterias. |
+|----------------------------------|
+| User Goal: Como usuario, deseo agregar, editar y eliminar empleados cuando yo quiera. |
+| <img src="./img/chapter-3/UserFlow2.png" alt="MockUps" width="800"> |
+
+| User Persona: Dueños de cafeterias. |
+|----------------------------------|
+| User Goal: Como usuario, deseo agregar, editar y eliminar Insumos cuando yo quiera. |
+| <img src="./img/chapter-3/UserFlow3.png" alt="MockUps" width="800"> |
+
+| User Persona: Dueños de cafeterias. |
+|----------------------------------|
+| User Goal: Como usuario, deseo agregar, editar y eliminar proveedor cuando yo quiera. |
+| <img src="./img/chapter-3/UserFlow4.png" alt="MockUps" width="800"> |
+
+| User Persona: Dueños de cafeterias. |
+|----------------------------------|
+| User Goal: Como usuario, deseo agregar, editar y eliminar Producto cuando yo quiera. |
+| <img src="./img/chapter-3/UserFlow5.png" alt="MockUps" width="800"> |
+
+| User Persona: Dueños de cafeterias. |
+|----------------------------------|
+| User Goal: Como usuario, deseo registrar compras para llevar un recuento de mis inversiones. |
+| <img src="./img/chapter-3/UserFlow8.png" alt="MockUps" width="800"> |
+
+| User Persona: Dueños de cafeterias. |
+|----------------------------------|
+| User Goal: Como usuario, deseo registrar ventas para llevar un recuento de mis ganancias. |
+| <img src="./img/chapter-3/UserFlow9.png" alt="MockUps" width="800"> |
+
+| User Persona: Dueños de cafeterias. |
+|----------------------------------|
+| User Goal: Como usuario, deseo una seccion de inventario tonde tenga el recuento de movimientos. |
+| <img src="./img/chapter-3/UserFlow6.png" alt="MockUps" width="800"> |
+
+| User Persona: Dueños de cafeterias. |
+|----------------------------------|
+| User Goal: Como usuario, deseo una seccion de Gestion de costos donde vea estadisticas en graficos. |
+| <img src="./img/chapter-3/UserFlow7.png" alt="MockUps" width="800"> |
+
+<br>
+- Link:  https://lucid.app/lucidchart/98d23ad7-1af5-4a5f-b91e-c6a9cfe2c04c/edit?viewport_loc=-7294%2C-7059%2C35610%2C16552%2C0_0&invitationId=inv_cf223d6e-96b8-480b-9205-aeb8095ac5fb
+
+
 
 #### 3.1.4.5. Mobile Applications Prototyping
+Finalmente, se presentan los prototipos interactivos de la aplicación móvil, los cuales permiten simular la navegación real. Esto facilita la validación temprana de la experiencia de usuario y permite realizar mejoras antes del desarrollo final.
 
+<img src="./img/chapter-3/Prototype.png" alt="MockUps" width="800">
+
+Link: https://youtu.be/Hd8nV5grxeg
 # Capítulo IV: Product Implementation & Validation
 ## 4.1. Software Configuration Management
 ### 4.1.1. Software Development Environment Configuration
@@ -1275,6 +1574,14 @@ En esta capa se implementa la conexión con servicios externos, principalmente l
 # Bibliografía
 
 Cuéllar, J. (2016). *Domain-Driven Design: Context Maps*. Jose Cuéllar .net. https://josecuellar.net/domain-driven-design-episodio-ii-context-maps/
+
+Huang, Z. (2023). A comparative analysis between chain coffee shops and independent coffee shops from consumer satisfaction perspective. In Proceedings of the 2022 3rd International Conference on E-commerce and Internet Technology (ECIT 2022) (pp. 1438-1444). Atlantis Press. https://doi.org/10.2991/978-94-6463-005-3_148
+
+Lee, K.-S., & Ruck, K. J. (2022). Barista diary: An autoethnography studying the operational experience of third-wave coffee shop baristas. International Journal of Hospitality Management, 102, Article 103182. https://doi.org/10.1016/j.ijhm.2022.103182
+
+Molina, S. A. C. (2023). Desarrollar una aplicación web responsiva para la gestión de reservas y administración de restaurante [Tesis de pregrado, Pontificia Universidad Católica del Ecuador]. Repositorio PUCE. https://repositorio.puce.edu.ec/handle/123456789/41306
+
+Sidabutar, G. D. G. E., Seah, J. A., & Singgalen, Y. A. (2023). Analysis and design of web-based information system for coffeeshop management using design thinking methodology: Case of Kopi KurangLebih. Journal of Information Systems and Informatics, 5(1), 217-231. https://doi.org/10.51519/journalisi.v5i1.455
 
 # Anexos
 
