@@ -1514,7 +1514,9 @@ Este apartado expone los user flow diagrams, que ilustran los caminos que puede 
 #### 3.1.4.5. Mobile Applications Prototyping
 Finalmente, se presentan los prototipos interactivos de la aplicación móvil, los cuales permiten simular la navegación real. Esto facilita la validación temprana de la experiencia de usuario y permite realizar mejoras antes del desarrollo final.
 
+<img src="./img/chapter-3/Prototype.png" alt="MockUps" width="800">
 
+Link: https://youtu.be/Hd8nV5grxeg
 # Capítulo IV: Product Implementation & Validation
 ## 4.1. Software Configuration Management
 ### 4.1.1. Software Development Environment Configuration
