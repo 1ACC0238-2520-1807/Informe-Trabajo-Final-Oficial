@@ -1227,14 +1227,76 @@ En esta capa se implementa la conexión con servicios externos, principalmente l
 #### 3.1.4.5. Mobile Applications Prototyping
 
 # Capítulo IV: Product Implementation & Validation
+
 ## 4.1. Software Configuration Management
+
+La gestión de configuración de software en el proyecto iCafe se ha diseñado para asegurar la trazabilidad, consistencia y calidad en cada etapa del desarrollo. Se han definido entornos, herramientas y convenciones que permiten al equipo colaborar de forma eficiente, mantener control sobre el código fuente y facilitar el despliegue continuo.
+
 ### 4.1.1. Software Development Environment Configuration
+
+Para garantizar un entorno de desarrollo homogéneo entre los integrantes del equipo, se establecieron las siguientes configuraciones:
+
+- **Lenguajes principales:**
+  - Backend: Java y Dockerfile.
+  - Aplicación móvil: Kotlin.
+- **Frameworks y librerías:**
+  - Spring Boot para servicios backend.
+  - Firebase para autenticación y base de datos en tiempo real.
+  - Android Jetpack para arquitectura móvil.
+- **IDE recomendados:**
+  - IntelliJ IDEA (Java backend).
+  - Android Studio (Kotlin móvil).
+- **Gestores de paquetes:**
+  - `Maven` para backend Java.
+  - `Gradle` para Android.
+- **Control de versiones:** Git con GitHub como repositorio central.
+- **Configuración local:** Se documentó en el archivo `README.md` los pasos para instalar dependencias, configurar variables de entorno y ejecutar el proyecto en modo desarrollo.
 
 ### 4.1.2. Source Code Management
 
+El código fuente se gestiona bajo un esquema de ramas que permite trabajo paralelo y control de calidad:
+
+- **Repositorio principal:** [GitHub SyncCafe Organization](https://github.com/orgs/1ACC0238-2520-1807/dashboard)
+- **Estrategia de ramas:**
+  - `main`: versión estable para producción.
+  - `develop`: integración de nuevas funcionalidades.
+  - `feature/*`: desarrollo de módulos específicos (ej. `feature/inventory-tracking`).
+  - `hotfix/*`: correcciones urgentes en producción.
+- **Pull Requests:** Todo cambio debe pasar por revisión de código (code review) antes de ser fusionado.
+- **Commits:** Se siguen convenciones semánticas (`feat:`, `fix:`, `docs:`, `refactor:`) para facilitar la trazabilidad.
+- **Integración continua:** Se configuró GitHub Actions para ejecutar pruebas unitarias y validaciones de estilo en cada push.
+
 ### 4.1.3. Source Code Style Guide & Conventions
 
+Para mantener la calidad y legibilidad del código, se definieron guías de estilo por tecnología:
+
+- **Java (Backend):**
+  - Convenciones estándar de Java y Spring Boot.
+  - Uso de anotaciones `@Service`, `@Repository`, `@RestController`.
+  - Separación por paquetes: `controller`, `service`, `model`, `repository`.
+- **Kotlin (App móvil):**
+  - Convenciones de Android Jetpack.
+  - Uso de ViewModel y LiveData para arquitectura MVVM.
+  - Separación por capas: `ui`, `data`, `domain`.
+- **Documentación:** Cada módulo incluye comentarios Javadoc/KDoc y archivos `README.md` explicativos.
+
 ### 4.1.4. Software Deployment Configuration
+
+El despliegue de iCafe se ha planificado para facilitar pruebas piloto y escalabilidad futura:
+
+- **Landing Page:**
+  - Desplegada en GitHub Pages desde rama `gh-pages`.
+  - Optimizada con etiquetas SEO y diseño responsive.
+- **Aplicación móvil:**
+  - Compilada en modo debug para pruebas internas.
+  - Se utilizará Firebase App Distribution para compartir builds con cafeterías piloto.
+- **Backend:**
+  - Desplegado en Render.com con base de datos PostgreSQL.
+  - Contenerizado con Docker para facilitar el despliegue.
+  - Variables de entorno gestionadas desde el panel de Render.
+- **Próximos pasos:**
+  - Automatización del despliegue con CI/CD.
+  - Configuración de monitoreo con herramientas como Sentry o LogRocket.
 
 ## 4.2. Landing Page & Mobile Application Implementation
 ### 4.2.1. Sprint n
