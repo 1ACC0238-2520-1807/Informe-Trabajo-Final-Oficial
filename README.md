@@ -2216,6 +2216,29 @@ Para el despliegue del backend de iCafe, se implementó una estrategia de conten
 
 ![Dokploy](./img/dokploy4.png)
 
+**Configuración del Despliegue de la Landing Page**
+
+Para el despliegue de la Landing Page de iCafe, se implementó una solución web estática utilizando tecnologías fundamentales del desarrollo web y una plataforma de hosting gratuita.
+
+**Tecnologías Utilizadas:**
+- **HTML**: Para la estructura y contenido de la página web
+- **CSS**: Para el diseño visual, estilos y responsive design
+- **GitHub Pages**: Como plataforma de despliegue para sitios web estáticos
+
+**Proceso de Despliegue:**
+
+1. **Desarrollo**: La Landing Page fue desarrollada utilizando HTML semántico y CSS moderno, implementando un diseño responsive que se adapta a diferentes dispositivos.
+
+2. **Repositorio**: El código fuente se almacenó en un repositorio de GitHub, manteniendo un control de versiones adecuado.
+
+![Landing1](./img/landing1.png)
+
+3. **Despliegue con GitHub Pages**: Se configuró GitHub Pages para servir automáticamente la Landing Page desde el repositorio, proporcionando una URL pública accesible para los usuarios.
+
+![Landing2](./img/landing2.png)
+
+![Landing3](./img/landing3.png)
+
 Diagrama C4:
 ![Deployment Diagram](./img/chapter-2/c4-deployment.png)
 
