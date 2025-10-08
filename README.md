@@ -277,13 +277,17 @@ Para el desarrollo del informe correspondiente a la entrega TB1, se estableció 
 
 
 # Capítulo I: Presentación
+
 ## 1.1. Startup Profile
+
 ### 1.1.1. Descripción de la Startup
+
 Nuestra startup se llama SyncCafe y surge con el propósito de transformar la manera en que las cafeterías administran sus operaciones diarias. Actualmente, muchos de estos negocios todavía dependen de registros manuales o herramientas dispersas como libretas, hojas de cálculo o aplicaciones poco integradas, lo que genera desorganización, pérdida de información y costos innecesarios que afectan directamente la rentabilidad y el crecimiento. Para responder a esta problemática, desarrollamos iCafe, una plataforma digital diseñada para que los dueños y administradores de cafeterías puedan centralizar sus procesos en un solo lugar, controlando costos de manera más precisa, registrando proveedores y empleados y gestionando inventarios. Nuestro objetivo es simplificar la gestión sin necesidad de conocimientos técnicos avanzados, ofreciendo una solución clara, eficiente y accesible que permita a los propietarios enfocarse en lo más importante: brindar una mejor experiencia a sus clientes, asegurar la calidad de sus productos y hacer crecer su negocio.
 
 <img src="./img/chapter-1/logocafe.png" alt="logo" width="200"/>
 
 ### 1.1.2. Perfiles de integrantes del equipo
+
 | Foto | Información |
 |------|-------------|
 |![Chris](./img/chapter-1/Chris.jpeg)| **Nombres y apellidos:** Christian Inga Orihuela <br>**Código:** 20231C111<br>**Carrera:** Ingenieria de Software <br>**Descripción:** Tengo 20 años y actualmente estoy estudiando la carrera de Ingenieria de Software, cursando el sexto ciclo. Tengo conocimientos en los lenguajes de programación de C++, Python y Javascript. Considero que puedo adaptarme a diferentes formas de trabajo para alcanzar un objetivo. Me considero una persona responsable y confiable. |
@@ -291,7 +295,9 @@ Nuestra startup se llama SyncCafe y surge con el propósito de transformar la ma
 |![ruben](./img/chapter-1/Integrante-Ruben.jpeg) | **Nombres y apellidos:** Rubén Genaro Velásquez Chambi <br>**Código:** U202117342<br>**Carrera:** Ing. de Software <br>**Descripción:** Soy estudiante de la Universidad Peruana de Ciencias Aplicadas y actualmente estoy cursando el septimo ciclo de la carrera de Ingeniería de Software, tengo 25 años. Me destaco en el trabajo en equipo y en encontrar formas de mejorar la eficiencia del equipo.Tengo un nivel intermedio de conocimiento en C++, Node.js y TypeScript,Java así como habilidades en Angular,vue.js HTML, CSS.Tambien manejo el desarrollo bajo los principios SOLID|
 | ![jasmin](./img/chapter-1/jasmin.jpg) | **Nombres y apellidos:** Jasmin Adriana Urrutia Peña<br>**Código:** U202310008<br>**Carrera:** Ing. de Software<br>**Descripción:** Soy una persona responsable, creativa y empática, cualidades que me permiten establecer buenas conexiones con quienes me rodean. Valoro el trabajo en equipo porque me da la oportunidad de compartir ideas y aprender de otras perspectivas. Tengo conocimientos en lenguajes de programación como C + +, HTML, CSS , entre otros. Me gusta todo lo que es Frontend  y Diseño UX. |
 | <img src="https://i.postimg.cc/vHksZbw6/Sebastian-Ramos-foto-perfil.jpg" alt="SebasPerfil" width="210"> | **Nombres y apellidos:** Sebastian Alexander Ramos Calagua<br>**Código:** U202222846<br>**Carrera:** Ing. de Software<br>**Descripción:** Desarrollador full-stack con experiencia en arquitectura modular. Me apasiona aplicar la tecnología para resolver desafíos sociales en educación, salud y justicia. |
+
 ## 1.2. Solution Profile
+
 ### 1.2.1. Antecedentes y problemática
 
 **Descripción de la problemática.**
@@ -326,7 +332,9 @@ Actualmente los administradores utilizan métodos tradicionales como libretas, h
 
 -How much (¿Cuánto?)
 Las pérdidas varían según el tamaño de la cafetería, pero en muchos casos pueden representar entre el 10% y 20% de los ingresos mensuales, ya sea por compras innecesarias, desperdicio de insumos o falta de control en costos. Una solución digital adaptada a este sector permitiría reducir significativamente estos porcentajes, generando mayor eficiencia y rentabilidad.
+
 ### 1.2.2. Lean UX Process
+
 #### 1.2.2.1. Lean UX Problem Statements
 
 En el contexto actual, los administradores de cafeterías enfrentan dificultades para gestionar sus operaciones de forma eficiente. La falta de herramientas digitales integradas genera desorganización, pérdida de información y errores humanos que afectan la rentabilidad del negocio.
@@ -386,11 +394,13 @@ Cuando los usuarios reporten una mejora en la organización del negocio, reducci
 <img src="./img/chapter-1/lean ux canvas.jpg"/>
 
 ## 1.3. Segmentos objetivo
+
 **Segmento 1: Dueños de Cafeterías** </br>
 
 Personas que cuentan con un emprendimiento de cafeterías, en su mayoría pequeños y medianos negocios, y que administran directamente las operaciones del día a día. Se trata de propietarios que buscan mejorar la organización interna de su local y optimizar el uso de recursos, pero que aún dependen de registros manuales o herramientas poco integradas. Generalmente son emprendedores jóvenes y adultos, entre 25 y 45 años, con un nivel básico de familiaridad con soluciones digitales, interesados en reducir pérdidas, controlar costos e inventarios, y gestionar de manera más eficiente a sus proveedores y personal.
 
 # Capítulo II: Requirements Development and Software Solution Design
+
 ## 2.1. Competidores
 
 **MarketMan** <br>
@@ -542,7 +552,6 @@ App móvil orientada a operaciones diarias (ventas/pedidos) con inventario simpl
 </table>
 
 
-
 ### 2.1.2. Estrategias y tácticas frente a competidores
 
 **Disponibilidad 100 % gratuita y sin registros extensos:** acceso inmediato solo con nombre de negocio.
@@ -558,7 +567,9 @@ App móvil orientada a operaciones diarias (ventas/pedidos) con inventario simpl
 **Optimización offline:** permitir funcionamiento sin conexión para que los dueños puedan registrar datos desde el local sin depender de internet.
 
 ## 2.2. Entrevistas
+
 ### 2.2.1. Diseño de entrevistas
+
 En esta seccion se plantearan las preguntas para validad nuestra aplicación y conoces las necesidades de nuestro segmento objetivo.
 
 Preguntas Generales: </br>
@@ -619,6 +630,7 @@ Los dueños de cafeterías suelen enfrentar problemas comunes relacionados con l
 ![Grafico ](./img/chapter-2/graficoentrevista.png)
 
 ## 2.3. Needfinding
+
 ### 2.3.1. User Personas
 
 ![User Persona](./img/chapter-2/userpersona.png)
@@ -660,6 +672,7 @@ Los dueños de cafeterías suelen enfrentar problemas comunes relacionados con l
 | **Sales** | Transacciones comerciales realizadas con los clientes para la venta de productos y servicios. |
 
 ## 2.4. Requirements specification
+
 ### 2.4.1. User Stories
 
 ### Epics 
@@ -723,12 +736,12 @@ Los dueños de cafeterías suelen enfrentar problemas comunes relacionados con l
 | SS003 | Investigación de servicios externos para almacenamiento de imágenes | Como equipo de desarrollo, quiero investigar la viabilidad de usar un servicio externo como **Firebase Storage** o **AWS S3** para el almacenamiento de imágenes, para decidir si conviene delegar esta funcionalidad en lugar de implementarla en infraestructura propia. | **Escenario 1 – Revisión de documentación**<br>**Given** que Firebase Storage y AWS S3 ofrecen APIs para manejo de archivos<br>**When** el desarrollador revisa la documentación oficial<br>**Then** identifica opciones de subida, descarga, escalabilidad y permisos de acceso.<br><br>**Escenario 2 – Análisis de costos**<br>**Given** que cada servicio maneja un modelo de precios distinto (ej. GB almacenados, transferencias)<br>**When** se comparan los costos de Firebase Storage y AWS S3<br>**Then** se documenta cuál es más conveniente según el volumen esperado de imágenes.<br><br>**Escenario 3 – Validación técnica con prototipo**<br>**Given** la necesidad de probar integración real<br>**When** se implementa un prototipo que suba y recupere al menos una imagen desde el servicio<br>**Then** se documenta la facilidad de integración, rendimiento y limitaciones encontradas.<br> | EP012 |
 
 
-
-
-
 ### 2.4.2. Impact Mapping
+
 ![impact-mapping](./img/chapter-2/impact-mapping.png)
+
 ### 2.4.3. Product Backlog
+
 Esta seccion servirá como guía para organizar el trabajo del equipo, asegurando que siempre avancemos lo más importante del proyecto.
 <div align="center">
 
@@ -765,9 +778,13 @@ Esta seccion servirá como guía para organizar el trabajo del equipo, asegurand
 </div>
 
 ## 2.5. Strategic-Level Domain-Driven Design
+
 ### 2.5.1. EventStorming
+
 En esta sección se mostrará la aplicación del Domain-Driven Design (DDD) a nivel estratégico dentro del proyecto. El objetivo es identificar los distintos bounded context que intervienen en el dominio, así como las relaciones entre ellos, con el fin de establecer una arquitectura clara que permita escalar la solución y adaptarla a las necesidades del negocio.
+
 #### 2.5.1.1. Candidate Context Discovery
+
 ![Step1](./img/chapter-2/step1.png)
 ![Step2](./img/chapter-2/step2.png)
 ![Step3](./img/chapter-2/step3.png)
@@ -779,8 +796,8 @@ En esta sección se mostrará la aplicación del Domain-Driven Design (DDD) a ni
 ![Step9](./img/chapter-2/step9.png)
 
 Link: https://miro.com/welcomeonboard/TzdJdEdvSWJQa2pYS2FIdU5DWE9ZV2w5MjkycmZRZzB2OUFQWkhOemVGUTd6ekE4R0tlVW11TmNMMVIrd1lnWHRQbk5IWHN2VEs3M0ttajJ5TG1LUXZ6SVhjZ255RHJzTjZ5eEZRSXFkZisvOVo3VjhaRmdSL0s4T0tBMmhQd1F3VHhHVHd5UWtSM1BidUtUYmxycDRnPT0hdjE=?share_link_id=804149752797
-#### 2.5.1.2. Domain Message Flows Modeling
 
+#### 2.5.1.2. Domain Message Flows Modeling
 
 ![Domain Message Flow Modeling 1](./img/chapter-2/dmfm/dmfm1.jpg)
 
@@ -836,19 +853,28 @@ Contacts expone datos de los clientes/proveedores. Sales y Finances consumen est
 ![Context Mapping 5](./img/chapter-2/cm-5.png)
 
 ### 2.5.3. Software Architecture
+
 #### 2.5.3.1. Software Architecture Context Level Diagrams
+
 ![Context Diagram](./img/chapter-2/ContextLevel.png)
 
 #### 2.5.3.2. Software Architecture Container Level Diagrams
+
 ![Container Diagram](./img/chapter-2/ContainerLevel.png)
 ![Coponent Diagram](./img/chapter-2/Component.png)
+
 #### 2.5.3.3. Software Architecture Deployment Diagrams
+
 ![Deployment Diagram](./img/chapter-2/c4-deployment.png)
 
 ## 2.6. Tactical-Level Domain-Driven Design
+
 ### 2.6.1. Bounded Context: Contacts
+
 El bounded context Contacts se encarga de la gestión de proveedores y empleados de la cafetería. Su objetivo es registrar, actualizar y eliminar estos contactos, permitiendo al dueño listar todos los registros para una administración eficiente y centralizada de las relaciones externas e internas.
+
 #### 2.6.1.1. Domain Layer
+
 En esta capa se definen los elementos principales del dominio de contactos. Se modelan los agregados, entidades, value objects y servicios de dominio que representan la lógica central de cómo se gestionan los proveedores y empleados. El objetivo es mantener la consistencia del negocio y las reglas que garantizan el control y la validación de los datos de contactos.
 
 | Tipo          | Clase / Nombre          | Descripción                                                                 | Atributos / Valores                  |
@@ -860,6 +886,7 @@ En esta capa se definen los elementos principales del dominio de contactos. Se m
 | Value Object  | PhoneNumber             | Representa un número de teléfono con tipo                                   | number, type (MOBILE, OFFICE)        |
 | Domain Service| ContactValidationService| Valida la unicidad y consistencia de datos de contactos                     | validateSupplier(), validateEmployee()|
 | Enum          | ContactType             | Define los tipos de contactos disponibles                                   | SUPPLIER, EMPLOYEE                   |
+
 #### 2.6.1.2. Interface Layer
 
 En esta capa se encuentran los controladores y objetos de transferencia (DTOs) que sirven como punto de comunicación entre el sistema y los usuarios o clientes externos. Su función principal es exponer endpoints REST para la gestión de proveedores y empleados, facilitando la interacción con la aplicación de una forma clara y estructurada.
@@ -898,13 +925,21 @@ En esta capa se implementa la conexión con servicios externos, principalmente l
 | Repository | EmployeeRepository          | Implementación JPA/Hibernate para persistir empleados.                      | Mapa Employee a tabla employees.            |
 
 #### 2.6.1.5. Bounded Context Software Architecture Component Level Diagrams
+
 ![ContactsComponentDiagram](./img/chapter-2/diagramacontactosjas.png)
+
 #### 2.6.1.6. Bounded Context Software Architecture Code Level Diagrams
+
 ##### 2.6.1.6.1. Bounded Context Domain Layer Class Diagrams
+
 ![UMLcontact](./img/chapter-2/UMLcontact.png)
+
 ##### 2.6.1.6.2. Bounded Context Database Design Diagram
+
 ![ContactsDataBase](./img/chapter-2/ContactsDataBase.png)
+
 ### 2.6.2. Bounded Context: Product
+
 #### 2.6.2.1. Domain Layer
 
 El bounded context Product se encarga de definir el estándar del dueño para cada producto del menú. Su objetivo es crear, actualizar, archivar o eliminar productos garantizando consistencia: nombre único por sucursal, componentes válidos y control de versionado para que otros contextos (p. ej., Sales) calculen consumos con el producto correcto.
@@ -937,7 +972,6 @@ En esta capa se modela el agregado Product (root) y sus value objects, junto con
 | DTO (out)  | DirectItemResource                | Especificación de producto SIMPLE                               | itemId, name, portionFactor, unit                                                                                                                               |
 
 
-
 #### 2.6.2.3. Application Layer
 
 | Tipo            | Clase / Nombre                  | Descripción                                                                                                           | Métodos / Comandos manejados                                          |
@@ -962,25 +996,26 @@ En esta capa se modela el agregado Product (root) y sus value objects, junto con
 | Projection  | ProductReadModelRepository | Proyección denormalizada para listados y exportación PDF         | Vistas materializadas con name, type, version, components/directItem                                                                          |
 
 
-
 #### 2.6.2.5. Bounded Context Software Architecture Component Level Diagrams
 
 ![component-product](./img/chapter-2/ProductComponentDiagram.png)
 
 #### 2.6.2.6. Bounded Context Software Architecture Code Level Diagrams
+
 ##### 2.6.2.6.1. Bounded Context Domain Layer Class Diagrams
 
 ![class-product](./img/chapter-2/ProductDomainLayerClassDiagram.png)
 
 ##### 2.6.2.6.2. Bounded Context Database Design Diagram
 
-
 ![db-product](./img/chapter-2/ProductsDB.png)
 
 ### 2.6.3. Bounded Context: Inventory
+
 El bounded context Inventory se encarga de la gestión de los insumos de la cafetería, como café, azúcar o leche. Su objetivo es registrar cada insumo disponible y controlar el flujo de entradas y salidas del stock, ya sea por compras, consumo en pedidos, desperdicio o ajustes de inventario. Además, permite generar alertas cuando un insumo alcanza niveles bajos para garantizar la continuidad en la preparación de productos.
 
 #### 2.6.3.1. Domain Layer
+
 En esta capa se definen los elementos principales del dominio del inventario. Aquí se modelan los agregados, entidades, value objects y servicios de dominio que representan la lógica central de cómo se gestionan los insumos y sus movimientos. El objetivo es mantener la consistencia del negocio y las reglas que garantizan el control del stock.
 
 | Tipo            | Clase / Nombre             | Descripción                                                                 | Atributos / Valores                                         |
@@ -998,6 +1033,7 @@ En esta capa se definen los elementos principales del dominio del inventario. Aq
 
 
 #### 2.6.3.2. Interface Layer
+
 En esta capa se encuentran los controladores y objetos de transferencia (DTOs) que sirven como punto de comunicación entre el sistema y los usuarios o clientes externos. Su función principal es exponer endpoints REST para la gestión de insumos y movimientos, facilitando la interacción con la aplicación de una forma clara y estructurada.
 
 
@@ -1009,6 +1045,7 @@ En esta capa se encuentran los controladores y objetos de transferencia (DTOs) q
 | DTO         | SupplyItemResource        | Objeto de transferencia que devuelve datos de insumos            | id, nombre, unidadMedida, cantidadActual, puntoDeReorden |
 
 #### 2.6.3.3. Application Layer
+
 Esta capa maneja los flujos de procesos del inventario mediante el uso de command handlers y event handlers. Su rol es coordinar las operaciones del negocio, orquestando las acciones que se solicitan desde la interfaz y delegando la lógica al dominio. Aquí se asegura que cada comando o evento dispare el proceso adecuado dentro del contexto de inventario.
 
 | Tipo             | Clase / Nombre                   | Descripción                                                                 | Métodos / Comandos manejados                        |
@@ -1025,14 +1062,22 @@ En esta capa se implementa la conexión con servicios externos, principalmente l
 |------------------|----------------------------------------|-----------------------------------------------------------------------------|----------------|
 | Repository Impl  | SupplyItemRepository                | Implementación de `SupplyItemRepository` usando JPA/Hibernate para persistir insumos. | Mapea `SupplyItem` a tabla `supply_items`. |
 | Repository Impl  | InventoryTransactionRepository      | Implementación de `InventoryTransactionRepository` usando JPA/Hibernate.    | Mapea `InventoryTransaction` a tabla `inventory_transactions`. |
+
+
 #### 2.6.3.5. Bounded Context Software Architecture Component Level Diagrams
+
 ![component-inventory](./img/chapter-2/component-inventory.png)
+
 #### 2.6.3.6. Bounded Context Software Architecture Code Level Diagrams
+
 ##### 2.6.3.6.1. Bounded Context Domain Layer Class Diagrams
+
 El diagrama de clases del bounded context Inventory representa los principales elementos del Domain Layer, incluyendo agregados, entidades, value objects, servicios de dominio, enumeraciones e interfaces de repositorios. Su objetivo es mostrar las relaciones y responsabilidades de cada componente dentro de la gestión de insumos y movimientos de inventario en la cafetería. Para su elaboración se utilizó PlantUML.
 
 ![diagram-class-inventory](./img/chapter-2/diagrama-clases-inventory.png)
+
 ##### 2.6.3.6.2. Bounded Context Database Design Diagram 
+
 En esta sección se diseño el diagrama de base de datos relacional de el bounded context inventory.
 * **Category** : agrupa los insumos en familias o tipos
 * **supplyItems**: insumo gestionado en el inventario
@@ -1044,6 +1089,7 @@ En esta sección se diseño el diagrama de base de datos relacional de el bounde
 ### 2.6.4. Bounded Context: Sales
 
 #### 2.6.4.1. Domain Layer
+
 En esta capa se definen los elementos principales del dominio de ventas. Aquí se modelan los agregados, entidades, value objects y servicios de dominio que representan la lógica central de cómo se gestionan las órdenes, pagos y transacciones comerciales.
 
 | Tipo            | Clase / Nombre             | Descripción                                                                 | Atributos / Valores                                         |
@@ -1062,7 +1108,9 @@ En esta capa se definen los elementos principales del dominio de ventas. Aquí s
 | Enum            | OrderStatusType            | Define los tipos de estado de orden.                                       | CREATED, PAID, PROCESSING, COMPLETED, CANCELLED            |
 | Enum            | PaymentMethodType          | Define los tipos de métodos de pago.                                       | CASH, CARD, TRANSFER                                       |
 
+
 #### 2.6.4.2. Interface Layer
+
 En esta capa se encuentran los controladores y DTOs que sirven como interfaz entre el sistema y los usuarios/clientes externos.
 
 | Tipo        | Clase / Nombre            | Descripción                                                                 | Métodos / Endpoints principales                         |
@@ -1074,7 +1122,9 @@ En esta capa se encuentran los controladores y DTOs que sirven como interfaz ent
 | DTO         | PaymentRequest            | Objeto para recibir datos de pago.                                         | ordenId, monto, metodoPago                              |
 | DTO         | PaymentResponse           | Objeto para devolver datos de pago.                                        | id, ordenId, monto, estado, fecha                       |
 
+
 #### 2.6.4.3. Application Layer
+
 Esta capa maneja los flujos de procesos de ventas mediante command handlers y event handlers.
 
 | Tipo             | Clase / Nombre                   | Descripción                                                                 | Métodos / Comandos manejados                        |
@@ -1086,7 +1136,9 @@ Esta capa maneja los flujos de procesos de ventas mediante command handlers y ev
 | Event Handler    | InventoryUpdateEventHandler      | Escucha eventos de actualización de inventario.                            | - on(InventoryUpdatedEvent)                         |
 | Event Handler    | PaymentConfirmedEventHandler     | Escucha eventos de confirmación de pago.                                   | - on(PaymentConfirmedEvent)                         |
 
+
 #### 2.6.4.4. Infrastructure Layer
+
 En esta capa se implementa la conexión con servicios externos y la persistencia de datos.
 
 | Tipo             | Clase / Nombre                         | Descripción                                                                 | Notas Técnicas |
@@ -1096,17 +1148,21 @@ En esta capa se implementa la conexión con servicios externos y la persistencia
 | External Service | InventoryServiceClient                 | Cliente para comunicación con servicio de inventario.                      | REST client para Inventory API |
 | External Service | PaymentGatewayClient                   | Cliente para comunicación con pasarela de pagos.                           | Integración con Stripe/PayPal |
 
+
 #### 2.6.4.5. Bounded Context Software Architecture Component Level Diagrams
 
 ![component-level-sales](./img/chapter-2/ComponentLevelDiagramSales.png)
 
 #### 2.6.4.6. Bounded Context Software Architecture Code Level Diagrams
+
 ##### 2.6.4.6.1. Bounded Context Domain Layer Class Diagrams
+
 El diagrama de clases del bounded context Sales representa los principales elementos del Domain Layer, mostrando las relaciones entre órdenes, items de orden, pagos y servicios de dominio. El diagrama fue elaborado usando PlantUML.
 
 ![diagram-class-sales](./img/chapter-2/DomainLayerClassDiagram.jpg)
 
 ##### 2.6.4.6.2. Bounded Context Database Design Diagram
+
 En esta sección se diseña el diagrama de base de datos relacional para el bounded context Sales.
 
 * **orders**: almacena las órdenes de venta
@@ -1117,8 +1173,11 @@ En esta sección se diseña el diagrama de base de datos relacional para el boun
 ![database-sales](./img/chapter-2/DatabaseDesignDiagrams.jpg)
 
 ### 2.6.5. Bounded Context: Finances
+
 El bounded context Finances se encarga de la gestión financiera de la cafetería, incluyendo el registro de ingresos, gastos, control de costos, generación de reportes financieros y análisis de rentabilidad.
+
 #### 2.6.5.1. Domain Layer
+
 En esta capa se definen los elementos principales del dominio financiero. Aquí se modelan los agregados, entidades, value objects y servicios de dominio que representan la lógica central.
 
 | Tipo            | Clase / Nombre             | Descripción                                                                 | Atributos / Valores                                         |
@@ -1179,13 +1238,17 @@ En esta capa se implementa la conexión con servicios externos, principalmente l
 | External Service | ReportGenerationService                | Servicio para generación de reportes en diferentes formatos (PDF, Excel).   | Utiliza bibliotecas como Apache POI, iText |
 
 #### 2.6.5.5. Bounded Context Software Architecture Component Level Diagrams
+
 ![component-finances](./img/chapter-2/ta.png)
 
 #### 2.6.5.6. Bounded Context Software Architecture Code Level Diagrams
+
 ##### 2.6.5.6.1. Bounded Context Domain Layer Class Diagrams
+
 ![diagram-class-finances](./img/chapter-2/diagrama-clases-finances.png)
 
 ##### 2.6.5.6.2. Bounded Context Database Design Diagram
+
 * **transactions**: almacena todas las transacciones financieras (ingresos y gastos)
 * **categories**: categorías para clasificar transacciones
 * **budgets**: presupuestos asignados por categoría y período
@@ -1194,12 +1257,17 @@ En esta capa se implementa la conexión con servicios externos, principalmente l
 
 ![database-finances](./img/chapter-2/database-finances.png)
 
+
 # Capítulo III: Solution UI/UX Design
+
 ## 3.1. Product design
+
 ### 3.1.1. Style Guidelines
+
 #### 3.1.1.1. General Style Guidelines
 
 ### 3.1.2. Information Architecture
+
 #### 3.1.2.1. Organization Systems
 
 #### 3.1.2.2. Labelling Systems
@@ -1211,11 +1279,13 @@ En esta capa se implementa la conexión con servicios externos, principalmente l
 #### 3.1.2.5. Navigation Systems
 
 ### 3.1.3. Landing Page UI Design
+
 #### 3.1.3.1. Landing Page Wireframe
 
 #### 3.1.3.2. Landing Page Mock-up
 
 ### 3.1.4. Mobile Applications UX/UI Design
+
 #### 3.1.4.1. Mobile Applications Wireframes
 
 #### 3.1.4.2. Mobile Applications Wireflow Diagrams
