@@ -2188,6 +2188,14 @@ Creemos que esto brindará una experiencia de usuario fluida e intuitiva.Esto se
 
 #### 4.2.1.7. Software Deployment Evidence for Sprint Review
 
+![Dokploy](./img/dokploy1.png)
+
+![Dokploy](./img/dokploy2.png)
+
+![Dokploy](./img/dokploy3.png)
+
+![Dokploy](./img/dokploy4.png)
+
 #### 4.2.1.8. Team Collaboration Insights during Sprint
 
 ## 4.3. Validation Interviews
