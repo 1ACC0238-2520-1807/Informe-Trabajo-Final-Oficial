@@ -1621,6 +1621,266 @@ Creemos que esto brindará una experiencia de usuario fluida e intuitiva.Esto se
 </table>
 
 #### 4.2.1.2. Sprint Backlog 1
+<table>
+  <tr>
+    <td> <strong>Sprint #</strong></td>
+    <td align="center" colspan="7"> <strong>Sprint 1</strong> </td>
+  </tr>
+
+   <tr>
+    <td align="center" colspan="2"> <strong>User Story</strong></td>
+    <td align="center" colspan="6"> <strong>Work-item/Task</strong></td>
+  </tr>
+  <tr>
+    <td align="center"> <strong>ID</strong> </td>
+    <td align="center"> <strong>Title<strong></td>
+    <td align="center"> <strong>ID</strong> </td>
+    <td align="center"> <strong>Title<strong></td>
+    <td align="center"> <strong>Description<strong></td>
+    <td align="center"> <strong>Estimation (Hours)<strong></td>
+    <td align="center"> <strong>Assigned To<strong></td>
+    <td align="center"> <strong> Status (To-do/In-Process/To-Review/Done)  <strong></td>
+  </tr>
+  <!---------------------------------------------------------------------- -->
+  <tr>
+    <td rowspan="1" align="center"> ID </td>
+    <td rowspan="1" align="center"> US020 Seccion Home</td>
+    <td align="center"> TA01 </td>
+     <td align="center">Diseñar el Home </td>
+    <td align="center">Diseñar la seccion home de la lading page en html y css </td>
+    <td align="center"> 0.5 </td>
+    <td align="center"> Urrutia Peña Jasmin Adriana</td>
+    <td align="center">Done</td>
+  </tr>
+    <!---------------------------------------------------------------------- -->
+  <tr>
+    <td rowspan="1" align="center"> ID </td>
+    <td rowspan="1" align="center"> US021 Seccion About</td>
+    <td align="center"> TA01 </td>
+     <td align="center">Diseñar el About </td>
+    <td align="center">Diseñar la seccion About de la lading page en html y css </td>
+    <td align="center"> 0.5 </td>
+    <td align="center"> Urrutia Peña Jasmin Adriana</td>
+    <td align="center">Done</td>
+  </tr>
+    <!---------------------------------------------------------------------- -->
+  <tr>
+    <td rowspan="1" align="center"> ID </td>
+    <td rowspan="1" align="center"> US022 Seccion Features</td>
+    <td align="center"> TA01 </td>
+     <td align="center">Diseñar el features </td>
+    <td align="center">Diseñar la seccion feature de la lading page en html y css </td>
+    <td align="center"> 0.5 </td>
+    <td align="center"> Urrutia Peña Jasmin Adriana</td>
+    <td align="center">Done</td>
+  </tr>
+    <!---------------------------------------------------------------------- -->
+  <tr>
+    <td rowspan="1" align="center"> ID </td>
+    <td rowspan="1" align="center"> US024 seccion contact </td>
+    <td align="center"> TA01 </td>
+     <td align="center">Formulario </td>
+    <td align="center">Diseñar un formulario de contacto en html y css</td>
+    <td align="center"> 0.5 </td>
+    <td align="center"> Urrutia Peña Jasmin Adriana</td>
+    <td align="center">Done</td>
+  </tr>
+
+<!----------------------------------------------->
+  <tr>
+    <td rowspan="2" align="center"> ID </td>
+    <td rowspan="2" align="center"> US012  Registrar entrada inventario</td>
+    <td align="center"> TA01 </td>
+    <td align="center"> Endpoint para el registro de entrada de un insumo </td>
+    <td align="center"> Se debe registrar la entrada de un insumo en el inventario </td>
+    <td align="center"> 2 </td>
+    <td align="center"> Hallasi Saravia Miguel Angel</td>
+    <td align="center">Done</td>
+  </tr>
+
+  <tr>
+    <td align="center"> TA02 </td>
+    <td align="center"> Diseño en la aplicacion movil de inventario</td>
+    <td align="center"> Se debe de crear la actividad de registro de entrada de un insumo en el inventario</td>
+    <td align="center"> 1</td>
+    <td align="center"> Hallasi Saravia Miguel Angel</td>
+    <td align="center"> Done</td>
+  </tr>
+<!-------------------------------------------------->
+  <tr>
+    <td rowspan="2" align="center"> ID </td>
+    <td rowspan="2" align="center"> US013 Actualizar inventario </td>
+    <td align="center"> TA01 </td>
+    <td align="center"> Endpoint para actualizar datos del inventario</td>
+    <td align="center"> Se debe crear un endpoint para actualizar datos del inventario</td>
+    <td align="center"> 1</td>
+    <td align="center"> Hallasi Saravia Miguel Angel</td>
+    <td align="center"> Done</td>
+  </tr>
+
+  <tr>
+    <td align="center"> TA02 </td>
+    <td align="center"> Vista para actualizar inventario</td>
+    <td align="center">Se debe crear la actividad para actualizar datos del inventario</td>
+    <td align="center"> 1</td>
+    <td align="center"> Hallasi Saravia Miguel Angel</td>
+    <td align="center"> In-process</td>
+  </tr>
+<!---------------------------------------------------->
+  <tr>
+    <td rowspan="2" align="center"> ID </td>
+    <td rowspan="2" align="center"> US009 Crear receta</td>
+      <td align="center"> TA01 </td>
+    <td align="center"> endpoint para crear una receta </td>
+    <td align="center"> Se debe crear un endpoint para crear una receta </td>
+    <td align="center"> 1</td>
+    <td align="center"> Ruben Velasquez Chambi</td>
+    <td align="center"> To-do</td>
+  </tr>
+
+  <tr>
+    <td align="center"> TA02 </td>
+    <td align="center"> Vista para crear receta</td>
+    <td align="center"> Se debe crear la actividad para crear una receta</td>
+    <td align="center"> 1</td>
+    <td align="center">Ruben Velasquez Chambi</td>
+    <td align="center"> To-do</td>
+  </tr>
+<!------------------------------------------------>
+   <tr>
+    <td rowspan="2" align="center"> ID </td>
+    <td rowspan="2" align="center">US006 Crear proveedor</td>
+      <td align="center"> TA01 </td>
+    <td align="center"> enpoint para registar proveedores </td>
+    <td align="center"> Se debe de  crear un portafolio de proveedores que para acada usuario</td>
+    <td align="center"> 2</td>
+    <td align="center"> Ruben Velasquez Chambi</td>
+    <td align="center"> Done</td>
+  </tr>
+
+  <tr>
+    <td align="center"> TA02 </td>
+    <td align="center"> Vista para registro de proveedores</td>
+    <td align="center"> Se debe de crear la actividad para registrar proveedores</td>
+    <td align="center"> 1</td>
+    <td align="center">Ruben Velasquez Chambi</td>
+    <td align="center"> Done</td>
+  </tr>
+
+  <!------------------------------------------------>
+   <tr>
+    <td rowspan="2" align="center"> ID </td>
+    <td rowspan="2" align="center">US008 Actualizar proveedor</td>
+      <td align="center"> TA01 </td>
+    <td align="center"> enpoint para actualizar proveedores </td>
+    <td align="center"> Se debe de poder modificar los datos de los proveedores</td>
+    <td align="center"> 1</td>
+    <td align="center"> Ruben Velasquez Chambi</td>
+    <td align="center"> Done</td>
+  </tr>
+
+  <tr>
+    <td align="center"> TA02 </td>
+    <td align="center"> Vista para actualizar de proveedores</td>
+    <td align="center"> Se debe de crear la actividad para actualizar proveedores</td>
+    <td align="center"> 1</td>
+    <td align="center">Ruben Velasquez Chambi</td>
+    <td align="center"> Done</td>
+  </tr>
+   <!------------------------------------------------>
+   <tr>
+    <td rowspan="2" align="center"> ID </td>
+    <td rowspan="2" align="center">US004 Actualizar empleados</td>
+      <td align="center"> TA01 </td>
+    <td align="center"> enpoint para actualizar empleados </td>
+    <td align="center"> Se debe de poder modificar los datos de los empleados</td>
+    <td align="center"> 1</td>
+    <td align="center"> Ruben Velasquez Chambi</td>
+    <td align="center"> Done</td>
+  </tr>
+
+  <tr>
+    <td align="center"> TA02 </td>
+    <td align="center"> Vista para actualizar de empleados</td>
+    <td align="center"> Se debe de crear la actividad para actualizar empleados</td>
+    <td align="center"> 1</td>
+    <td align="center">Ruben Velasquez Chambi</td>
+    <td align="center"> Done</td>
+  </tr>
+  <!------------------------------------------------>
+   <tr>
+    <td rowspan="1" align="center"> ID </td>
+    <td rowspan="1" align="center">US005 Eliminar empleados</td>
+      <td align="center"> TA01 </td>
+    <td align="center"> enpoint para actualizar empleados </td>
+    <td align="center"> Se debe de poder eliminar los empleados</td>
+    <td align="center"> 0.5</td>
+    <td align="center"> Ruben Velasquez Chambi</td>
+    <td align="center"> Done</td>
+  </tr>
+  <!------------------------------------------------>
+   <tr>
+    <td rowspan="3" align="center"> ID </td>
+    <td rowspan="3" align="center">US003 Listar empleados</td>
+      <td align="center"> TA01 </td>
+    <td align="center"> enpoint para listar empleados </td>
+    <td align="center"> Se debe poder consultar la lista de los empleados</td>
+    <td align="center"> 1</td>
+    <td align="center"> Ruben Velasquez Chambi</td>
+    <td align="center"> Done</td>
+  </tr>
+
+  <tr>
+    <td align="center"> TA02 </td>
+    <td align="center"> Vista de lista de empleados</td>
+    <td align="center"> Se debe de crear la actividad para visualizar la lista de empleados</td>
+    <td align="center"> 1</td>
+    <td align="center">Ruben Velasquez Chambi</td>
+    <td align="center"> Done</td>
+  </tr>
+
+  <tr>
+    <td align="center"> TA03 </td>
+    <td align="center"> Implementar el backend en la aplicacion movil</td>
+    <td align="center"> Se debe de consumir el endpoint correspondiente </td>
+    <td align="center"> 1</td>
+    <td align="center">Ruben Velasquez Chambi</td>
+    <td align="center"> To-do</td>
+  </tr>
+   <!------------------------------------------------>
+   <tr>
+    <td rowspan="3" align="center"> ID </td>
+    <td rowspan="3" align="center">US007 Listar proveedores</td>
+      <td align="center"> TA01 </td>
+    <td align="center"> enpoint para listar proveedores </td>
+    <td align="center"> Se debe poder consultar la lista de los proveedores</td>
+    <td align="center"> 1</td>
+    <td align="center"> Ruben Velasquez Chambi</td>
+    <td align="center"> Done</td>
+  </tr>
+
+  <tr>
+    <td align="center"> TA02 </td>
+    <td align="center"> Vista de lista de proveedores</td>
+    <td align="center"> Se debe de crear la actividad para visualizar la lista de proveedores</td>
+    <td align="center"> 1</td>
+    <td align="center">Ruben Velasquez Chambi</td>
+    <td align="center"> Done</td>
+  </tr>
+
+  <tr>
+    <td align="center"> TA03 </td>
+    <td align="center"> Implementar el backend en la aplicacion movil</td>
+    <td align="center"> Se debe de consumir el endpoint correspondiente </td>
+    <td align="center"> 1</td>
+    <td align="center">Ruben Velasquez Chambi</td>
+    <td align="center"> To-do</td>
+  </tr>
+ 
+
+</table>
+
+#### 5.2.1.3. Development Evidence for Sprint Review.
 
 #### 4.2.1.3. Development Evidence for Sprint Review
 
