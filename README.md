@@ -1536,10 +1536,91 @@ Link: https://youtu.be/Hd8nV5grxeg
 ### 4.1.4. Software Deployment Configuration
 
 ## 4.2. Landing Page & Mobile Application Implementation
-### 4.2.1. Sprint n
-#### 4.2.1.1. Sprint Planning n
+### 4.2.1. Sprint 1
+#### 4.2.1.1. Sprint Planning 1
 
-#### 4.2.1.2. Sprint Backlog n
+Para el primer spint el equipo establecio que el desarrollo de las tareas serian aproximadamente 22 horas.
+
+<table>
+    <thead>
+        <tr>
+            <th>Sprint #</th>
+            <th>Sprint 1</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td colspan="2"><b>Sprint Planning Background</b></td>
+        </tr>
+        <tr>
+            <td>Date</td>
+            <td>2025-010-06</td>
+        </tr>
+        <tr>
+            <td>Time</td>
+            <td>10:30 PM</td>
+        </tr>
+        <tr>
+            <td>Location</td>
+            <td>Discord</td>
+        </tr>
+        <tr>
+            <td>Prepared by</td>
+            <td>Urrutia Peña Jasmin Adriana</td>
+        </tr>
+        <tr>
+            <td>Atendees (to planning meeting)</td>
+            <td>
+                <li>Velaquez Chambi Ruben Genaro</li>
+                <li>Christian Fabrizio inga Orihuela</li>
+                <li>Hallasi Saravia Miguel Angel</li>
+                <li>Sebastian Alexander Ramos Calagua</li>
+            </td>
+        </tr>
+        <tr>
+            <td>Sprint 1 Review Summary</td>
+            <td>
+                Este es el primer sprint a realizar por el equipo
+            </td>
+        </tr>
+        <tr>
+            <td>Sprint 1 Retrospective Summary</td>
+            <td>
+                El equipo estuvo de acuerdo con empezar con el desarrollo de la landing page, aplicación movil y el backend
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2"><b>Sprint Goal & User Stories</b></td>
+        </tr>
+        <tr>
+            <td>Sprint 1 Goal</td>
+            <td>
+                <li>Nuestro enfoque está en desarrollar una landing page moderna y adaptable, conectada con el módulo de contactos del backend.
+Creemos que esto brindará una mayor visibilidad y participación de usuarios, atrayendo a más personas interesadas en la aplicación móvil.
+Esto se confirmará cuando al menos 30 usuarios envíen formularios de contacto</li>
+                <li>Nuestro enfoque está en construir la arquitectura central del backend siguiendo los principios de Domain-Driven Design (DDD) e implementar los bounded contexts de contacts, product e inventory.
+Creemos que esto brindará una base escalable y mantenible, que facilitará la extensión de la lógica de negocio y futuras integraciones.
+Esto se confirmará cuando todos los módulos de dominio estén operativos, pasen las pruebas unitarias y expongan correctamente sus endpoints RESTful documentados en Swagger/OpenAPI.</li>
+                  <li>Nuestro enfoque está en diseñar e implementar la aplicación móvil utilizando Jetpack Compose, MVVM y Arquitectura Limpia, totalmente integrada con el backend.
+Creemos que esto brindará una experiencia de usuario fluida e intuitiva.Esto se confirmará cuando la aplicación pueda obtener, mostrar y enviar datos correctamente hacia y desde el backend durante las pruebas.</li>
+            </td>
+        </tr>
+        <tr>
+            <td>Sprint 1 Velocity</td>
+            <td>
+                30
+            </td>
+        </tr>
+        <tr>
+            <td>Sum of story points</td>
+            <td>
+                37
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+#### 4.2.1.2. Sprint Backlog 1
 
 #### 4.2.1.3. Development Evidence for Sprint Review
 
