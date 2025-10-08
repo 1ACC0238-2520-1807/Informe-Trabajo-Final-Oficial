@@ -2188,6 +2188,26 @@ Creemos que esto brindará una experiencia de usuario fluida e intuitiva.Esto se
 
 #### 4.2.1.7. Software Deployment Evidence for Sprint Review
 
+**Configuración del Despliegue del Backend (Web Services)**
+
+Para el despliegue del backend de iCafe, se implementó una estrategia de contenerización utilizando Docker Compose, lo que permite una gestión eficiente y escalable de los servicios. El proceso de despliegue se realizó mediante las siguientes tecnologías y configuraciones:
+
+**Tecnologías Utilizadas:**
+- **Docker Compose**: Para la orquestación de contenedores y gestión de servicios
+- **Dokploy**: Como plataforma de despliegue y gestión de aplicaciones contenerizadas
+- **OpenJDK 17 (openjdk:17-jdk-slim)**: Imagen base optimizada para ejecutar aplicaciones Java
+- **Spring Boot**: Framework principal para el desarrollo del backend
+
+**Proceso de Despliegue:**
+
+1. **Contenerización**: El backend fue empaquetado en contenedores Docker utilizando la imagen `openjdk:17-jdk-slim`, que proporciona un entorno ligero y optimizado para aplicaciones Java con Spring Boot.
+
+2. **Configuración con Docker Compose**: Se configuró un archivo `docker-compose.yml` que define el servicio de la aplicación backend.
+
+3. **Despliegue con Dokploy**: Se utilizó Dokploy como plataforma de despliegue, que actúa como una solución de Platform-as-a-Service (PaaS) simplificando la gestión de contenedores y proporcionando funcionalidades de monitoreo, escalado automático y gestión de recursos.
+
+**Evidencia Visual del Despliegue:**
+
 ![Dokploy](./img/dokploy1.png)
 
 ![Dokploy](./img/dokploy2.png)
@@ -2195,6 +2215,9 @@ Creemos que esto brindará una experiencia de usuario fluida e intuitiva.Esto se
 ![Dokploy](./img/dokploy3.png)
 
 ![Dokploy](./img/dokploy4.png)
+
+Diagrama C4:
+![Deployment Diagram](./img/chapter-2/c4-deployment.png)
 
 #### 4.2.1.8. Team Collaboration Insights during Sprint
 
