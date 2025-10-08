@@ -1931,9 +1931,9 @@ Creemos que esto brindará una experiencia de usuario fluida e intuitiva.Esto se
     <td align="center"> ---</td>
     <td align="center"> 06/10/2025</td>
   </tr>
-
+  <!---------------------------------------------------->
    <tr>
-    <td rowspan="5" align="center">https://github.com/1ACC0238-2520-1807/backend-icafe</td>
+    <td rowspan="8" align="center">https://github.com/1ACC0238-2520-1807/backend-icafe</td>
     <td align="center"> main</td>
     <td align="center"> 737c8c177cffc724783a3c4ab9199ea14f098022</td>
     <td align="center"> feat(iam): bound context terminado y base del proyecto</td>
@@ -1942,14 +1942,113 @@ Creemos que esto brindará una experiencia de usuario fluida e intuitiva.Esto se
   </tr>
   <tr>
     <td align="center">main</td>
-    <td align="center" > 0ae643b60a5e5096960a618b8310a35448a95147</td>
-    <td align="center"> feat: Add files via upload</td>
+    <td align="center" > fe33dccc92221d7354f8b1aebcf3e2c04811667f</td>
+    <td align="center">feat(contacts): se agrego la capa domain y infrastructure</td>
     <td align="center"> ---</td>
     <td align="center"> 30/09/2025</td>
   </tr>
+   <tr>
+    <td align="center">develop</td>
+    <td align="center" >a48c5c6998e8f2b19fbb42e435c232d4c64ca133</td>
+    <td align="center">feat(porfolio): cuando se crea una nueva cuenta, se crea un nuevo porfolio que tiene como referncia el userID </td>
+    <td align="center"> ---</td>
+    <td align="center"> 01/10/2025</td>
+  </tr>
+    <tr>
+    <td align="center">feature/contacts</td>
+    <td align="center" >a48c5c6998e8f2b19fbb42e435c232d4c64ca133</td>
+    <td align="center">feat(contacs): se implemento update y delete para provider </td>
+    <td align="center"> ---</td>
+    <td align="center"> 02/10/2025</td>
+  </tr>
+<tr>
+    <td align="center">feature/contacts</td>
+    <td align="center" >a48c5c6998e8f2b19fbb42e435c232d4c64ca133</td>
+    <td align="center">feat(contacs): se implemento todo contacts, pero falta limpieza de codigo</td>
+    <td align="center"> ---</td>
+    <td align="center"> 02/10/2025</td>
+  </tr>
 
-  <!---Ya vuelvo para terminarlo-->
-
+  <tr>
+    <td align="center">feature/products</td>
+    <td align="center" >a48c5c6998e8f2b19fbb42e435c232d4c64ca133</td>
+    <td align="center">feat: product</td>
+    <td align="center"> ---</td>
+    <td align="center"> 06/10/2025</td>
+  </tr>
+   <tr>
+    <td align="center">develop/td>
+    <td align="center" >625041b48d14e4441d960cbb8d4eee1e5f66bf0d</td>
+    <td align="center">feat(docker): add docker configuration</td>
+    <td align="center"> ---</td>
+    <td align="center"> 07/10/2025</td>
+  </tr>
+  
+   <tr>
+    <td align="center">develop/td>
+    <td align="center" >d34cace9052543fe8285432699bd6ef35d85ba03</td>
+    <td align="center">Merge pull request #2 from 1ACC0238-2520-1807/develop</td>
+    <td align="center"> ---</td>
+    <td align="center"> 07/10/2025</td>
+  </tr>
+  <!--------------------->
+  <tr>
+    <td rowspan="8" align="center">https://github.com/1ACC0238-2520-1807/Android-icafe</td>
+    <td align="center"> main</td>
+    <td align="center"> 2a5a7cd5098ed3171233e769cb5e34de03bba9bd</td>
+    <td align="center"> first commit</td>
+    <td align="center"> ---</td>
+    <td align="center"> 05/10/2025</td>
+  </tr>
+  <tr>
+    <td align="center">develop</td>
+    <td align="center" > 238ad865911d8882dd6cd79d53813f81f622a9b0</td>
+    <td align="center">feat(auth): se creo la presentacion de login y register</td>
+    <td align="center"> ---</td>
+    <td align="center"> 05/10/2025</td>
+  </tr>
+   <tr>
+    <td align="center">develop</td>
+    <td align="center" > 2d2e039a27f854fbe67fd3ac32f49bed6e2bb27b0</td>
+    <td align="center">feat(AppNav): Se creo la navegacion base</td>
+    <td align="center"> ---</td>
+    <td align="center"> 06/10/2025</td>
+  </tr>
+    <tr>
+    <td align="center">feature/contacs</td>
+    <td align="center" > 1e048bc5ef06f70d52b01ccb52b5d592c89d2c46</td>
+    <td align="center">Delete app/src/main/java/com/example/icafe/core directory</td>
+    <td align="center"> ---</td>
+    <td align="center"> 08/10/2025</td>
+  </tr>
+  <tr>
+    <td align="center">feature/contacs</td>
+    <td align="center" > 47daa00738f52ef28a9a5e865c4ca38d2648137d</td>
+    <td align="center"> Delete app/src/main/java/com/example/icafe/ui/theme directory</td>
+    <td align="center"> ---</td>
+    <td align="center"> 08/10/2025</td>
+  </tr>
+   <tr>
+    <td align="center">feature/contacs</td>
+    <td align="center" > 86804944b385927c8e16dd0db8be1a904507789c</td>
+    <td align="center">Update AndroidManifest.xml</td>
+    <td align="center"> ---</td>
+    <td align="center"> 08/10/2025</td>
+  </tr>
+   <tr>
+    <td align="center">feature/contacs</td>
+    <td align="center" >bf5818fbce0e9f3d9dc82017ef4940bb9f86f4c4</td>
+    <td align="center">Update libs.versions.toml</td>
+    <td align="center"> ---</td>
+    <td align="center"> 08/10/2025</td>
+  </tr>
+    <tr>
+    <td align="center">develop</td>
+    <td align="center" >ffbc7c8e409c137f5d4368535c9a7b148292f815</td>
+    <td align="center">Merge pull request #1 from 1ACC0238-2520-1807/contacts</td>
+    <td align="center"> ---</td>
+    <td align="center"> 08/10/2025</td>
+  </tr>
 
 </table>
 
