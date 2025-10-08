@@ -63,7 +63,7 @@ Para el desarrollo del informe correspondiente a la entrega TB1, se estableció 
   <tbody>
     <tr>
       <td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">TB1</td>
-      <td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">-/-/2025</td>
+      <td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">15/08/2025</td>
       <td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">
         Ruben Velasquez Chambi <br>
         Christian Fabrizio Inga Orihuela <br>
@@ -72,12 +72,12 @@ Para el desarrollo del informe correspondiente a la entrega TB1, se estableció 
         Sebastian Alexander Ramos Calagua
       </td>
       <td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">
-        En esta entrega realizamos el Capitulo 1 y Capitulo 2.
+        Se completaron el Capítulo I y Capítulo II, incluyendo análisis de problemática, entrevistas y arquitectura inicial.
       </td>
     </tr>
     <tr>
       <td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">TP1</td>
-      <td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">-/-/2025</td>
+      <td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">01/09/2025</td>
       <td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">
         Ruben Velasquez Chambi <br>
         Christian Fabrizio Inga Orihuela <br>
@@ -86,12 +86,12 @@ Para el desarrollo del informe correspondiente a la entrega TB1, se estableció 
         Sebastian Alexander Ramos Calagua
       </td>
       <td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">
-        -
+        Se integraron los resultados de entrevistas, análisis competitivo y se definieron los primeros Bounded Contexts.
       </td>
     </tr>
     <tr>
       <td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">TB2</td>
-      <td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">-/-/2025</td>
+      <td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">20/09/2025</td>
       <td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">
         Ruben Velasquez Chambi <br>
         Christian Fabrizio Inga Orihuela <br>
@@ -100,12 +100,12 @@ Para el desarrollo del informe correspondiente a la entrega TB1, se estableció 
         Sebastian Alexander Ramos Calagua
       </td>
       <td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">
-        -
+        Se completaron los Bounded Context Canvas, diagramas de componentes y diagramas de clases/base de datos.
       </td>
     </tr>
-	      <tr>
+    <tr>
       <td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">TF</td>
-      <td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">-/-/2025</td>
+      <td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">05/10/2025</td>
       <td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">
         Ruben Velasquez Chambi <br>
         Christian Fabrizio Inga Orihuela <br>
@@ -114,11 +114,12 @@ Para el desarrollo del informe correspondiente a la entrega TB1, se estableció 
         Sebastian Alexander Ramos Calagua
       </td>
       <td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">
-        -
+        Se documentó la validación del producto, prototipos finales, entrevistas de cierre y conclusiones del proyecto.
       </td>
     </tr>
   </tbody>
 </table>
+
 
 ## Contenido
 - [Student Outcome](#student-outcome)
