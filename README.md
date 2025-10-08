@@ -301,18 +301,19 @@ A continuación se presentan los perfiles de los integrantes del equipo de desar
 | <img src="./img/chapter-1/jasmin.jpg" alt="Jasmin Urrutia Peña" width="200"> | **Nombres y apellidos:** Jasmin Adriana Urrutia Peña<br>**Código:** U202310008<br>**Carrera:** Ingeniería de Software<br>**Descripción:** Estudiante con enfoque en frontend y diseño UX. Me considero responsable, creativa y empática, con conocimientos en C++, HTML y CSS. Valoro el trabajo en equipo y el aprendizaje compartido. |
 | <img src="https://i.postimg.cc/vHksZbw6/Sebastian-Ramos-foto-perfil.jpg" alt="Sebastian Ramos Calagua" width="200"> | **Nombres y apellidos:** Sebastian Alexander Ramos Calagua<br>**Código:** U202222846<br>**Carrera:** Ingeniería de Software<br>**Descripción:** Desarrollador full-stack con experiencia en arquitectura modular. Me apasiona aplicar tecnología para resolver desafíos sociales en educación, salud y justicia, priorizando claridad, escalabilidad y utilidad. |
 
-## 1.2. Solution Profile
-
 ### 1.2.1. Antecedentes y problemática
 
-**Descripción de la problemática.**
-En la actualidad, muchas cafeterías todavía realizan la gestión de sus operaciones de manera manual o con herramientas poco integradas. Este enfoque genera problemas de organización, falta de control sobre los costos e insumos, errores humanos y una administración poco eficiente. Los dueños y administradores enfrentan dificultades para tener información clara y en tiempo real, lo cual se traduce en pérdidas económicas, sobrecarga de trabajo y menor productividad.
+En esta sección se analiza el contexto actual de las cafeterías en relación con la gestión operativa, identificando las principales dificultades que enfrentan y justificando la necesidad de una solución tecnológica adaptada a sus características. Este análisis fundamenta el desarrollo del producto iCafe como respuesta a una problemática concreta del sector.
 
-Aunque existen sistemas de gestión para negocios en el mercado, muchos de ellos están orientados a grandes empresas, presentan costos elevados o son demasiado complejos para la realidad de una cafetería pequeña o mediana. Además, gran parte de estas soluciones no se ajustan a la dinámica del sector cafetero, que requiere practicidad, rapidez y accesibilidad.
+**Descripción de la problemática**
 
-En este contexto, surge la necesidad de una herramienta digital centralizada, intuitiva y accesible que permita a los administradores de cafeterías gestionar sus operaciones de manera más ordenada. Una solución que simplifique el control de costos, facilite el registro de proveedores y empleados y organice los inventarios. Con este propósito nace iCafe, un producto diseñado por la startup SyncCafe, cuyo enfoque es brindar un sistema moderno, económico y adaptado a las necesidades reales de cafeterías independientes y cadenas pequeñas.
+Actualmente, muchas cafeterías gestionan sus operaciones de forma manual o mediante herramientas poco integradas, como hojas de cálculo, libretas físicas o aplicaciones aisladas. Este enfoque genera desorganización, errores humanos, falta de trazabilidad y escaso control sobre los costos e insumos. Los administradores enfrentan dificultades para acceder a información clara y en tiempo real, lo que se traduce en pérdidas económicas, sobrecarga de trabajo y baja productividad.
 
+Si bien existen sistemas de gestión empresarial en el mercado, la mayoría están orientados a grandes compañías, presentan costos elevados o requieren conocimientos técnicos avanzados. Estas soluciones no se ajustan a la dinámica de una cafetería pequeña o mediana, que demanda rapidez, simplicidad y accesibilidad.
 
+Según el estudio de Gómez et al. (2022) publicado por IEEE, más del 65% de microempresas en el sector gastronómico en Latinoamérica aún utilizan métodos manuales para la administración de inventarios y ventas, lo que impacta directamente en su rentabilidad y capacidad de crecimiento.
+
+En este contexto, surge la necesidad de una herramienta digital centralizada, intuitiva y económica que permita a los administradores de cafeterías gestionar sus operaciones de manera más eficiente. Una solución que simplifique el control de costos, facilite el registro de proveedores y empleados, y organice los inventarios. Con este propósito nace iCafe, un producto desarrollado por la startup SyncCafe, cuyo enfoque es brindar un sistema moderno y adaptado a las necesidades reales de cafeterías independientes y cadenas pequeñas.
 
 
 **Aplicación de la metodología 5W y 2H**
