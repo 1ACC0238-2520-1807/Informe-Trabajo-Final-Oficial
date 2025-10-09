@@ -2186,6 +2186,68 @@ Creemos que esto brindará una experiencia de usuario fluida e intuitiva.Esto se
 
 #### 4.2.1.6. Services Documentation Evidence for Sprint Review
 
+En esta sección se incluye la relación de Endpoints documentados con OpenAPI, relacionados con el alcance del Sprint. Durante este Sprint se logró implementar y documentar completamente la API RESTful del backend de iCafe, utilizando Spring Boot y Swagger/OpenAPI para generar documentación interactiva y detallada de todos los endpoints disponibles.
+
+**Logros Alcanzados en Documentación de Web Services:**
+
+- Implementación completa de documentación OpenAPI 3.0 para todos los bounded contexts desarrollados
+- Configuración de Swagger UI para interacción en tiempo real con la API
+- Documentación detallada de esquemas de request/response para cada endpoint
+- Especificación de códigos de estado HTTP y manejo de errores
+- Ejemplos de uso y datos de muestra para facilitar la integración
+
+**Tabla de Endpoints Documentados:**
+
+| Bounded Context | Endpoint | HTTP Verb | Sintaxis de Llamada | Parámetros | Descripción | Response Example |
+|-----------------|----------|-----------|---------------------|------------|-------------|------------------|
+| **Contact-Portfolio** | `/api/v1/contact-portfolios/{portfolioId}/providers` | GET | `GET /api/v1/contact-portfolios/1/providers` | `portfolioId` (path) | Listar proveedores por portfolio | `[{"id": 1, "nameCompany": "Café Premium S.A.", "email": "contacto@cafepremium.com"}]` |
+| **Contact-Portfolio** | `/api/v1/contact-portfolios/{portfolioId}/providers` | POST | `POST /api/v1/contact-portfolios/1/providers` | `portfolioId` (path), Body: CreateProviderContactResource | Agregar proveedor al portfolio | `{"id": 1, "nameCompany": "Café Premium S.A.", "ruc": "20123456789"}` |
+| **Contact-Portfolio** | `/api/v1/contact-portfolios/{portfolioId}/providers/{providerId}` | GET | `GET /api/v1/contact-portfolios/1/providers/1` | `portfolioId`, `providerId` (path) | Obtener proveedor específico | `{"id": 1, "nameCompany": "Café Premium S.A.", "phoneNumber": "+51987654321"}` |
+| **Contact-Portfolio** | `/api/v1/contact-portfolios/{portfolioId}/providers/{providerId}` | PUT | `PUT /api/v1/contact-portfolios/1/providers/1` | `portfolioId`, `providerId` (path), Body: UpdateProviderContactResource | Actualizar proveedor en portfolio | `{"id": 1, "nameCompany": "Café Premium S.A.", "email": "nuevo@email.com"}` |
+| **Contact-Portfolio** | `/api/v1/contact-portfolios/{portfolioId}/providers/{providerId}` | DELETE | `DELETE /api/v1/contact-portfolios/1/providers/1` | `portfolioId`, `providerId` (path) | Eliminar proveedor del portfolio | `{"message": "Provider removed successfully"}` |
+| **Contact-Portfolio** | `/api/v1/contact-portfolios/{portfolioId}/employees` | GET | `GET /api/v1/contact-portfolios/1/employees` | `portfolioId` (path) | Listar empleados por portfolio | `[{"id": 1, "name": "Juan Pérez", "role": "Barista", "salary": "1500"}]` |
+| **Contact-Portfolio** | `/api/v1/contact-portfolios/{portfolioId}/employees` | POST | `POST /api/v1/contact-portfolios/1/employees` | `portfolioId` (path), Body: CreateEmployeeContactResource | Agregar empleado al portfolio | `{"id": 1, "name": "Juan Pérez", "email": "juan@icafe.com"}` |
+| **Contact-Portfolio** | `/api/v1/contact-portfolios/{portfolioId}/employees/{employeeId}` | GET | `GET /api/v1/contact-portfolios/1/employees/1` | `portfolioId`, `employeeId` (path) | Obtener empleado específico | `{"id": 1, "name": "Juan Pérez", "branchId": 1}` |
+| **Contact-Portfolio** | `/api/v1/contact-portfolios/{portfolioId}/employees/{employeeId}` | PUT | `PUT /api/v1/contact-portfolios/1/employees/1` | `portfolioId`, `employeeId` (path), Body: CreateEmployeeContactResource | Actualizar empleado en portfolio | `{"id": 1, "name": "Juan Pérez", "role": "Supervisor"}` |
+| **Contact-Portfolio** | `/api/v1/contact-portfolios/{portfolioId}/employees/{employeeId}` | DELETE | `DELETE /api/v1/contact-portfolios/1/employees/1` | `portfolioId`, `employeeId` (path) | Eliminar empleado del portfolio | `{"message": "Employee removed successfully"}` |
+| **Provider-Contact** | `/api/v1/providercontacts` | GET | `GET /api/v1/providercontacts` | - | Listar todos los contactos de proveedores | `[{"id": 1, "nameCompany": "Distribuidora Café", "ruc": "20987654321"}]` |
+| **Provider-Contact** | `/api/v1/providercontacts` | POST | `POST /api/v1/providercontacts` | Body: CreateProviderContactResource | Crear nuevo contacto de proveedor | `{"id": 1, "nameCompany": "Distribuidora Café", "email": "ventas@distribuidora.com"}` |
+| **Products** | `/api/v1/products` | GET | `GET /api/v1/products?ownerId=1&branchId=1` | `ownerId`, `branchId` (query) | Listar productos por propietario y sucursal | `[{"id": 1, "name": "Café Americano", "category": "Bebidas", "type": "SIMPLE"}]` |
+| **Products** | `/api/v1/products` | POST | `POST /api/v1/products` | Body: CreateProductResource | Crear nuevo producto | `{"id": 1, "name": "Café Americano", "status": "ACTIVE", "portions": 1}` |
+| **Products** | `/api/v1/products/{productId}` | GET | `GET /api/v1/products/1` | `productId` (path) | Obtener producto por ID | `{"id": 1, "name": "Café Americano", "createdAt": "2024-01-15T10:30:00"}` |
+| **Products** | `/api/v1/products/{productId}` | PUT | `PUT /api/v1/products/1` | `productId` (path), Body: UpdateProductResource | Actualizar producto existente | `{"id": 1, "name": "Café Americano Premium", "updatedAt": "2024-01-15T11:00:00"}` |
+| **Products** | `/api/v1/products/{productId}` | DELETE | `DELETE /api/v1/products/1` | `productId` (path) | Eliminar producto permanentemente | `204 No Content` |
+| **Products** | `/api/v1/products/{productId}/archive` | PATCH | `PATCH /api/v1/products/1/archive` | `productId` (path) | Archivar producto (inactivar) | `{"id": 1, "status": "ARCHIVED", "name": "Café Americano"}` |
+| **Products** | `/api/v1/products/{productId}/activate` | PATCH | `PATCH /api/v1/products/1/activate` | `productId` (path) | Activar producto archivado | `{"id": 1, "status": "ACTIVE", "name": "Café Americano"}` |
+| **Inventory** | `/api/v1/inventory/items` | GET | `GET /api/v1/inventory/items` | - | Listar todos los items de inventario | `[{"id": 1, "nombre": "Café en grano", "cantidadActual": 50.5, "unidadMedida": "kg"}]` |
+| **Inventory** | `/api/v1/inventory/items` | POST | `POST /api/v1/inventory/items` | Body: CreateSupplyItemResource | Crear nuevo item de inventario | `{"id": 1, "nombre": "Café en grano", "puntoDeReorden": 10.0}` |
+| **Inventory** | `/api/v1/inventory/items/{id}` | GET | `GET /api/v1/inventory/items/1` | `id` (path) | Obtener item de inventario por ID | `{"id": 1, "nombre": "Café en grano", "requiereReabastecimiento": false}` |
+| **Inventory** | `/api/v1/inventory/items/{id}` | PUT | `PUT /api/v1/inventory/items/1` | `id` (path), Body: UpdateSupplyItemResource | Actualizar item de inventario | `{"id": 1, "nombre": "Café en grano Premium", "puntoDeReorden": 15.0}` |
+| **Inventory** | `/api/v1/inventory/items/{id}` | DELETE | `DELETE /api/v1/inventory/items/1` | `id` (path) | Eliminar item de inventario | `200 OK` |
+| **Stock Movements** | `/api/v1/inventory/movements` | GET | `GET /api/v1/inventory/movements` | - | Listar todos los movimientos de stock | `[{"id": 1, "tipoMovimiento": "ENTRADA", "cantidad": 25.0, "fechaTransaccion": "2024-01-15T09:00:00"}]` |
+| **Stock Movements** | `/api/v1/inventory/movements` | POST | `POST /api/v1/inventory/movements` | Body: CreateInventoryTransactionResource | Registrar nuevo movimiento de stock | `{"id": 1, "tipoMovimiento": "ENTRADA", "referencia": "Compra #001"}` |
+| **Stock Movements** | `/api/v1/inventory/movements/{id}` | GET | `GET /api/v1/inventory/movements/1` | `id` (path) | Obtener movimiento específico por ID | `{"id": 1, "cantidad": 25.0, "unidadMedida": "kg", "referencia": "Compra #001"}` |
+| **Authentication** | `/api/v1/authentication/sign-up` | POST | `POST /api/v1/authentication/sign-up` | Body: SignUpResource | Registrar nuevo usuario | `{"id": 1, "email": "usuario@icafe.com", "roles": ["USER"]}` |
+| **Authentication** | `/api/v1/authentication/sign-in` | POST | `POST /api/v1/authentication/sign-in` | Body: SignInResource | Iniciar sesión de usuario | `{"id": 1, "email": "usuario@icafe.com", "token": "eyJhbGciOiJIUzI1NiIs..."}` |
+| **Users** | `/api/v1/users` | GET | `GET /api/v1/users` | - | Listar todos los usuarios | `[{"id": 1, "email": "admin@icafe.com", "roles": ["ADMIN", "USER"]}]` |
+| **Users** | `/api/v1/users/{userId}` | GET | `GET /api/v1/users/1` | `userId` (path) | Obtener usuario por ID | `{"id": 1, "email": "admin@icafe.com", "roles": ["ADMIN"]}` |
+| **Roles** | `/ap/v1/roles` | GET | `GET /ap/v1/roles` | - | Listar todos los roles disponibles | `[{"id": 1, "name": "ADMIN"}, {"id": 2, "name": "USER"}]` |
+
+**Documentación Interactiva Desplegada:**
+
+La documentación completa de la API está disponible en: [http://upc-icafebackend-3sger0-aa823d-31-97-13-234.traefik.me/swagger-ui/index.html](http://upc-icafebackend-3sger0-aa823d-31-97-13-234.traefik.me/swagger-ui/index.html)
+
+**Capturas de Interacción con la Documentación:**
+
+![Swagger UI Overview](./img/swagger1.png)
+*Figura 1: Vista general de la documentación Swagger UI mostrando todos los bounded contexts disponibles*
+
+![API Endpoints Documentation](./img/swagger2.png)
+*Figura 2: Documentación detallada de endpoints del bounded context Contacts con ejemplos de request/response*
+
+
+- **URL del Repositorio:** [https://github.com/1ACC0238-2520-1807/iCafe-Backend](https://github.com/1ACC0238-2520-1807/iCafe-Backend)
+
 #### 4.2.1.7. Software Deployment Evidence for Sprint Review
 
 **Configuración del Despliegue del Backend (Web Services)**
