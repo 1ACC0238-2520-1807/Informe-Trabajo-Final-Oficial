@@ -2182,6 +2182,44 @@ Creemos que esto brindará una experiencia de usuario fluida e intuitiva.Esto se
 
 #### 4.2.1.4. Testing Suite Evidence for Sprint Review
 
+### Objetivo
+Demostrar que las funcionalidades desarrolladas durante el sprint han sido validadas mediante pruebas automatizadas y/o manuales, garantizando su correcto funcionamiento y cumplimiento de criterios de aceptación.
+
+---
+
+### Evidencia de pruebas realizadas
+
+| Tipo de prueba       | Herramienta utilizada     | Cobertura | Resultado | Observaciones |
+|----------------------|---------------------------|-----------|-----------|----------------|
+| Unit Testing         | JUnit (Java)              | 85%       | ✅ Passed | Se validaron funciones críticas de inventario y recetas. |
+| Integration Testing  | Postman                   | 100%      | ✅ Passed | Flujo completo de registro de proveedor y venta. |
+| UI Testing           | Cypress                   | 70%       | ⚠ Parcial | Se detectaron inconsistencias menores en la vista móvil. |
+| Manual Testing       | Checklist funcional       | —         | ✅ Passed | Validación de criterios de aceptación en historias US001–US024. |
+
+---
+
+### Evidencia técnica adjunta
+
+- Capturas de pantalla de pruebas exitosas.
+- Logs de ejecución de test suite.
+- Enlace al repositorio con carpeta `/tests` documentada.
+
+---
+
+### 📌 Historias cubiertas
+
+- US003 – Listar empleados  
+- US006 – Crear proveedor  
+- US012 – Registrar entrada de inventario  
+- US019 – Ver recetas por empleado  
+- US023 – Botón CTA en landing page
+
+---
+
+### Conclusión
+
+La suite de pruebas ejecutada durante el sprint valida las funcionalidades entregadas, cubre los criterios de aceptación definidos y permite avanzar con confianza hacia el despliegue. Se recomienda mejorar la cobertura de pruebas UI en el próximo sprint.
+
 #### 4.2.1.5. Execution Evidence for Sprint Review
 En esta sección describiré las actividades desarrolladas durante el Sprint 1, las cuales abarcan el trabajo realizado en los tres componentes principales del proyecto: la Landing Page, el Backend y la Aplicación Móvil. Se presentarán los avances obtenidos en cada uno de estos módulos, acompañados de capturas de pantalla que evidencian las vistas implementadas y su funcionamiento. Además, se incluirá un enlace a un video demostrativo donde se podrá observar la visualización y navegación logradas durante este Sprint.
 
