@@ -2191,9 +2191,9 @@ Demostrar que las funcionalidades desarrolladas durante el sprint han sido valid
 
 | Tipo de prueba       | Herramienta utilizada     | Cobertura | Resultado | Historias cubiertas |
 |----------------------|---------------------------|-----------|-----------|----------------------|
-| Unit Testing         | JUnit                     | 85%       | ✅ Passed | US012, US014, US019  |
-| API Testing          | Swagger / OpenAPI         | 100%      | ✅ Passed | US006, US012, US017, US018 |
-| Manual Testing       | Checklist funcional        | —         | ✅ Passed | US001–US024          |
+| Unit Testing         | JUnit                     | 85%       | Passed | US012, US014, US019  |
+| API Testing          | Swagger                   | 100%      | Passed | US006, US012, US017, US018 |
+| Manual Testing       | Checklist funcional       | —         | Passed | US001–US024          |
 
 ---
 
