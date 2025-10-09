@@ -1605,6 +1605,7 @@ Finalmente, se presentan los prototipos interactivos de la aplicación móvil, l
 <img src="./img/chapter-3/Prototype.png" alt="MockUps" width="800">
 
 Link: https://youtu.be/Hd8nV5grxeg
+Link Figma: https://www.figma.com/design/54NyDHkxxRtBDyw7VWojNK/Untitled?node-id=0-1&t=V2Z4lR3eL3gC4gol-1
 # Capítulo IV: Product Implementation & Validation
 
 ## 4.1. Software Configuration Management
