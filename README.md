@@ -2370,12 +2370,12 @@ En esta sección se incluye la relación de Endpoints documentados con OpenAPI, 
 La documentación completa de la API está disponible en: [http://upc-icafebackend-3sger0-aa823d-31-97-13-234.traefik.me/swagger-ui/index.html](http://upc-icafebackend-3sger0-aa823d-31-97-13-234.traefik.me/swagger-ui/index.html)
 
 **Capturas de Interacción con la Documentación:**
+ 
+<img src="./img/swagger1.png" alt="Swagger UI Overview" width="400"/> <br>
+*Figura 1: Vista general de la documentación Swagger UI mostrando todos los bounded contexts disponibles* <br>
 
-![Swagger UI Overview](./img/swagger1.png)
-*Figura 1: Vista general de la documentación Swagger UI mostrando todos los bounded contexts disponibles*
-
-![API Endpoints Documentation](./img/swagger2.png)
-*Figura 2: Documentación detallada de endpoints del bounded context Contacts con ejemplos de request/response*
+<img src="./img/swagger2.png" alt="API Endpoints Documentation" width="400"/> <br>
+*Figura 2: Documentación detallada de endpoints del bounded context Contacts con ejemplos de request/response* <br>
 
 
 - **URL del Repositorio:** [https://github.com/1ACC0238-2520-1807/iCafe-Backend](https://github.com/1ACC0238-2520-1807/iCafe-Backend)
@@ -2402,13 +2402,10 @@ Para el despliegue del backend de iCafe, se implementó una estrategia de conten
 
 **Evidencia Visual del Despliegue:**
 
-![Dokploy](./img/dokploy1.png)
-
-![Dokploy](./img/dokploy2.png)
-
-![Dokploy](./img/dokploy3.png)
-
-![Dokploy](./img/dokploy4.png)
+<img src="./img/dokploy1.png" alt="Dokploy" width="400"/> 
+<img src="./img/dokploy2.png" alt="Dokploy" width="400"/> 
+<img src="./img/dokploy3.png" alt="Dokploy" width="400"/> 
+<img src="./img/dokploy4.png" alt="Dokploy" width="400"/>
 
 **Configuración del Despliegue de la Landing Page**
 
@@ -2425,44 +2422,45 @@ Para el despliegue de la Landing Page de iCafe, se implementó una solución web
 
 2. **Repositorio**: El código fuente se almacenó en un repositorio de GitHub, manteniendo un control de versiones adecuado.
 
-![Landing1](./img/landing1.png)
+<img src="./img/landing1.png" alt="Landing1" width="500"/>
 
 3. **Despliegue con GitHub Pages**: Se configuró GitHub Pages para servir automáticamente la Landing Page desde el repositorio, proporcionando una URL pública accesible para los usuarios.
 
-![Landing2](./img/landing2.png)
+<img src="./img/landing2.png" alt="Landing2" width="500"/> 
+<img src="./img/landing3.png" alt="Landing3" width="500"/><br>
 
-![Landing3](./img/landing3.png)
-
-Diagrama C4:
-![Deployment Diagram](./img/chapter-2/c4-deployment.png)
+Diagrama C4: <br>
+<img src="./img/chapter-2/c4-deployment.png" alt="Deployment Diagram" width="500"/>
 
 #### 4.2.1.8. Team Collaboration Insights during Sprint
 En esta sección se presentarán las analíticas de colaboración del equipo dentro de la plataforma GitHub, donde se evidenciará el trabajo realizado en los tres repositorios principales del proyecto: Landing Page, Backend y Aplicación Móvil. A través de métricas como commits, ramas creadas, pull requests, revisiones y contribuciones por integrante, se busca demostrar la participación activa, la división de responsabilidades y la coordinación continua del equipo durante el desarrollo de cada componente del sistema.
-
+<br>
 **Organizacion:** Nuestra organizacion para el curso cuenta con 4 repositorios, donde 3 de estos son para el desarrollo del sistema propuesto.
+<br>
+<img src="./img/chapter-4/respositorios-github.png" alt="Organizacion" width="500"/>
+<br>
+**Colaboradores:** <br>
+<img src="./img/chapter-4/colaboradores-github.png" alt="Colaboradores" width="500"/> <br>
 
-![Organizacion](./img/chapter-4/respositorios-github.png)
-
-**Colaboradores:**
-![Colaboradores](./img/chapter-4/colaboradores-github.png)
 **Landing Page:**
 En el repositorio de la Landing Page, el trabajo fue desarrollado principalmente por un solo integrante del equipo, quien asumió la responsabilidad completa del diseño, desarrollo e implementación de esta parte del proyecto.
 
-![Github-landing](./img/chapter-4/lading-icafe-analiticas.png)
+<img src="./img/chapter-4/lading-icafe-analiticas.png" alt="Github-landing" width="500"/> <br>
 
 **Backend:**
 En el repositorio del backend, se evidenció una colaboración activa entre varios miembros del equipo, aplicando correctamente la metodología GitFlow para mantener un flujo de trabajo ordenado y controlado. Cada desarrollador trabajó en ramas específicas (feature, develop, main), lo que permitió integrar cambios de forma segura y realizar revisiones antes de las fusiones finales. Durante este sprint se implementaron los bounded contexts principales: IAM, Products, Contact e Inventory, los cuales constituyen la base funcional del sistema y servirán como infraestructura esencial para los próximos sprints.
 
-![Github-backend](./img/chapter-4/backend-icafe-analiticas.png)
+<img src="./img/chapter-4/backend-icafe-analiticas.png" alt="Github-backend" width="500"/> <br>
 
 En el siguiente gráfico se describe las ramas del repositorio backend donde se muestra una estructura ramificada y bien organizada, propia del uso de GitFlow.
 
-![Github-rama-backend](./img/chapter-4/ramas-backend.png)
+<img src="./img/chapter-4/ramas-backend.png" alt="Github-rama-backend" width="500"/> <br>
 
 **Aplicación Móvil:**
 El gráfico de colaboración del repositorio correspondiente a la aplicación móvil, desarrollada con Kotlin y Jetpack Compose, muestra una participación continua de los miembros encargados del desarrollo del front-end móvil. Se evidencia una actividad constante en commits y pushes, principalmente en ramas de tipo feature/ orientadas al diseño de interfaces, integración con el backend y configuración inicial del proyecto siguiendo la arquitectura MVVM y principios de arquitectura limpia.
-![github-movil](./img/chapter-4/android-icafe-analiticas.png)
-![github-movil-2](./img/chapter-4/android-icafe-analiticas-2.png)
+<img src="./img/chapter-4/android-icafe-analiticas.png" alt="github-movil" width="400"/> <br>
+
+<img src="./img/chapter-4/android-icafe-analiticas-2.png" alt="github-movil-2" width="500"/> <br>
 ## 4.3. Validation Interviews
 ### 4.3.1. Diseño de Entrevistas
 
