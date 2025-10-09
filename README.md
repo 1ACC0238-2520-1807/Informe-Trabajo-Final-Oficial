@@ -2185,40 +2185,81 @@ Creemos que esto brindará una experiencia de usuario fluida e intuitiva.Esto se
 #### 4.2.1.5. Execution Evidence for Sprint Review
 En esta sección describiré las actividades desarrolladas durante el Sprint 1, las cuales abarcan el trabajo realizado en los tres componentes principales del proyecto: la Landing Page, el Backend y la Aplicación Móvil. Se presentarán los avances obtenidos en cada uno de estos módulos, acompañados de capturas de pantalla que evidencian las vistas implementadas y su funcionamiento. Además, se incluirá un enlace a un video demostrativo donde se podrá observar la visualización y navegación logradas durante este Sprint.
 
-**Ladin Page:**
-![lading-1](./img/chapter-4/landing-1.jpeg)
-![lading-2](./img/chapter-4/landing-2.jpeg)
-![lading-3](./img/chapter-4/landing-3.jpeg)
-![lading-4](./img/chapter-4/landing-4.jpeg)
-
-link: https://1acc0238-2520-1807.github.io/LandingPage-iCafe/ 
+**Landing Page**
+<p align="center"> <img src="./img/chapter-4/landing-1.jpeg" width="80%" alt="Landing Page 1"/> <img src="./img/chapter-4/landing-2.jpeg" width="80%" alt="Landing Page 2"/> <img src="./img/chapter-4/landing-3.jpeg" width="80%" alt="Landing Page 3"/> <img src="./img/chapter-4/landing-4.jpeg" width="80%" alt="Landing Page 4"/> </p> <p align="center"> La Landing Page fue diseñada para presentar la aplicación móvil a los dueños de cafeterías, destacando sus beneficios principales y motivando la descarga mediante un botón de “Call to Action”. Se priorizó un diseño limpio, moderno y adaptable a distintos dispositivos. </p> <p align="center"> <b>Link:</b> <a href="https://1acc0238-2520-1807.github.io/LandingPage-iCafe/" target="_blank">https://1acc0238-2520-1807.github.io/LandingPage-iCafe/</a> </p>
 
 **Backend:**
-![swager](./img/swagger1.png)
+<p align="center"> <img src="./img/swagger1.png" width="80%" alt="Swagger API Documentation"/> </p> <p align="center"> El backend fue desarrollado bajo principios de <b>Domain-Driven Design (DDD)</b> e implementa varios <b>bounded contexts</b> como <i>iam, products, contacts e inventory</i>. Se utilizó <b>Spring Boot</b> con <b>RESTful APIs</b> para gestionar los distintos módulos y facilitar la futura integración con la aplicación móvil. </p> <p align="center"> <b>Video demostrativo:</b> <a href="https://drive.google.com/file/d/11aM-DKEcy-WijTvHAGVb-tzOcH0vTmTB/view?usp=sharing" target="_blank">Ver en Google Drive</a> </p>
 
-Link: https://drive.google.com/file/d/11aM-DKEcy-WijTvHAGVb-tzOcH0vTmTB/view?usp=sharing
+Link: https://drive.google.com/file/d/11aM-DKEcy-WijTvHAGVb-tzOcH0vTmTB/view?usp=sharing 
+
+<br></br>
 
 **Aplicacion Movile:**
- Actividad donde se puede ingresar con una email y contraseña
-![Movil-login](./img/chapter-4/movil-login.jpeg)
-Seccion donde se visualiza todas las funcionalidades que tendra la aplicación.
-![Movil-home](./img/chapter-4/movil-home.jpeg)
-Menu de navegacion.
-![Movil-menu](./img/chapter-4/movil-menu.jpeg)
-Actividad para visualizar la lista de empleados registrados.
-![Movil-empleados](./img/chapter-4/movil-empleados.jpeg)
-Actividad para registrar nuevos empleados.
-![Movil-agregar-empleado](./img/chapter-4/movil-agregar-empleados.jpeg)
-Actividad para editar la información de un empleado.
-![Movil-editar-empleado](./img/chapter-4/movil-editar-empleado.jpeg)
-Actividad para visualizar la lista de proveedores.
-![Movil-proveedores](./img/chapter-4/movil-proveedores.jpeg)
-Actividad para registrar nuevos proveedores.
-![Movil-agregar-proveedor](./img/chapter-4/movil-agregar-proveedor.jpeg)
-Actividad para editar la informacion de un proveedor.
-![Movil-editar-proveedor](./img/chapter-4/movil-editar-provedor.jpeg)
-Registrar nuevos insumos al inventario.
-![Movil-insumos](./img/chapter-4/movil-insumos.jpeg)
+
+<p align="center">
+  Desarrollada con <b>Kotlin</b> y <b>Jetpack Compose</b>, la aplicación móvil permite a los dueños de cafeterías gestionar empleados, proveedores e inventario desde su dispositivo.
+  Se implementó arquitectura <b>MVVM</b> y principios de <b>Clean Architecture</b> para asegurar mantenibilidad y escalabilidad.
+</p>
+
+<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px;">
+
+  <div style="flex: 0 0 45%; text-align: center;">
+    <b>Pantalla de inicio de sesión</b><br>
+    <img src="./img/chapter-4/movil-login.jpeg" width="100%" alt="Login"/>
+  </div>
+
+  <div style="flex: 0 0 45%; text-align: center;">
+    <b>Pantalla principal</b><br>
+    <img src="./img/chapter-4/movil-home.jpeg" width="100%" alt="Home"/>
+  </div>
+
+  <div style="flex: 0 0 45%; text-align: center;">
+    <b>Menú de navegación</b><br>
+    <img src="./img/chapter-4/movil-menu.jpeg" width="100%" alt="Menu"/>
+  </div>
+
+  <div style="flex: 0 0 45%; text-align: center;">
+    <b>Lista de empleados</b><br>
+    <img src="./img/chapter-4/movil-empleados.jpeg" width="100%" alt="Empleados"/>
+  </div>
+
+  <div style="flex: 0 0 45%; text-align: center;">
+    <b>Registrar nuevo empleado</b><br>
+    <img src="./img/chapter-4/movil-agregar-empleados.jpeg" width="100%" alt="Agregar empleado"/>
+  </div>
+
+  <div style="flex: 0 0 45%; text-align: center;">
+    <b>Editar información de empleado</b><br>
+    <img src="./img/chapter-4/movil-editar-empleado.jpeg" width="100%" alt="Editar empleado"/>
+  </div>
+
+  <div style="flex: 0 0 45%; text-align: center;">
+    <b>Lista de proveedores</b><br>
+    <img src="./img/chapter-4/movil-proveedores.jpeg" width="100%" alt="Proveedores"/>
+  </div>
+
+  <div style="flex: 0 0 45%; text-align: center;">
+    <b>Registrar nuevo proveedor</b><br>
+    <img src="./img/chapter-4/movil-agregar-proveedor.jpeg" width="100%" alt="Agregar proveedor"/>
+  </div>
+
+  <div style="flex: 0 0 45%; text-align: center;">
+    <b>Editar información de proveedor</b><br>
+    <img src="./img/chapter-4/movil-editar-provedor.jpeg" width="100%" alt="Editar proveedor"/>
+  </div>
+
+  <div style="flex: 0 0 45%; text-align: center;">
+    <b>Registrar nuevos insumos al inventario</b><br>
+    <img src="./img/chapter-4/movil-insumos.jpeg" width="100%" alt="Insumos"/>
+  </div>
+
+</div>
+
+<p align="center">
+  <b>Video demostrativo:</b>
+  <a href="https://drive.google.com/file/d/1FjrpWygjRiYmw7yVLpyuLXEac2Lg016r/view?usp=sharing" target="_blank">Ver en Google Drive</a>
+</p>
 
 Link: https://drive.google.com/file/d/1FjrpWygjRiYmw7yVLpyuLXEac2Lg016r/view?usp=sharing 
 
