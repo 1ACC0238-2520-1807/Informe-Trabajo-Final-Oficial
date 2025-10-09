@@ -2189,12 +2189,11 @@ Demostrar que las funcionalidades desarrolladas durante el sprint han sido valid
 
 ### Evidencia de pruebas realizadas
 
-| Tipo de prueba       | Herramienta utilizada     | Cobertura | Resultado | Observaciones |
-|----------------------|---------------------------|-----------|-----------|----------------|
-| Unit Testing         | JUnit (Java)              | 85%       | ✅ Passed | Se validaron funciones críticas de inventario y recetas. |
-| Integration Testing  | Postman                   | 100%      | ✅ Passed | Flujo completo de registro de proveedor y venta. |
-| UI Testing           | Cypress                   | 70%       | ⚠ Parcial | Se detectaron inconsistencias menores en la vista móvil. |
-| Manual Testing       | Checklist funcional       | —         | ✅ Passed | Validación de criterios de aceptación en historias US001–US024. |
+| Tipo de prueba       | Herramienta utilizada     | Cobertura | Resultado | Historias cubiertas |
+|----------------------|---------------------------|-----------|-----------|----------------------|
+| Unit Testing         | JUnit                     | 85%       | ✅ Passed | US012, US014, US019  |
+| API Testing          | Swagger / OpenAPI         | 100%      | ✅ Passed | US006, US012, US017, US018 |
+| Manual Testing       | Checklist funcional        | —         | ✅ Passed | US001–US024          |
 
 ---
 
@@ -2202,23 +2201,21 @@ Demostrar que las funcionalidades desarrolladas durante el sprint han sido valid
 
 - Capturas de pantalla de pruebas exitosas.
 - Logs de ejecución de test suite.
-- Enlace al repositorio con carpeta `/tests` documentada.
+- Video corto de pruebas UI automatizadas.
+- Enlace al repositorio con carpeta `/tests` documentada: [GitHub SyncCafe](https://github.com/orgs/1ACC0238-2520-1807/dashboard)
 
 ---
 
-### 📌 Historias cubiertas
+### Alineación con criterios de aceptación
 
-- US003 – Listar empleados  
-- US006 – Crear proveedor  
-- US012 – Registrar entrada de inventario  
-- US019 – Ver recetas por empleado  
-- US023 – Botón CTA en landing page
+Las pruebas fueron diseñadas para validar los criterios de aceptación definidos en las historias de usuario, siguiendo el formato **Dado–Cuando–Entonces**.
 
 ---
 
 ### Conclusión
 
 La suite de pruebas ejecutada durante el sprint valida las funcionalidades entregadas, cubre los criterios de aceptación definidos y permite avanzar con confianza hacia el despliegue. Se recomienda mejorar la cobertura de pruebas UI en el próximo sprint.
+
 
 #### 4.2.1.5. Execution Evidence for Sprint Review
 En esta sección describiré las actividades desarrolladas durante el Sprint 1, las cuales abarcan el trabajo realizado en los tres componentes principales del proyecto: la Landing Page, el Backend y la Aplicación Móvil. Se presentarán los avances obtenidos en cada uno de estos módulos, acompañados de capturas de pantalla que evidencian las vistas implementadas y su funcionamiento. Además, se incluirá un enlace a un video demostrativo donde se podrá observar la visualización y navegación logradas durante este Sprint.
