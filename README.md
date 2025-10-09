@@ -58,7 +58,7 @@ Para el desarrollo del informe correspondiente a la entrega TP, cada integrante 
 |-|-|
 | Ruben Velasquez Chambi |Sprint 1 y Creacion del boundent Iam y Contacts en el backend |
 | Christian Fabrizio Inga Orihuela | Implementacion de boundent Products en el frontend   |
-| Hallasi Saravia, Miguel Angel | Creacion del boundent Inventory y Products en el backend   |
+| Hallasi Saravia, Miguel Angel | Sprint 1 Y Creacion del boundent Inventory y Products en el backend   |
 | Urrutia Peña, Jasmin Adriana | Capítulo III: Solution UI/UX Design e implementación del boundent Iam , Contacts e Inventory en el frontend   |
 | Sebastian Alexander Ramos Calagua | Correcciones TB1 y Software Configuration Management   |
 
