@@ -2229,69 +2229,7 @@ En esta sección describiré las actividades desarrolladas durante el Sprint 1, 
   Se implementó arquitectura <b>MVVM</b> y principios de <b>Clean Architecture</b> para asegurar mantenibilidad y escalabilidad.
 </p>
 
-<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px;">
-
-  <div style="flex: 0 0 45%; text-align: center;">
-    <b>Pantalla de inicio de sesión</b><br>
-    <img src="./img/chapter-4/movil-login.jpeg" width="100%" alt="Login"/>
-  </div>
-
-  <div style="flex: 0 0 45%; text-align: center;">
-    <b>Pantalla principal</b><br>
-    <img src="./img/chapter-4/movil-home.jpeg" width="100%" alt="Home"/>
-  </div>
-
-  <div style="flex: 0 0 45%; text-align: center;">
-    <b>Menú de navegación</b><br>
-    <img src="./img/chapter-4/movil-menu.jpeg" width="100%" alt="Menu"/>
-  </div>
-
-  <div style="flex: 0 0 45%; text-align: center;">
-    <b>Lista de empleados</b><br>
-    <img src="./img/chapter-4/movil-empleados.jpeg" width="100%" alt="Empleados"/>
-  </div>
-
-  <div style="flex: 0 0 45%; text-align: center;">
-    <b>Registrar nuevo empleado</b><br>
-    <img src="./img/chapter-4/movil-agregar-empleados.jpeg" width="100%" alt="Agregar empleado"/>
-  </div>
-
-  <div style="flex: 0 0 45%; text-align: center;">
-    <b>Editar información de empleado</b><br>
-    <img src="./img/chapter-4/movil-editar-empleado.jpeg" width="100%" alt="Editar empleado"/>
-  </div>
-
-  <div style="flex: 0 0 45%; text-align: center;">
-    <b>Lista de proveedores</b><br>
-    <img src="./img/chapter-4/movil-proveedores.jpeg" width="100%" alt="Proveedores"/>
-  </div>
-
-  <div style="flex: 0 0 45%; text-align: center;">
-    <b>Registrar nuevo proveedor</b><br>
-    <img src="./img/chapter-4/movil-agregar-proveedor.jpeg" width="100%" alt="Agregar proveedor"/>
-  </div>
-
-  <div style="flex: 0 0 45%; text-align: center;">
-    <b>Editar información de proveedor</b><br>
-    <img src="./img/chapter-4/movil-editar-provedor.jpeg" width="100%" alt="Editar proveedor"/>
-  </div>
-
-  <div style="flex: 0 0 45%; text-align: center;">
-    <b>Registrar nuevos insumos al inventario</b><br>
-    <img src="./img/chapter-4/movil-insumos.jpeg" width="100%" alt="Insumos"/>
-  </div>
-
-</div>
-
-<p align="center">
-  <b>Video demostrativo:</b>
-  <a href="https://drive.google.com/file/d/1FjrpWygjRiYmw7yVLpyuLXEac2Lg016r/view?usp=sharing" target="_blank">Ver en Google Drive</a>
-</p>
-
-
-Link: https://drive.google.com/file/d/11aM-DKEcy-WijTvHAGVb-tzOcH0vTmTB/view?usp=sharing 
-
-<br></br>
+Link: https://drive.google.com/file/d/11aM-DKEcy-WijTvHAGVb-tzOcH0vTmTB/view?usp=drive_link
 
 **Aplicacion Movile:**
 
