@@ -2227,7 +2227,9 @@ En esta sección describiré las actividades desarrolladas durante el Sprint 1, 
 <p align="center">
   Desarrollada con <b>Kotlin</b> y <b>Jetpack Compose</b>, la aplicación móvil permite a los dueños de cafeterías gestionar empleados, proveedores e inventario desde su dispositivo.
   Se implementó arquitectura <b>MVVM</b> y principios de <b>Clean Architecture</b> para asegurar mantenibilidad y escalabilidad.
+  <img src="./img/swagger1.png" width="80%" alt="Swager"/>
 </p>
+
 
 Link: https://drive.google.com/file/d/11aM-DKEcy-WijTvHAGVb-tzOcH0vTmTB/view?usp=drive_link
 
