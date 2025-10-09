@@ -2220,7 +2220,32 @@ Diagrama C4:
 ![Deployment Diagram](./img/chapter-2/c4-deployment.png)
 
 #### 4.2.1.8. Team Collaboration Insights during Sprint
+En esta sección se presentarán las analíticas de colaboración del equipo dentro de la plataforma GitHub, donde se evidenciará el trabajo realizado en los tres repositorios principales del proyecto: Landing Page, Backend y Aplicación Móvil. A través de métricas como commits, ramas creadas, pull requests, revisiones y contribuciones por integrante, se busca demostrar la participación activa, la división de responsabilidades y la coordinación continua del equipo durante el desarrollo de cada componente del sistema.
 
+**Organizacion:** Nuestra organizacion para el curso cuenta con 4 repositorios, donde 3 de estos son para el desarrollo del sistema propuesto.
+
+![Organizacion](./img/chapter-4/respositorios-github.png)
+
+**Colaboradores:**
+![Colaboradores](./img/chapter-4/colaboradores-github.png)
+**Landing Page:**
+En el repositorio de la Landing Page, el trabajo fue desarrollado principalmente por un solo integrante del equipo, quien asumió la responsabilidad completa del diseño, desarrollo e implementación de esta parte del proyecto.
+
+![Github-landing](./img/chapter-4/lading-icafe-analiticas.png)
+
+**Backend:**
+En el repositorio del backend, se evidenció una colaboración activa entre varios miembros del equipo, aplicando correctamente la metodología GitFlow para mantener un flujo de trabajo ordenado y controlado. Cada desarrollador trabajó en ramas específicas (feature, develop, main), lo que permitió integrar cambios de forma segura y realizar revisiones antes de las fusiones finales. Durante este sprint se implementaron los bounded contexts principales: IAM, Products, Contact e Inventory, los cuales constituyen la base funcional del sistema y servirán como infraestructura esencial para los próximos sprints.
+
+![Github-backend](./img/chapter-4/backend-icafe-analiticas.png)
+
+En el siguiente gráfico se describe las ramas del repositorio backend donde se muestra una estructura ramificada y bien organizada, propia del uso de GitFlow.
+
+![Github-rama-backend](./img/chapter-4/ramas-backend.png)
+
+**Aplicación Móvil:**
+El gráfico de colaboración del repositorio correspondiente a la aplicación móvil, desarrollada con Kotlin y Jetpack Compose, muestra una participación continua de los miembros encargados del desarrollo del front-end móvil. Se evidencia una actividad constante en commits y pushes, principalmente en ramas de tipo feature/ orientadas al diseño de interfaces, integración con el backend y configuración inicial del proyecto siguiendo la arquitectura MVVM y principios de arquitectura limpia.
+![github-movil](./img/chapter-4/android-icafe-analiticas.png)
+![github-movil-2](./img/chapter-4/android-icafe-analiticas-2.png)
 ## 4.3. Validation Interviews
 ### 4.3.1. Diseño de Entrevistas
 
