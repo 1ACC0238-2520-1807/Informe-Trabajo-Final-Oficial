@@ -2259,52 +2259,52 @@ Link: https://drive.google.com/file/d/11aM-DKEcy-WijTvHAGVb-tzOcH0vTmTB/view?usp
 
   <div style="flex: 0 0 45%; text-align: center;">
     <b>Pantalla de inicio de sesión</b><br>
-    <img src="./img/chapter-4/movil-login.jpeg" width="100%" alt="Login"/>
+    <img src="./img/chapter-4/movil-login.jpeg" width="50%" alt="Login"/>
   </div>
 
   <div style="flex: 0 0 45%; text-align: center;">
     <b>Pantalla principal</b><br>
-    <img src="./img/chapter-4/movil-home.jpeg" width="100%" alt="Home"/>
+    <img src="./img/chapter-4/movil-home.jpeg" width="50%" alt="Home"/>
   </div>
 
   <div style="flex: 0 0 45%; text-align: center;">
     <b>Menú de navegación</b><br>
-    <img src="./img/chapter-4/movil-menu.jpeg" width="100%" alt="Menu"/>
+    <img src="./img/chapter-4/movil-menu.jpeg" width="50%" alt="Menu"/>
   </div>
 
   <div style="flex: 0 0 45%; text-align: center;">
     <b>Lista de empleados</b><br>
-    <img src="./img/chapter-4/movil-empleados.jpeg" width="100%" alt="Empleados"/>
+    <img src="./img/chapter-4/movil-empleados.jpeg" width="50%" alt="Empleados"/>
   </div>
 
   <div style="flex: 0 0 45%; text-align: center;">
     <b>Registrar nuevo empleado</b><br>
-    <img src="./img/chapter-4/movil-agregar-empleados.jpeg" width="100%" alt="Agregar empleado"/>
+    <img src="./img/chapter-4/movil-agregar-empleados.jpeg" width="50%" alt="Agregar empleado"/>
   </div>
 
   <div style="flex: 0 0 45%; text-align: center;">
     <b>Editar información de empleado</b><br>
-    <img src="./img/chapter-4/movil-editar-empleado.jpeg" width="100%" alt="Editar empleado"/>
+    <img src="./img/chapter-4/movil-editar-empleado.jpeg" width="50%" alt="Editar empleado"/>
   </div>
 
   <div style="flex: 0 0 45%; text-align: center;">
     <b>Lista de proveedores</b><br>
-    <img src="./img/chapter-4/movil-proveedores.jpeg" width="100%" alt="Proveedores"/>
+    <img src="./img/chapter-4/movil-proveedores.jpeg" width="50%" alt="Proveedores"/>
   </div>
 
   <div style="flex: 0 0 45%; text-align: center;">
     <b>Registrar nuevo proveedor</b><br>
-    <img src="./img/chapter-4/movil-agregar-proveedor.jpeg" width="100%" alt="Agregar proveedor"/>
+    <img src="./img/chapter-4/movil-agregar-proveedor.jpeg" width="50%" alt="Agregar proveedor"/>
   </div>
 
   <div style="flex: 0 0 45%; text-align: center;">
     <b>Editar información de proveedor</b><br>
-    <img src="./img/chapter-4/movil-editar-provedor.jpeg" width="100%" alt="Editar proveedor"/>
+    <img src="./img/chapter-4/movil-editar-provedor.jpeg" width="50%" alt="Editar proveedor"/>
   </div>
 
   <div style="flex: 0 0 45%; text-align: center;">
     <b>Registrar nuevos insumos al inventario</b><br>
-    <img src="./img/chapter-4/movil-insumos.jpeg" width="100%" alt="Insumos"/>
+    <img src="./img/chapter-4/movil-insumos.jpeg" width="50%" alt="Insumos"/>
   </div>
 
 </div>
