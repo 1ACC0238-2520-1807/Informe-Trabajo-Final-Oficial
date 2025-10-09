@@ -49,6 +49,20 @@ Para el desarrollo del informe correspondiente a la entrega TB1, se estableció 
 | Urrutia Peña, Jasmin Adriana |Descripción de la Startup, Solution Profile, Antecedentes y problemática,  Diseño de entrevistas, Registro de entrevistas, Análisis de entrevistas, EventStorming, Candidate Context Discovery y Bounded Context: Contacts    |
 | Sebastian Alexander Ramos Calagua |Lean UX Process, Bounded Context Canvases, Bounded Context: Sales |
 
+
+**TP**
+
+Para el desarrollo del informe correspondiente a la entrega TP, cada integrante realizo la siguiente parte:
+
+|Integrante|Tareas Asignadas|
+|-|-|
+| Ruben Velasquez Chambi |Sprint 1 y Creacion del boundent Iam y Contacts en el backend |
+| Christian Fabrizio Inga Orihuela | Implementacion de boundent Products en el frontend   |
+| Hallasi Saravia, Miguel Angel | Creacion del boundent Inventory y Products en el backend   |
+| Urrutia Peña, Jasmin Adriana | Capítulo III: Solution UI/UX Design e implementación del boundent Iam , Contacts e Inventory en el frontend   |
+| Sebastian Alexander Ramos Calagua | Correcciones TB1 y Software Configuration Management   |
+
+
 ## Registro de Versiones del Informe
 
 <table style="border-collapse:collapse;border-spacing:0" class="tg">
