@@ -2224,6 +2224,7 @@ En esta sección describiré las actividades desarrolladas durante el Sprint 1, 
 <p align="center"> <img src="./img/chapter-4/landing-1.jpeg" width="80%" alt="Landing Page 1"/> <img src="./img/chapter-4/landing-2.jpeg" width="80%" alt="Landing Page 2"/> <img src="./img/chapter-4/landing-3.jpeg" width="80%" alt="Landing Page 3"/> <img src="./img/chapter-4/landing-4.jpeg" width="80%" alt="Landing Page 4"/> </p> <p align="center"> La Landing Page fue diseñada para presentar la aplicación móvil a los dueños de cafeterías, destacando sus beneficios principales y motivando la descarga mediante un botón de “Call to Action”. Se priorizó un diseño limpio, moderno y adaptable a distintos dispositivos. </p> <p align="center"> <b>Link:</b> <a href="https://1acc0238-2520-1807.github.io/LandingPage-iCafe/" target="_blank">https://1acc0238-2520-1807.github.io/LandingPage-iCafe/</a> </p>
 
 **Backend:**
+
 <p align="center">
   Desarrollada con <b>Kotlin</b> y <b>Jetpack Compose</b>, la aplicación móvil permite a los dueños de cafeterías gestionar empleados, proveedores e inventario desde su dispositivo.
   Se implementó arquitectura <b>MVVM</b> y principios de <b>Clean Architecture</b> para asegurar mantenibilidad y escalabilidad.
