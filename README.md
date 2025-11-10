@@ -712,33 +712,49 @@ Los dueños de cafeterías suelen enfrentar problemas comunes relacionados con l
 | EP012| Spike Story | historias de usuario de investigacion de recursos para el proyecto |
 
 ## User Stories
+| Story ID | Título                       | Descripción                                                                                             | Criterios de aceptación                                                                                                                                                                                                                                                                                                                                                                                                                                                                 | Relación con (Epic ID) |
+| -------- | ---------------------------- | ------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------- |
+| US001    | Registro de dueño            | Como dueño, quiero registrarme en la aplicación para administrar mi cafetería.                          | **Escenario 1 – Registro exitoso**<br>**Given** que el dueño ingresa datos válidos<br>**When** confirma el registro<br>**Then** el sistema crea su cuenta.<br>**Escenario 2 – Email duplicado**<br>**Given** que el email ya existe<br>**When** intenta registrarse<br>**Then** el sistema muestra un error.<br>**Escenario 3 – Campos faltantes**<br>**Given** que no llena todos los campos<br>**When** intenta registrarse<br>**Then** el sistema muestra validaciones obligatorias. | EP001                  |
+| US002    | Login seguro                 | Como usuario, quiero iniciar sesión con mis credenciales para acceder según mi rol.    | **Escenario 1 – Login exitoso**<br>**Given** credenciales correctas<br>**When** hace login<br>**Then** accede al sistema según rol.<br>**Escenario 2 – Contraseña incorrecta**<br>**Given** credenciales inválidas<br>**When** hace login<br>**Then** el sistema rechaza acceso.<br>**Escenario 3 – Bloqueo por intentos fallidos**<br>**Given** múltiples intentos fallidos<br>**When** excede límite<br>**Then** la cuenta queda bloqueada temporalmente.                             | EP001                  |
+| US003    | Listar empleados      | Como dueño, quiero ver la lista de empleados para gestionarlos fácilmente.           | **Escenario 1 – Lista con datos**<br>**Given** empleados existentes<br>**When** abro listado<br>**Then** muestra empleados.<br>**Escenario 2 – Lista vacía**<br>**Given** no hay empleados<br>**When** abro listado<br>**Then** muestra mensaje vacío.                      | EP002                  |
+| US004    | Actualizar empleado   | Como dueño, quiero actualizar datos de empleados para mantener información al día.   | **Escenario 1 – Actualización exitosa**<br>**Given** datos válidos<br>**When** actualizo<br>**Then** se guardan cambios.<br>**Escenario 2 – Campos inválidos**<br>**Given** datos inválidos<br>**When** actualizo<br>**Then** muestra error.                                | EP002                  |
+| US005    | Eliminar empleado     | Como dueño, quiero eliminar empleados en caso de despido o renuncia.                 | **Escenario 1 – Eliminación exitosa**<br>**Given** empleado válido<br>**When** elimino<br>**Then** se elimina de la lista.<br>**Escenario 2 – Empleado con registros asociados**<br>**Given** empleado vinculado<br>**When** elimino<br>**Then** sistema pide confirmación. | EP002                  |
+| US006    | Crear proveedor              | Como dueño, quiero registrar proveedores para gestionar insumos y compras.                              | **Escenario 1 – Registro exitoso**<br>**Given** datos completos<br>**When** guardo proveedor<br>**Then** se almacena correctamente.<br>**Escenario 2 – Duplicado**<br>**Given** proveedor ya existe<br>**When** registro<br>**Then** muestra error.<br>**Escenario 3 – Campos obligatorios**<br>**Given** datos incompletos<br>**When** registro<br>**Then** muestra validación.                                                                                                        | EP003                  |
+| US007    | Listar proveedores    | Como dueño, quiero listar proveedores para ver a quién comprar.                      | **Escenario 1 – Lista con datos**<br>**Given** proveedores existen<br>**When** abro listado<br>**Then** muestra proveedores.<br>**Escenario 2 – Lista vacía**<br>**Given** no hay proveedores<br>**When** abro listado<br>**Then** muestra mensaje vacío.                   | EP003                  |
+| US008    | Actualizar proveedor  | Como dueño, quiero actualizar datos de proveedores para mantener información al día. | **Escenario 1 – Actualización exitosa**<br>**Given** datos válidos<br>**When** actualizo<br>**Then** se guardan cambios.<br>**Escenario 2 – Campos inválidos**<br>**Given** datos inválidos<br>**When** actualizo<br>**Then** muestra error.                                | EP003                  |
+| US09    | Crear receta                 | Como dueño, quiero registrar recetas con ingredientes para estandarizar preparación.                    | **Escenario 1 – Registro exitoso**<br>**Given** ingredientes válidos<br>**When** guardo receta<br>**Then** se registra correctamente.<br>**Escenario 2 – Ingrediente inexistente**<br>**Given** ingrediente no registrado<br>**When** intento usarlo<br>**Then** muestra error.<br>**Escenario 3 – Sin nombre de receta**<br>**Given** falta nombre<br>**When** registro<br>**Then** muestra validación.                                                                                | EP004                  |
+| US010    | Actualizar receta     | Como dueño, quiero actualizar recetas para modificar ingredientes o cantidades.      | **Escenario 1 – Actualización exitosa**<br>**Given** datos válidos<br>**When** actualizo receta<br>**Then** se guardan cambios.<br>**Escenario 2 – Campos inválidos**<br>**Given** datos incompletos<br>**When** actualizo<br>**Then** muestra error.                       | EP004                  |
+| US011    | Registrar costos             | Como dueño, quiero registrar costos fijos, variables, directos e indirectos para calcular rentabilidad. | **Escenario 1 – Registro exitoso**<br>**Given** datos completos<br>**When** guardo costo<br>**Then** se registra.<br>**Escenario 2 – Tipo inválido**<br>**Given** tipo no válido<br>**When** guardo<br>**Then** muestra error.<br>**Escenario 3 – Falta monto**<br>**Given** monto vacío<br>**When** guardo<br>**Then** muestra validación.                                                                                                                                             | EP005                  |
+| US012    | Registrar entrada inventario | Como dueño, quiero registrar entradas de inventario para tener control de insumos.                      | **Escenario 1 – Registro exitoso**<br>**Given** insumo válido<br>**When** ingreso cantidad<br>**Then** se actualiza stock.<br>**Escenario 2 – Cantidad inválida**<br>**Given** cantidad negativa<br>**When** ingreso<br>**Then** sistema rechaza.<br>**Escenario 3 – Insumo inexistente**<br>**Given** insumo no registrado<br>**When** ingreso<br>**Then** muestra error.<br>**Escenario 4 – Insumo duplicado**<br>**Given** insumo ya existe<br>**When** registro<br>**Then** muestra error.                                                                                                              | EP006                  |
+| US013    | Actualizar inventario | Como dueño, quiero actualizar inventario para reflejar entradas y salidas.           | **Escenario 1 – Actualización exitosa**<br>**Given** datos válidos<br>**When** actualizo<br>**Then** se guardan cambios.                                                                                                                                        | EP006                  |
+| US014    | Definir precio de venta      | Como dueño, quiero definir precios de venta basados en costos para maximizar rentabilidad.              | **Escenario 1 – Precio calculado**<br>**Given** receta registrada<br>**When** defino precio<br>**Then** sistema sugiere precio con margen.<br>**Escenario 2 – Precio manual**<br>**Given** quiero definir precio<br>**When** ingreso manual<br>**Then** sistema lo acepta.                                                                                       | EP007                  |
+| US015    | Búsqueda de empleados        | Como dueño, quiero buscar empleados por nombre o correo para localizarlos rápidamente.                  | **Escenario 1 – Coincidencia exacta**<br>**Given** nombre válido<br>**When** busco<br>**Then** muestra resultados.<br>**Escenario 2 – Parcial**<br>**Given** letras parciales<br>**When** busco<br>**Then** lista posibles coincidencias.<br>**Escenario 3 – Sin resultados**<br>**Given** no existe<br>**When** busco<br>**Then** muestra mensaje vacío.                                                                                                                               | EP008                  |
+| US016    | Buscar proveedores    | Como dueño, quiero buscar proveedores rápidamente para encontrarlos fácilmente.      | **Escenario 1 – Búsqueda por nombre**<br>**Given** proveedores existen<br>**When** busco por nombre<br>**Then** muestra coincidencias.<br>**Escenario 2 – Sin resultados**<br>**Given** no hay coincidencias<br>**When** busco<br>**Then** muestra mensaje vacío.           | EP008                  |
+| US017    | Buscar inventario     | Como dueño, quiero buscar inventario por nombre o categoría para localizar insumos.  | **Escenario 1 – Búsqueda exitosa**<br>**Given** insumos existen<br>**When** busco por categoría<br>**Then** muestra coincidencias.<br>**Escenario 2 – Sin resultados**<br>**Given** no hay coincidencias<br>**When** busco<br>**Then** muestra mensaje vacío.               | EP008                  |
+| US018    | Reporte de costos            | Como dueño, quiero generar reportes de costos por sucursal para analizar rentabilidad.                  | **Escenario 1 – Reporte exitoso**<br>**Given** costos registrados<br>**When** genero reporte<br>**Then** sistema muestra tabla.<br>**Escenario 2 – Sin datos**<br>**Given** no hay costos<br>**When** genero<br>**Then** muestra mensaje vacío.<br>**Escenario 3 – Multisucursal**<br>**Given** dueño con varias sucursales<br>**When** selecciona<br>**Then** genera reporte específico.                                                                                               | EP009                  |
+| US019    | Ver recetas                  | Como empleado, quiero consultar recetas estandarizadas para preparar correctamente.                     | **Escenario 1 – Receta existente**<br>**Given** receta válida<br>**When** consulto<br>**Then** muestra ingredientes y pasos.<br>**Escenario 2 – Filtrar recetas**<br>**Given** múltiples recetas<br>**When** busco por nombre<br>**Then** lista filtrada.<br>**Escenario 3 – Receta no encontrada**<br>**Given** receta no existe<br>**When** consulto<br>**Then** muestra error.                                                                                                              | EP010                  |
+| US020    | Ver sección Home           | Como **visitante (dueño de cafetería)**, quiero ver una introducción clara con imagen destacada y texto breve.       | **Escenario 1 – Carga exitosa**<br>**Given** que ingreso a la página<br>**When** se carga el sitio<br>**Then** visualizo logo, imagen principal y mensaje de bienvenida.<br><br>**Escenario 2 – Fallo de carga**<br>**Given** error<br>**When** cargo sitio<br>**Then** muestra mensaje de error.         | EP011                  |
+| US021    | Ver sección About          | Como **visitante**, quiero ver una explicación sobre la aplicación y su propósito, para entender su valor.           | **Escenario 1 – Visualización exitosa**<br>**Given** que estoy en la landing<br>**When** hago scroll<br>**Then** veo la sección "Sobre la aplicación" con texto e imágenes.<br><br>**Escenario 2 – Sección vacía**<br>**Given** falta contenido<br>**When** ingreso<br>**Then** muestra mensaje temporal. | EP011                  |
+| US022    | Ver sección Features       | Como **visitante**, quiero conocer las funcionalidades principales de la app, para evaluar si cubre mis necesidades. | **Escenario 1 – Lista de funcionalidades**<br>**Given** que estoy en landing<br>**When** navego a “Features”<br>**Then** visualizo lista de funcionalidades.<br><br>**Escenario 2 – Sin funcionalidades**<br>**Given** no cargan<br>**When** ingreso<br>**Then** muestra mensaje temporal.                | EP011                  |
+| US023    | Botón Call to Action (CTA) | Como **visitante**, quiero un botón visible para descargar la app móvil, para obtener acceso fácilmente.             | **Escenario 1 – Botón visible**<br>**Given** que estoy en landing<br>**When** veo CTA<br>**Then** aparece botón “Descargar App”.<br><br>**Escenario 2 – Click CTA**<br>**Given** que hago click<br>**When** interactúo<br>**Then** me redirige a Google Play/App Store.                                   | EP011                  |
+| US024    | Ver sección Contact        | Como **visitante**, quiero ver información de contacto, para poder comunicarme con soporte o ventas.                 | **Escenario 1 – Información visible**<br>**Given** que estoy en landing<br>**When** voy a “Contact”<br>**Then** visualizo email, teléfono o formulario.<br><br>**Escenario 2 – Envío de formulario vacío**<br>**Given** no ingreso datos<br>**When** envío<br>**Then** muestra validación.                | EP011                  |
+| TS001    | API de registro de dueño       | Como **Developer**, quiero implementar un endpoint REST para registrar dueños de cafetería, para que el sistema guarde la información. | **Escenario 1 – Registro exitoso**<br>**Given** request con datos válidos<br>**When** POST `/owners`<br>**Then** responde 201 con el ID del dueño.<br><br>**Escenario 2 – Email duplicado**<br>**Given** request con email existente<br>**When** POST `/owners`<br>**Then** responde 400 con mensaje de error.                    | EP001                  |
+| TS002    | API de login de dueño          | Como **Developer**, quiero implementar un endpoint REST para el login de dueños, validando credenciales contra la base de datos.       | **Escenario 1 – Login exitoso**<br>**Given** request con credenciales correctas<br>**When** POST `/auth/login`<br>**Then** responde 200 con token JWT.<br><br>**Escenario 2 – Credenciales inválidas**<br>**Given** request con email o password incorrecto<br>**When** POST `/auth/login`<br>**Then** responde 401 Unauthorized. | EP001                  |
+| TS003    | API de gestión de empleados    | Como **Developer**, quiero implementar endpoints REST para CRUD de empleados, de forma que se almacenen sus datos.                     | **Escenario 1 – Alta de empleado**<br>**Given** request válido<br>**When** POST `/employees`<br>**Then** responde 201 con ID generado.<br><br>**Escenario 2 – Consulta**<br>**Given** GET `/employees/{id}` existente<br>**When** envío request<br>**Then** responde 200 con datos del empleado.                                  | EP002                  |
+| TS004    | API de eliminación de empleado | Como **Developer**, quiero implementar un endpoint REST para eliminar empleados por renuncia o despido.                                | **Escenario 1 – Eliminación exitosa**<br>**Given** DELETE `/employees/{id}` existente<br>**When** envío request<br>**Then** responde 200 con confirmación.<br><br>**Escenario 2 – Empleado inexistente**<br>**Given** DELETE con ID no existente<br>**When** envío request<br>**Then** responde 404 Not Found.                    | EP002                  |
+| TS005    | API de proveedores             | Como **Developer**, quiero implementar endpoints REST para CRUD de proveedores, de forma que se administren los datos en el sistema.   | **Escenario 1 – Registro proveedor**<br>**Given** request válido<br>**When** POST `/providers`<br>**Then** responde 201 con ID del proveedor.<br><br>**Escenario 2 – Actualización proveedor**<br>**Given** request con datos correctos<br>**When** PUT `/providers/{id}`<br>**Then** responde 200 con proveedor actualizado.     | EP003                  |
+| TS006    | API de inventario              | Como **Developer**, quiero exponer endpoints REST para CRUD de insumos y productos, para que el inventario esté actualizado.           | **Escenario 1 – Registro producto**<br>**Given** request válido<br>**When** POST `/products`<br>**Then** responde 201 con ID del producto.<br><br>**Escenario 2 – Consulta inventario**<br>**Given** GET `/products`<br>**When** envío request<br>**Then** responde 200 con listado de productos.                                 | EP006                  |
+| TS007    | API de recetas                 | Como **Developer**, quiero exponer endpoints REST para CRUD de recetas, para mantener actualizadas las preparaciones de los productos. | **Escenario 1 – Creación receta**<br>**Given** request válido<br>**When** POST `/recipes`<br>**Then** responde 201 con ID de receta.<br><br>**Escenario 2 – Actualización receta**<br>**Given** request válido<br>**When** PUT `/recipes/{id}`<br>**Then** responde 200 con receta actualizada.                                   | EP004                  |
+| TS008    | API de reportes financieros    | Como **Developer**, quiero implementar un endpoint REST para generar reportes financieros, de forma que se obtengan métricas clave.    | **Escenario 1 – Reporte generado**<br>**Given** parámetros válidos<br>**When** GET `/reports/financial?from=2025-01-01&to=2025-01-31`<br>**Then** responde 200 con JSON del reporte.<br><br>**Escenario 2 – Rango inválido**<br>**Given** parámetros con fechas incorrectas<br>**When** envío request<br>**Then** responde 400.   | EP009                  |
+| TS009    | API de seguridad (JWT)         | Como **Developer**, quiero implementar autenticación con JWT en los endpoints, para proteger el acceso a datos sensibles.              | **Escenario 1 – Token válido**<br>**Given** request con token válido<br>**When** accedo a `/employees`<br>**Then** responde 200 con datos.<br><br>**Escenario 2 – Token inválido**<br>**Given** request con token incorrecto<br>**When** envío request<br>**Then** responde 401 Unauthorized.                                     | EP001                  |
+| TS010    | API de registro de costos      | Como **Developer**, quiero implementar un endpoint REST para registrar costos (fijos, variables, directos, indirectos) por sucursal.   | **Escenario 1 – Registro exitoso**<br>**Given** request válido<br>**When** POST `/costs`<br>**Then** responde 201 con ID del costo.<br><br>**Escenario 2 – Datos incompletos**<br>**Given** request sin categoría o monto<br>**When** POST `/costs`<br>**Then** responde 400 con mensaje de validación.                           | EP005                  |
+| TS011    | API de clasificación de costos | Como **Developer**, quiero implementar lógica en el backend para clasificar automáticamente costos según su tipo y sucursal.           | **Escenario 1 – Clasificación exitosa**<br>**Given** request con tipo válido (fijo, variable, directo, indirecto)<br>**When** POST `/costs`<br>**Then** se guarda en la categoría correspondiente.<br><br>**Escenario 2 – Tipo inválido**<br>**Given** request con tipo no reconocido<br>**When** POST<br>**Then** responde 400.  | EP005                  |
+| TS012    | API de consulta de costos      | Como **Developer**, quiero implementar un endpoint REST para consultar los costos de una sucursal en un periodo de tiempo.             | **Escenario 1 – Consulta exitosa**<br>**Given** GET `/costs?sucursal=1&from=2025-01-01&to=2025-01-31`<br>**When** envío request<br>**Then** responde 200 con listado de costos.<br><br>**Escenario 2 – Fechas inválidas**<br>**Given** parámetros con rango inválido<br>**When** GET `/costs`<br>**Then** responde 400 con error. | EP005                  |
+| SS001    | Investigación sobre librería Charts.kt | Como equipo de desarrollo, quiero investigar y prototipar la librería **Charts.kt** para la generación de gráficos en aplicaciones Kotlin/Android, para evaluar si es viable mostrar dashboards de costos, ventas y rentabilidad. | **Escenario 1 – Revisión de documentación**<br>**Given** que la librería Charts.kt ofrece distintas opciones<br>**When** el desarrollador revisa su documentación oficial y ejemplos<br>**Then** identifica y documenta qué tipos de gráficos soporta.<br><br>**Escenario 2 – Prototipo funcional**<br>**Given** la necesidad de validación técnica<br>**When** se construye un prototipo con al menos 2 gráficos (ej. barras y líneas)<br>**Then** se documenta su facilidad de integración y limitaciones. | EP012                  |
+| SS002 | Investigación de servicios externos para autenticación y autorización | Como equipo de desarrollo, quiero investigar la viabilidad de usar un servicio externo como **Firebase Authentication** o **Supabase Auth** para el manejo de autenticación y autorización de usuarios, para decidir si es conveniente delegar estas funciones críticas en lugar de desarrollarlas internamente. | **Escenario 1 – Revisión de documentación**<br>**Given** que Firebase y Supabase ofrecen servicios de autenticación<br>**When** el desarrollador revisa su documentación oficial<br>**Then** identifica los flujos de login soportados (email/password, OAuth, proveedores sociales).<br><br>**Escenario 2 – Análisis de costos**<br>**Given** que cada servicio tiene planes gratuitos y de pago<br>**When** se comparan los modelos de precios<br>**Then** se documenta cuál se ajusta mejor al presupuesto y escalabilidad del proyecto.<br><br>**Escenario 3 – Validación técnica con prototipo**<br>**Given** la necesidad de evaluar integración<br>**When** se implementa un prototipo de registro/login de usuarios<br>**Then** se documenta la facilidad de integración, tiempo de configuración y limitaciones.<br>| EP012 |
+| SS003 | Investigación de servicios externos para almacenamiento de imágenes | Como equipo de desarrollo, quiero investigar la viabilidad de usar un servicio externo como **Firebase Storage** o **AWS S3** para el almacenamiento de imágenes, para decidir si conviene delegar esta funcionalidad en lugar de implementarla en infraestructura propia. | **Escenario 1 – Revisión de documentación**<br>**Given** que Firebase Storage y AWS S3 ofrecen APIs para manejo de archivos<br>**When** el desarrollador revisa la documentación oficial<br>**Then** identifica opciones de subida, descarga, escalabilidad y permisos de acceso.<br><br>**Escenario 2 – Análisis de costos**<br>**Given** que cada servicio maneja un modelo de precios distinto (ej. GB almacenados, transferencias)<br>**When** se comparan los costos de Firebase Storage y AWS S3<br>**Then** se documenta cuál es más conveniente según el volumen esperado de imágenes.<br><br>**Escenario 3 – Validación técnica con prototipo**<br>**Given** la necesidad de probar integración real<br>**When** se implementa un prototipo que suba y recupere al menos una imagen desde el servicio<br>**Then** se documenta la facilidad de integración, rendimiento y limitaciones encontradas.<br> | EP012 |
 
-| Story ID | Título                     | Descripción                                                                 | Criterios de aceptación                                                                                                                                                                                                                                                                                                                                                                                                                                                                 | Relación con (Epic ID) |
-|----------|----------------------------|-----------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------|
-| US001    | Registro de dueño          | Como dueño, quiero registrarme en la aplicación para administrar mi cafetería. | **Escenario 1 – Registro exitoso**<br>**Dado** que el dueño ingresa datos válidos<br>**Cuando** confirma el registro<br>**Entonces** el sistema crea su cuenta correctamente.<br><br>**Escenario 2 – Email duplicado**<br>**Dado** que el email ya está registrado<br>**Cuando** intenta registrarse<br>**Entonces** el sistema muestra un mensaje de error.<br><br>**Escenario 3 – Campos faltantes**<br>**Dado** que no llena todos los campos<br>**Cuando** intenta registrarse<br>**Entonces** el sistema muestra validaciones obligatorias. | EP001 |
-| US002    | Login seguro               | Como usuario, quiero iniciar sesión con mis credenciales para acceder según mi rol. | **Escenario 1 – Login exitoso**<br>**Dado** que las credenciales son correctas<br>**Cuando** el usuario inicia sesión<br>**Entonces** accede al sistema según su rol.<br><br>**Escenario 2 – Contraseña incorrecta**<br>**Dado** que las credenciales son inválidas<br>**Cuando** el usuario intenta iniciar sesión<br>**Entonces** el sistema rechaza el acceso.<br><br>**Escenario 3 – Bloqueo por intentos fallidos**<br>**Dado** que se excede el número de intentos fallidos<br>**Cuando** intenta iniciar sesión nuevamente<br>**Entonces** la cuenta queda bloqueada temporalmente. | EP001 |
-| US003    | Listar empleados           | Como dueño, quiero ver la lista de empleados para gestionarlos fácilmente. | **Escenario 1 – Lista con datos**<br>**Dado** que existen empleados registrados<br>**Cuando** el dueño accede al listado<br>**Entonces** se muestran los datos de los empleados.<br><br>**Escenario 2 – Lista vacía**<br>**Dado** que no hay empleados registrados<br>**Cuando** el dueño accede al listado<br>**Entonces** se muestra un mensaje indicando que no hay datos disponibles. | EP002 |
-| US004    | Actualizar empleado        | Como dueño, quiero actualizar datos de empleados para mantener información al día. | **Escenario 1 – Actualización exitosa**<br>**Dado** que el dueño ingresa datos válidos<br>**Cuando** actualiza la información del empleado<br>**Entonces** el sistema guarda los cambios correctamente.<br><br>**Escenario 2 – Campos inválidos**<br>**Dado** que el dueño ingresa datos incorrectos o incompletos<br>**Cuando** intenta actualizar la información<br>**Entonces** el sistema muestra un mensaje de error. | EP002 |
-| US005    | Eliminar empleado          | Como dueño, quiero eliminar empleados en caso de despido o renuncia.       | **Escenario 1 – Eliminación exitosa**<br>**Dado** que el dueño selecciona un empleado válido<br>**Cuando** confirma la eliminación<br>**Entonces** el sistema elimina al empleado de la lista.<br><br>**Escenario 2 – Empleado con registros asociados**<br>**Dado** que el empleado tiene registros vinculados<br>**Cuando** el dueño intenta eliminarlo<br>**Entonces** el sistema solicita confirmación adicional antes de proceder. | EP002 |
-| US006    | Crear proveedor            | Como dueño, quiero registrar proveedores para gestionar insumos y compras. | **Escenario 1 – Registro exitoso**<br>**Dado** que el dueño ingresa todos los datos requeridos del proveedor<br>**Cuando** guarda el registro<br>**Entonces** el sistema almacena la información correctamente.<br><br>**Escenario 2 – Proveedor duplicado**<br>**Dado** que el proveedor ya existe en el sistema<br>**Cuando** el dueño intenta registrarlo nuevamente<br>**Entonces** el sistema muestra un mensaje de error.<br><br>**Escenario 3 – Campos obligatorios faltantes**<br>**Dado** que el dueño no completa todos los campos requeridos<br>**Cuando** intenta registrar el proveedor<br>**Entonces** el sistema muestra validaciones obligatorias. | EP003 |
-| US007    | Listar proveedores         | Como dueño, quiero listar proveedores para ver a quién comprar.            | **Escenario 1 – Lista con datos**<br>**Dado** que existen proveedores registrados<br>**Cuando** el dueño accede al listado<br>**Entonces** se muestran los datos de los proveedores.<br><br>**Escenario 2 – Lista vacía**<br>**Dado** que no hay proveedores registrados<br>**Cuando** el dueño accede al listado<br>**Entonces** se muestra un mensaje indicando que no hay datos disponibles. | EP003 |
-| US008    | Actualizar proveedor       | Como dueño, quiero actualizar datos de proveedores para mantener información al día. | **Escenario 1 – Actualización exitosa**<br>**Dado** que el dueño ingresa datos válidos del proveedor<br>**Cuando** actualiza la información<br>**Entonces** el sistema guarda los cambios correctamente.<br><br>**Escenario 2 – Campos inválidos**<br>**Dado** que el dueño ingresa datos incorrectos o incompletos<br>**Cuando** intenta actualizar la información<br>**Entonces** el sistema muestra un mensaje de error. | EP003 |
-| US009    | Crear receta               | Como dueño, quiero registrar recetas con ingredientes para estandarizar preparación. | **Escenario 1 – Registro exitoso**<br>**Dado** que el dueño ingresa ingredientes válidos y nombre de receta<br>**Cuando** guarda la receta<br>**Entonces** el sistema la registra correctamente.<br><br>**Escenario 2 – Ingrediente inexistente**<br>**Dado** que el dueño intenta usar un ingrediente no registrado<br>**Cuando** guarda la receta<br>**Entonces** el sistema muestra un mensaje de error.<br><br>**Escenario 3 – Sin nombre de receta**<br>**Dado** que el dueño no ingresa el nombre de la receta<br>**Cuando** intenta guardarla<br>**Entonces** el sistema muestra una validación obligatoria. | EP004 |
-| US010    | Actualizar receta          | Como dueño, quiero actualizar recetas para modificar ingredientes o cantidades. | **Escenario 1 – Actualización exitosa**<br>**Dado** que el dueño ingresa datos válidos<br>**Cuando** actualiza la receta<br>**Entonces** el sistema guarda los cambios correctamente.<br><br>**Escenario 2 – Campos inválidos**<br>**Dado** que los datos están incompletos o incorrectos<br>**Cuando** intenta actualizar la receta<br>**Entonces** el sistema muestra un mensaje de error. | EP004 |
-| US011    | Registrar costos           | Como dueño, quiero registrar costos fijos, variables, directos e indirectos para calcular rentabilidad. | **Escenario 1 – Registro exitoso**<br>**Dado** que el dueño ingresa todos los datos requeridos<br>**Cuando** guarda el costo<br>**Entonces** el sistema lo registra correctamente.<br><br>**Escenario 2 – Tipo inválido**<br>**Dado** que el tipo de costo no es válido<br>**Cuando** intenta guardarlo<br>**Entonces** el sistema muestra un mensaje de error.<br><br>**Escenario 3 – Falta monto**<br>**Dado** que el monto está vacío<br>**Cuando** intenta guardar<br>**Entonces** el sistema muestra una validación obligatoria. | EP005 |
-| US012    | Registrar entrada inventario | Como dueño, quiero registrar entradas de inventario para tener control de insumos. | **Escenario 1 – Registro exitoso**<br>**Dado** que el insumo es válido<br>**Cuando** ingresa la cantidad<br>**Entonces** el sistema actualiza el stock.<br><br>**Escenario 2 – Cantidad inválida**<br>**Dado** que la cantidad es negativa<br>**Cuando** intenta registrar<br>**Entonces** el sistema rechaza la operación.<br><br>**Escenario 3 – Insumo inexistente**<br>**Dado** que el insumo no está registrado<br>**Cuando** intenta registrarlo<br>**Entonces** el sistema muestra un mensaje de error.<br><br>**Escenario 4 – Insumo duplicado**<br>**Dado** que el insumo ya existe<br>**Cuando** intenta registrarlo<br>**Entonces** el sistema muestra un mensaje de duplicidad. | EP006 |
-| US013    | Actualizar inventario      | Como dueño, quiero actualizar inventario para reflejar entradas y salidas. | **Escenario 1 – Actualización exitosa**<br>**Dado** que los datos son válidos<br>**Cuando** actualiza el inventario<br>**Entonces** el sistema guarda los cambios correctamente. | EP006 |
-| US014    | Definir precio de venta    | Como dueño, quiero definir precios de venta basados en costos para maximizar rentabilidad. | **Escenario 1 – Precio calculado**<br>**Dado** que la receta está registrada<br>**Cuando** define el precio<br>**Entonces** el sistema sugiere un precio con margen.<br><br>**Escenario 2 – Precio manual**<br>**Dado** que el dueño desea definir el precio manualmente<br>**Cuando** lo ingresa<br>**Entonces** el sistema lo acepta. | EP007 |
-| US015    | Búsqueda de empleados      | Como dueño, quiero buscar empleados por nombre o correo para localizarlos rápidamente. | **Escenario 1 – Coincidencia exacta**<br>**Dado** que el nombre o correo es válido<br>**Cuando** realiza la búsqueda<br>**Entonces** el sistema muestra los resultados.<br><br>**Escenario 2 – Coincidencia parcial**<br>**Dado** que se ingresan letras parciales<br>**Cuando** realiza la búsqueda<br>**Entonces** el sistema muestra posibles coincidencias.<br><br>**Escenario 3 – Sin resultados**<br>**Dado** que no existe coincidencia<br>**Cuando** realiza la búsqueda<br>**Entonces** el sistema muestra un mensaje indicando que no hay resultados. | EP008 |
-| US016    | Buscar proveedores         | Como dueño, quiero buscar proveedores rápidamente para encontrarlos fácilmente. | **Escenario 1 – Búsqueda por nombre**<br>**Dado** que existen proveedores registrados<br>**Cuando** realiza la búsqueda por nombre<br>**Entonces** el sistema muestra las coincidencias.<br><br>**Escenario 2 – Sin resultados**<br>**Dado** que no hay coincidencias<br>**Cuando** realiza la búsqueda<br>**Entonces** el sistema muestra un mensaje indicando que no hay resultados. | EP008 |
-| US017    | Buscar inventario          | Como dueño, quiero buscar inventario por nombre o categoría para localizar insumos. | **Escenario 1 – Búsqueda exitosa**<br>**Dado** que existen insumos registrados<br>**Cuando** realiza la búsqueda por categoría<br>**Entonces** el sistema muestra las coincidencias.<br><br>**Escenario 2 – Sin resultados**<br>**Dado** que no hay coincidencias<br>**Cuando** realiza la búsqueda<br>**Entonces** el sistema muestra un mensaje indicando que no hay resultados. | EP008 |
-| US018    | Reporte de costos          | Como dueño, quiero generar reportes de costos por sucursal para analizar rentabilidad. | **Escenario 1 – Reporte exitoso**<br>**Dado** que hay costos registrados<br>**Cuando** genera el reporte<br>**Entonces** el sistema muestra la tabla con los datos.<br><br>**Escenario 2 – Sin datos**<br>**Dado** que no hay costos registrados<br>**Cuando** genera el reporte<br>**Entonces** el sistema muestra un mensaje indicando que no hay datos.<br><br>**Escenario 3 – Multisucursal**<br>**Dado** que el dueño tiene varias sucursales<br>**Cuando** selecciona una<br>**Entonces** el sistema genera el reporte específico. | EP009 |
-| US019    | Ver recetas                | Como empleado, quiero consultar recetas estandarizadas para preparar correctamente. | **Escenario 1 – Receta existente**<br>**Dado** que la receta está registrada<br>**Cuando** el empleado la consulta<br>**Entonces** el sistema muestra los ingredientes y pasos.<br><br>**Escenario 2 – Filtrar recetas**<br>**Dado** que hay múltiples recetas<br>**Cuando** realiza una búsqueda por nombre<br>**Entonces** el sistema muestra la lista filtrada.<br><br>**Escenario 3 – Receta no encontrada**<br>**Dado** que la receta no existe<br>**Cuando** la consulta<br>**Entonces** el sistema muestra un mensaje de error. | EP010 |
-| US020    | Ver sección Home           | Como visitante (dueño de cafetería), quiero ver una introducción clara con imagen destacada y texto breve. | **Escenario 1 – Carga exitosa**<br>**Dado** que el visitante ingresa a la página<br>**Cuando** se carga el sitio<br>**Entonces** visualiza el logo, imagen principal y mensaje de bienvenida.<br><br>**Escenario 2 – Fallo de carga**<br>**Dado** que ocurre un error<br>**Cuando** se carga el sitio<br>**Entonces** el sistema muestra un mensaje de error. | EP011 |
-| US021    | Ver sección About          | Como visitante, quiero ver una explicación sobre la aplicación y su propósito, para entender su valor. | **Escenario 1 – Visualización exitosa**<br>**Dado** que el visitante está en la landing page<br>**Cuando** hace scroll<br>**Entonces** visualiza la sección “Sobre la aplicación” con texto e imágenes.<br><br>**Escenario 2 – Sección vacía**<br>**Dado** que falta contenido<br>**Cuando** accede a la sección<br>**Entonces** el sistema muestra un mensaje temporal. | EP011 |
-| US022    | Ver sección Features       | Como visitante, quiero conocer las funcionalidades principales de la app, para evaluar si cubre mis necesidades. | **Escenario 1 – Lista de funcionalidades**<br>**Dado** que el visitante está en la landing page<br>**Cuando** navega a “Features”<br>**Entonces** visualiza la lista de funcionalidades.<br><br>**Escenario 2 – Sin funcionalidades**<br>**Dado** que no se cargan las funcionalidades<br>**Cuando** accede a la sección<br>**Entonces** el sistema muestra un mensaje temporal. | EP011 |
-| US023    | Botón Call to Action (CTA) | Como visitante, quiero un botón visible para descargar la app móvil, para obtener acceso fácilmente. | **Escenario 1 – Botón visible**<br>**Dado** que el visitante está en la landing page<br>**Cuando** visualiza la sección principal<br>**Entonces** aparece el botón “Descargar App”.<br><br>**Escenario 2 – Click CTA**<br>**Dado** que el visitante hace clic en el botón<br>**Cuando** interactúa con el CTA<br>**Entonces** el sistema lo redirige a Google Play o App Store. | EP011 |
-| US024    | Ver sección Contact        | Como visitante, quiero ver información de contacto, para poder comunicarme con soporte o ventas. | **Escenario 1 – Información visible**<br>**Dado** que el visitante accede a la sección “Contact”<br>**Cuando** navega por la landing page<br>**Entonces** visualiza el email, teléfono o formulario de contacto.<br><br>**Escenario 2 – Envío de formulario vacío**<br>**Dado** que el visitante no ingresa datos<br>**Cuando** intenta enviar el formulario<br>**Entonces** el sistema muestra una validación indicando que los campos son obligatorios. | EP011 |
+
 
 
 ### 2.4.2. Impact Mapping
@@ -2462,6 +2478,457 @@ El gráfico de colaboración del repositorio correspondiente a la aplicación m�
 <img src="./img/chapter-4/android-icafe-analiticas.png" alt="github-movil" width="400"/> <br>
 
 <img src="./img/chapter-4/android-icafe-analiticas-2.png" alt="github-movil-2" width="500"/> <br>
+
+# AQui combienza el TB3
+### 4.2.2. Sprint 2
+#### 4.2.2.1. Sprint Planning 2
+
+
+<table>
+    <thead>
+        <tr>
+            <th>Sprint #</th>
+            <th>Sprint 2</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td colspan="2"><b>Sprint Planning Background</b></td>
+        </tr>
+        <tr>
+            <td>Date</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Time</td>
+            <td>10:30 PM</td>
+        </tr>
+        <tr>
+            <td>Location</td>
+            <td>Discord</td>
+        </tr>
+        <tr>
+            <td>Prepared by</td>
+            <td>Urrutia Peña Jasmin Adriana</td>
+        </tr>
+        <tr>
+            <td>Atendees (to planning meeting)</td>
+            <td>
+                <li>Velaquez Chambi Ruben Genaro</li>
+                <li>Christian Fabrizio inga Orihuela</li>
+                <li>Hallasi Saravia Miguel Angel</li>
+                <li>Sebastian Alexander Ramos Calagua</li>
+            </td>
+        </tr>
+        <tr>
+            <td>Sprint 1 Review Summary</td>
+            <td>
+                0
+            </td>
+        </tr>
+        <tr>
+            <td>Sprint 1 Retrospective Summary</td>
+            <td>
+                0
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2"><b>Sprint Goal & User Stories</b></td>
+        </tr>
+        <tr>
+            <td>Sprint 2 Goal</td>
+            <td>
+                0
+            </td>
+        </tr>
+        <tr>
+            <td>Sprint 2 Velocity</td>
+            <td>
+                0
+            </td>
+        </tr>
+        <tr>
+            <td>Sum of story points</td>
+            <td>
+                0
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+#### 4.2.2.2. Sprint Backlog 2
+<table>
+  <tr>
+    <td> <strong>Sprint #</strong></td>
+    <td align="center" colspan="7"> <strong>Sprint 2</strong> </td>
+  </tr>
+
+   <tr>
+    <td align="center" colspan="2"> <strong>User Story</strong></td>
+    <td align="center" colspan="6"> <strong>Work-item/Task</strong></td>
+  </tr>
+  <tr>
+    <td align="center"> <strong>ID</strong> </td>
+    <td align="center"> <strong>Title<strong></td>
+    <td align="center"> <strong>ID</strong> </td>
+    <td align="center"> <strong>Title<strong></td>
+    <td align="center"> <strong>Description<strong></td>
+    <td align="center"> <strong>Estimation (Hours)<strong></td>
+    <td align="center"> <strong>Assigned To<strong></td>
+    <td align="center"> <strong> Status (To-do/In-Process/To-Review/Done)  <strong></td>
+  </tr>
+  <!---------------------------------------------------------------------- -->
+  
+
+<!----------------------------------------------->
+  <tr>
+    <td rowspan="2" align="center"> ID </td>
+    <td rowspan="2" align="center"> US012  Registrar entrada inventario</td>
+    <td align="center"> TA01 </td>
+    <td align="center"> Endpoint para el registro de entrada de un insumo </td>
+    <td align="center"> Se debe registrar la entrada de un insumo en el inventario </td>
+    <td align="center"> 2 </td>
+    <td align="center"> Hallasi Saravia Miguel Angel</td>
+    <td align="center">Done</td>
+  </tr>
+
+  <tr>
+    <td align="center"> TA02 </td>
+    <td align="center"> Diseño en la aplicacion movil de inventario</td>
+    <td align="center"> Se debe de crear la actividad de registro de entrada de un insumo en el inventario</td>
+    <td align="center"> 1</td>
+    <td align="center"> Hallasi Saravia Miguel Angel</td>
+    <td align="center"> Done</td>
+  </tr>
+<!-------------------------------------------------->
+  <tr>
+    <td rowspan="2" align="center"> ID </td>
+    <td rowspan="2" align="center"> US013 Actualizar inventario </td>
+    <td align="center"> TA01 </td>
+    <td align="center"> Endpoint para actualizar datos del inventario</td>
+    <td align="center"> Se debe crear un endpoint para actualizar datos del inventario</td>
+    <td align="center"> 1</td>
+    <td align="center"> Hallasi Saravia Miguel Angel</td>
+    <td align="center"> Done</td>
+  </tr>
+
+  <tr>
+    <td align="center"> TA02 </td>
+    <td align="center"> Vista para actualizar inventario</td>
+    <td align="center">Se debe crear la actividad para actualizar datos del inventario</td>
+    <td align="center"> 1</td>
+    <td align="center"> Hallasi Saravia Miguel Angel</td>
+    <td align="center"> In-process</td>
+  </tr>
+<!---------------------------------------------------->
+  <tr>
+    <td rowspan="2" align="center"> ID </td>
+    <td rowspan="2" align="center"> US009 Crear receta</td>
+      <td align="center"> TA01 </td>
+    <td align="center"> endpoint para crear una receta </td>
+    <td align="center"> Se debe crear un endpoint para crear una receta </td>
+    <td align="center"> 1</td>
+    <td align="center"> Ruben Velasquez Chambi</td>
+    <td align="center"> To-do</td>
+  </tr>
+
+  <tr>
+    <td align="center"> TA02 </td>
+    <td align="center"> Vista para crear receta</td>
+    <td align="center"> Se debe crear la actividad para crear una receta</td>
+    <td align="center"> 1</td>
+    <td align="center">Ruben Velasquez Chambi</td>
+    <td align="center"> To-do</td>
+  </tr>
+   <!------------------------------------------------>
+   <tr>
+    <td rowspan="3" align="center"> ID </td>
+    <td rowspan="3" align="center">US007 Listar proveedores</td>
+      <td align="center"> TA01 </td>
+    <td align="center"> enpoint para listar proveedores </td>
+    <td align="center"> Se debe poder consultar la lista de los proveedores</td>
+    <td align="center"> 1</td>
+    <td align="center"> Ruben Velasquez Chambi</td>
+    <td align="center"> Done</td>
+  </tr>
+
+  <tr>
+    <td align="center"> TA02 </td>
+    <td align="center"> Vista de lista de proveedores</td>
+    <td align="center"> Se debe de crear la actividad para visualizar la lista de proveedores</td>
+    <td align="center"> 1</td>
+    <td align="center">Ruben Velasquez Chambi</td>
+    <td align="center"> Done</td>
+  </tr>
+
+  <tr>
+    <td align="center"> TA03 </td>
+    <td align="center"> Implementar el backend en la aplicacion movil</td>
+    <td align="center"> Se debe de consumir el endpoint correspondiente </td>
+    <td align="center"> 1</td>
+    <td align="center">Ruben Velasquez Chambi</td>
+    <td align="center"> To-do</td>
+  </tr>
+ 
+</table>
+
+#### 4.2.2.3. Development Evidence for Sprint Review
+
+<table>
+  <tr>
+    <td align ="center" > <strong>Repository</strong></td>
+    <td  align ="center" > <strong>Branch</strong></td>
+    <td  align ="center" > <strong>Commit ID</strong></td>
+    <td  align ="center" > <strong>Commit message</strong></td>
+    <td  align ="center" > <strong>Commit Masagge body</strong></td>
+    <td  align ="center" > <strong>Commit on (date)</strong></td>
+  </tr>
+
+  <tr>
+    <td rowspan="5" align="center">https://github.com/1ACC0238-2520-1807/LandingPage-iCafe</td>
+    <td align="center"> main</td>
+    <td align="center"> </td>
+    <td align="center"> </td>
+    <td align="center"> ---</td>
+    <td align="center"> 30/09/2025</td>
+  </tr>
+
+  <tr>
+    <td align="center">main</td>
+    <td align="center" ></td>
+    <td align="center"> </td>
+    <td align="center"> ---</td>
+    <td align="center"> 30/09/2025</td>
+  </tr>
+
+  <tr>
+    <td align="center"> main</td>
+    <td align="center"></td>
+    <td align="center"> </td>
+    <td align="center"> ---</td>
+    <td align="center"> 30/09/2025</td>
+  </tr>
+
+  <tr>
+    <td align="center"> main</td>
+    <td align="center"> </td>
+    <td align="center"></td>
+    <td align="center"> ---</td>
+    <td align="center">06/10/2025</td>
+  </tr>
+
+  <tr>
+    <td align="center"> main</td>
+    <td align="center"> </td>
+    <td align="center"></td>
+    <td align="center"> ---</td>
+    <td align="center"> 06/10/2025</td>
+  </tr>
+  <!---------------------------------------------------->
+   <tr>
+    <td rowspan="8" align="center">https://github.com/1ACC0238-2520-1807/backend-icafe</td>
+    <td align="center"> main</td>
+    <td align="center"> </td>
+    <td align="center"> </td>
+    <td align="center"> ---</td>
+    <td align="center"> 30/09/2025</td>
+  </tr>
+  <tr>
+    <td align="center">main</td>
+    <td align="center" > </td>
+    <td align="center"></td>
+    <td align="center"> ---</td>
+    <td align="center"> 30/09/2025</td>
+  </tr>
+   <tr>
+    <td align="center">develop</td>
+    <td align="center" ></td>
+    <td align="center"> </td>
+    <td align="center"> ---</td>
+    <td align="center"> 01/10/2025</td>
+  </tr>
+    <tr>
+    <td align="center"></td>
+    <td align="center" ></td>
+    <td align="center"> </td>
+    <td align="center"> ---</td>
+    <td align="center"> 02/10/2025</td>
+  </tr>
+<tr>
+    <td align="center">feature/contacts</td>
+    <td align="center" ></td>
+    <td align="center"></td>
+    <td align="center"> ---</td>
+    <td align="center"> 02/10/2025</td>
+  </tr>
+
+  <tr>
+    <td align="center">feature/products</td>
+    <td align="center" ></td>
+    <td align="center"></td>
+    <td align="center"> ---</td>
+    <td align="center"> 06/10/2025</td>
+  </tr>
+   <tr>
+    <td align="center">develop/td>
+    <td align="center" ></td>
+    <td align="center"></td>
+    <td align="center"> ---</td>
+    <td align="center"> 07/10/2025</td>
+  </tr>
+  
+   <tr>
+    <td align="center">develop/td>
+    <td align="center" ></td>
+    <td align="center"></td>
+    <td align="center"> ---</td>
+    <td align="center"> 07/10/2025</td>
+  </tr>
+  <!--------------------->
+  <tr>
+    <td rowspan="8" align="center">https://github.com/1ACC0238-2520-1807/Android-icafe</td>
+    <td align="center"> main</td>
+    <td align="center"> </td>
+    <td align="center"> </td>
+    <td align="center"> ---</td>
+    <td align="center"> 05/10/2025</td>
+  </tr>
+  <tr>
+    <td align="center">develop</td>
+    <td align="center" > </td>
+    <td align="center"></td>
+    <td align="center"> ---</td>
+    <td align="center"> 05/10/2025</td>
+  </tr>
+   <tr>
+    <td align="center">develop</td>
+    <td align="center" > </td>
+    <td align="center"></td>
+    <td align="center"> ---</td>
+    <td align="center"> 06/10/2025</td>
+  </tr>
+    <tr>
+    <td align="center">feature/contacs</td>
+    <td align="center" > </td>
+    <td align="center"></td>
+    <td align="center"> ---</td>
+    <td align="center"> 08/10/2025</td>
+  </tr>
+  <tr>
+    <td align="center">feature/contacs</td>
+    <td align="center" > </td>
+    <td align="center"> </td>
+    <td align="center"> ---</td>
+    <td align="center"> 08/10/2025</td>
+  </tr>
+   <tr>
+    <td align="center">feature/contacs</td>
+    <td align="center" > </td>
+    <td align="center"></td>
+    <td align="center"> ---</td>
+    <td align="center"> 08/10/2025</td>
+  </tr>
+   <tr>
+    <td align="center">feature/contacs</td>
+    <td align="center" > </td>
+    <td align="center"></td>
+    <td align="center"> ---</td>
+    <td align="center"> 08/10/2025</td>
+  </tr>
+    <tr>
+    <td align="center">develop</td>
+    <td align="center" ></td>
+    <td align="center"></td>
+    <td align="center"> ---</td>
+    <td align="center"> 08/10/2025</td>
+  </tr>
+
+</table>
+
+#### 4.2.2.4. Testing Suite Evidence for Sprint Review
+
+
+
+
+#### 4.2.2.5. Execution Evidence for Sprint Review
+
+#### 4.2.2.6. Services Documentation Evidence for Sprint Review
+
+
+
+**Tabla de Endpoints Documentados:**
+
+| Bounded Context | Endpoint | HTTP Verb | Sintaxis de Llamada | Parámetros | Descripción | Response Example |
+|-----------------|----------|-----------|---------------------|------------|-------------|------------------|
+| **Contact-Portfolio** | `/api/v1/contact-portfolios/{portfolioId}/providers` | GET | `GET /api/v1/contact-portfolios/1/providers` | `portfolioId` (path) | Listar proveedores por portfolio | `[{"id": 1, "nameCompany": "Café Premium S.A.", "email": "contacto@cafepremium.com"}]` |
+| **Contact-Portfolio** | `/api/v1/contact-portfolios/{portfolioId}/providers` | POST | `POST /api/v1/contact-portfolios/1/providers` | `portfolioId` (path), Body: CreateProviderContactResource | Agregar proveedor al portfolio | `{"id": 1, "nameCompany": "Café Premium S.A.", "ruc": "20123456789"}` |
+
+**Documentación Interactiva Desplegada:**
+
+
+
+**Capturas de Interacción con la Documentación:**
+ 
+
+
+- **URL del Repositorio:** [https://github.com/1ACC0238-2520-1807/iCafe-Backend](https://github.com/1ACC0238-2520-1807/iCafe-Backend)
+
+#### 4.2.2.7. Software Deployment Evidence for Sprint Review
+
+**Configuración del Despliegue del Backend (Web Services)**
+
+Para el despliegue del backend de iCafe, se implementó una estrategia de contenerización utilizando Docker Compose, lo que permite una gestión eficiente y escalable de los servicios. El proceso de despliegue se realizó mediante las siguientes tecnologías y configuraciones:
+
+**Tecnologías Utilizadas:**
+- **Docker Compose**: Para la orquestación de contenedores y gestión de servicios
+- **Dokploy**: Como plataforma de despliegue y gestión de aplicaciones contenerizadas
+- **OpenJDK 17 (openjdk:17-jdk-slim)**: Imagen base optimizada para ejecutar aplicaciones Java
+- **Spring Boot**: Framework principal para el desarrollo del backend
+
+**Proceso de Despliegue:**
+
+1. **Contenerización**: El backend fue empaquetado en contenedores Docker utilizando la imagen `openjdk:17-jdk-slim`, que proporciona un entorno ligero y optimizado para aplicaciones Java con Spring Boot.
+
+2. **Configuración con Docker Compose**: Se configuró un archivo `docker-compose.yml` que define el servicio de la aplicación backend.
+
+3. **Despliegue con Dokploy**: Se utilizó Dokploy como plataforma de despliegue, que actúa como una solución de Platform-as-a-Service (PaaS) simplificando la gestión de contenedores y proporcionando funcionalidades de monitoreo, escalado automático y gestión de recursos.
+
+**Evidencia Visual del Despliegue:**
+
+<img src="./img/dokploy1.png" alt="Dokploy" width="400"/> 
+<img src="./img/dokploy2.png" alt="Dokploy" width="400"/> 
+<img src="./img/dokploy3.png" alt="Dokploy" width="400"/> 
+<img src="./img/dokploy4.png" alt="Dokploy" width="400"/>
+
+**Configuración del Despliegue de la Landing Page**
+
+Para el despliegue de la Landing Page de iCafe, se implementó una solución web estática utilizando tecnologías fundamentales del desarrollo web y una plataforma de hosting gratuita.
+
+**Tecnologías Utilizadas:**
+- **HTML**: Para la estructura y contenido de la página web
+- **CSS**: Para el diseño visual, estilos y responsive design
+- **GitHub Pages**: Como plataforma de despliegue para sitios web estáticos
+
+**Proceso de Despliegue:**
+
+1. **Desarrollo**: La Landing Page fue desarrollada utilizando HTML semántico y CSS moderno, implementando un diseño responsive que se adapta a diferentes dispositivos.
+
+2. **Repositorio**: El código fuente se almacenó en un repositorio de GitHub, manteniendo un control de versiones adecuado.
+
+<img src="./img/landing1.png" alt="Landing1" width="500"/>
+
+3. **Despliegue con GitHub Pages**: Se configuró GitHub Pages para servir automáticamente la Landing Page desde el repositorio, proporcionando una URL pública accesible para los usuarios.
+
+<img src="./img/landing2.png" alt="Landing2" width="500"/> 
+<img src="./img/landing3.png" alt="Landing3" width="500"/><br>
+
+Diagrama C4: <br>
+<img src="./img/chapter-2/c4-deployment.png" alt="Deployment Diagram" width="500"/>
+
+#### 4.2.2.8. Team Collaboration Insights during Sprint
+
+
+
 ## 4.3. Validation Interviews
 ### 4.3.1. Diseño de Entrevistas
 
