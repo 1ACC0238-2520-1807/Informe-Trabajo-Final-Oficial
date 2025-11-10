@@ -2479,8 +2479,11 @@ El gráfico de colaboración del repositorio correspondiente a la aplicación m�
 
 <img src="./img/chapter-4/android-icafe-analiticas-2.png" alt="github-movil-2" width="500"/> <br>
 
-# AQui combienza el TB3
+
 ### 4.2.2. Sprint 2
+
+Durante el Sprint 2, el equipo de desarrollo de iCafe se enfocará en completar al 100% la implementación del backend, asegurando la correcta integración de todos los módulos y servicios necesarios. Además, se trabajará en finalizar la aplicación móvil para Android, optimizando su funcionalidad y diseño. Paralelamente, se desarrollará una versión inicial de la aplicación en Flutter.
+
 #### 4.2.2.1. Sprint Planning 2
 
 
@@ -2497,7 +2500,7 @@ El gráfico de colaboración del repositorio correspondiente a la aplicación m�
         </tr>
         <tr>
             <td>Date</td>
-            <td></td>
+            <td>2025-11-05</td>
         </tr>
         <tr>
             <td>Time</td>
@@ -2523,13 +2526,15 @@ El gráfico de colaboración del repositorio correspondiente a la aplicación m�
         <tr>
             <td>Sprint 1 Review Summary</td>
             <td>
-                0
+                <li>Se desarrollo una lading page moderna donde se describen nuestros servicios</li>
+                <li>Se construyó la arquitectura central del backend bajo principios de Domain-Driven Design (DDD), implementando los bounded contexts de contacts,iam.</li>
+                <li>Se diseñó e implementó la base de la aplicación móvil usando Jetpack Compose, MVVM y Arquitectura Limpia, logrando la comunicación efectiva con el backend para obtener y enviar datos correctamente</li>
             </td>
         </tr>
         <tr>
             <td>Sprint 1 Retrospective Summary</td>
             <td>
-                0
+                Durante la retrospectiva del Sprint 1, el equipo coincidió en que la planificación técnica fue acertada, especialmente en la organización por bounded contexts, lo cual facilitó la integración entre módulos.
             </td>
         </tr>
         <tr>
@@ -2538,19 +2543,21 @@ El gráfico de colaboración del repositorio correspondiente a la aplicación m�
         <tr>
             <td>Sprint 2 Goal</td>
             <td>
-                0
+              <li>Implementación final de los bounded contexts de Inventory, Product y Sales, asegurando su integración total dentro del backend.</li>
+              <li>Finalizar la aplicación móvil en Android, consolidando todas sus funcionalidades y conexión con los servicios del backend.</li>
+              <li>inicio al desarrollo de una versión inicial en Flutter</li>
             </td>
         </tr>
         <tr>
             <td>Sprint 2 Velocity</td>
             <td>
-                0
+                30
             </td>
         </tr>
         <tr>
             <td>Sum of story points</td>
             <td>
-                0
+                45
             </td>
         </tr>
     </tbody>
