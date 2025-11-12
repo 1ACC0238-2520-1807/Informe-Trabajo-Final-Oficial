@@ -2854,8 +2854,16 @@ Durante el Sprint 2, el equipo de desarrollo de iCafe se enfocará en completar 
 
 #### 4.2.2.4. Testing Suite Evidence for Sprint Review
 
+En el Sprint 2, se implementaron las pruebas de aceptación para las historias de usuario y tareas que fueron creadas en el flujo Android.
 
+| Repository | Commit ID | Commit Message | Date |
+|-----------|-----------|----------------|------|
+| Informe-Trabajo-Final-Oficial | 04466ad | feat: add feature files for US019-US024 landing pages | 12/11/2025 |
+| Informe-Trabajo-Final-Oficial | f272d69 | feat: add feature files for inventory, suppliers, pricing and reports | 12/11/2025 |
+| Informe-Trabajo-Final-Oficial | a52507e | feat: add feature files for US007-US012 | 12/11/2025 |
+| Informe-Trabajo-Final-Oficial | 4736d37 | feat: add feature files for user stories US001-US006 | 12/11/2025 |
 
+Repositorio https://github.com/1ACC0238-2520-1807/test
 
 #### 4.2.2.5. Execution Evidence for Sprint Review
 
