@@ -63,6 +63,19 @@ Para el desarrollo del informe correspondiente a la entrega TP, cada integrante 
 | Sebastian Alexander Ramos Calagua | Correcciones TB1 y Software Configuration Management   |
 
 
+**TB2**
+
+Para el desarrollo del informe correspondiente a la entrega TB2, cada integrante realizo la siguiente parte:
+
+|Integrante|Tareas Asignadas|
+|-|-|
+| Ruben Velasquez Chambi | |
+| Christian Fabrizio Inga Orihuela |   |
+| Hallasi Saravia, Miguel Angel |   |
+| Urrutia Peña, Jasmin Adriana |   |
+| Sebastian Alexander Ramos Calagua |   |
+
+
 ## Registro de Versiones del Informe
 
 <table style="border-collapse:collapse;border-spacing:0" class="tg">
@@ -105,7 +118,7 @@ Para el desarrollo del informe correspondiente a la entrega TP, cada integrante 
     </tr>
     <tr>
       <td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">TB2</td>
-      <td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">--/--/--</td>
+      <td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">13/11/2025</td>
       <td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">
         Ruben Velasquez Chambi <br>
         Christian Fabrizio Inga Orihuela <br>
@@ -114,7 +127,7 @@ Para el desarrollo del informe correspondiente a la entrega TP, cada integrante 
         Sebastian Alexander Ramos Calagua
       </td>
       <td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">
-        --.
+       Se termino la Landing Page, el Backend y la Aplicacion Android.
       </td>
     </tr>
     <tr>
