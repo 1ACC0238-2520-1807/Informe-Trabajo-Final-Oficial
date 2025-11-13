@@ -2913,6 +2913,8 @@ Repositorio https://github.com/1ACC0238-2520-1807/test
 
 #### 4.2.2.5. Execution Evidence for Sprint Review
 
+![](./img/cap.jpeg)
+
 ![Vista sedes](./img/sedes.jpeg)
 Vista de la implementación de las sedes dentro de la aplicación Android.
 
@@ -2926,8 +2928,6 @@ Vista de compras y ventas integradas en la aplicación Android.
 Vista de movimientos y transacciones registradas en la aplicación Android.
 
 #### 4.2.2.6. Services Documentation Evidence for Sprint Review
-
-
 
 **Tabla de Endpoints Documentados:**
 
@@ -2966,13 +2966,11 @@ Vista de movimientos y transacciones registradas en la aplicación Android.
 
 Swagger del backend desplegado: http://upc-icafebackend-3sger0-aa823d-31-97-13-234.traefik.me/swagger-ui/index.html
 
-**Documentación Interactiva Desplegada:**
+![](./img/swagger_1.jpeg)
 
+![](./img/swagger_2.jpeg)
 
-
-**Capturas de Interacción con la Documentación:**
- 
-
+![](./img/swagger_3.jpeg)
 
 - **URL del Repositorio:** [https://github.com/1ACC0238-2520-1807/iCafe-Backend](https://github.com/1ACC0238-2520-1807/iCafe-Backend)
 
