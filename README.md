@@ -2936,7 +2936,6 @@ Vista de movimientos y transacciones registradas en la aplicación Android.
 | **Inventory** | `/api/v1/inventory/movements` | POST | `POST /api/v1/inventory/movements` | Body: RegisterStockMovementResource | Registrar movimiento de stock | `---` |
 | **Inventory** | `/api/v1/inventory/movements/{branchId}` | GET | `GET /api/v1/inventory/movements/1` | `branchId` (path) | Listar movimientos de stock por sede | `---` |
 | **Inventory** | `/api/v1/inventory/stock/{branchId}/{supplyItemId}` | GET | `GET /api/v1/inventory/stock/1/10` | `branchId`, `supplyItemId` (path) | Obtener stock actual | `---` |
-
 | **Products** | `/api/v1/products` | GET | `GET /api/v1/products` | — | Listar productos | `---` |
 | **Products** | `/api/v1/products` | POST | `POST /api/v1/products` | Body: CreateProductResource | Crear producto | `---` |
 | **Products** | `/api/v1/products/{productId}` | GET | `GET /api/v1/products/1` | `productId` (path) | Obtener producto por id | `---` |
@@ -2946,17 +2945,14 @@ Vista de movimientos y transacciones registradas en la aplicación Android.
 | **Products** | `/api/v1/products/{productId}/ingredients` | POST | `POST /api/v1/products/1/ingredients` | `productId` (path), Body: AddIngredientsResource | Agregar ingredientes a producto | `---` |
 | **Products** | `/api/v1/products/{productId}/ingredients/{supplyItemId}` | DELETE | `DELETE /api/v1/products/1/ingredients/10` | `productId`, `supplyItemId` (path) | Eliminar ingrediente | `---` |
 | **Products** | `/api/v1/products/branch/{branchId}` | GET | `GET /api/v1/products/branch/1` | `branchId` (path) | Listar productos por sede | `---` |
-
 | **Purchase Orders** | `/api/v1/purchase-orders` | POST | `POST /api/v1/purchase-orders` | Body: CreatePurchaseOrderResource | Crear orden de compra | `---` |
 | **Purchase Orders** | `/api/v1/purchase-orders/branch/{branchId}` | GET | `GET /api/v1/purchase-orders/branch/1` | `branchId` (path) | Listar órdenes de compra por sede | `---` |
-
 | **Sales** | `/api/v1/sales` | GET | `GET /api/v1/sales` | — | Listar ventas | `---` |
 | **Sales** | `/api/v1/sales` | POST | `POST /api/v1/sales` | Body: CreateSaleResource | Crear venta | `---` |
 | **Sales** | `/api/v1/sales/{saleId}` | GET | `GET /api/v1/sales/1` | `saleId` (path) | Obtener venta por id | `---` |
 | **Sales** | `/api/v1/sales/{saleId}/cancel` | PUT | `PUT /api/v1/sales/1/cancel` | `saleId` (path) | Cancelar venta | `---` |
 | **Sales** | `/api/v1/sales/{saleId}/complete` | PUT | `PUT /api/v1/sales/1/complete` | `saleId` (path) | Completar venta | `---` |
 | **Sales** | `/api/v1/sales/branch/{branchId}` | GET | `GET /api/v1/sales/branch/1` | `branchId` (path) | Listar ventas por sede | `---` |
-
 | **SupplyIem** | `/api/v1/supply-items` | GET | `GET /api/v1/supply-items` | — | Listar insumos | `---` |
 | **SupplyIem** | `/api/v1/supply-items` | POST | `POST /api/v1/supply-items` | Body: CreateSupplyItemResource | Crear insumo | `---` |
 | **SupplyIem** | `/api/v1/supply-items/{branchId}/branch` | GET | `GET /api/v1/supply-items/1/branch` | `branchId` (path) | Listar insumos por sede | `---` |
