@@ -3092,6 +3092,8 @@ Link: https://www.canva.com/design/DAG4mwTd31Y/ciEtYs12uCHTVN7ZjJyiKw/edit?utm_c
 
 # Glosario
 
+# Concusiones
+El desarrollo de esta aplicación para la administración integral de cafeterías ha demostrado la importancia de una planificación estructurada y del trabajo colaborativo. A través de la aplicación de metodologías ágiles y la ejecución por sprints, el equipo pudo avanzar de forma organizada en la construcción de un backend sólido basado en principios de DDD con Spring Boot, así como en la implementación de una aplicación móvil utilizando Jetpack Compose.
 # Bibliografía
 
 Cuéllar, J. (2016). *Domain-Driven Design: Context Maps*. Jose Cuéllar .net. https://josecuellar.net/domain-driven-design-episodio-ii-context-maps/
