@@ -2713,6 +2713,38 @@ Durante el Sprint 2, el equipo de desarrollo de iCafe se enfocará en completar 
     <td align="center">Ruben Velasquez Chambi</td>
     <td align="center"> To-do</td>
   </tr>
+
+  <!------------------------------------------------>
+   <tr>
+    <td rowspan="3" align="center"> ID </td>
+    <td rowspan="3" align="center">US014 Definir precio de venta</td>
+      <td align="center"> TA04 </td>
+    <td align="center"> Add Item and Product Section </td>
+    <td align="center"> Se implementó la sección de productos y items dentro de la pagina Alimentos y definir los precios .</td>
+    <td align="center"> 2</td>
+    <td align="center"> Jasmin Adriana Urrutia Peña</td>
+    <td align="center"> Done</td>
+  </tr>
+  
+<!------------------------------------------------>
+ <tr>
+    <td rowspan="3" align="center"> ID </td>
+    <td rowspan="3" align="center">US013 Actualizar inventario</td>
+      <td align="center"> TA05 </td>
+    <td align="center"> Add Sales and Orders </td>
+    <td align="center"> Se agregó el módulo de ventas y pedidos dentro del sistema.</td>
+    <td align="center"> 2</td>
+    <td align="center"> Jasmin Adriana Urrutia Peña</td>
+    <td align="center"> Done</td>
+  <tr>
+    <td align="center"> TA06 </td>
+    <td align="center"> Add Finances and Movements</td>
+    <td align="center"> Se desarrolló la sección de finanzas y movimientos, integrando control de transacciones.</td>
+    <td align="center"> 2</td>
+    <td align="center"> Jasmin Adriana Urrutia Peña</td>
+    <td align="center"> Done</td>
+  </tr>
+  
  
 </table>
 
@@ -3006,6 +3038,8 @@ Para el despliegue de la Landing Page de iCafe, se implementó una solución web
 <img src="./img/landing1.png" alt="Landing1" width="500"/>
 
 3. **Despliegue con GitHub Pages**: Se configuró GitHub Pages para servir automáticamente la Landing Page desde el repositorio, proporcionando una URL pública accesible para los usuarios.
+
+Link: https://1acc0238-2520-1807.github.io/LandingPage-iCafe/
 
 <img src="./img/landing2.png" alt="Landing2" width="500"/> 
 <img src="./img/landing3.png" alt="Landing3" width="500"/><br>
