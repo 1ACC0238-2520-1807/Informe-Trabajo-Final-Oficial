@@ -1458,7 +1458,7 @@ En esta sección se presentan los wireframes de la landing page, los cuales repr
 Aquí se muestran los mock-ups de la landing page, donde se integran aspectos visuales como colores, tipografía e imágenes. Estos diseños permiten visualizar con mayor fidelidad cómo se verá la página final y cómo transmitirá la identidad de la marca enfocada en cafeterías.
 | LandingPage Mock-up | LandingPage Mock-up Responsive |
 |-------------------------|-----------------------------------|
-|![LandingWireframe](./img/chapter-3/LandingWireframe.png)|![LandingWireframeResponsive](./img/chapter-3/LandingWireframeResponsive.png)| 
+|![LandingWireframe](./img/chapter-3/LandingNuevo.png)|![LandingWireframeResponsive](./img/chapter-3/LandingWireframeResponsive.png)| 
 
 <br>
 -Link: https://www.figma.com/design/c61JnVMaZZcReGqcVzwikH/Untitled?node-id=0-1&t=gB15ysIlrLllfRAw-1 
@@ -1532,8 +1532,13 @@ Aquí se presentan los mock-ups de la aplicación móvil, en los que se incorpor
 
 | Registro e Inicio de Sesión |
 |----------------------------------|
-| Muestra las pantallas de registro e inicio sesion y el panel principal |
-| <img src="./img/chapter-3/wireframe1.png" alt="wireframe1" width="400"> |
+| Muestra las pantallas de registro e inicio sesion. |
+| <img src="./img/chapter-3/login.png" alt="wireframe1" width="400"> |
+
+| Registro e Inicio de Sesión |
+|----------------------------------|
+| Muestra el panel principal con estadisticas importantes. |
+| <img src="./img/chapter-3/InicioNuevo.png" alt="wireframe1" width="400"> |
 
 | Agregar Empleados |
 |----------------------------------|
