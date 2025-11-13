@@ -2351,6 +2351,52 @@ En esta sección se incluye la relación de Endpoints documentados con OpenAPI, 
 |-----------------|----------|-----------|---------------------|------------|-------------|------------------|
 | **Contact-Portfolio** | `/api/v1/contact-portfolios/{portfolioId}/providers` | GET | `GET /api/v1/contact-portfolios/1/providers` | `portfolioId` (path) | Listar proveedores por portfolio | `[{"id": 1, "nameCompany": "Café Premium S.A.", "email": "contacto@cafepremium.com"}]` |
 | **Contact-Portfolio** | `/api/v1/contact-portfolios/{portfolioId}/providers` | POST | `POST /api/v1/contact-portfolios/1/providers` | `portfolioId` (path), Body: CreateProviderContactResource | Agregar proveedor al portfolio | `{"id": 1, "nameCompany": "Café Premium S.A.", "ruc": "20123456789"}` |
+
+| **Inventory** | `/api/v1/inventory/movements` | POST | `POST /api/v1/inventory/movements` | Body: RegisterStockMovementResource | Registrar movimiento de stock | `---` |
+| **Inventory** | `/api/v1/inventory/movements/{branchId}` | GET | `GET /api/v1/inventory/movements/1` | `branchId` (path) | Listar movimientos de stock por sede | `---` |
+| **Inventory** | `/api/v1/inventory/stock/{branchId}/{supplyItemId}` | GET | `GET /api/v1/inventory/stock/1/10` | `branchId`, `supplyItemId` (path) | Obtener stock actual | `---` |
+
+| **Products** | `/api/v1/products` | GET | `GET /api/v1/products` | — | Listar productos | `---` |
+| **Products** | `/api/v1/products` | POST | `POST /api/v1/products` | Body: CreateProductResource | Crear producto | `---` |
+| **Products** | `/api/v1/products/{productId}` | GET | `GET /api/v1/products/1` | `productId` (path) | Obtener producto por id | `---` |
+| **Products** | `/api/v1/products/{productId}` | PUT | `PUT /api/v1/products/1` | `productId` (path), Body: UpdateProductResource | Actualizar producto | `---` |
+| **Products** | `/api/v1/products/{productId}/activate` | POST | `POST /api/v1/products/1/activate` | `productId` (path) | Activar producto | `---` |
+| **Products** | `/api/v1/products/{productId}/archive` | POST | `POST /api/v1/products/1/archive` | `productId` (path) | Archivar producto | `---` |
+| **Products** | `/api/v1/products/{productId}/ingredients` | POST | `POST /api/v1/products/1/ingredients` | `productId` (path), Body: AddIngredientsResource | Agregar ingredientes a producto | `---` |
+| **Products** | `/api/v1/products/{productId}/ingredients/{supplyItemId}` | DELETE | `DELETE /api/v1/products/1/ingredients/10` | `productId`, `supplyItemId` (path) | Eliminar ingrediente | `---` |
+| **Products** | `/api/v1/products/branch/{branchId}` | GET | `GET /api/v1/products/branch/1` | `branchId` (path) | Listar productos por sede | `---` |
+
+| **Purchase Orders** | `/api/v1/purchase-orders` | POST | `POST /api/v1/purchase-orders` | Body: CreatePurchaseOrderResource | Crear orden de compra | `---` |
+| **Purchase Orders** | `/api/v1/purchase-orders/branch/{branchId}` | GET | `GET /api/v1/purchase-orders/branch/1` | `branchId` (path) | Listar órdenes de compra por sede | `---` |
+
+| **Sales** | `/api/v1/sales` | GET | `GET /api/v1/sales` | — | Listar ventas | `---` |
+| **Sales** | `/api/v1/sales` | POST | `POST /api/v1/sales` | Body: CreateSaleResource | Crear venta | `---` |
+| **Sales** | `/api/v1/sales/{saleId}` | GET | `GET /api/v1/sales/1` | `saleId` (path) | Obtener venta por id | `---` |
+| **Sales** | `/api/v1/sales/{saleId}/cancel` | PUT | `PUT /api/v1/sales/1/cancel` | `saleId` (path) | Cancelar venta | `---` |
+| **Sales** | `/api/v1/sales/{saleId}/complete` | PUT | `PUT /api/v1/sales/1/complete` | `saleId` (path) | Completar venta | `---` |
+| **Sales** | `/api/v1/sales/branch/{branchId}` | GET | `GET /api/v1/sales/branch/1` | `branchId` (path) | Listar ventas por sede | `---` |
+
+| **SupplyIem** | `/api/v1/supply-items` | GET | `GET /api/v1/supply-items` | — | Listar insumos | `---` |
+| **SupplyIem** | `/api/v1/supply-items` | POST | `POST /api/v1/supply-items` | Body: CreateSupplyItemResource | Crear insumo | `---` |
+| **SupplyIem** | `/api/v1/supply-items/{branchId}/branch` | GET | `GET /api/v1/supply-items/1/branch` | `branchId` (path) | Listar insumos por sede | `---` |
+| **SupplyIem** | `/api/v1/supply-items/{id}` | DELETE | `DELETE /api/v1/supply-items/1` | `id` (path) | Eliminar insumo | `---` |
+| **SupplyIem** | `/api/v1/supply-items/{id}` | GET | `GET /api/v1/supply-items/1` | `id` (path) | Obtener insumo por id | `---` |
+| **SupplyIem** | `/api/v1/supply-items/{id}` | PUT | `PUT /api/v1/supply-items/1` | `id` (path), Body: UpdateSupplyItemResource | Actualizar insumo | `---` |
+
+| **SupplyIem** | `/api/v1/supply-items/{id}` | GET | `GET /api/v1/supply-items/1` | `id` (path) | Obtener insumo por id | `{"id": 1, "name": "Azúcar", "unit": "kg"}` |
+| **SupplyIem** | `/api/v1/supply-items/{id}` | PUT | `PUT /api/v1/supply-items/1` | `id` (path), Body: UpdateSupplyItemResource | Actualización de insumo | `{"id": 1, "name": "Azúcar refinada"}` |
+| **Sales** | `/api/v1/sales` | POST | `POST /api/v1/sales` | Body: CreateSaleResource | Crear una venta | `{"id": 1, "total": 100.0, "status": "COMPLETED"}` |
+| **Sales** | `/api/v1/sales/{id}` | GET | `GET /api/v1/sales/1` | `id` (path) | Obtener venta por id | `{"id": 1, "status": "COMPLETED"}` |
+
+| **Inventory** | `/api/v1/inventories/{id}` | GET | `GET /api/v1/inventories/1` | `id` (path) | Obtener inventario por id | `{"id": 1, "branchId": 1, "stock": 50}` |
+| **Inventory** | `/api/v1/inventories/{id}` | PUT | `PUT /api/v1/inventories/1` | `id` (path), Body: UpdateInventoryResource | Actualizar inventario | `{"id": 1, "stock": 60}` |
+
+| **Products** | `/api/v1/products/{id}` | GET | `GET /api/v1/products/1` | `id` (path) | Obtener producto por id | `{"id": 1, "name": "Café Premium", "price": 25.0}` |
+| **Products** | `/api/v1/products/{id}` | PUT | `PUT /api/v1/products/1` | `id` (path), Body: UpdateProductResource | Actualización de producto | `{"id": 1, "name": "Café Premium", "price": 27.0}` |
+
+| **Purchase Orders** | `/api/v1/purchase-orders` | POST | `POST /api/v1/purchase-orders` | Body: CreatePurchaseOrderResource | Crear orden de compra | `{"id": 1, "status": "CREATED"}` |
+| **SupplyItem** | `/api/v1/supply-items/{id}` | GET | `GET /api/v1/supply-items/1` | `id` (path) | Obtener insumo por id | `{"id": 1, "name": "Azúcar", "unit": "kg"}` |
+| **SupplyItem** | `/api/v1/supply-items/{id}` | PUT | `PUT /api/v1/supply-items/1` | `id` (path), Body: UpdateSupplyItemResource | Actualización de insumo | `{"id": 1, "name": "Azúcar refinada"}` |
 | **Contact-Portfolio** | `/api/v1/contact-portfolios/{portfolioId}/providers/{providerId}` | GET | `GET /api/v1/contact-portfolios/1/providers/1` | `portfolioId`, `providerId` (path) | Obtener proveedor específico | `{"id": 1, "nameCompany": "Café Premium S.A.", "phoneNumber": "+51987654321"}` |
 | **Contact-Portfolio** | `/api/v1/contact-portfolios/{portfolioId}/providers/{providerId}` | PUT | `PUT /api/v1/contact-portfolios/1/providers/1` | `portfolioId`, `providerId` (path), Body: UpdateProviderContactResource | Actualizar proveedor en portfolio | `{"id": 1, "nameCompany": "Café Premium S.A.", "email": "nuevo@email.com"}` |
 | **Contact-Portfolio** | `/api/v1/contact-portfolios/{portfolioId}/providers/{providerId}` | DELETE | `DELETE /api/v1/contact-portfolios/1/providers/1` | `portfolioId`, `providerId` (path) | Eliminar proveedor del portfolio | `{"message": "Provider removed successfully"}` |
@@ -2887,8 +2933,38 @@ Vista de movimientos y transacciones registradas en la aplicación Android.
 
 | Bounded Context | Endpoint | HTTP Verb | Sintaxis de Llamada | Parámetros | Descripción | Response Example |
 |-----------------|----------|-----------|---------------------|------------|-------------|------------------|
-| **Contact-Portfolio** | `/api/v1/contact-portfolios/{portfolioId}/providers` | GET | `GET /api/v1/contact-portfolios/1/providers` | `portfolioId` (path) | Listar proveedores por portfolio | `[{"id": 1, "nameCompany": "Café Premium S.A.", "email": "contacto@cafepremium.com"}]` |
-| **Contact-Portfolio** | `/api/v1/contact-portfolios/{portfolioId}/providers` | POST | `POST /api/v1/contact-portfolios/1/providers` | `portfolioId` (path), Body: CreateProviderContactResource | Agregar proveedor al portfolio | `{"id": 1, "nameCompany": "Café Premium S.A.", "ruc": "20123456789"}` |
+| **Inventory** | `/api/v1/inventory/movements` | POST | `POST /api/v1/inventory/movements` | Body: RegisterStockMovementResource | Registrar movimiento de stock | `---` |
+| **Inventory** | `/api/v1/inventory/movements/{branchId}` | GET | `GET /api/v1/inventory/movements/1` | `branchId` (path) | Listar movimientos de stock por sede | `---` |
+| **Inventory** | `/api/v1/inventory/stock/{branchId}/{supplyItemId}` | GET | `GET /api/v1/inventory/stock/1/10` | `branchId`, `supplyItemId` (path) | Obtener stock actual | `---` |
+
+| **Products** | `/api/v1/products` | GET | `GET /api/v1/products` | — | Listar productos | `---` |
+| **Products** | `/api/v1/products` | POST | `POST /api/v1/products` | Body: CreateProductResource | Crear producto | `---` |
+| **Products** | `/api/v1/products/{productId}` | GET | `GET /api/v1/products/1` | `productId` (path) | Obtener producto por id | `---` |
+| **Products** | `/api/v1/products/{productId}` | PUT | `PUT /api/v1/products/1` | `productId` (path), Body: UpdateProductResource | Actualizar producto | `---` |
+| **Products** | `/api/v1/products/{productId}/activate` | POST | `POST /api/v1/products/1/activate` | `productId` (path) | Activar producto | `---` |
+| **Products** | `/api/v1/products/{productId}/archive` | POST | `POST /api/v1/products/1/archive` | `productId` (path) | Archivar producto | `---` |
+| **Products** | `/api/v1/products/{productId}/ingredients` | POST | `POST /api/v1/products/1/ingredients` | `productId` (path), Body: AddIngredientsResource | Agregar ingredientes a producto | `---` |
+| **Products** | `/api/v1/products/{productId}/ingredients/{supplyItemId}` | DELETE | `DELETE /api/v1/products/1/ingredients/10` | `productId`, `supplyItemId` (path) | Eliminar ingrediente | `---` |
+| **Products** | `/api/v1/products/branch/{branchId}` | GET | `GET /api/v1/products/branch/1` | `branchId` (path) | Listar productos por sede | `---` |
+
+| **Purchase Orders** | `/api/v1/purchase-orders` | POST | `POST /api/v1/purchase-orders` | Body: CreatePurchaseOrderResource | Crear orden de compra | `---` |
+| **Purchase Orders** | `/api/v1/purchase-orders/branch/{branchId}` | GET | `GET /api/v1/purchase-orders/branch/1` | `branchId` (path) | Listar órdenes de compra por sede | `---` |
+
+| **Sales** | `/api/v1/sales` | GET | `GET /api/v1/sales` | — | Listar ventas | `---` |
+| **Sales** | `/api/v1/sales` | POST | `POST /api/v1/sales` | Body: CreateSaleResource | Crear venta | `---` |
+| **Sales** | `/api/v1/sales/{saleId}` | GET | `GET /api/v1/sales/1` | `saleId` (path) | Obtener venta por id | `---` |
+| **Sales** | `/api/v1/sales/{saleId}/cancel` | PUT | `PUT /api/v1/sales/1/cancel` | `saleId` (path) | Cancelar venta | `---` |
+| **Sales** | `/api/v1/sales/{saleId}/complete` | PUT | `PUT /api/v1/sales/1/complete` | `saleId` (path) | Completar venta | `---` |
+| **Sales** | `/api/v1/sales/branch/{branchId}` | GET | `GET /api/v1/sales/branch/1` | `branchId` (path) | Listar ventas por sede | `---` |
+
+| **SupplyIem** | `/api/v1/supply-items` | GET | `GET /api/v1/supply-items` | — | Listar insumos | `---` |
+| **SupplyIem** | `/api/v1/supply-items` | POST | `POST /api/v1/supply-items` | Body: CreateSupplyItemResource | Crear insumo | `---` |
+| **SupplyIem** | `/api/v1/supply-items/{branchId}/branch` | GET | `GET /api/v1/supply-items/1/branch` | `branchId` (path) | Listar insumos por sede | `---` |
+| **SupplyIem** | `/api/v1/supply-items/{id}` | DELETE | `DELETE /api/v1/supply-items/1` | `id` (path) | Eliminar insumo | `---` |
+| **SupplyIem** | `/api/v1/supply-items/{id}` | GET | `GET /api/v1/supply-items/1` | `id` (path) | Obtener insumo por id | `---` |
+| **SupplyIem** | `/api/v1/supply-items/{id}` | PUT | `PUT /api/v1/supply-items/1` | `id` (path), Body: UpdateSupplyItemResource | Actualizar insumo | `---` |
+
+Swagger del backend desplegado: http://upc-icafebackend-3sger0-aa823d-31-97-13-234.traefik.me/swagger-ui/index.html
 
 **Documentación Interactiva Desplegada:**
 
