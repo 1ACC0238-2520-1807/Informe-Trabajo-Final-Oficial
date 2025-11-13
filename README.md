@@ -3009,9 +3009,32 @@ Link: https://1acc0238-2520-1807.github.io/LandingPage-iCafe/
 Diagrama C4: <br>
 <img src="./img/chapter-2/c4-deployment.png" alt="Deployment Diagram" width="500"/>
 
+**Despliegue en aplicación android en firebase**
+Se crea un nuevo proyecto en la consola de firebase app distribution
+<img src="./img/chapter-4/firebase-1.png" alt="Deployment Diagram" width="500"/>
+Se debe cargar el archivo .apk que previamente generaste en android studio y añanir los tester a traves de correo.
+<img src="./img/chapter-4/Firebase-2.png" alt="Deployment Diagram" width="500"/>
+
 #### 4.2.2.8. Team Collaboration Insights during Sprint
+En la siguiente sección se presentarán las evidencias del trabajo colaborativo realizado durante el Sprint 2. En este periodo se llevaron a cabo mejoras en la landing page, el backend desarrollado en Spring Boot, la aplicación Android y la aplicación Flutter. Para sustentar este trabajo conjunto, se mostrarán las gráficas generadas a partir de la actividad registrada en GitHub.
 
+**Landing page**
+Actualización de la landing page
+<img src="./img/chapter-4/sprint-2-commits-landing.png" alt="landing" width="500"/>
 
+**Aplicacion Backend**
+Fechas en donde se desarrollo el backend durante el sprint 2
+<img src="./img/chapter-4/sprint-2-fechas-commit-backend.png" alt="landing" width="500"/>
+Colaboradores que participaron en el desarrollo de la aplicación backend
+<img src="./img/chapter-4/sprint-2-commits-backend.png" alt="landing" width="500"/>
+**Aplicacion Android**
+Fechas en donde se desarrollo la aplicación Android durante el sprint 2
+<img src="./img/chapter-4/sprint-2-fechas-commit-android.png" alt="landing" width="500"/>
+Colaboradores que participaron en el desarrollo de la aplicación android
+<img src="./img/chapter-4/sprint-2-commits-android.png" alt="landing" width="500"/>
+**Aplicacion Flutter**
+Colaboradores que participaron en el desarrollo de la aplicación flutter
+<img src="./img/chapter-4/sprint-2-commits-flutter.png" alt="landing" width="500"/>
 
 ## 4.3. Validation Interviews
 En esta seccion, validaremos nuestro producto final con entrevistas a nuestro segmento objetivo.
