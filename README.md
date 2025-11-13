@@ -2867,6 +2867,18 @@ Repositorio https://github.com/1ACC0238-2520-1807/test
 
 #### 4.2.2.5. Execution Evidence for Sprint Review
 
+![Vista sedes](./img/sedes.jpeg)
+Vista de la implementación de las sedes dentro de la aplicación Android.
+
+![Vista estadísticas](./img/estadisticas.jpeg)
+Vista de estadísticas y métricas dentro de la aplicación Android.
+
+![Vista compras y ventas](./img/compras_ventas.jpeg)
+Vista de compras y ventas integradas en la aplicación Android.
+
+![Vista movimientos](./img/movimiento.jpeg)
+Vista de movimientos y transacciones registradas en la aplicación Android.
+
 #### 4.2.2.6. Services Documentation Evidence for Sprint Review
 
 
