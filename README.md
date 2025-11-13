@@ -3099,15 +3099,29 @@ Validar la aplicación móvil con dueños de cafeterías pequeñas, evaluando la
 
 # Conclusiones
 ## Conclusiones y recomendaciones
+**Concluciones:**
+- El proyecto abordó eficazmente la desorganización y la falta de herramientas digitales en cafeterías pequeñas y medianas, ofreciendo una solución clara para la gestión de inventario, proveedores, empleados y costos.<br>
+- La adopción de una arquitectura robusta con Domain-Driven Design (DDD) y Bounded Contexts bien definidos proporciona una base escalable y mantenible para el sistema.<br>
+- El enfoque en el usuario, evidenciado por las entrevistas, User Personas y User Journey Mappings, resultó en un diseño de interfaz intuitivo y fácil de usar.<br>
+- La implementación de una Landing Page, un backend funcional (con Swagger) y una aplicación Android operativa demuestra la capacidad del equipo para transformar ideas en un producto tangible.<br>
+- La colaboración efectiva, la planificación de sprints y el uso de herramientas de control de versiones reflejan una buena organización y coordinación del equipo.<br>
+
+**Recomendaciones:**
+- Priorizar la ejecución y documentación de las entrevistas de validación con usuarios reales para obtener retroalimentación directa y refinar la aplicación.<br>
+- Completar la implementación de todas las funcionalidades críticas en la aplicación móvil para Android, especialmente las relacionadas con ventas, finanzas y reportes detallados, y consolidar el desarrollo en Flutter.<br>
+- Implementar herramientas de monitoreo de rendimiento, errores y uso en el backend y la aplicación móvil una vez que el producto esté en manos de los usuarios.<br>
+- Desarrollar una estrategia de crecimiento y marketing más amplia, explorando marketing digital, alianzas con proveedores o demostraciones dirigidas para expandir la base de usuarios.<br>
+- Continuar el aprendizaje en nuevas áreas como la analítica de datos o la inteligencia artificial para ofrecer funcionalidades más avanzadas y añadir valor al producto.<br>
+
 
 # Video App Validation
-Link:
+Link: https://www.canva.com/design/DAG4mwAytek/GYEclk_B8KDLbPRLAUUmKw/edit?utm_content=DAG4mwAytek&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton<br>
 
 # Video About the product
-Link:
+Link: https://www.canva.com/design/DAG4m_n0jP8/ZbExk4QdIkSG1A1akc_1nw/edit?utm_content=DAG4m_n0jP8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton<br>
 
 # Video About the team
-Link:
+Link: https://www.canva.com/design/DAG4mwTd31Y/ciEtYs12uCHTVN7ZjJyiKw/edit?utm_content=DAG4mwTd31Y&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton<br>
 
 # Glosario
 
@@ -3124,18 +3138,15 @@ Molina, S. A. C. (2023). Desarrollar una aplicación web responsiva para la gest
 Sidabutar, G. D. G. E., Seah, J. A., & Singgalen, Y. A. (2023). Analysis and design of web-based information system for coffeeshop management using design thinking methodology: Case of Kopi KurangLebih. Journal of Information Systems and Informatics, 5(1), 217-231. https://doi.org/10.51519/journalisi.v5i1.455
 
 # Anexos
--Link Repositorio Informe: https://github.com/1ACC0238-2520-1807/Informe-Trabajo-Final-Oficial
--Link Repositorio Landing Page: https://github.com/1ACC0238-2520-1807/LandingPage-iCafe
--Landing Page Deployado: https://1acc0238-2520-1807.github.io/LandingPage-iCafe/
--Link Repositorio Backend: https://github.com/1ACC0238-2520-1807/backend-icafe
--Backend Deployado: http://upc-icafebackend-3sger0-aa823d-31-97-13-234.traefik.me/swagger-ui/index.html#
--Link Repositorio Android: https://github.com/1ACC0238-2520-1807/Android-icafe
--Android Deployado: https://appdistribution.firebase.dev/i/996291fcf7f9d0d1 
--Link Repositorio Flutter: https://github.com/1ACC0238-2520-1807/Flutter-icafe
--Link PPT: https://www.canva.com/design/DAGzPbC_J7U/kQe16BT9So7GJgFTXdkFGg/edit?utm_content=DAGzPbC_J7U&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
--Link Video App Validation: 
--Link Video About the product: 
--Link Video About the team: 
+- Link Repositorio Informe: https://github.com/1ACC0238-2520-1807/Informe-Trabajo-Final-Oficial<br>
+- Link Repositorio Landing Page: https://github.com/1ACC0238-2520-1807/LandingPage-iCafe<br>
+- Landing Page Deployado: https://1acc0238-2520-1807.github.io/LandingPage-iCafe/<br>
+- Link Repositorio Backend: https://github.com/1ACC0238-2520-1807/backend-icafe<br>
+- Backend Deployado: http://upc-icafebackend-3sger0-aa823d-31-97-13-234.traefik.me/swagger-ui/index.html#<br>
+- Link Repositorio Android: https://github.com/1ACC0238-2520-1807/Android-icafe<br>
+- Android Deployado: https://appdistribution.firebase.dev/i/996291fcf7f9d0d1<br>
+- Link Repositorio Flutter: https://github.com/1ACC0238-2520-1807/Flutter-icafe<br>
+- Link PPT: https://www.canva.com/design/DAGzPbC_J7U/kQe16BT9So7GJgFTXdkFGg/edit?utm_content=DAGzPbC_J7U&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton<br>
 
 
 
