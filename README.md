@@ -2776,162 +2776,109 @@ Durante el Sprint 2, el equipo de desarrollo de iCafe se enfocará en completar 
   </tr>
 
   <tr>
-    <td rowspan="5" align="center">https://github.com/1ACC0238-2520-1807/LandingPage-iCafe</td>
+    <td rowspan="1" align="center">https://github.com/1ACC0238-2520-1807/LandingPage-iCafe</td>
     <td align="center"> main</td>
-    <td align="center"> </td>
-    <td align="center"> </td>
+    <td align="center">7dea72270a28a56a1c6139f1984992a8731687f6</td>
+    <td align="center">Update movile content</td>
     <td align="center"> ---</td>
-    <td align="center"> 30/09/2025</td>
-  </tr>
-
-  <tr>
-    <td align="center">main</td>
-    <td align="center" ></td>
-    <td align="center"> </td>
-    <td align="center"> ---</td>
-    <td align="center"> 30/09/2025</td>
-  </tr>
-
-  <tr>
-    <td align="center"> main</td>
-    <td align="center"></td>
-    <td align="center"> </td>
-    <td align="center"> ---</td>
-    <td align="center"> 30/09/2025</td>
-  </tr>
-
-  <tr>
-    <td align="center"> main</td>
-    <td align="center"> </td>
-    <td align="center"></td>
-    <td align="center"> ---</td>
-    <td align="center">06/10/2025</td>
-  </tr>
-
-  <tr>
-    <td align="center"> main</td>
-    <td align="center"> </td>
-    <td align="center"></td>
-    <td align="center"> ---</td>
-    <td align="center"> 06/10/2025</td>
+    <td align="center"> 06/11/2025</td>
   </tr>
   <!---------------------------------------------------->
    <tr>
     <td rowspan="8" align="center">https://github.com/1ACC0238-2520-1807/backend-icafe</td>
-    <td align="center"> main</td>
-    <td align="center"> </td>
-    <td align="center"> </td>
+    <td align="center">feature/product</td>
+    <td align="center">ae86845f77f3db881b1bd41bf67c2b5e41dd848d</td>
+    <td align="center"> Se agrego una nueva entidad SupplyItem</td>
     <td align="center"> ---</td>
     <td align="center"> 30/09/2025</td>
   </tr>
   <tr>
-    <td align="center">main</td>
-    <td align="center" > </td>
-    <td align="center"></td>
+    <td align="center">feature/product</td>
+    <td align="center" >ba3c106b9d2f51db631778b166c8c07053c613e9</td>
+    <td align="center">Se mapeo todos los servicios, resource y assembler de SupplyItem, pero falta los controllers</td>
     <td align="center"> ---</td>
-    <td align="center"> 30/09/2025</td>
+    <td align="center"> 29/11/2025</td>
   </tr>
    <tr>
-    <td align="center">develop</td>
-    <td align="center" ></td>
-    <td align="center"> </td>
+    <td align="center">feature/product</td>
+    <td align="center" >2fe06948d62338d53bc69237ac283b6917dee88f</td>
+    <td align="center">Se limpio el codigo de la version anterior</td>
     <td align="center"> ---</td>
-    <td align="center"> 01/10/2025</td>
+   <td align="center"> 29/11/2025</td>
   </tr>
     <tr>
-    <td align="center"></td>
-    <td align="center" ></td>
-    <td align="center"> </td>
+    <td align="center">develop</td>
+    <td align="center" >800648bf1d14398d57bf3c53572cc231813c6d7b</td>
+    <td align="center"> fix: providerId</td>
     <td align="center"> ---</td>
-    <td align="center"> 02/10/2025</td>
+    <td align="center"> 30/11/2025</td>
   </tr>
 <tr>
-    <td align="center">feature/contacts</td>
-    <td align="center" ></td>
-    <td align="center"></td>
+    <td align="center">feature/sales</td>
+ <td align="center" >800648bf1d14398d57bf3c53572cc231813c6d7b</td>
+    <td align="center">test(sales): update test to use primitive double instead of BigDecimal</td>
     <td align="center"> ---</td>
-    <td align="center"> 02/10/2025</td>
+    <td align="center"> 08/11/2025</td>
   </tr>
 
   <tr>
     <td align="center">feature/products</td>
-    <td align="center" ></td>
-    <td align="center"></td>
+    <td align="center" >5a5b03f5d6d73d5f77ff0e5068ed46d53055b916</td>
+    <td align="center">feat(product): se agrego el enpoint para buscar por branchId en los supplyItem</td>
     <td align="center"> ---</td>
     <td align="center"> 06/10/2025</td>
   </tr>
    <tr>
-    <td align="center">develop/td>
-    <td align="center" ></td>
-    <td align="center"></td>
+    <td align="center">develop</td>
+    <td align="center" >7782fed28a6336d894945a939866290e354134c1</td>
+    <td align="center">refactor(purchase-order): extract domain event registration to separ</td>
     <td align="center"> ---</td>
-    <td align="center"> 07/10/2025</td>
+    <td align="center"> 11/11/2025</td>
   </tr>
   
    <tr>
-    <td align="center">develop/td>
-    <td align="center" ></td>
-    <td align="center"></td>
+    <td align="center">develop</td>
+    <td align="center" >33ab18af44a4d59550603d62268b5a38db8115f1</td>
+    <td align="center">use BranchId value object consistently across repositories</td>
     <td align="center"> ---</td>
-    <td align="center"> 07/10/2025</td>
+    <td align="center"> 12/11/2025</td>
   </tr>
   <!--------------------->
   <tr>
     <td rowspan="8" align="center">https://github.com/1ACC0238-2520-1807/Android-icafe</td>
     <td align="center"> main</td>
-    <td align="center"> </td>
-    <td align="center"> </td>
+    <td align="center">2c693efaed84c42eb0575902c88bd14b4fa75baa </td>
+    <td align="center"> Update iCafe Design</td>
     <td align="center"> ---</td>
-    <td align="center"> 05/10/2025</td>
+    <td align="center"> 09/11/2025</td>
   </tr>
   <tr>
     <td align="center">develop</td>
-    <td align="center" > </td>
-    <td align="center"></td>
+    <td align="center" >729ff1f9dbfc798f578badd4f423b90b5d1360d0 </td>
+    <td align="center">Add Item and Product Section</td>
     <td align="center"> ---</td>
-    <td align="center"> 05/10/2025</td>
+    <td align="center"> 10/11/2025</td>
   </tr>
    <tr>
     <td align="center">develop</td>
-    <td align="center" > </td>
-    <td align="center"></td>
+    <td align="center" >c7c0984bf860a77464e4158df8fd03d0444daa75 </td>
+    <td align="center">Add Sales and Orders</td>
     <td align="center"> ---</td>
-    <td align="center"> 06/10/2025</td>
+    <td align="center"> 11/11/2025</td>
   </tr>
     <tr>
-    <td align="center">feature/contacs</td>
-    <td align="center" > </td>
-    <td align="center"></td>
+     <td align="center">develop</td>
+    <td align="center" >7193d7727c30b06feef292766d8381ee4abfcd83</td>
+    <td align="center">fix Product Detail</td>
     <td align="center"> ---</td>
-    <td align="center"> 08/10/2025</td>
+    <td align="center"> 12/11/2025</td>
   </tr>
   <tr>
-    <td align="center">feature/contacs</td>
-    <td align="center" > </td>
-    <td align="center"> </td>
-    <td align="center"> ---</td>
-    <td align="center"> 08/10/2025</td>
-  </tr>
-   <tr>
-    <td align="center">feature/contacs</td>
-    <td align="center" > </td>
-    <td align="center"></td>
-    <td align="center"> ---</td>
-    <td align="center"> 08/10/2025</td>
-  </tr>
-   <tr>
-    <td align="center">feature/contacs</td>
-    <td align="center" > </td>
-    <td align="center"></td>
-    <td align="center"> ---</td>
-    <td align="center"> 08/10/2025</td>
-  </tr>
-    <tr>
     <td align="center">develop</td>
-    <td align="center" ></td>
-    <td align="center"></td>
+    <td align="center" > 398243bee21af2fc99c004b3d5c1434a2116ceb1</td>
+    <td align="center"> Refactor InventoryMovementsScreen layout and states</td>
     <td align="center"> ---</td>
-    <td align="center"> 08/10/2025</td>
+    <td align="center"> 13/11/2025</td>
   </tr>
 
 </table>
