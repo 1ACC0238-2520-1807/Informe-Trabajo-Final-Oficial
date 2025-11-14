@@ -2354,7 +2354,7 @@ En esta sección describiré las actividades desarrolladas durante el Sprint 1, 
 <p align="center">
   Desarrollada con <b>Kotlin</b> y <b>Jetpack Compose</b>, la aplicación móvil permite a los dueños de cafeterías gestionar empleados, proveedores e inventario desde su dispositivo.
   Se implementó arquitectura <b>MVVM</b> y principios de <b>Clean Architecture</b> para asegurar mantenibilidad y escalabilidad.
-  <img src="./img/swagger1.png" width="80%" alt="Swager"/>
+  <img src="./img/swagger1.png" width="600px" alt="Swager"/>
 </p>
 
 
@@ -2418,15 +2418,18 @@ Link: https://drive.google.com/file/d/11aM-DKEcy-WijTvHAGVb-tzOcH0vTmTB/view?usp
     <b>Registrar nuevos insumos al inventario</b><br>
     <img src="./img/chapter-4/movil-insumos.jpeg" width="50%" alt="Insumos"/>
   </div>
-
 </div>
 
+<br>
+<br>
 <p align="center">
   <b>Video demostrativo:</b>
   <a href="https://drive.google.com/file/d/1FjrpWygjRiYmw7yVLpyuLXEac2Lg016r/view?usp=sharing" target="_blank">Ver en Google Drive</a>
 </p>
-
+<br>
 Link: https://drive.google.com/file/d/1FjrpWygjRiYmw7yVLpyuLXEac2Lg016r/view?usp=sharing 
+<br>
+<br>
 
 #### 4.2.1.6. Services Documentation Evidence for Sprint Review
 
@@ -2976,16 +2979,13 @@ Repositorio https://github.com/1ACC0238-2520-1807/test
 
 ![](./img/cap.jpeg)
 
-![Vista sedes](./img/sedes.jpeg)
+<img src="./img/sedes.jpeg" width="500px" alt="Agregar proveedor"/> 
 Vista de la implementación de las sedes dentro de la aplicación Android.
-
-![Vista estadísticas](./img/estadisticas.jpeg)
+<img src="./img/estadisticas.jpeg" width="500px" alt="Agregar proveedor"/> 
 Vista de estadísticas y métricas dentro de la aplicación Android.
-
-![Vista compras y ventas](./img/compras_ventas.jpeg)
+<img src="./img/compras_ventas.jpeg" width="500px" alt="Agregar proveedor"/>
 Vista de compras y ventas integradas en la aplicación Android.
-
-![Vista movimientos](./img/movimiento.jpeg)
+<img src="./img/movimiento.jpeg" width="500px" alt="Agregar proveedor"/>
 Vista de movimientos y transacciones registradas en la aplicación Android.
 
 #### 4.2.2.6. Services Documentation Evidence for Sprint Review
