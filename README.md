@@ -1646,7 +1646,7 @@ Finalmente, se presentan los prototipos interactivos de la aplicación móvil, l
 Link: https://youtu.be/Hd8nV5grxeg
 Link Figma: https://www.figma.com/design/54NyDHkxxRtBDyw7VWojNK/Untitled?node-id=0-1&t=V2Z4lR3eL3gC4gol-1
 
-### 3.1.6. Referencias de diseño de aplicaciones similares
+### 3.1.5. Referencias de diseño de aplicaciones similares
 
 Para el diseño de la aplicación **iCafe**, se tomaron como referencia diversas propuestas visuales de aplicaciones similares disponibles en plataformas de diseño como Dribbble y Behance. Estas referencias permitieron identificar tendencias actuales en interfaces móviles, así como buenas prácticas en la organización de dashboards, navegación y experiencia de usuario.
 
@@ -1664,7 +1664,7 @@ Para el diseño de la aplicación **iCafe**, se tomaron como referencia diversas
 
 Este análisis comparativo permitió que el diseño de **iCafe** no solo cumpla con los objetivos funcionales del proyecto, sino que también ofrezca una experiencia visual atractiva y alineada con estándares modernos de aplicaciones móviles.
 
-### 3.1.7. Wireframe textual de la navegación principal de iCafe
+### 3.1.6. Wireframe textual de la navegación principal de iCafe
 
 El siguiente wireframe textual describe la estructura y flujo principal de la aplicación **iCafe**, inspirado en las referencias de diseño analizadas. No se incluyen detalles gráficos, sino una representación en palabras de cómo se organiza la navegación:
 
