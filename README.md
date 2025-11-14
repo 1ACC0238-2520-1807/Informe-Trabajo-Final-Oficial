@@ -669,8 +669,7 @@ Los dueños de cafeterías suelen enfrentar problemas comunes relacionados con l
 ## 2.3. Needfinding
 
 ### 2.3.1. User Personas
-
-![User Persona](./img/chapter-2/userpersona.png)
+<img src="./img/chapter-2/userpersona.png" alt="Github-rama-backend" width="500"/> <br>
 
 ### 2.3.2. User Task Matrix
 
