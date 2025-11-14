@@ -1645,6 +1645,25 @@ Finalmente, se presentan los prototipos interactivos de la aplicación móvil, l
 
 Link: https://youtu.be/Hd8nV5grxeg
 Link Figma: https://www.figma.com/design/54NyDHkxxRtBDyw7VWojNK/Untitled?node-id=0-1&t=V2Z4lR3eL3gC4gol-1
+
+### 3.1.5. Referencias de diseño de aplicaciones similares
+
+Para el diseño de la aplicación **iCafe**, se tomaron como referencia diversas propuestas visuales de aplicaciones similares disponibles en plataformas de diseño como Dribbble y Behance. Estas referencias permitieron identificar tendencias actuales en interfaces móviles, así como buenas prácticas en la organización de dashboards, navegación y experiencia de usuario.
+
+**Referencias consultadas:**
+- [Barbershop App Dashboard – Dribbble](https://dribbble.com/shots/25687859-Barbershop-app-dashboard)  
+- [Coffee Shop Mobile App Concept – Behance](https://www.behance.net/gallery/146789123/Coffee-Shop-Mobile-App-Design)  
+- [Food & Drink Ordering App – Dribbble](https://dribbble.com/shots/21098765-Food-Drink-Ordering-App)  
+
+**Inspiración aplicada en iCafe:**
+- **Minimalismo visual:** Se adoptó un estilo limpio y moderno, con predominio de colores neutros y acentos cálidos, similar al dashboard de Barbershop.  
+- **Jerarquía clara de información:** La disposición de menús y secciones sigue un orden lógico que facilita la navegación, inspirado en apps de pedidos de comida y bebidas.  
+- **Tipografía legible y consistente:** Se priorizó el uso de fuentes sans-serif para mejorar la lectura en pantallas móviles.  
+- **Elementos visuales atractivos:** Se incorporaron íconos y microinteracciones que refuerzan la experiencia del usuario, tomando como referencia las animaciones y transiciones vistas en Dribbble.  
+- **Enfoque en la experiencia del cliente:** Al igual que en las apps de cafeterías y restaurantes, se buscó que el usuario pueda realizar pedidos y gestionar su cuenta de manera rápida y sencilla.  
+
+Este análisis comparativo permitió que el diseño de **iCafe** no solo cumpla con los objetivos funcionales del proyecto, sino que también ofrezca una experiencia visual atractiva y alineada con estándares modernos de aplicaciones móviles.
+
 # Capítulo IV: Product Implementation & Validation
 
 ## 4.1. Software Configuration Management
