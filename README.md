@@ -70,7 +70,7 @@ Para el desarrollo del informe correspondiente a la entrega TB2, cada integrante
 |Integrante|Tareas Asignadas|
 |-|-|
 | Ruben Velasquez Chambi | Culminacion de Backend, spring planning, spring backlog. |
-| Christian Fabrizio Inga Orihuela | Aplicación en Flutter y Corrección TP1 |
+| Christian Fabrizio Inga Orihuela | Aplicación en Flutter, Corrección TP1 y video About the Product. |
 | Hallasi Saravia, Miguel Angel | Culminación de Backend, Sprint 2 |
 | Urrutia Peña, Jasmin Adriana | Culminación de la Aplicación Android, Conclusiones y Recomendaciones |
 | Sebastian Alexander Ramos Calagua | Aplicación en Flutter y Corrección TP1 |
