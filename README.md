@@ -1646,23 +1646,78 @@ Finalmente, se presentan los prototipos interactivos de la aplicación móvil, l
 Link: https://youtu.be/Hd8nV5grxeg
 Link Figma: https://www.figma.com/design/54NyDHkxxRtBDyw7VWojNK/Untitled?node-id=0-1&t=V2Z4lR3eL3gC4gol-1
 
-### 3.1.5. Referencias de diseño de aplicaciones similares
+### 3.1.6. Referencias de diseño de aplicaciones similares
 
 Para el diseño de la aplicación **iCafe**, se tomaron como referencia diversas propuestas visuales de aplicaciones similares disponibles en plataformas de diseño como Dribbble y Behance. Estas referencias permitieron identificar tendencias actuales en interfaces móviles, así como buenas prácticas en la organización de dashboards, navegación y experiencia de usuario.
 
 **Referencias consultadas:**
 - [Barbershop App Dashboard – Dribbble](https://dribbble.com/shots/25687859-Barbershop-app-dashboard)  
-- [Coffee Shop Mobile App Concept – Behance](https://www.behance.net/gallery/146789123/Coffee-Shop-Mobile-App-Design)  
-- [Food & Drink Ordering App – Dribbble](https://dribbble.com/shots/21098765-Food-Drink-Ordering-App)  
+- [Coffee Shop Mobile App UI – Dribbble](https://dribbble.com/shots/26695560-Coffee-Shop-Mobile-App-UI)  
+- [Restaurant Food Ordering App – Behance](https://dribbble.com/shots/9807812-Restaurant-app)  
 
 **Inspiración aplicada en iCafe:**
 - **Minimalismo visual:** Se adoptó un estilo limpio y moderno, con predominio de colores neutros y acentos cálidos, similar al dashboard de Barbershop.  
 - **Jerarquía clara de información:** La disposición de menús y secciones sigue un orden lógico que facilita la navegación, inspirado en apps de pedidos de comida y bebidas.  
 - **Tipografía legible y consistente:** Se priorizó el uso de fuentes sans-serif para mejorar la lectura en pantallas móviles.  
-- **Elementos visuales atractivos:** Se incorporaron íconos y microinteracciones que refuerzan la experiencia del usuario, tomando como referencia las animaciones y transiciones vistas en Dribbble.  
+- **Elementos visuales atractivos:** Se incorporaron íconos y microinteracciones que refuerzan la experiencia del usuario, tomando como referencia las animaciones y transiciones vistas en Dribbble y Behance.  
 - **Enfoque en la experiencia del cliente:** Al igual que en las apps de cafeterías y restaurantes, se buscó que el usuario pueda realizar pedidos y gestionar su cuenta de manera rápida y sencilla.  
 
 Este análisis comparativo permitió que el diseño de **iCafe** no solo cumpla con los objetivos funcionales del proyecto, sino que también ofrezca una experiencia visual atractiva y alineada con estándares modernos de aplicaciones móviles.
+
+### 3.1.7. Wireframe textual de la navegación principal de iCafe
+
+El siguiente wireframe textual describe la estructura y flujo principal de la aplicación **iCafe**, inspirado en las referencias de diseño analizadas. No se incluyen detalles gráficos, sino una representación en palabras de cómo se organiza la navegación:
+
+**Pantalla de Inicio (Landing Page)**
+- Logo de SyncCafe y nombre de la aplicación.
+- Botón destacado: *“Ingresar a la aplicación”*.
+- Enlaces secundarios: *Acerca de*, *Contacto*, *Descargar App*.
+
+**Pantalla de Login / Registro**
+- Campos: correo electrónico, contraseña.
+- Botón: *Iniciar sesión*.
+- Enlace: *¿No tienes cuenta? Regístrate*.
+- Registro rápido con nombre, correo y contraseña.
+
+**Dashboard Principal**
+- Barra superior con saludo al usuario y acceso a perfil.
+- Menú inferior con iconos de navegación:
+  - Inicio
+  - Productos
+  - Inventario
+  - Ventas
+  - Contactos
+- Sección central con accesos rápidos:
+  - *Nuevo pedido*
+  - *Ver reportes*
+  - *Promociones activas*
+
+**Pantalla de Productos**
+- Lista de productos con imagen, nombre y precio.
+- Botón flotante: *Agregar nuevo producto*.
+- Filtros: categoría, disponibilidad.
+
+**Pantalla de Inventario**
+- Tabla con stock disponible.
+- Alertas visuales para productos con bajo inventario.
+- Botón: *Actualizar stock*.
+
+**Pantalla de Ventas**
+- Historial de ventas recientes.
+- Gráfico simple de ingresos por día/semana.
+- Botón: *Registrar nueva venta*.
+
+**Pantalla de Contactos**
+- Lista de clientes frecuentes.
+- Opción de agregar contacto nuevo.
+- Integración con datos de pedidos anteriores.
+
+**Pantalla de Perfil / Configuración**
+- Datos del usuario.
+- Opciones de configuración: idioma, notificaciones, seguridad.
+- Botón: *Cerrar sesión*.
+
+---
 
 # Capítulo IV: Product Implementation & Validation
 
