@@ -898,13 +898,12 @@ Contacts expone datos de los clientes/proveedores. Sales y Finances consumen est
 ![Context Diagram](./img/chapter-2/ContextLevel.png)
 
 #### 2.5.3.2. Software Architecture Container Level Diagrams
-
-![Container Diagram](./img/chapter-2/ContainerLevel.png)
-![Coponent Diagram](./img/chapter-2/Component.png)
+<img src="./img/chapter-2/ContainerLevel.png" alt="Github-rama-backend" width="600"/> <br>
+<img src="./img/chapter-2/Component.png" alt="Github-rama-backend" width="600"/> <br>
 
 #### 2.5.3.3. Software Architecture Deployment Diagrams
 
-![Deployment Diagram](./img/chapter-2/c4-deployment.png)
+<img src="./img/chapter-2/c4-deployment.png" alt="Github-rama-backend" width="600"/> <br>
 
 ## 2.6. Tactical-Level Domain-Driven Design
 
@@ -3091,6 +3090,8 @@ Se crea un nuevo proyecto en la consola de firebase app distribution
 <img src="./img/chapter-4/firebase-1.png" alt="Deployment Diagram" width="500"/>
 Se debe cargar el archivo .apk que previamente generaste en android studio y añanir los tester a traves de correo.
 <img src="./img/chapter-4/Firebase-2.png" alt="Deployment Diagram" width="500"/>
+
+**link:**  https://appdistribution.firebase.google.com/testerapps/1:892002161154:android:b7ff4a0dbfb60be018cd1b/releases/2mvv6lj5b2l4o?utm_source=firebase-console
 
 #### 4.2.2.8. Team Collaboration Insights during Sprint
 En la siguiente sección se presentarán las evidencias del trabajo colaborativo realizado durante el Sprint 2. En este periodo se llevaron a cabo mejoras en la landing page, el backend desarrollado en Spring Boot, la aplicación Android y la aplicación Flutter. Para sustentar este trabajo conjunto, se mostrarán las gráficas generadas a partir de la actividad registrada en GitHub.
