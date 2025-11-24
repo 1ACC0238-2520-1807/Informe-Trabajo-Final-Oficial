@@ -3138,8 +3138,86 @@ Validar la aplicación móvil con dueños de cafeterías pequeñas, evaluando la
 
 -Si la aplicación estuviera disponible en el mercado, ¿estaría dispuesta(o) a utilizarla de manera constante?
 
-### 4.2.3. Sprint n
-#### 4.2.3.1. Sprint Planning n
+### 4.2.3. Sprint 3
+
+Durante el Sprint 3, el equipo de desarrollo de iCafe se enfocará en completar la versión integral de la aplicación en Flutter, tanto a nivel de interfaz como de lógica de negocio. Se implementarán todos los módulos pendientes, garantizando la integración total con el backend ya desarrollado, y se refinará la experiencia de usuario mediante mejoras en el diseño, la navegación y el rendimiento. Al finalizar este sprint, se espera contar con una versión estable y funcional de iCafe en Flutter, lista para pruebas y validación con usuarios finales.
+
+#### 4.2.3.1. Sprint Planning 3
+
+<table>
+    <thead>
+        <tr>
+            <th>Sprint #</th>
+            <th>Sprint 3</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td colspan="2"><b>Sprint Planning Background</b></td>
+        </tr>
+        <tr>
+            <td>Date</td>
+            <td>2025-11-24</td>
+        </tr>
+        <tr>
+            <td>Time</td>
+            <td>8:30 PM</td>
+        </tr>
+        <tr>
+            <td>Location</td>
+            <td>Discord</td>
+        </tr>
+        <tr>
+            <td>Prepared by</td>
+            <td>Urrutia Peña Jasmin Adriana</td>
+        </tr>
+        <tr>
+            <td>Atendees (to planning meeting)</td>
+            <td>
+                <li>Velaquez Chambi Ruben Genaro</li>
+                <li>Christian Fabrizio Inga Orihuela</li>
+                <li>Hallasi Saravia Miguel Angel</li>
+                <li>Sebastian Alexander Ramos Calagua</li>
+               <li>Luciana Carolina Choquehuanca Nuñez</li>
+            </td>
+        </tr>
+        <tr>
+            <td>Sprint 2 Review Summary</td>
+            <td>
+                <li>Se completó al 100% la implementación del backend, integrando correctamente todos los módulos y servicios necesarios.</li>
+                <li>Se finalizó la aplicación móvil para Android, consolidando sus funcionalidades y garantizando la comunicación estable con el backend.</li>
+                <li>Se desarrolló una versión inicial de la aplicación en Flutter que replica las funcionalidades básicas de la app Android.</li>
+            </td>
+        </tr>
+        <tr>
+            <td>Sprint 2 Retrospective Summary</td>
+            <td>
+                Durante la retrospectiva del Sprint 2, el equipo coincidió en que priorizar la finalización del backend y la app de Android fue una decisión acertada, ya que permitió reducir riesgos técnicos y validar los principales flujos de negocio. Sin embargo, se identificó la necesidad de mejorar la estimación del esfuerzo en tareas de integración y pruebas, así como de reforzar la documentación de los servicios para facilitar el trabajo en Flutter.
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2"><b>Sprint Goal & User Stories</b></td>
+        </tr>
+        <tr>
+            <td>Sprint 3 Goal</td>
+            <td>
+                <li>Completar la versión integral de iCafe en Flutter, implementando todas las pantallas, flujos y casos de uso definidos para la aplicación móvil.</li>
+                <li>Integrar la aplicación Flutter con el backend existente, consumiendo los servicios de los bounded contexts relevantes y asegurando la coherencia de datos.</li>
+                <li>Optimizar la experiencia de usuario mediante mejoras en el diseño visual, la navegación y el rendimiento de la aplicación.</li>
+                <li>Preparar una versión estable de iCafe en Flutter lista para pruebas exhaustivas internas y validación con usuarios finales.</li>
+            </td>
+        </tr>
+        <tr>
+            <td>Sprint 3 Velocity</td>
+            <td>30</td>
+        </tr>
+        <tr>
+            <td>Sum of story points</td>
+            <td>45</td>
+        </tr>
+    </tbody>
+</table>
+
 
 #### 4.2.3.2. Sprint Backlog n
 
