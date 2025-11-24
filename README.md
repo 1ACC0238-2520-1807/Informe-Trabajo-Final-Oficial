@@ -3219,7 +3219,216 @@ Durante el Sprint 3, el equipo de desarrollo de iCafe se enfocará en completar 
 </table>
 
 
-#### 4.2.3.2. Sprint Backlog n
+#### 4.2.3.2. Sprint Backlog 3
+
+<table>
+  <tr>
+    <td><strong>Sprint #</strong></td>
+    <td align="center" colspan="7"><strong>Sprint 3</strong></td>
+  </tr>
+
+  <tr>
+    <td align="center" colspan="2"><strong>User Story</strong></td>
+    <td align="center" colspan="6"><strong>Work-item/Task</strong></td>
+  </tr>
+  <tr>
+    <td align="center"><strong>ID</strong></td>
+    <td align="center"><strong>Title</strong></td>
+    <td align="center"><strong>ID</strong></td>
+    <td align="center"><strong>Title</strong></td>
+    <td align="center"><strong>Description</strong></td>
+    <td align="center"><strong>Estimation (Hours)</strong></td>
+    <td align="center"><strong>Assigned To</strong></td>
+    <td align="center"><strong>Status (To-do/In-Process/To-Review/Done)</strong></td>
+  </tr>
+  <!---------------------------------------------------------------------- -->
+  
+  <!-- US025 -->
+  <tr>
+    <td rowspan="3" align="center">US025</td>
+    <td rowspan="3" align="center">Registro de cliente</td>
+    <td align="center">TA01</td>
+    <td align="center">Pantalla de registro cliente</td>
+    <td align="center">Diseñar e implementar interfaz de registro para clientes</td>
+    <td align="center">3</td>
+    <td align="center">Luciana Carolina Choquehuanca Nuñez</td>
+    <td align="center">To-do</td>
+  </tr>
+
+  <tr>
+    <td align="center">TA02</td>
+    <td align="center">Validación de campos</td>
+    <td align="center">Implementar validaciones para email, contraseña y datos personales</td>
+    <td align="center">2</td>
+    <td align="center">Jasmin Adriana Urrutia Peña</td>
+    <td align="center">To-do</td>
+  </tr>
+
+  <tr>
+    <td align="center">TA03</td>
+    <td align="center">Integración con API</td>
+    <td align="center">Conectar con endpoint de registro de clientes</td>
+    <td align="center">2</td>
+    <td align="center">Hallasi Saravia Miguel Angel</td>
+    <td align="center">To-do</td>
+  </tr>
+
+  <!-------------------------------------------------->
+  <!-- US026 -->
+  <tr>
+    <td rowspan="3" align="center">US026</td>
+    <td rowspan="3" align="center">Ver menú de productos</td>
+    <td align="center">TA01</td>
+    <td align="center">Catálogo de productos</td>
+    <td align="center">Diseñar interfaz para mostrar lista de productos disponibles</td>
+    <td align="center">4</td>
+    <td align="center">Christian Fabrizio Inga Orihuela</td>
+    <td align="center">To-do</td>
+  </tr>
+
+  <tr>
+    <td align="center">TA02</td>
+    <td align="center">Filtros y categorías</td>
+    <td align="center">Implementar filtros por categoría (cafés, postres, etc.)</td>
+    <td align="center">3</td>
+    <td align="center">Luciana Carolina Choquehuanca Nuñez</td>
+    <td align="center">To-do</td>
+  </tr>
+
+  <tr>
+    <td align="center">TA03</td>
+    <td align="center">Integración con API</td>
+    <td align="center">Conectar con endpoint de productos del menú</td>
+    <td align="center">2</td>
+    <td align="center">Ruben Velasquez Chambi</td>
+    <td align="center">To-do</td>
+  </tr>
+
+  <!-------------------------------------------------->
+  <!-- US027 -->
+  <tr>
+    <td rowspan="3" align="center">US027</td>
+    <td rowspan="3" align="center">Realizar pedido</td>
+    <td align="center">TA01</td>
+    <td align="center">Carrito de compras</td>
+    <td align="center">Implementar funcionalidad de carrito para agregar productos</td>
+    <td align="center">5</td>
+    <td align="center">Sebastian Alexander Ramos Calagua</td>
+    <td align="center">To-do</td>
+  </tr>
+
+  <tr>
+    <td align="center">TA02</td>
+    <td align="center">Proceso de checkout</td>
+    <td align="center">Diseñar flujo de confirmación y pago del pedido</td>
+    <td align="center">4</td>
+    <td align="center">Christian Fabrizio Inga Orihuela</td>
+    <td align="center">To-do</td>
+  </tr>
+
+  <tr>
+    <td align="center">TA03</td>
+    <td align="center">Integración con API</td>
+    <td align="center">Conectar con endpoint de creación de pedidos</td>
+    <td align="center">3</td>
+    <td align="center">Ruben Velasquez Chambi</td>
+    <td align="center">To-do</td>
+  </tr>
+
+  <!-------------------------------------------------->
+  <!-- US028 -->
+  <tr>
+    <td rowspan="3" align="center">US028</td>
+    <td rowspan="3" align="center">Ver estado del pedido</td>
+    <td align="center">TA01</td>
+    <td align="center">Pantalla de seguimiento</td>
+    <td align="center">Diseñar interfaz para mostrar estado del pedido en tiempo real</td>
+    <td align="center">3</td>
+    <td align="center">Luciana Carolina Choquehuanca Nuñez</td>
+    <td align="center">To-do</td>
+  </tr>
+
+  <tr>
+    <td align="center">TA02</td>
+    <td align="center">Actualizaciones automáticas</td>
+    <td align="center">Implementar actualización automática del estado</td>
+    <td align="center">2</td>
+    <td align="center">Hallasi Saravia Miguel Angel</td>
+    <td align="center">To-do</td>
+  </tr>
+
+  <tr>
+    <td align="center">TA03</td>
+    <td align="center">Integración con API</td>
+    <td align="center">Conectar con endpoint de estado de pedidos</td>
+    <td align="center">2</td>
+    <td align="center">Jasmin Adriana Urrutia Peña</td>
+    <td align="center">To-do</td>
+  </tr>
+
+  <!-------------------------------------------------->
+  <!-- US029 -->
+  <tr>
+    <td rowspan="3" align="center">US029</td>
+    <td rowspan="3" align="center">Historial de pedidos</td>
+    <td align="center">TA01</td>
+    <td align="center">Lista de pedidos anteriores</td>
+    <td align="center">Diseñar interfaz para mostrar historial de pedidos</td>
+    <td align="center">3</td>
+    <td align="center">Christian Fabrizio Inga Orihuela</td>
+    <td align="center">To-do</td>
+  </tr>
+
+  <tr>
+    <td align="center">TA02</td>
+    <td align="center">Detalles de pedido</td>
+    <td align="center">Implementar vista de detalles para cada pedido histórico</td>
+    <td align="center">2</td>
+    <td align="center">Sebastian Alexander Ramos Calagua</td>
+    <td align="center">To-do</td>
+  </tr>
+
+  <tr>
+    <td align="center">TA03</td>
+    <td align="center">Integración con API</td>
+    <td align="center">Conectar con endpoint de historial de pedidos</td>
+    <td align="center">2</td>
+    <td align="center">Luciana Carolina Choquehuanca Nuñez</td>
+    <td align="center">To-do</td>
+  </tr>
+
+  <!-------------------------------------------------->
+  <!-- US030 -->
+  <tr>
+    <td rowspan="3" align="center">US030</td>
+    <td rowspan="3" align="center">Sistema de valoraciones</td>
+    <td align="center">TA01</td>
+    <td align="center">Interfaz de calificación</td>
+    <td align="center">Diseñar pantalla para calificar productos y servicio</td>
+    <td align="center">3</td>
+    <td align="center">Jasmin Adriana Urrutia Peña</td>
+    <td align="center">To-do</td>
+  </tr>
+
+  <tr>
+    <td align="center">TA02</td>
+    <td align="center">Envío de reseñas</td>
+    <td align="center">Implementar funcionalidad para enviar valoraciones</td>
+    <td align="center">2</td>
+    <td align="center">Ruben Velasquez Chambi</td>
+    <td align="center">To-do</td>
+  </tr>
+
+  <tr>
+    <td align="center">TA03</td>
+    <td align="center">Integración con API</td>
+    <td align="center">Conectar con endpoint de envío de valoraciones</td>
+    <td align="center">2</td>
+    <td align="center">Hallasi Saravia Miguel Angel</td>
+    <td align="center">To-do</td>
+  </tr>
+</table>
+
 
 #### 4.2.3.3. Development Evidence for Sprint Review
 
