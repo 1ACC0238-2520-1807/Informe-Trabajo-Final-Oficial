@@ -3138,6 +3138,25 @@ Validar la aplicación móvil con dueños de cafeterías pequeñas, evaluando la
 
 -Si la aplicación estuviera disponible en el mercado, ¿estaría dispuesta(o) a utilizarla de manera constante?
 
+### 4.2.3. Sprint n
+#### 4.2.3.1. Sprint Planning n
+
+#### 4.2.3.2. Sprint Backlog n
+
+#### 4.2.3.3. Development Evidence for Sprint Review
+
+#### 4.2.3.4. Testing Suite Evidence for Sprint Review
+
+#### 4.2.3.5. Execution Evidence for Sprint Review
+
+#### 4.2.3.6. Services Documentation Evidence for Sprint Review
+
+#### 4.2.3.7. Software Deployment Evidence for Sprint Review
+
+#### 4.2.3.8. Team Collaboration Insights during Sprint
+
+
+
 ### 4.3.2. Registro de Entrevistas
 
 ### 4.3.3. Evaluaciones según heurísticas
