@@ -1,7 +1,7 @@
 <div align="center">
 
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png" alt="Logo UPC">
+<img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png" alt="Logo UPC" width="500px">
 
 **Universidad Peruana de Ciencias Aplicadas**
 **Ingeniería de software**
@@ -20,22 +20,35 @@ Periodo 202502
 **Nombre del StartUp:* SyncCafe* 
 
 **Nombre del Producto:* iCafe* 
+<br>
 
 
-| Nombre                              | Código    |
-| ----------------------------------- | ---------- |
-| Ruben Velasquez Chambi | u202117342 |
-| Christian Fabrizio Inga Orihuela | U20231C111 |
-| Hallasi Saravia, Miguel Angel | u202312391 |
-| Urrutia Peña, Jasmin Adriana | u202310008 |
-| Sebastian Alexander Ramos Calagua | u202222846 |
-| | |
+U202117342 - Ruben Velasquez Chambi
+U20231C111 - Christian Fabrizio Inga Orihuela
+U202312391 - Hallasi Saravia, Miguel Angel
+U202310008 - Urrutia Peña, Jasmin Adriana
+U202222846 - Sebastian Alexander Ramos Calagua
+U202319431 - Luciana Carolina Choquehuanca Nuñez
+
 
 
 **Diciembre 2025**
 
-
 </div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
 
 ## Project Report Collaboration Insights
 
@@ -78,6 +91,20 @@ Para el desarrollo del informe correspondiente a la entrega TB2, cada integrante
 | Hallasi Saravia, Miguel Angel | Culminación de Backend, Sprint 2 |
 | Urrutia Peña, Jasmin Adriana | Culminación de la Aplicación Android, Conclusiones y Recomendaciones |
 | Sebastian Alexander Ramos Calagua | Aplicación en Flutter y Corrección TP1 |
+
+
+**TF**
+
+Para el desarrollo del informe correspondiente a la entrega TF, cada integrante realizo la siguiente parte:
+
+|Integrante|Tareas Asignadas|
+|-|-|
+| Ruben Velasquez Chambi | Documentacion y correcion del informe |
+| Christian Fabrizio Inga Orihuela | Aplicación en Flutter |
+| Hallasi Saravia, Miguel Angel | Arreglar Aplicación Android |
+| Urrutia Peña, Jasmin Adriana |  Arreglar Aplicación Android |
+| Sebastian Alexander Ramos Calagua |Aplicación en Flutter |
+|Luciana Carolina Choquehuanca Nuñez| Aplicación en Flutter|
 
 
 ## Registro de Versiones del Informe
@@ -136,16 +163,17 @@ Para el desarrollo del informe correspondiente a la entrega TB2, cada integrante
     </tr>
     <tr>
       <td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">TF</td>
-      <td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">--/--/--</td>
+      <td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">04/12/2025</td>
       <td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">
         Ruben Velasquez Chambi <br>
         Christian Fabrizio Inga Orihuela <br>
         Hallasi Saravia, Miguel Angel<br>
         Urrutia Peña, Jasmin Adriana <br>
-        Sebastian Alexander Ramos Calagua
+        Sebastian Alexander Ramos Calagua<br>
+        Luciana Carolina Choquehuanca Nuñez
       </td>
       <td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">
-        --.
+       Se termino la aplicacion android y flutter.
       </td>
     </tr>
   </tbody>
@@ -289,20 +317,21 @@ Para el desarrollo del informe correspondiente a la entrega TB2, cada integrante
 - [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
 
-
+---
 ## Student Outcome 
 **ABET 7:** <br>
 La capacidad de adquirir y aplicar nuevos conocimientos según sea necesario, utilizando estrategias de aprendizaje apropiadas.
 
 Este proyecto permitió aplicar el Student Outcome ABET 7. A lo largo del desarrollo se investigaron metodologías ágiles, arquitectura limpia y herramientas de integración, aplicándolas en la práctica para resolver problemas reales.
 
-| Criterio especifico                                                                                                                      | Acciones realizadas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    | Conclusiones                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| Criterio especifico                                                                                                                      | Acciones realizadas                                                                                                                                                   | Conclusiones                                                                                                                                               |
 | ---------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | 7.c1. Actualizan conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de software. | **Ruben Genaro Velasquez Chambi**<br>**TB1**<br>Me encargué de la elaboración de los **User Stories**, así como de las **Spike Stories** para investigar las bibliotecas y tecnologías que se podrían utilizar en el proyecto. Además, estructuré el **ProductBacklog** y participé en la creación del **diagrama C4** para definir los niveles de arquitectura del sistema.<br> **TP**<br> En esta entrega me encargué de registrar el Sprint Planning correspondiente al Sprint 1, definiendo las tareas, prioridades y objetivos a cumplir dentro del equipo. Además, realicé correcciones en el diagrama C4, mejorando la claridad en la estructura de los componentes. También desarrollé la configuración inicial del proyecto backend y móvil, asegurando la correcta integración de dependencias y estructura base del proyecto.<br> **TB2**<br>En este entregable culminé el desarrollo del **backend**, asegurando su integración con el frontend. Además, participé en la elaboración del **Sprint Planning** y **Sprint Backlog** del Sprint 2, coordinando las tareas del equipo y verificando el cumplimiento de objetivos técnicos. Esta experiencia reforzó mis conocimientos en organización de proyectos ágiles y desarrollo de servicios escalables. <br><br>**Jasmin Adriana Urrutia Peña**<br>**TB1**<br>Para esta entrega, completé tareas como el perfil de la startup, antecedentes, problemática y segmento objetivo, lo que me permitió obtener una visión más clara y estructurada del proyecto.<br>**TP**<br> Para esta entrega realice capitulo 4 de UX design lo cual nos permitio a tener una vision clara al momento de realizar el frontend.<br> **TB2**<br>En este entregable finalicé la **aplicación Android**, integrando las funcionalidades principales y asegurando su correcto funcionamiento. Además, elaboré las **conclusiones y recomendaciones** del proyecto, lo que me permitió reflexionar sobre el proceso de desarrollo y consolidar aprendizajes en diseño de interfaces, pruebas y experiencia de usuario. <br><br>**Sebastian Alexander Ramos Calagua**<br>**TB1**<br>Investigué y definí los **Bounded Contexts** clave del sistema. Colaboré en el diseño del **Context Map** para visualizar las relaciones entre los subsistemas.<br>**TP**<br>Durante esta entrega trabajé en la configuración y documentación técnica del entorno de desarrollo para iCafe, asegurando consistencia entre el backend en Java/Docker y la app móvil en Kotlin. Además, revisé la estructura de gestión de código fuente, convenciones de estilo y configuración de despliegue. Documenté la evidencia de pruebas realizadas mediante Swagger, validando los endpoints desarrollados y alineándolos con los criterios de aceptación definidos.<br> **TB2**<br>En esta entrega participé en el desarrollo de la **aplicación en Flutter** y en la **corrección del TP1**, fortaleciendo mis habilidades en desarrollo multiplataforma y control de versiones. Este proceso me permitió afianzar conocimientos sobre integración entre capas y la importancia de la revisión continua en proyectos colaborativos. <br><br>**Christian Fabrizio Inga Orihuela**<br>**TB1**<br> En esta entrega entrevisté a una persona de nuestro segmento objetivo, de esta forma entendiendo sus necesidades. Por otro lado, el realizar los **Domain Message Flows Modeling** me ayudó a comprender mejor la forma en que nuestra app funcionará, esto también ayudándome en mi desarrollo profesional.<br>**TP**<br>En esta entrega desarrollé la parte del frontend de Products, detectando algunos errores de comunicación con el backend, pero que finalmente fueron arreglados con ayuda del grupo y así comprendiendo los errores que pueden haber en el desarrollo de software.<br> **TB2**<br>Durante esta entrega implementé mejoras en la **aplicación Flutter** y realicé la **corrección del TP1**, lo que me ayudó a consolidar mis conocimientos en desarrollo móvil y en la depuración de errores. Este proceso fortaleció mi comprensión sobre la importancia del trabajo en equipo y la revisión iterativa en la entrega de software funcional. <br><br>**Miguel Hallasi Saravia**<br>**TB1**<br>Participé activamente en la elaboración de los artefactos **User Personas**, **User Task Matrix**, **User Journey Mapping** y **Empathy Mapping**. Esta experiencia me permitió reforzar conocimientos clave sobre diseño centrado en el usuario, análisis de necesidades y comportamiento, y estructuración de flujos de interacción. Estos conceptos son fundamentales para el desarrollo de soluciones de software efectivas y orientadas al usuario.<br>**TP**<br>Para esta entrega implementé los **Bounded Contexts** en el backend utilizando **Java**, lo cual me permitió aplicar de manera práctica los conceptos de DDD aprendidos anteriormente. Esta implementación reforzó mi comprensión sobre la separación de responsabilidades y la importancia de mantener una arquitectura limpia y escalable en proyectos de software.<br> **TB2**<br>En esta fase culminé el desarrollo del **backend**, completando las funcionalidades planificadas en el **Sprint 2**. Este trabajo me permitió aplicar conceptos avanzados de arquitectura y consolidar mi experiencia en desarrollo de APIs y control de versiones. Además, fortalecí mi capacidad para coordinar entregas técnicas dentro de un entorno ágil. | La elaboración de user stories y spike stories nos permitió **actualizar y reforzar nuestros conocimientos sobre metodologías ágiles** y la forma en que estas ayudan a definir los requerimientos y las tecnologías adecuadas para el desarrollo de software. Asimismo, trabajar en el product backlog y el diagrama C4 nos ayudó a comprender mejor la **importancia de la planificación y la arquitectura** en el ciclo de vida del software. La identificación de Bounded Contexts fue fundamental para dividir el sistema en componentes manejables y cohesionados. Cada integrante reforzó habilidades prácticas y teóricas en esta última etapa, logrando integrar todos los módulos y cerrar el ciclo de desarrollo con un producto funcional. |
-| 7.c2. Reconocen la necesidad del aprendizaje permanente profesional y el desarrollo de proyectos en soluciones de software.                    | **Ruben Genaro Velasquez Chambi**<br>**TB1**<br>En este proyecto aprendí que al momento de investigar tecnologías mediante las **Spike Stories**, es fundamental estar en constante actualización para seleccionar las bibliotecas más adecuadas. También reconocí la importancia de aplicar herramientas de análisis y diseño como el **C4 Model**, que requieren un aprendizaje continuo para mejorar las habilidades de diseño arquitectónico.<br>**TP**<br> Durante esta entrega reconocí la importancia del aprendizaje continuo al trabajar en la configuración y desarrollo del bounded context “Contacts” en el backend. Implementar este módulo me permitió profundizar en conceptos de arquitectura orientada al dominio (DDD), entendiendo cómo estructurar entidades, servicios y repositorios de forma coherente con los principios de diseño de software. Asimismo, el registro del sprint 1 me ayudó a comprender la importancia de la documentación y la mejora en el proceso de desarrollo.<br> **TB2**<br>Durante esta entrega consolidé mis conocimientos en **gestión ágil y backend avanzado**, comprendiendo la importancia del aprendizaje continuo para mantener la calidad y escalabilidad del sistema. Cada reto técnico me permitió mejorar mi capacidad de resolución de problemas y mi criterio como desarrollador. <br><br>**Jasmin Adriana Urrutia Peña**<br>**TB1**<br>Realicé el **Event Storming** lo que me ayudó a darme cuenta de la importancia que tiene saber reconocer los bounded context ya que es importante para un buen inicio de trabajo.<br>**TP**<br>Para esta entrega ayudé a implementar el registro de proveedores, empleados e insumos en el frontend, lo que me ayudó a practicar.<br> **TB2**<br>En esta entrega final aprendí la importancia de la **constancia y mejora continua** al culminar la aplicación Android y elaborar las conclusiones del proyecto. Esta experiencia me ayudó a fortalecer mis habilidades técnicas, reflexivas y comunicativas, esenciales en el desarrollo profesional dentro del área de software. <br><br>**Sebastian Alexander Ramos Calagua**<br>**TB1**<br>Analicé las interacciones entre Bounded Contexts para garantizar la consistencia y escalabilidad del sistema. Estudié patrones de diseño DDD (Domain-Driven Design) para aplicar en la arquitectura del proyecto.<br>**TP**<br>La configuración del entorno de desarrollo y la documentación técnica me permitieron consolidar conocimientos sobre control de versiones, despliegue y buenas prácticas de arquitectura. La integración de Swagger como herramienta de validación fortaleció mi comprensión sobre pruebas de integración y documentación de APIs.<br> **TB2**<br>En esta etapa final reconocí el valor de la **revisión continua y el aprendizaje autónomo** al trabajar en la aplicación Flutter. La necesidad de adaptarse a distintos entornos y lenguajes reafirmó mi compromiso con la formación profesional constante en el desarrollo multiplataforma. <br><br>**Christian Fabrizio Inga Orihuela**<br>**TB1**<br>Participé en el diseño de las entrevistas y en la realización de una de ellas, lo que me permitió comprender mejor las necesidades reales de los usuarios finales. Además, colaboré en el Domain Message Flows Modeling y en la elaboración de diagramas arquitectónicos del sistema, fortaleciendo mis conocimientos en DDD.<br>**TP**<br>El desarrollar el bounded context de Products en el frontend me hizo comprender diferentes aspectos del desarrollo de aplicaciones, así como aplicar conocimientos aprendidos en clase, lo cual a su vez me ayudará en mi futuro profesional.<br> **TB2**<br>En esta entrega comprendí la importancia de **seguir aprendiendo nuevas herramientas y metodologías**, especialmente al trabajar en Flutter y en la revisión del TP1. Este proceso reforzó mi capacidad de análisis y adaptación frente a los desafíos técnicos del desarrollo de software. <br><br>**Miguel Hallasi Saravia**<br>**TB1**<br>Colaboré en el desarrollo del **Bounded Context: Finances**, aplicando principios de Domain-Driven Design (DDD) para delimitar responsabilidades y cohesión dentro del sistema.<br>**TP**<br>Para esta entrega implementé los **Bounded Contexts** en el backend utilizando **Java**, lo cual me permitió aplicar de manera práctica los conceptos de DDD aprendidos anteriormente.<br> **TB2**<br>Durante esta fase reafirmé la importancia del **aprendizaje permanente** al culminar la implementación del backend en el Sprint 2. Cada iteración fue una oportunidad para optimizar procesos y aplicar mejores prácticas de programación, consolidando mis competencias técnicas y profesionales.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               | La experiencia con la investigación de bibliotecas y el diseño arquitectónico refuerza la idea de que un profesional debe **mantenerse actualizado** y ser capaz de aplicar nuevas técnicas y herramientas en el desarrollo de soluciones de software. En el TB2, cada integrante fortaleció su compromiso con el **aprendizaje continuo**, evidenciando una evolución técnica y metodológica a lo largo del proyecto.                                                                                                                                                                                                                                                                                                                                 |
+| 7.c2. Reconocen la necesidad del aprendizaje permanente profesional y el desarrollo de proyectos en soluciones de software.                    | **Ruben Genaro Velasquez Chambi**<br>**TB1**<br>En este proyecto aprendí que al momento de investigar tecnologías mediante las **Spike Stories**, es fundamental estar en constante actualización para seleccionar las bibliotecas más adecuadas. También reconocí la importancia de aplicar herramientas de análisis y diseño como el **C4 Model**, que requieren un aprendizaje continuo para mejorar las habilidades de diseño arquitectónico.<br>**TP**<br> Durante esta entrega reconocí la importancia del aprendizaje continuo al trabajar en la configuración y desarrollo del bounded context “Contacts” en el backend. Implementar este módulo me permitió profundizar en conceptos de arquitectura orientada al dominio (DDD), entendiendo cómo estructurar entidades, servicios y repositorios de forma coherente con los principios de diseño de software. Asimismo, el registro del sprint 1 me ayudó a comprender la importancia de la documentación y la mejora en el proceso de desarrollo.<br> **TB2**<br>Durante esta entrega consolidé mis conocimientos en **gestión ágil y backend avanzado**, comprendiendo la importancia del aprendizaje continuo para mantener la calidad y escalabilidad del sistema. Cada reto técnico me permitió mejorar mi capacidad de resolución de problemas y mi criterio como desarrollador. <br><br>**Jasmin Adriana Urrutia Peña**<br>**TB1**<br>Realicé el **Event Storming** lo que me ayudó a darme cuenta de la importancia que tiene saber reconocer los bounded context ya que es importante para un buen inicio de trabajo.<br>**TP**<br>Para esta entrega ayudé a implementar el registro de proveedores, empleados e insumos en el frontend, lo que me ayudó a practicar.<br> **TB2**<br>En esta entrega final aprendí la importancia de la **constancia y mejora continua** al culminar la aplicación Android y elaborar las conclusiones del proyecto. Esta experiencia me ayudó a fortalecer mis habilidades técnicas, reflexivas y comunicativas, esenciales en el desarrollo profesional dentro del área de software. <br><br>**Sebastian Alexander Ramos Calagua**<br>**TB1**<br>Analicé las interacciones entre Bounded Contexts para garantizar la consistencia y escalabilidad del sistema. Estudié patrones de diseño DDD (Domain-Driven Design) para aplicar en la arquitectura del proyecto.<br>**TP**<br>La configuración del entorno de desarrollo y la documentación técnica me permitieron consolidar conocimientos sobre control de versiones, despliegue y buenas prácticas de arquitectura. La integración de Swagger como herramienta de validación fortaleció mi comprensión sobre pruebas de integración y documentación de APIs.<br> **TB2**<br>En esta etapa final reconocí el valor de la **revisión continua y el aprendizaje autónomo** al trabajar en la aplicación Flutter. La necesidad de adaptarse a distintos entornos y lenguajes reafirmó mi compromiso con la formación profesional constante en el desarrollo multiplataforma. <br><br>**Christian Fabrizio Inga Orihuela**<br>**TB1**<br>Participé en el diseño de las entrevistas y en la realización de una de ellas, lo que me permitió comprender mejor las necesidades reales de los usuarios finales. Además, colaboré en el Domain Message Flows Modeling y en la elaboración de diagramas arquitectónicos del sistema, fortaleciendo mis conocimientos en DDD.<br>**TP**<br>El desarrollar el bounded context de Products en el frontend me hizo comprender diferentes aspectos del desarrollo de aplicaciones, así como aplicar conocimientos aprendidos en clase, lo cual a su vez me ayudará en mi futuro profesional.<br> **TB2**<br>En esta entrega comprendí la importancia de **seguir aprendiendo nuevas herramientas y metodologías**, especialmente al trabajar en Flutter y en la revisión del TP1. Este proceso reforzó mi capacidad de análisis y adaptación frente a los desafíos técnicos del desarrollo de software. <br><br>**Miguel Hallasi Saravia**<br>**TB1**<br>Colaboré en el desarrollo del **Bounded Context: Finances**, aplicando principios de Domain-Driven Design (DDD) para delimitar responsabilidades y cohesión dentro del sistema.<br>**TP**<br>Para esta entrega implementé los **Bounded Contexts** en el backend utilizando **Java**, lo cual me permitió aplicar de manera práctica los conceptos de DDD aprendidos anteriormente.<br> **TB2**<br>Durante esta fase reafirmé la importancia del **aprendizaje permanente** al culminar la implementación del backend en el Sprint 2. Cada iteración fue una oportunidad para optimizar procesos y aplicar mejores prácticas de programación, consolidando mis competencias técnicas y profesionales.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               | La experiencia con la investigación de bibliotecas y el diseño arquitectónico refuerza la idea de que un profesional debe **mantenerse actualizado** y ser capaz de aplicar nuevas técnicas y herramientas en el desarrollo de soluciones de software. En el TB2, cada integrante fortaleció su compromiso con el **aprendizaje continuo**, evidenciando una evolución técnica y metodológica a lo largo del proyecto.                                                                                                                                                             |
 
 
 
+---
 
 
 | Miembro del Equipo         | Objetivo SMART 1                          | Objetivo SMART 2                          |
@@ -312,6 +341,7 @@ Este proyecto permitió aplicar el Student Outcome ABET 7. A lo largo del desarr
 |Hallasi Saravia, Miguel Angel  | Durante este ciclo me comprometo a dominar los fundamentos del desarrollo móvil utilizando Flutter y Kotlin | Para finales del ciclo 2025-2, implementaré un proyecto móvil completo que integre autenticación, base de datos y al menos 3 funcionalidades principales, documentando el proceso. |
 |Urrutia Peña, Jasmin Adriana |En el próximo año, quiero comenzar mis prácticas por lo que obtendré una posición de practicante en una empresa de desarrollo frontend que utilice tecnologías como React.js o JavaScript avanzado.  | Conseguir un puesto de trabajo como desarrollador frontend junior en una empresa tecnológica, aplicando a al menos 20 vacantes y asistiendo a 5 eventos de networking en los primeros 9 meses tras mi graduación en diciembre de 2026.  |
 |Sebastian Alexander Ramos Calagua |Desarrollar y publicar el módulo de gestión de inventario de iCafe en 6 meses, permitiendo el registro y tracking de insumos en tiempo real, con al menos 3 cafeterías piloto usando la funcionalidad.  |Obtener la certificación AWS Cloud Practitioner en los próximos 4 meses, dedicando 6 horas semanales al estudio, para mejorar la infraestructura técnica de SyncCafe con soluciones escalables en la nube.  |
+|Luciana Carolina Choquehuanca Nuñez|-|-|
 
 
 # Capítulo I: Presentación
@@ -335,6 +365,7 @@ A continuación se presentan los perfiles de los integrantes del equipo de desar
 | <img src="./img/chapter-1/Integrante-Ruben.jpeg" alt="Rubén Velásquez Chambi" width="200"> | **Nombres y apellidos:** Rubén Genaro Velásquez Chambi <br>**Código:** U202117342<br>**Carrera:** Ingeniería de Software <br>**Descripción:** Estudiante del séptimo ciclo con experiencia en C++, Node.js, TypeScript, Java, Angular y Vue.js. Me especializo en eficiencia de equipo, arquitectura limpia y desarrollo bajo principios SOLID. |
 | <img src="./img/chapter-1/jasmin.jpg" alt="Jasmin Urrutia Peña" width="200"> | **Nombres y apellidos:** Jasmin Adriana Urrutia Peña<br>**Código:** U202310008<br>**Carrera:** Ingeniería de Software<br>**Descripción:** Estudiante con enfoque en frontend y diseño UX. Me considero responsable, creativa y empática, con conocimientos en C++, HTML y CSS. Valoro el trabajo en equipo y el aprendizaje compartido. |
 | <img src="https://i.postimg.cc/vHksZbw6/Sebastian-Ramos-foto-perfil.jpg" alt="Sebastian Ramos Calagua" width="200"> | **Nombres y apellidos:** Sebastian Alexander Ramos Calagua<br>**Código:** U202222846<br>**Carrera:** Ingeniería de Software<br>**Descripción:** Desarrollador full-stack con experiencia en arquitectura modular. Me apasiona aplicar tecnología para resolver desafíos sociales en educación, salud y justicia, priorizando claridad, escalabilidad y utilidad. |
+| <img src="./img/chapter-1/perfil-luciana.jpeg" alt="Luciana Carolina Choquehuanca Nuñez" width="200"> | **Nombres y apellidos:** Luciana Carolina Choquehuanca Nuñez<br>**Código:** U202319431<br>**Carrera:** Ingeniería de Software<br>**Descripción:** Soy Luciana, tengo 20 años y actualmente curso el sexto ciclo de Ingeniería de Software. Me entusiasman los proyectos innovadores que buscan transformar la experiencia del usuario en diversos entornos. Disfruto participar en propuestas desafiantes, especialmente aquellas que combinan creatividad, diseño centrado en el usuario y un impacto tangible en la vida real. |
 
 ### 1.2.1. Antecedentes y problemática
 
@@ -826,17 +857,18 @@ Esta seccion servirá como guía para organizar el trabajo del equipo, asegurand
 En esta sección se mostrará la aplicación del Domain-Driven Design (DDD) a nivel estratégico dentro del proyecto. El objetivo es identificar los distintos bounded context que intervienen en el dominio, así como las relaciones entre ellos, con el fin de establecer una arquitectura clara que permita escalar la solución y adaptarla a las necesidades del negocio.
 
 #### 2.5.1.1. Candidate Context Discovery
+<img src="./img/chapter-2/step1.png" style="width:800px; display:inline-block; margin:1%;" />
 
-![Step1](./img/chapter-2/step1.png)
-![Step2](./img/chapter-2/step2.png)
-![Step3](./img/chapter-2/step3.png)
-![Step4](./img/chapter-2/step4.png)
-![Step5](./img/chapter-2/step5.png)
-![Step6](./img/chapter-2/step6.png)
-![Step7](./img/chapter-2/step7.png)
-![Step8](./img/chapter-2/step8EvenStorm.jpg)
-![Step9](./img/chapter-2/step8.png)
-![Step10](./img/chapter-2/step9.png)
+<img src="./img/chapter-2/step2.png" style="width:800px; display:inline-block; margin:1%;" />
+<img src="./img/chapter-2/step3.png" style="width:800px; display:inline-block; margin:1%;" />
+<img src="./img/chapter-2/step4.png" style="width:800px; display:inline-block; margin:1%;" />
+<img src="./img/chapter-2/step5.png" style="width:800px; display:inline-block; margin:1%;" />
+<img src="./img/chapter-2/step6.png" style="width:800px; display:inline-block; margin:1%;" />
+<img src="./img/chapter-2/step7.png" style="width:800px; display:inline-block; margin:1%;" />
+<img src="./img/chapter-2/step8EvenStorm.jpg" style="width:800px; display:inline-block; margin:1%;" />
+<img src="./img/chapter-2/step8.png" style="width:800px; display:inline-block; margin:1%;" />
+<img src="./img/chapter-2/step9.png" style="width:800px; display:inline-block; margin:1%;" />
+
 
 Link: https://miro.com/welcomeonboard/TzdJdEdvSWJQa2pYS2FIdU5DWE9ZV2w5MjkycmZRZzB2OUFQWkhOemVGUTd6ekE4R0tlVW11TmNMMVIrd1lnWHRQbk5IWHN2VEs3M0ttajJ5TG1LUXZ6SVhjZ255RHJzTjZ5eEZRSXFkZisvOVo3VjhaRmdSL0s4T0tBMmhQd1F3VHhHVHd5UWtSM1BidUtUYmxycDRnPT0hdjE=?share_link_id=804149752797
 
@@ -855,16 +887,23 @@ Link: https://miro.com/welcomeonboard/TzdJdEdvSWJQa2pYS2FIdU5DWE9ZV2w5MjkycmZRZz
 Link: [Domain Message Flows Modeling](https://miro.com/welcomeonboard/MERVd3QrN05xUEQ0TU8wK3F5U0pTTWVMNHpNUTV2b3FZbHltdHhvbkpvWUVQTG1KZkgrRVpzcE5uQ0R3emYzOEJ3Zk5ocWZGTDZ1VlFSYzlRSjBnMnZwbHZGRzYwVVRTSHhVQzhyYjJJSnZjUFNGR0xndk40RFZ0cXdwQTdGTm5hWWluRVAxeXRuUUgwWDl3Mk1qRGVRPT0hdjE=?share_link_id=573543137048)
 
 #### 2.5.1.3. Bounded Context Canvases
+<div style="text-align:center">
+</div>
+<img src="./img/chapter-2/BoundedContextCanvasesProducts.jpg" 
+     style="width:900px;Height:700px; display:inline-block; margin:0px" />
 
-![Bounded Context Canvases Products](./img/chapter-2/BoundedContextCanvasesProducts.jpg)
+<img src="./img/chapter-2/BoundedContextCanvasesSales.jpg" 
+     style="width:900px;Height:700px; display:inline-block;margin:0px" />
 
-![Bounded Context Canvases Sales](./img/chapter-2/BoundedContextCanvasesSales.jpg)
+<img src="./img/chapter-2/BoundedContextCanvasesInventory.jpg" 
+     style="width:900px;Height:700px; display:inline-block;margin:0px" />
 
-![Bounded Context Canvases Products](./img/chapter-2/BoundedContextCanvasesInventory.jpg)
+<img src="./img/chapter-2/BoundedContextCanvasesFinances.jpg" 
+     style="width:900px;Height:700px; display:inline-block;margin:0px" />
 
-![Bounded Context Canvases Sales](./img/chapter-2/BoundedContextCanvasesFinances.jpg)
+<img src="./img/chapter-2/BoundedContextCanvasesContacts.jpg" 
+     style="width:900px;Height:700px; display:inline-block;margin:0px" />
 
-![Bounded Context Canvases Contacts](./img/chapter-2/BoundedContextCanvasesContacts.jpg)
 
 ### 2.5.2. Context Mapping
 
@@ -898,16 +937,16 @@ Contacts expone datos de los clientes/proveedores. Sales y Finances consumen est
 ### 2.5.3. Software Architecture
 
 #### 2.5.3.1. Software Architecture Context Level Diagrams
-
-![Context Diagram](./img/chapter-2/ContextLevel.png)
+<img src="./img/chapter-2/ContextLevel.png" 
+     style="width:900px; display:inline-block;margin:0px" />
 
 #### 2.5.3.2. Software Architecture Container Level Diagrams
-<img src="./img/chapter-2/ContainerLevel.png" alt="Github-rama-backend" width="600"/> <br>
-<img src="./img/chapter-2/Component.png" alt="Github-rama-backend" width="600"/> <br>
+<img src="./img/chapter-2/ContainerLevel.png" alt="Github-rama-backend"  style="width:900px; display:inline-block;margin:0px"/> <br>
+<img src="./img/chapter-2/Component.png" alt="Github-rama-backend"  style="width:600px;Height:1200px; display:inline-block;margin:0px"/> <br>
 
 #### 2.5.3.3. Software Architecture Deployment Diagrams
 
-<img src="./img/chapter-2/c4-deployment.png" alt="Github-rama-backend" width="600"/> <br>
+<img src="./img/chapter-2/c4-deployment.png" alt="Github-rama-backend"  style="width:600px; display:inline-block;margin:0px"/> <br>
 
 ## 2.6. Tactical-Level Domain-Driven Design
 
@@ -1481,53 +1520,56 @@ Se presentan los wireframes de la aplicación móvil, que representan la base es
 | <img src="./img/chapter-3/MockUps.png" alt="MockUps" width="800"> |
 |Link: https://www.figma.com/design/c61JnVMaZZcReGqcVzwikH/Untitled?node-id=0-1&t=gB15ysIlrLllfRAw-1 |
 
+---
+
 #### 3.1.4.2. Mobile Applications Wireflow Diagrams
 En este apartado se incluyen los wireflow diagrams, los cuales combinan los wireframes con el flujo de navegación. Esto permite visualizar cómo interactúa el usuario al desplazarse por las distintas pantallas de la aplicación.
 
 | User Persona: Dueños de cafeterias. |
 |----------------------------------|
 | User Goal: Como usuario, deseo registrarme e iniciar sesion antes de visualizar el panel principal. |
-| <img src="./img/chapter-3/WireFlow1.png" alt="MockUps" width="800"> |
+| <img src="./img/chapter-3/WireFlow1.png" alt="MockUps" style="width:900px; height:550px;"> |
 
 | User Persona: Dueños de cafeterias. |
 |----------------------------------|
 | User Goal: Como usuario, deseo agregar, editar y eliminar empleados cuando yo quiera. |
-| <img src="./img/chapter-3/WireFlow2.png" alt="MockUps" width="800"> |
+| <img src="./img/chapter-3/WireFlow2.png" alt="MockUps" style="width:900px; height:550px;"> |
 
 | User Persona: Dueños de cafeterias. |
 |----------------------------------|
 | User Goal: Como usuario, deseo agregar, editar y eliminar Insumos cuando yo quiera. |
-| <img src="./img/chapter-3/WireFlow3.png" alt="MockUps" width="800"> |
+| <img src="./img/chapter-3/WireFlow3.png" alt="MockUps" style="width:900px; height:550px;"> |
 
 | User Persona: Dueños de cafeterias. |
 |----------------------------------|
 | User Goal: Como usuario, deseo agregar, editar y eliminar proveedor cuando yo quiera. |
-| <img src="./img/chapter-3/WireFlow4.png" alt="MockUps" width="800"> |
+| <img src="./img/chapter-3/WireFlow4.png" alt="MockUps" style="width:900px; height:550px;"> |
 
 | User Persona: Dueños de cafeterias. |
 |----------------------------------|
 | User Goal: Como usuario, deseo agregar, editar y eliminar Producto cuando yo quiera. |
-| <img src="./img/chapter-3/WireFlow5.png" alt="MockUps" width="800"> |
+| <img src="./img/chapter-3/WireFlow5.png" alt="MockUps" style="width:900px; height:550px;"> |
 
 | User Persona: Dueños de cafeterias. |
 |----------------------------------|
 | User Goal: Como usuario, deseo registrar compras para llevar un recuento de mis inversiones. |
-| <img src="./img/chapter-3/WireFlow6.png" alt="MockUps" width="800"> |
+| <img src="./img/chapter-3/WireFlow6.png" alt="MockUps" style="width:900px; height:550px;"> |
 
 | User Persona: Dueños de cafeterias. |
 |----------------------------------|
 | User Goal: Como usuario, deseo registrar ventas para llevar un recuento de mis ganancias. |
-| <img src="./img/chapter-3/WireFlow7.png" alt="MockUps" width="800"> |
+| <img src="./img/chapter-3/WireFlow7.png" alt="MockUps" style="width:900px; height:550px;"> |
 
 | User Persona: Dueños de cafeterias. |
 |----------------------------------|
-| User Goal: Como usuario, deseo una seccion de inventario tonde tenga el recuento de movimientos. |
-| <img src="./img/chapter-3/WireFlow8.png" alt="MockUps" width="800"> |
+| User Goal: Como usuario, deseo una seccion de inventario donde tenga el recuento de movimientos. |
+| <img src="./img/chapter-3/WireFlow8.png" alt="MockUps" style="width:900px; height:550px;"> |
 
 | User Persona: Dueños de cafeterias. |
 |----------------------------------|
 | User Goal: Como usuario, deseo una seccion de Gestion de costos donde vea estadisticas en graficos. |
-| <img src="./img/chapter-3/WireFlow9.png" alt="MockUps" width="800"> |
+| <img src="./img/chapter-3/WireFlow9.png" alt="MockUps" style="width:900px; height:550px;"> |
+
 
 <br>
 - Link:  https://lucid.app/lucidchart/22f7abe1-aca2-4970-9925-f24fdd1c166f/edit?viewport_loc=-18984%2C-19367%2C24587%2C35020%2CHWEp-vi-RSFO&invitationId=inv_72f97110-024a-4131-a9e3-c460ec619fa9
