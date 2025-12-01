@@ -1,18 +1,21 @@
 <div align="center">
 
-# Informe del Trabajo Final
-
-**Universidad Peruana de Ciencias Aplicadas**
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png" alt="Logo UPC">
 
+**Universidad Peruana de Ciencias Aplicadas**
 **Ingeniería de software**
 
-**Aplicaciones para Dispositivos Móviles**
+Periodo 202502
 
-**Sección:** 1807
+1ACC0238| Aplicaciones para Dispositivos Móviles
+**NRC:** 1807
 
-**Profesor:** Jorge Luis Mayta Guillermo
+
+**Docente:** Jorge Luis Mayta Guillermo
+
+------
+**Informe del Trabajo Final**
 
 **Nombre del StartUp:* SyncCafe* 
 
@@ -26,9 +29,10 @@
 | Hallasi Saravia, Miguel Angel | u202312391 |
 | Urrutia Peña, Jasmin Adriana | u202310008 |
 | Sebastian Alexander Ramos Calagua | u202222846 |
+| | |
 
 
-**Ciclo 2025-01**
+**Diciembre 2025**
 
 
 </div>
