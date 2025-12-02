@@ -3,12 +3,12 @@
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png" alt="Logo UPC" width="500px">
 
-**Universidad Peruana de Ciencias Aplicadas**
-**Ingeniería de software**
+**Universidad Peruana de Ciencias Aplicadas**<br>
+**Ingeniería de software**<br>
 
 Periodo 202502
 
-1ACC0238| Aplicaciones para Dispositivos Móviles
+1ACC0238| Aplicaciones para Dispositivos Móviles<br>
 **NRC:** 1807
 
 
@@ -23,12 +23,12 @@ Periodo 202502
 <br>
 
 
-U202117342 - Ruben Velasquez Chambi
-U20231C111 - Christian Fabrizio Inga Orihuela
-U202312391 - Hallasi Saravia, Miguel Angel
-U202310008 - Urrutia Peña, Jasmin Adriana
-U202222846 - Sebastian Alexander Ramos Calagua
-U202319431 - Luciana Carolina Choquehuanca Nuñez
+U202117342 - Ruben Velasquez Chambi<br>
+U20231C111 - Christian Fabrizio Inga Orihuela<br>
+U202312391 - Hallasi Saravia, Miguel Angel<br>
+U202310008 - Urrutia Peña, Jasmin Adriana<br>
+U202222846 - Sebastian Alexander Ramos Calagua<br>
+U202319431 - Luciana Carolina Choquehuanca Nuñez<br>
 
 
 
