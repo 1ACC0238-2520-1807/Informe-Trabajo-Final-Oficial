@@ -3160,29 +3160,6 @@ Colaboradores que participaron en el desarrollo de la aplicación android
 Colaboradores que participaron en el desarrollo de la aplicación flutter
 <img src="./img/chapter-4/sprint-2-commits-flutter.png" alt="landing" width="500"/>
 
-## 4.3. Validation Interviews
-En esta seccion, validaremos nuestro producto final con entrevistas a nuestro segmento objetivo.
-### 4.3.1. Diseño de Entrevistas
-
-**Objetivo:**
-Validar la aplicación móvil con dueños de cafeterías pequeñas, evaluando la usabilidad, el diseño y la utilidad de la herramienta en la gestión de su negocio.
-
-**Preguntas de validación:**
--¿Considera que el diseño de la aplicación es visualmente atractivo y adecuado para su negocio?
-
--¿Diría que la interfaz es intuitiva y amigable, incluso sin explicaciones previas?
-
--¿Las funciones disponibles (como registrar ventas, agregar productos o ver movimientos financieros) le parecen útiles para su cafetería?
-
--¿Considera que esta aplicación podría facilitar la administración diaria de su negocio?
-
--¿Hubo algo que no entendió o que le pareció poco claro en la interfaz?
-
--¿Cree que esta aplicación podría ahorrarle tiempo o ayudarle a tener un mejor control de su cafetería?
-
--¿Qué mejoras o sugerencias haría para que la aplicación se adapte mejor a las necesidades de su cafetería?
-
--Si la aplicación estuviera disponible en el mercado, ¿estaría dispuesta(o) a utilizarla de manera constante?
 
 ### 4.2.3. Sprint 3
 
@@ -3477,16 +3454,149 @@ Durante el Sprint 3, el equipo de desarrollo de iCafe se enfocará en completar 
 
 
 #### 4.2.3.3. Development Evidence for Sprint Review
+<table>
+  <tr>
+    <td align ="center" > <strong>Repository</strong></td>
+    <td  align ="center" > <strong>Branch</strong></td>
+    <td  align ="center" > <strong>Commit ID</strong></td>
+    <td  align ="center" > <strong>Commit message</strong></td>
+    <td  align ="center" > <strong>Commit Masagge body</strong></td>
+    <td  align ="center" > <strong>Commit on (date)</strong></td>
+  </tr>
+  <!---------------------------------------------------->
+   <tr>
+    <td rowspan="3" align="center">https://github.com/1ACC0238-2520-1807/Flutter-icafe</td>
+    <td align="center">main</td>
+    <td align="center">efd96a85e1fb3a9b5d3943e812804679dd0ffee6</td>
+    <td align="center"> Feat: Refactor architecture and add homepage</td>
+    <td align="center"> ---</td>
+    <td align="center"> 13/11/2025</td>
+  </tr>
+  <tr>
+    <td align="center">feature/product</td>
+    <td align="center" >ba3c106b9d2f51db631778b166c8c07053c613e9</td>
+    <td align="center">Feat: Added add and edit branch page</td>
+    <td align="center"> ---</td>
+    <td align="center"> 13/11/2025</td>
+  </tr>
+   <tr>
+    <td align="center">feature/product</td>
+    <td align="center" >2fe06948d62338d53bc69237ac283b6917dee88f</td>
+    <td align="center">feat: add create provider and employee feature</td>
+    <td align="center"> ---</td>
+   <td align="center"> 01/12/2025</td>
+  </tr>
+   
+  <!--------------------->
+  <tr>
+    <td rowspan="3" align="center">https://github.com/1ACC0238-2520-1807/Android-icafe</td>
+    <td align="center"> main</td>
+    <td align="center">2c693efaed84c42eb0575902c88bd14b4fa75baa </td>
+    <td align="center"> ---</td>
+    <td align="center"> ---</td>
+    <td align="center"> 09/11/2025</td>
+  </tr>
+  <tr>
+    <td align="center">develop</td>
+    <td align="center" >729ff1f9dbfc798f578badd4f423b90b5d1360d0 </td>
+    <td align="center">----</td>
+    <td align="center"> ---</td>
+    <td align="center"> 10/11/2025</td>
+  </tr>
+   <tr>
+    <td align="center">develop</td>
+    <td align="center" >c7c0984bf860a77464e4158df8fd03d0444daa75 </td>
+    <td align="center">---</td>
+    <td align="center"> ---</td>
+    <td align="center"> 11/11/2025</td>
+  </tr>
+  
+</table>
 
 #### 4.2.3.4. Testing Suite Evidence for Sprint Review
+En el Sprint 3, se implementaron las pruebas de aceptación para las historias de usuario y tareas que fueron creadas en el flujo Flutter.
+
+| Repository | Commit ID | Commit Message | Date |
+|-----------|-----------|----------------|------|
+| Informe-Trabajo-Final-Oficial | 04466ad | feat: add feature files for US019-US024 landing pages | 01/12/2025 |
+| Informe-Trabajo-Final-Oficial | f272d69 | feat: add feature files for inventory, suppliers, pricing and reports | 02/12/2025 |
+| Informe-Trabajo-Final-Oficial | a52507e | feat: add feature files for US007-US012 | 02/12/2025 |
+| Informe-Trabajo-Final-Oficial | 4736d37 | feat: add feature files for user stories US001-US006 | 02/12/2025 |
+
+Repositorio https://github.com/1ACC0238-2520-1807/test
 
 #### 4.2.3.5. Execution Evidence for Sprint Review
 
 #### 4.2.3.6. Services Documentation Evidence for Sprint Review
+**Tabla de Endpoints Documentados:**
+
+| Bounded Context | Endpoint | HTTP Verb | Sintaxis de Llamada | Parámetros | Descripción | Response Example |
+|-----------------|----------|-----------|---------------------|------------|-------------|------------------|
+| **Inventory** | `/api/v1/inventory/movements` | POST | `POST /api/v1/inventory/movements` | Body: RegisterStockMovementResource | Registrar movimiento de stock | `---` |
+| **Inventory** | `/api/v1/inventory/movements/{branchId}` | GET | `GET /api/v1/inventory/movements/1` | `branchId` (path) | Listar movimientos de stock por sede | `---` |
+| **Inventory** | `/api/v1/inventory/stock/{branchId}/{supplyItemId}` | GET | `GET /api/v1/inventory/stock/1/10` | `branchId`, `supplyItemId` (path) | Obtener stock actual | `---` |
+| **Products** | `/api/v1/products` | GET | `GET /api/v1/products` | — | Listar productos | `---` |
+| **Products** | `/api/v1/products` | POST | `POST /api/v1/products` | Body: CreateProductResource | Crear producto | `---` |
+| **Products** | `/api/v1/products/{productId}` | GET | `GET /api/v1/products/1` | `productId` (path) | Obtener producto por id | `---` |
+| **Products** | `/api/v1/products/{productId}` | PUT | `PUT /api/v1/products/1` | `productId` (path), Body: UpdateProductResource | Actualizar producto | `---` |
+| **Products** | `/api/v1/products/{productId}/activate` | POST | `POST /api/v1/products/1/activate` | `productId` (path) | Activar producto | `---` |
+| **Products** | `/api/v1/products/{productId}/archive` | POST | `POST /api/v1/products/1/archive` | `productId` (path) | Archivar producto | `---` |
+| **Products** | `/api/v1/products/{productId}/ingredients` | POST | `POST /api/v1/products/1/ingredients` | `productId` (path), Body: AddIngredientsResource | Agregar ingredientes a producto | `---` |
+| **Products** | `/api/v1/products/{productId}/ingredients/{supplyItemId}` | DELETE | `DELETE /api/v1/products/1/ingredients/10` | `productId`, `supplyItemId` (path) | Eliminar ingrediente | `---` |
+| **Products** | `/api/v1/products/branch/{branchId}` | GET | `GET /api/v1/products/branch/1` | `branchId` (path) | Listar productos por sede | `---` |
+| **Purchase Orders** | `/api/v1/purchase-orders` | POST | `POST /api/v1/purchase-orders` | Body: CreatePurchaseOrderResource | Crear orden de compra | `---` |
+| **Purchase Orders** | `/api/v1/purchase-orders/branch/{branchId}` | GET | `GET /api/v1/purchase-orders/branch/1` | `branchId` (path) | Listar órdenes de compra por sede | `---` |
+| **Sales** | `/api/v1/sales` | GET | `GET /api/v1/sales` | — | Listar ventas | `---` |
+| **Sales** | `/api/v1/sales` | POST | `POST /api/v1/sales` | Body: CreateSaleResource | Crear venta | `---` |
+| **Sales** | `/api/v1/sales/{saleId}` | GET | `GET /api/v1/sales/1` | `saleId` (path) | Obtener venta por id | `---` |
+| **Sales** | `/api/v1/sales/{saleId}/cancel` | PUT | `PUT /api/v1/sales/1/cancel` | `saleId` (path) | Cancelar venta | `---` |
+| **Sales** | `/api/v1/sales/{saleId}/complete` | PUT | `PUT /api/v1/sales/1/complete` | `saleId` (path) | Completar venta | `---` |
+| **Sales** | `/api/v1/sales/branch/{branchId}` | GET | `GET /api/v1/sales/branch/1` | `branchId` (path) | Listar ventas por sede | `---` |
+| **SupplyIem** | `/api/v1/supply-items` | GET | `GET /api/v1/supply-items` | — | Listar insumos | `---` |
+| **SupplyIem** | `/api/v1/supply-items` | POST | `POST /api/v1/supply-items` | Body: CreateSupplyItemResource | Crear insumo | `---` |
+| **SupplyIem** | `/api/v1/supply-items/{branchId}/branch` | GET | `GET /api/v1/supply-items/1/branch` | `branchId` (path) | Listar insumos por sede | `---` |
+| **SupplyIem** | `/api/v1/supply-items/{id}` | DELETE | `DELETE /api/v1/supply-items/1` | `id` (path) | Eliminar insumo | `---` |
+| **SupplyIem** | `/api/v1/supply-items/{id}` | GET | `GET /api/v1/supply-items/1` | `id` (path) | Obtener insumo por id | `---` |
+| **SupplyIem** | `/api/v1/supply-items/{id}` | PUT | `PUT /api/v1/supply-items/1` | `id` (path), Body: UpdateSupplyItemResource | Actualizar insumo | `---` |
+
+Swagger del backend desplegado: http://upc-icafebackend-3sger0-aa823d-31-97-13-234.traefik.me/swagger-ui/index.html
+
+![](./img/swagger_1.jpeg)
+
+![](./img/swagger_2.jpeg)
+
+![](./img/swagger_3.jpeg)
+
+- **URL del Repositorio:** [https://github.com/1ACC0238-2520-1807/iCafe-Backend](https://github.com/1ACC0238-2520-1807/iCafe-Backend)
+
 
 #### 4.2.3.7. Software Deployment Evidence for Sprint Review
 
 #### 4.2.3.8. Team Collaboration Insights during Sprint
+
+## 4.3. Validation Interviews
+En esta seccion, validaremos nuestro producto final con entrevistas a nuestro segmento objetivo.
+### 4.3.1. Diseño de Entrevistas
+
+**Objetivo:**
+Validar la aplicación móvil con dueños de cafeterías pequeñas, evaluando la usabilidad, el diseño y la utilidad de la herramienta en la gestión de su negocio.
+
+**Preguntas de validación:**
+-¿Considera que el diseño de la aplicación es visualmente atractivo y adecuado para su negocio?
+
+-¿Diría que la interfaz es intuitiva y amigable, incluso sin explicaciones previas?
+
+-¿Las funciones disponibles (como registrar ventas, agregar productos o ver movimientos financieros) le parecen útiles para su cafetería?
+
+-¿Considera que esta aplicación podría facilitar la administración diaria de su negocio?
+
+-¿Hubo algo que no entendió o que le pareció poco claro en la interfaz?
+
+-¿Cree que esta aplicación podría ahorrarle tiempo o ayudarle a tener un mejor control de su cafetería?
+
+-¿Qué mejoras o sugerencias haría para que la aplicación se adapte mejor a las necesidades de su cafetería?
+
+-Si la aplicación estuviera disponible en el mercado, ¿estaría dispuesta(o) a utilizarla de manera constante?
 
 
 
