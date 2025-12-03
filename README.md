@@ -3635,6 +3635,90 @@ La entrevistada considera que la aplicación es útil, clara y sencilla de usar.
 
 ### 4.3.3. Evaluaciones según heurísticas
 
+UX Heuristics & Principles Evaluation
+Usability – Inclusive Design – Information Architecture
+
+CARRERA: Ingeniería de Software
+CURSO: CC238
+SECCIÓN: 1807
+PROFESORES: Todos
+AUDITOR: SyngCafe
+CLIENTE(S): Melanie espinoza y Jazmin
+
+## SITE o APP A EVALUAR
+iCafe
+
+## TAREAS A EVALUAR
+1. Registrar empleados
+2. Registrar proveedores
+3. Registrar insumos
+4. Registrar productos
+5. Registrar una venta
+6. Registrar una compra
+7. Visualizar historial de movimientos
+8. Consultar estadísticas de ventas y compras
+
+No incluidas:
+1. Generación de reportes avanzados
+2. Exportación de datos
+3. Gestión de usuarios con roles
+4. Integración con facturación externa
+
+## ESCALA DE SEVERIDAD
+| Nivel | Descripción |
+|------|-------------|
+| 1 | Problema superficial |
+| 2 | Problema menor |
+| 3 | Problema mayor |
+| 4 | Problema muy grave |
+
+## TABLA RESUMEN
+| # | Problema | Severidad | Heurística violada |
+|---|----------|-----------|--------------------|
+| 1 | No hay botón para regresar al menú | 2 | Libertad y control del usuario |
+| 2 | Botones poco descriptivos | 2 | Visibilidad del estado |
+| 3 | Sin buscador en listas | 3 | Is it findable? |
+| 4 | Campos sin validación | 4 | Reconocimiento y corrección |
+
+## DESCRIPCIÓN DE PROBLEMAS
+
+### PROBLEMA #1
+Heurística violada: Usability – Libertad y control del usuario
+
+Problema:
+En secciones como “Registrar insumos” o “Registrar productos”, no existe un botón visible para regresar al menú principal. Esto obliga al usuario a retroceder manualmente varias veces y genera pérdida de tiempo.
+
+Recomendación:
+Incluir un botón de “Volver al menú” en todas las pantallas internas.
+
+### PROBLEMA #2
+Heurística violada: Usability – Visibilidad del estado del sistema
+
+Problema:
+Botones como “Agregar” no especifican si corresponde a un proveedor, insumo o empleado, causando confusión.
+
+Recomendación:
+Renombrar botones a: “Agregar proveedor”, “Agregar insumo”, “Agregar empleado”, etc.
+
+### PROBLEMA #3
+Heurística violada: Information Architecture – Is it findable?
+
+Problema:
+Cuando la lista crece, es difícil encontrar elementos sin una barra de búsqueda o filtros.
+
+Recomendación:
+Agregar buscador y filtros por categoría, proveedor o stock.
+
+### PROBLEMA #4
+Severidad: 4
+Heurística violada: Usability – Ayuda al usuario a reconocer y corregir errores
+
+Problema:
+El sistema permite ingresar valores inválidos (stock negativo, precios en cero), afectando la confiabilidad del inventario.
+
+Recomendación:
+Agregar validaciones y mensajes de error claros: “El stock no puede ser negativo”.
+
 # Conclusiones
 ## Conclusiones y recomendaciones
 **Concluciones:**
