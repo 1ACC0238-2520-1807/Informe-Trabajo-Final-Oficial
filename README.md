@@ -3020,16 +3020,52 @@ Repositorio https://github.com/1ACC0238-2520-1807/test
 
 #### 4.2.2.5. Execution Evidence for Sprint Review
 
+
 ![](./img/cap.jpeg)
 
-<img src="./img/sedes.jpeg" width="500px" alt="Agregar proveedor"/> 
-Vista de la implementación de las sedes dentro de la aplicación Android.
-<img src="./img/estadisticas.jpeg" width="500px" alt="Agregar proveedor"/> 
-Vista de estadísticas y métricas dentro de la aplicación Android.
-<img src="./img/compras_ventas.jpeg" width="500px" alt="Agregar proveedor"/>
-Vista de compras y ventas integradas en la aplicación Android.
-<img src="./img/movimiento.jpeg" width="500px" alt="Agregar proveedor"/>
-Vista de movimientos y transacciones registradas en la aplicación Android.
+
+<!-- FILA 1 -->
+<div style="display:flex; justify-content:center; align-items:flex-start; gap:20px; margin-bottom:40px;">
+    <!-- Imagen 1 -->
+    <div style="text-align:center; width:45%;">
+        <h3 style="margin-bottom:10px;">Vista de las sedes</h3>
+        <img src="./img/sedes.jpeg" 
+             style="width:100%; height:auto; border:1px solid #ccc;" 
+             alt="Sedes">
+        <p>Vista de la implementación de las sedes dentro de la aplicación Android.</p>
+    </div>
+    <!-- Imagen 2 -->
+    <div style="text-align:center; width:45%;">
+        <h3 style="margin-bottom:10px;">Vista de estadísticas</h3>
+        <img src="./img/estadisticas.jpeg"
+             style="width:100%; height:auto; border:1px solid #ccc;" 
+             alt="Estadísticas">
+        <p>Vista de estadísticas y métricas dentro de la aplicación Android.</p>
+    </div>
+
+</div>
+
+<!-- FILA 2 -->
+<div style="display:flex; justify-content:center; align-items:flex-start; gap:20px; margin-bottom:40px;">
+    <!-- Imagen 3 -->
+    <div style="text-align:center; width:45%;">
+        <h3 style="margin-bottom:10px;">Vista de compras y ventas</h3>
+        <img src="./img/compras_ventas.jpeg"
+             style="width:100%; height:auto; border:1px solid #ccc;" 
+             alt="Compras y Ventas">
+        <p>Vista de compras y ventas integradas en la aplicación Android.</p>
+    </div>
+    <!-- Imagen 4 -->
+    <div style="text-align:center; width:45%;">
+        <h3 style="margin-bottom:10px;">Vista de movimientos</h3>
+        <img src="./img/movimiento.jpeg"
+             style="width:100%; height:auto; border:1px solid #ccc;" 
+             alt="Movimientos">
+        <p>Vista de movimientos y transacciones registradas en la aplicación Android.</p>
+    </div>
+
+</div>
+
 
 #### 4.2.2.6. Services Documentation Evidence for Sprint Review
 
@@ -3462,7 +3498,7 @@ Durante el Sprint 3, el equipo de desarrollo de iCafe se enfocará en completar 
   </tr>
   <!---------------------------------------------------->
    <tr>
-    <td rowspan="3" align="center">https://github.com/1ACC0238-2520-1807/Flutter-icafe</td>
+    <td rowspan="4" align="center">https://github.com/1ACC0238-2520-1807/Flutter-icafe</td>
     <td align="center">main</td>
     <td align="center">efd96a85e1fb3a9b5d3943e812804679dd0ffee6</td>
     <td align="center"> Feat: Refactor architecture and add homepage</td>
@@ -3483,31 +3519,31 @@ Durante el Sprint 3, el equipo de desarrollo de iCafe se enfocará en completar 
     <td align="center"> ---</td>
    <td align="center"> 01/12/2025</td>
   </tr>
+   <tr>
+    <td align="center">feature/product</td>
+    <td align="center" >f917c3d61b6d15f306878af7d437ba7bb8eb5380</td>
+    <td align="center">feat: add Inventory screen.</td>
+    <td align="center"> ---</td>
+   <td align="center"> 03/12/2025</td>
+  </tr>
    
   <!--------------------->
   <tr>
-    <td rowspan="3" align="center">https://github.com/1ACC0238-2520-1807/Android-icafe</td>
+    <td rowspan="2" align="center">https://github.com/1ACC0238-2520-1807/Android-icafe</td>
     <td align="center"> main</td>
     <td align="center">2c693efaed84c42eb0575902c88bd14b4fa75baa </td>
+    <td align="center"> Refactor InventoryMovementsScreen layout and states</td>
     <td align="center"> ---</td>
-    <td align="center"> ---</td>
-    <td align="center"> 09/11/2025</td>
+    <td align="center"> 03/12/2025</td>
   </tr>
   <tr>
     <td align="center">develop</td>
     <td align="center" >729ff1f9dbfc798f578badd4f423b90b5d1360d0 </td>
-    <td align="center">----</td>
+    <td align="center">Fix: product</td>
     <td align="center"> ---</td>
-    <td align="center"> 10/11/2025</td>
+    <td align="center"> 3/12/2025</td>
   </tr>
-   <tr>
-    <td align="center">develop</td>
-    <td align="center" >c7c0984bf860a77464e4158df8fd03d0444daa75 </td>
-    <td align="center">---</td>
-    <td align="center"> ---</td>
-    <td align="center"> 11/11/2025</td>
-  </tr>
-  
+ 
 </table>
 
 #### 4.2.3.4. Testing Suite Evidence for Sprint Review
@@ -3523,6 +3559,90 @@ En el Sprint 3, se implementaron las pruebas de aceptación para las historias d
 Repositorio https://github.com/1ACC0238-2520-1807/test
 
 #### 4.2.3.5. Execution Evidence for Sprint Review
+En esta sección describiré las actividades desarrolladas durante el Sprint 2, las cuales abarcan el trabajo realizado en los dos componentes principales del proyecto: la Aplicación Móvil Android y Apliccion Flutter. Se presentarán los avances obtenidos en cada uno de estos módulos, acompañados de capturas de pantalla que evidencian las vistas implementadas y su funcionamiento.
+
+**Aplicación Android**<br>
+<!-- FILA 1 -->
+<div style="display:flex; justify-content:center; align-items:flex-start; gap:20px; margin-bottom:40px;">
+    <!-- Imagen 1 -->
+    <div style="text-align:center; width:45%;">
+        <h3 style="margin-bottom:10px;">Vista de las sedes</h3>
+        <img src="./img/sedes.jpeg" 
+             style="width:100%; height:auto; border:1px solid #ccc;" 
+             alt="Sedes">
+        <p>Vista de la implementación de las sedes dentro de la aplicación Android.</p>
+    </div>
+    <!-- Imagen 2 -->
+    <div style="text-align:center; width:45%;">
+        <h3 style="margin-bottom:10px;">Vista de estadísticas</h3>
+        <img src="./img/estadisticas.jpeg"
+             style="width:100%; height:auto; border:1px solid #ccc;" 
+             alt="Estadísticas">
+        <p>Vista de estadísticas y métricas dentro de la aplicación Android.</p>
+    </div>
+
+</div>
+
+<!-- FILA 2 -->
+<div style="display:flex; justify-content:center; align-items:flex-start; gap:20px; margin-bottom:40px;">
+    <!-- Imagen 3 -->
+    <div style="text-align:center; width:45%;">
+        <h3 style="margin-bottom:10px;">Vista de compras y ventas</h3>
+        <img src="./img/compras_ventas.jpeg"
+             style="width:100%; height:auto; border:1px solid #ccc;" 
+             alt="Compras y Ventas">
+        <p>Vista de compras y ventas integradas en la aplicación Android.</p>
+    </div>
+    <!-- Imagen 4 -->
+    <div style="text-align:center; width:45%;">
+        <h3 style="margin-bottom:10px;">Vista de movimientos</h3>
+        <img src="./img/movimiento.jpeg"
+             style="width:100%; height:auto; border:1px solid #ccc;" 
+             alt="Movimientos">
+        <p>Vista de movimientos y transacciones registradas en la aplicación Android.</p>
+    </div>
+
+</div>
+
+**Aplicación Flutter**<br>
+
+<!-- FILA 1 -->
+<div style="display:flex; justify-content:center; align-items:flex-start; gap:20px; margin-bottom:40px;">
+    <!-- Imagen 1 -->
+    <div style="text-align:center; width:45%;">
+        <h3 style="margin-bottom:10px;">Inicio de sessión</h3>
+        <img src="./img/chapter-4/login-flutter.png" 
+             style="width:100%; height:auto; border:1px solid #ccc;">
+        <p>Vista al iniciar la aplicacion para iniciar sesessión con correo y contraseña</p>
+    </div>
+    <!-- Imagen 2 -->
+    <div style="text-align:center; width:45%;">
+        <h3 style="margin-bottom:10px;">Elección de sede</h3>
+        <img src="./img/chapter-4/Sedes-flutter.png"
+             style="width:100%; height:auto; border:1px solid #ccc;">
+         <p>Vista donde pogras elegir la sede por la sede, además de editar la informacion o en el caso de querer eliminar la sede</p>
+    </div>
+
+</div>
+<!-- FILA 2 -->
+<div style="display:flex; justify-content:center; align-items:flex-start; gap:20px; margin-bottom:40px;">
+    <!-- Imagen 1 -->
+    <div style="text-align:center; width:45%;">
+        <h3 style="margin-bottom:10px;">Home y resumen</h3>
+        <img src="./img/chapter-4/Home-flutter.png" 
+             style="width:100%; height:auto; border:1px solid #ccc;">
+         <p>Vista al iniciar donde podras ver el resumen financiero de una sede</p>
+    </div>
+    <!-- Imagen 2 -->
+    <div style="text-align:center; width:45%;">
+        <h3 style="margin-bottom:10px;">Inventario</h3>
+        <img src="./img/chapter-4/inventario-flutter.png"
+             style="width:100%; height:auto; border:1px solid #ccc;">
+         <p>Vista donde podras visualizar los insumos y productos que tiene tu sede</p>
+    </div>
+
+</div>
+
 
 #### 4.2.3.6. Services Documentation Evidence for Sprint Review
 **Tabla de Endpoints Documentados:**
@@ -3568,8 +3688,80 @@ Swagger del backend desplegado: http://upc-icafebackend-3sger0-aa823d-31-97-13-2
 
 
 #### 4.2.3.7. Software Deployment Evidence for Sprint Review
+**Configuración del Despliegue del Backend (Web Services)**
+
+Para el despliegue del backend de iCafe, se empleó un enfoque basado en contenedores, utilizando Docker Compose como herramienta principal para la orquestación. Esta estrategia permite una gestión más eficiente, escalable y consistente de los servicios en distintos entornos.
+A continuación, se presentan las tecnologías utilizadas y el flujo seguido durante el despliegue:
+
+**Tecnologías Utilizadas:**
+- **Docker Compose**: Para la orquestación de contenedores y gestión de servicios
+- **Dokploy**: Como plataforma de despliegue y gestión de aplicaciones contenerizadas
+- **OpenJDK 17 (openjdk:17-jdk-slim)**: Imagen base optimizada para ejecutar aplicaciones Java
+- **Spring Boot**: Framework principal para el desarrollo del backend
+
+
+**Evidencia Visual del Despliegue:**
+
+<img src="./img/dokploy1.png" alt="Dokploy" width="400"/> 
+<img src="./img/dokploy2.png" alt="Dokploy" width="400"/> 
+<img src="./img/dokploy3.png" alt="Dokploy" width="400"/> 
+<img src="./img/dokploy4.png" alt="Dokploy" width="400"/>
+
+**Configuración del Despliegue de la Landing Page**
+
+La Landing Page del proyecto iCafe fue desplegada utilizando un enfoque de sitio estático, apoyado en tecnologías web fundamentales y utilizando una plataforma de hosting gratuita que facilita su publicación.
+
+**Tecnologías Utilizadas:**
+- **HTML**: Para la estructura y contenido de la página web
+- **CSS**: Para el diseño visual, estilos y responsive design
+- **GitHub Pages**: Como plataforma de despliegue para sitios web estáticos
+
+
+<img src="./img/landing1.png" alt="Landing1" width="500"/>
+
+**Despliegue con GitHub Pages**: Se configuró GitHub Pages para servir automáticamente la Landing Page desde el repositorio, proporcionando una URL pública accesible para los usuarios.
+
+Link: https://1acc0238-2520-1807.github.io/LandingPage-iCafe/
+
+<img src="./img/landing2.png" alt="Landing2" width="500"/> 
+<img src="./img/landing3.png" alt="Landing3" width="500"/><br>
+
+
+
+**Despliegue en aplicación android en firebase**
+Para distribuir la aplicación Android, se utilizó Firebase App Distribution, permitiendo compartir builds con testers de forma rápida y sencilla.
+
+Se creó un proyecto en la consola de Firebase destinado exclusivamente a la distribución de la app.
+
+<img src="./img/chapter-4/firebase-1.png" alt="Deployment Diagram" width="500"/>
+
+Posteriormente, se cargó el archivo .apk generado desde Android Studio y se agregaron los testers mediante correo electrónico.
+
+<img src="./img/chapter-4/Firebase-2.png" alt="Deployment Diagram" width="500"/>
+
+**link:**  https://appdistribution.firebase.google.com/testerapps/1:892002161154:android:b7ff4a0dbfb60be018cd1b/releases/2mvv6lj5b2l4o?utm_source=firebase-console
 
 #### 4.2.3.8. Team Collaboration Insights during Sprint
+
+Durante este sprint se analizaron los niveles de colaboración y participación del equipo utilizando las métricas provistas por GitHub. Estas gráficas permiten identificar patrones de trabajo, frecuencia de commits, momentos de mayor actividad, así como la contribución individual de cada integrante en ambos proyectos:
+
+**Aplicacion Android**
+Esta gráfica muestra la distribución temporal de las contribuciones realizadas en el proyecto Android. Permite observar los meses donde hubo mayor trafico.
+
+<img src="./img/chapter-4/sprint-3-fechas-andorid.png" alt="landing" width="900"/>
+
+Aquí se representan las contribuciones individuales de cada miembro del equipo en el desarrollo de la aplicación Android. Este gráfico permite identificar el nivel de participación y el aporte de cada desarrollador en términos de commits, líneas modificadas y actividad general.
+
+<img src="./img/chapter-4/sprint-3-contributors-android.png" alt="landing" width="900"/>
+
+**Aplicacion Flutter**
+Esta gráfica resume la actividad de desarrollo del proyecto Flutter a lo largo del sprint. Muestra los días con mayor productividad y permite comparar la progresión del trabajo en relación con los objetivos establecidos.
+
+<img src="./img/chapter-4/sprint-3-resumen-flutter.png" alt="landing" width="900"/>
+
+Este gráfico presenta el nivel de contribución de cada miembro del equipo dentro del proyecto Flutter. Permite analizar la distribución del trabajo, así como el compromiso de cada desarrollador durante el sprint.
+
+<img src="./img/chapter-4/sprint-3-contributors-flutter.png" alt="landing" width="900"/>
 
 ## 4.3. Validation Interviews
 En esta seccion, validaremos nuestro producto final con entrevistas a nuestro segmento objetivo.
