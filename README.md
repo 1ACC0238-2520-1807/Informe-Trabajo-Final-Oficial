@@ -22,13 +22,12 @@ Periodo 202502
 **Nombre del Producto:* iCafe* 
 <br>
 
-
-U202117342 - Ruben Velasquez Chambi<br>
-U20231C111 - Christian Fabrizio Inga Orihuela<br>
+U202319431 - Choquehuanca Nuñez, Luciana Carolina<br>
 U202312391 - Hallasi Saravia, Miguel Angel<br>
+U20231C111 - Inga Orihuela, Christian Fabrizio<br>
+U202222846 - Ramos Calagua, Sebastian Alexander<br>
 U202310008 - Urrutia Peña, Jasmin Adriana<br>
-U202222846 - Sebastian Alexander Ramos Calagua<br>
-U202319431 - Luciana Carolina Choquehuanca Nuñez<br>
+U202117342 - Velasquez Chambi, Ruben<br>
 
 
 
