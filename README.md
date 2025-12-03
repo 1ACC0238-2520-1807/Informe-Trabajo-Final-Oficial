@@ -3578,10 +3578,10 @@ Swagger del backend desplegado: http://upc-icafebackend-3sger0-aa823d-31-97-13-2
 En esta seccion, validaremos nuestro producto final con entrevistas a nuestro segmento objetivo.
 ### 4.3.1. Diseño de Entrevistas
 
-**Objetivo:**
-Validar la aplicación móvil con dueños de cafeterías pequeñas, evaluando la usabilidad, el diseño y la utilidad de la herramienta en la gestión de su negocio.
+**Objetivo:** <br>
+Validar la aplicación móvil con dueños de cafeterías pequeñas, evaluando la usabilidad, el diseño y la utilidad de la herramienta en la gestión de su negocio. <br>
 
-**Preguntas de validación:**
+**Preguntas de validación:** <br>
 -¿Considera que el diseño de la aplicación es visualmente atractivo y adecuado para su negocio?
 
 -¿Diría que la interfaz es intuitiva y amigable, incluso sin explicaciones previas?
@@ -3601,6 +3601,38 @@ Validar la aplicación móvil con dueños de cafeterías pequeñas, evaluando la
 
 
 ### 4.3.2. Registro de Entrevistas
+
+**Entrevista 1:**
+Datos del entrevistador:
+- Nombre: Inga Orihuela, Christian Fabrizio
+  
+Datos del entrevistado:
+- Nombre: Jazmin
+- Edad: 30 años
+- Residencia: Lima
+- Enlace: dfg
+  
+![Entrevista ](./img/chapter-2/dfdsf.png)
+
+**Resumen de la entrevista:**
+
+fdgdfg
+
+**Entrevista 2:**
+Datos del entrevistador:
+- Nombre: Urrutia Peña, Jasmin Adriana
+  
+Datos del entrevistado:
+- Nombre: Melanie Espinoza
+- Edad: 34 años
+- Residencia: Huancayo
+- Enlace: https://youtu.be/lQ_PUh31_XY
+  
+![Entrevista ](./img/chapter-2/entrevistajas2.png)
+
+**Resumen de la entrevista:**
+La entrevistada considera que la aplicación es útil, clara y sencilla de usar. Destaca que le permitirá mejorar el control y la administración de su cafetería, especialmente en cuanto al inventario, registro de insumos, ventas y compras. Menciona que actualmente existe desperdicio de insumos, y que la aplicación le ayudaría a reducirlo gracias a un manejo más ordenado. También señala que tener estadísticas y un historial de movimientos le permitirá tomar mejores decisiones y obtener una rentabilidad más real y precisa. En general, ve la propuesta como una solución práctica, alineada con la tecnología actual, y afirma que sí estaría interesada en usarla.
+
 
 ### 4.3.3. Evaluaciones según heurísticas
 
