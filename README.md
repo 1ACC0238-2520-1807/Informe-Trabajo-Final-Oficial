@@ -3636,14 +3636,14 @@ La entrevistada considera que la aplicación es útil, clara y sencilla de usar.
 ### 4.3.3. Evaluaciones según heurísticas
 
 UX Heuristics & Principles Evaluation
-Usability – Inclusive Design – Information Architecture
+Usability – Inclusive Design – Information Architecture<br>
 
-CARRERA: Ingeniería de Software
-CURSO: CC238
-SECCIÓN: 1807
-PROFESORES: Todos
-AUDITOR: SyngCafe
-CLIENTE(S): Melanie espinoza y Jazmin
+CARRERA: Ingeniería de Software<br>
+CURSO: CC238<br>
+SECCIÓN: 1807<br>
+PROFESORES: Todos<br>
+AUDITOR: SyngCafe<br>
+CLIENTE(S): Melanie espinoza y Jazmin<br>
 
 #### SITE o APP A EVALUAR
 iCafe
@@ -3740,10 +3740,10 @@ Agregar validaciones y mensajes de error claros: “El stock no puede ser negati
 Link: https://www.canva.com/design/DAG4mwAytek/GYEclk_B8KDLbPRLAUUmKw/edit?utm_content=DAG4mwAytek&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton<br>
 
 # Video About the product
-Link: https://www.canva.com/design/DAG4m_n0jP8/ZbExk4QdIkSG1A1akc_1nw/edit?utm_content=DAG4m_n0jP8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton<br>
+Link: https://youtu.be/wF37vzb0DtA<br>
 
 # Video About the team
-Link: https://www.canva.com/design/DAG4mwTd31Y/ciEtYs12uCHTVN7ZjJyiKw/edit?utm_content=DAG4mwTd31Y&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton<br>
+Link: https://youtu.be/Cj0DfL8WPmA<br>
 
 # Glosario
 
