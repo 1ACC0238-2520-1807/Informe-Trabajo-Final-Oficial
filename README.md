@@ -3645,10 +3645,10 @@ PROFESORES: Todos
 AUDITOR: SyngCafe
 CLIENTE(S): Melanie espinoza y Jazmin
 
-## SITE o APP A EVALUAR
+#### SITE o APP A EVALUAR
 iCafe
 
-## TAREAS A EVALUAR
+#### TAREAS A EVALUAR
 1. Registrar empleados
 2. Registrar proveedores
 3. Registrar insumos
@@ -3664,7 +3664,7 @@ No incluidas:
 3. Gestión de usuarios con roles
 4. Integración con facturación externa
 
-## ESCALA DE SEVERIDAD
+#### ESCALA DE SEVERIDAD
 | Nivel | Descripción |
 |------|-------------|
 | 1 | Problema superficial |
@@ -3672,7 +3672,7 @@ No incluidas:
 | 3 | Problema mayor |
 | 4 | Problema muy grave |
 
-## TABLA RESUMEN
+#### TABLA RESUMEN
 | # | Problema | Severidad | Heurística violada |
 |---|----------|-----------|--------------------|
 | 1 | No hay botón para regresar al menú | 2 | Libertad y control del usuario |
@@ -3680,9 +3680,9 @@ No incluidas:
 | 3 | Sin buscador en listas | 3 | Is it findable? |
 | 4 | Campos sin validación | 4 | Reconocimiento y corrección |
 
-## DESCRIPCIÓN DE PROBLEMAS
+#### DESCRIPCIÓN DE PROBLEMAS
 
-### PROBLEMA #1
+##### PROBLEMA #1
 Heurística violada: Usability – Libertad y control del usuario
 
 Problema:
@@ -3691,7 +3691,7 @@ En secciones como “Registrar insumos” o “Registrar productos”, no existe
 Recomendación:
 Incluir un botón de “Volver al menú” en todas las pantallas internas.
 
-### PROBLEMA #2
+##### PROBLEMA #2
 Heurística violada: Usability – Visibilidad del estado del sistema
 
 Problema:
@@ -3700,7 +3700,7 @@ Botones como “Agregar” no especifican si corresponde a un proveedor, insumo 
 Recomendación:
 Renombrar botones a: “Agregar proveedor”, “Agregar insumo”, “Agregar empleado”, etc.
 
-### PROBLEMA #3
+##### PROBLEMA #3
 Heurística violada: Information Architecture – Is it findable?
 
 Problema:
@@ -3709,7 +3709,7 @@ Cuando la lista crece, es difícil encontrar elementos sin una barra de búsqued
 Recomendación:
 Agregar buscador y filtros por categoría, proveedor o stock.
 
-### PROBLEMA #4
+##### PROBLEMA #4
 Severidad: 4
 Heurística violada: Usability – Ayuda al usuario a reconocer y corregir errores
 
