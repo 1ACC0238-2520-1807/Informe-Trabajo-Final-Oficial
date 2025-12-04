@@ -3809,13 +3809,14 @@ Datos del entrevistado:
 - Nombre: Jazmin
 - Edad: 30 años
 - Residencia: Lima
-- Enlace: dfg
+- Enlace: https://www.youtube.com/watch?v=h9-ueMKJ6vU
   
 ![Entrevista ](./img/chapter-2/dfdsf.png)
 
 **Resumen de la entrevista:**
 
-fdgdfg
+La dueña de cafeteria expresa que la aplicación le resulta práctica, intuitiva y fácil de manejar. Comenta que podría convertirse en una herramienta valiosa para optimizar la gestión de su cafetería, sobre todo en lo relacionado al control de inventarios, el seguimiento de insumos y el registro de compras y ventas. Señala que uno de los problemas actuales es el desperdicio de productos, y considera que la plataforma ayudaría a minimizarlo al permitirle organizar mejor sus recursos. Además, resalta que contar con reportes, estadísticas y un historial de movimientos le daría una visión más clara de su negocio, facilitándole tomar decisiones más acertadas y evaluar su verdadera rentabilidad. En conclusión, percibe la propuesta como una opción moderna y funcional, y asegura que estaría dispuesta a utilizarla.
+
 
 **Entrevista 2:**
 Datos del entrevistador:
