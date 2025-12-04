@@ -3970,7 +3970,7 @@ Sidabutar, G. D. G. E., Seah, J. A., & Singgalen, Y. A. (2023). Analysis and des
 - Backend Deployado: http://upc-icafebackend-3sger0-aa823d-31-97-13-234.traefik.me/swagger-ui/index.html#<br>
 - Link Repositorio Android: https://github.com/1ACC0238-2520-1807/Android-icafe<br>
 - Android Deployado: https://appdistribution.firebase.dev/i/996291fcf7f9d0d1<br>
-- Flutter Deployado: https://appdistribution.firebase.dev/i/62c0382850a8c3a4 <br>
+- Flutter Deployado: https://appdistribution.firebase.dev/i/37ba936efb96f3b2<br>
 - Link Repositorio Flutter: https://github.com/1ACC0238-2520-1807/Flutter-icafe<br>
 - Link PPT: https://www.canva.com/design/DAGzPbC_J7U/kQe16BT9So7GJgFTXdkFGg/edit?utm_content=DAGzPbC_J7U&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton<br>
 
