@@ -3741,6 +3741,16 @@ Posteriormente, se cargó el archivo .apk generado desde Android Studio y se agr
 
 **link:**  https://appdistribution.firebase.google.com/testerapps/1:892002161154:android:b7ff4a0dbfb60be018cd1b/releases/2mvv6lj5b2l4o?utm_source=firebase-console
 
+
+**Despliegue en aplicación flutter en firebase**<br>
+Para distribuir la aplicación Flutter, se utilizó Firebase App Distribution, permitiendo compartir builds con testers de forma rápida y sencilla.
+
+Se creó un proyecto en la consola de Firebase destinado exclusivamente a la distribución de la app.
+
+<img src="./img/chapter-4/firebase-flutter-1.png" alt="Deployment Diagram" width="500"/>
+
+**link:** https://appdistribution.firebase.google.com/testerapps/1:98113510410:android:698c0524dae02f07d693f3/releases/012rsskh8da0o?utm_source=firebase-console
+
 #### 4.2.3.8. Team Collaboration Insights during Sprint
 
 Durante este sprint se analizaron los niveles de colaboración y participación del equipo utilizando las métricas provistas por GitHub. Estas gráficas permiten identificar patrones de trabajo, frecuencia de commits, momentos de mayor actividad, así como la contribución individual de cada integrante en ambos proyectos:
@@ -3957,6 +3967,7 @@ Sidabutar, G. D. G. E., Seah, J. A., & Singgalen, Y. A. (2023). Analysis and des
 - Backend Deployado: http://upc-icafebackend-3sger0-aa823d-31-97-13-234.traefik.me/swagger-ui/index.html#<br>
 - Link Repositorio Android: https://github.com/1ACC0238-2520-1807/Android-icafe<br>
 - Android Deployado: https://appdistribution.firebase.dev/i/996291fcf7f9d0d1<br>
+- Flutter Deployado: https://appdistribution.firebase.dev/i/62c0382850a8c3a4 <br>
 - Link Repositorio Flutter: https://github.com/1ACC0238-2520-1807/Flutter-icafe<br>
 - Link PPT: https://www.canva.com/design/DAGzPbC_J7U/kQe16BT9So7GJgFTXdkFGg/edit?utm_content=DAGzPbC_J7U&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton<br>
 
