@@ -3570,7 +3570,7 @@ En esta sección describiré las actividades desarrolladas durante el Sprint 2, 
     <div style="text-align:center; width:45%;">
         <h3 style="margin-bottom:10px;">Vista de las sedes</h3>
         <img src="./img/sedes.jpeg" 
-             style="width:35%; height:auto; border:1px solid #ccc;" 
+             style="width:25%; height:auto; border:1px solid #ccc;" 
              alt="Sedes">
         <p>Vista de la implementación de las sedes dentro de la aplicación Android.</p>
     </div>
@@ -3578,7 +3578,7 @@ En esta sección describiré las actividades desarrolladas durante el Sprint 2, 
     <div style="text-align:center; width:45%;">
         <h3 style="margin-bottom:10px;">Vista de estadísticas</h3>
         <img src="./img/estadisticas.jpeg"
-             style="width:35%; height:auto; border:1px solid #ccc;" 
+             style="width:25%; height:auto; border:1px solid #ccc;" 
              alt="Estadísticas">
         <p>Vista de estadísticas y métricas dentro de la aplicación Android.</p>
     </div>
@@ -3591,7 +3591,7 @@ En esta sección describiré las actividades desarrolladas durante el Sprint 2, 
     <div style="text-align:center; width:45%;">
         <h3 style="margin-bottom:10px;">Vista de compras y ventas</h3>
         <img src="./img/compras_ventas.jpeg"
-             style="width:35%; height:auto; border:1px solid #ccc;" 
+             style="width:25%; height:auto; border:1px solid #ccc;" 
              alt="Compras y Ventas">
         <p>Vista de compras y ventas integradas en la aplicación Android.</p>
     </div>
@@ -3599,7 +3599,7 @@ En esta sección describiré las actividades desarrolladas durante el Sprint 2, 
     <div style="text-align:center; width:45%;">
         <h3 style="margin-bottom:10px;">Vista de movimientos</h3>
         <img src="./img/movimiento.jpeg"
-             style="width:35%; height:auto; border:1px solid #ccc;" 
+             style="width:25%; height:auto; border:1px solid #ccc;" 
              alt="Movimientos">
         <p>Vista de movimientos y transacciones registradas en la aplicación Android.</p>
     </div>
@@ -3614,14 +3614,14 @@ En esta sección describiré las actividades desarrolladas durante el Sprint 2, 
     <div style="text-align:center; width:45%;">
         <h3 style="margin-bottom:10px;">Inicio de sessión</h3>
         <img src="./img/chapter-4/login-flutter.png" 
-             style="width:35%; height:auto; border:1px solid #ccc;">
+             style="width:25%; height:auto; border:1px solid #ccc;">
         <p>Vista al iniciar la aplicacion para iniciar sesessión con correo y contraseña</p>
     </div>
     <!-- Imagen 2 -->
     <div style="text-align:center; width:45%;">
         <h3 style="margin-bottom:10px;">Elección de sede</h3>
         <img src="./img/chapter-4/Sedes-flutter.png"
-             style="width:35%; height:auto; border:1px solid #ccc;">
+             style="width:25%; height:auto; border:1px solid #ccc;">
          <p>Vista donde pogras elegir la sede por la sede, además de editar la informacion o en el caso de querer eliminar la sede</p>
     </div>
 
@@ -3632,14 +3632,14 @@ En esta sección describiré las actividades desarrolladas durante el Sprint 2, 
     <div style="text-align:center; width:45%;">
         <h3 style="margin-bottom:10px;">Home y resumen</h3>
         <img src="./img/chapter-4/Home-flutter.png" 
-             style="width:35%; height:auto; border:1px solid #ccc;">
+             style="width:25%; height:auto; border:1px solid #ccc;">
          <p>Vista al iniciar donde podras ver el resumen financiero de una sede</p>
     </div>
     <!-- Imagen 2 -->
     <div style="text-align:center; width:45%;">
         <h3 style="margin-bottom:10px;">Inventario</h3>
         <img src="./img/chapter-4/inventario-flutter.png"
-             style="width:35%; height:auto; border:1px solid #ccc;">
+             style="width:25%; height:auto; border:1px solid #ccc;">
          <p>Vista donde podras visualizar los insumos y productos que tiene tu sede</p>
     </div>
 
