@@ -2389,21 +2389,21 @@ La suite de pruebas ejecutada durante el sprint valida las funcionalidades entre
 #### 4.2.1.5. Execution Evidence for Sprint Review
 En esta sección describiré las actividades desarrolladas durante el Sprint 1, las cuales abarcan el trabajo realizado en los tres componentes principales del proyecto: la Landing Page, el Backend y la Aplicación Móvil. Se presentarán los avances obtenidos en cada uno de estos módulos, acompañados de capturas de pantalla que evidencian las vistas implementadas y su funcionamiento. Además, se incluirá un enlace a un video demostrativo donde se podrá observar la visualización y navegación logradas durante este Sprint.
 
-**Landing Page**
+**Landing Page** <br>
 <p align="center"> <img src="./img/chapter-4/landing-1.jpeg" width="80%" alt="Landing Page 1"/> <img src="./img/chapter-4/landing-2.jpeg" width="80%" alt="Landing Page 2"/> <img src="./img/chapter-4/landing-3.jpeg" width="80%" alt="Landing Page 3"/> <img src="./img/chapter-4/landing-4.jpeg" width="80%" alt="Landing Page 4"/> </p> <p align="center"> La Landing Page fue diseñada para presentar la aplicación móvil a los dueños de cafeterías, destacando sus beneficios principales y motivando la descarga mediante un botón de “Call to Action”. Se priorizó un diseño limpio, moderno y adaptable a distintos dispositivos. </p> <p align="center"> <b>Link:</b> <a href="https://1acc0238-2520-1807.github.io/LandingPage-iCafe/" target="_blank">https://1acc0238-2520-1807.github.io/LandingPage-iCafe/</a> </p>
 
-**Backend:**
+**Backend:** <br>
 
 <p align="center">
   Desarrollada con <b>Kotlin</b> y <b>Jetpack Compose</b>, la aplicación móvil permite a los dueños de cafeterías gestionar empleados, proveedores e inventario desde su dispositivo.
   Se implementó arquitectura <b>MVVM</b> y principios de <b>Clean Architecture</b> para asegurar mantenibilidad y escalabilidad.
   <img src="./img/swagger1.png" width="600px" alt="Swager"/>
 </p>
+<br>
 
+Link: https://drive.google.com/file/d/11aM-DKEcy-WijTvHAGVb-tzOcH0vTmTB/view?usp=drive_link<br>
 
-Link: https://drive.google.com/file/d/11aM-DKEcy-WijTvHAGVb-tzOcH0vTmTB/view?usp=drive_link
-
-**Aplicacion Movile:**
+**Aplicacion Movile:**<br>
 
 <p align="center">
   Desarrollada con <b>Kotlin</b> y <b>Jetpack Compose</b>, la aplicación móvil permite a los dueños de cafeterías gestionar empleados, proveedores e inventario desde su dispositivo.
@@ -2414,52 +2414,52 @@ Link: https://drive.google.com/file/d/11aM-DKEcy-WijTvHAGVb-tzOcH0vTmTB/view?usp
 
   <div style="flex: 0 0 45%; text-align: center;">
     <b>Pantalla de inicio de sesión</b><br>
-    <img src="./img/chapter-4/movil-login.jpeg" width="50%" alt="Login"/>
+    <img src="./img/chapter-4/movil-login.jpeg" width="35%" alt="Login"/>
   </div>
 
   <div style="flex: 0 0 45%; text-align: center;">
     <b>Pantalla principal</b><br>
-    <img src="./img/chapter-4/movil-home.jpeg" width="50%" alt="Home"/>
+    <img src="./img/chapter-4/movil-home.jpeg" width="35%" alt="Home"/>
   </div>
 
   <div style="flex: 0 0 45%; text-align: center;">
     <b>Menú de navegación</b><br>
-    <img src="./img/chapter-4/movil-menu.jpeg" width="50%" alt="Menu"/>
+    <img src="./img/chapter-4/movil-menu.jpeg" width="35%" alt="Menu"/>
   </div>
 
   <div style="flex: 0 0 45%; text-align: center;">
     <b>Lista de empleados</b><br>
-    <img src="./img/chapter-4/movil-empleados.jpeg" width="50%" alt="Empleados"/>
+    <img src="./img/chapter-4/movil-empleados.jpeg" width="35%" alt="Empleados"/>
   </div>
 
   <div style="flex: 0 0 45%; text-align: center;">
     <b>Registrar nuevo empleado</b><br>
-    <img src="./img/chapter-4/movil-agregar-empleados.jpeg" width="50%" alt="Agregar empleado"/>
+    <img src="./img/chapter-4/movil-agregar-empleados.jpeg" width="35%" alt="Agregar empleado"/>
   </div>
 
   <div style="flex: 0 0 45%; text-align: center;">
     <b>Editar información de empleado</b><br>
-    <img src="./img/chapter-4/movil-editar-empleado.jpeg" width="50%" alt="Editar empleado"/>
+    <img src="./img/chapter-4/movil-editar-empleado.jpeg" width="35%" alt="Editar empleado"/>
   </div>
 
   <div style="flex: 0 0 45%; text-align: center;">
     <b>Lista de proveedores</b><br>
-    <img src="./img/chapter-4/movil-proveedores.jpeg" width="50%" alt="Proveedores"/>
+    <img src="./img/chapter-4/movil-proveedores.jpeg" width="35%" alt="Proveedores"/>
   </div>
 
   <div style="flex: 0 0 45%; text-align: center;">
     <b>Registrar nuevo proveedor</b><br>
-    <img src="./img/chapter-4/movil-agregar-proveedor.jpeg" width="50%" alt="Agregar proveedor"/>
+    <img src="./img/chapter-4/movil-agregar-proveedor.jpeg" width="35%" alt="Agregar proveedor"/>
   </div>
 
   <div style="flex: 0 0 45%; text-align: center;">
     <b>Editar información de proveedor</b><br>
-    <img src="./img/chapter-4/movil-editar-provedor.jpeg" width="50%" alt="Editar proveedor"/>
+    <img src="./img/chapter-4/movil-editar-provedor.jpeg" width="35%" alt="Editar proveedor"/>
   </div>
 
   <div style="flex: 0 0 45%; text-align: center;">
     <b>Registrar nuevos insumos al inventario</b><br>
-    <img src="./img/chapter-4/movil-insumos.jpeg" width="50%" alt="Insumos"/>
+    <img src="./img/chapter-4/movil-insumos.jpeg" width="35%" alt="Insumos"/>
   </div>
 </div>
 
@@ -3030,7 +3030,7 @@ Repositorio https://github.com/1ACC0238-2520-1807/test
     <div style="text-align:center; width:45%;">
         <h3 style="margin-bottom:10px;">Vista de las sedes</h3>
         <img src="./img/sedes.jpeg" 
-             style="width:100%; height:auto; border:1px solid #ccc;" 
+             style="width:35%; height:auto; border:1px solid #ccc;" 
              alt="Sedes">
         <p>Vista de la implementación de las sedes dentro de la aplicación Android.</p>
     </div>
@@ -3038,7 +3038,7 @@ Repositorio https://github.com/1ACC0238-2520-1807/test
     <div style="text-align:center; width:45%;">
         <h3 style="margin-bottom:10px;">Vista de estadísticas</h3>
         <img src="./img/estadisticas.jpeg"
-             style="width:100%; height:auto; border:1px solid #ccc;" 
+             style="width:35%; height:auto; border:1px solid #ccc;" 
              alt="Estadísticas">
         <p>Vista de estadísticas y métricas dentro de la aplicación Android.</p>
     </div>
@@ -3051,7 +3051,7 @@ Repositorio https://github.com/1ACC0238-2520-1807/test
     <div style="text-align:center; width:45%;">
         <h3 style="margin-bottom:10px;">Vista de compras y ventas</h3>
         <img src="./img/compras_ventas.jpeg"
-             style="width:100%; height:auto; border:1px solid #ccc;" 
+             style="width:35%; height:auto; border:1px solid #ccc;" 
              alt="Compras y Ventas">
         <p>Vista de compras y ventas integradas en la aplicación Android.</p>
     </div>
@@ -3059,7 +3059,7 @@ Repositorio https://github.com/1ACC0238-2520-1807/test
     <div style="text-align:center; width:45%;">
         <h3 style="margin-bottom:10px;">Vista de movimientos</h3>
         <img src="./img/movimiento.jpeg"
-             style="width:100%; height:auto; border:1px solid #ccc;" 
+             style="width:35%; height:auto; border:1px solid #ccc;" 
              alt="Movimientos">
         <p>Vista de movimientos y transacciones registradas en la aplicación Android.</p>
     </div>
@@ -3132,66 +3132,68 @@ Para el despliegue del backend de iCafe, se implementó una estrategia de conten
 
 **Evidencia Visual del Despliegue:**
 
-<img src="./img/dokploy1.png" alt="Dokploy" width="400"/> 
-<img src="./img/dokploy2.png" alt="Dokploy" width="400"/> 
-<img src="./img/dokploy3.png" alt="Dokploy" width="400"/> 
-<img src="./img/dokploy4.png" alt="Dokploy" width="400"/>
+<img src="./img/dokploy1.png" alt="Dokploy" width="400"/> <br>
+<img src="./img/dokploy2.png" alt="Dokploy" width="400"/> <br>
+<img src="./img/dokploy3.png" alt="Dokploy" width="400"/> <br>
+<img src="./img/dokploy4.png" alt="Dokploy" width="400"/> <br>
 
-**Configuración del Despliegue de la Landing Page**
+**Configuración del Despliegue de la Landing Page**<br>
 
-Para el despliegue de la Landing Page de iCafe, se implementó una solución web estática utilizando tecnologías fundamentales del desarrollo web y una plataforma de hosting gratuita.
+Para el despliegue de la Landing Page de iCafe, se implementó una solución web estática utilizando tecnologías fundamentales del desarrollo web y una plataforma de hosting gratuita.<br>
 
-**Tecnologías Utilizadas:**
-- **HTML**: Para la estructura y contenido de la página web
-- **CSS**: Para el diseño visual, estilos y responsive design
-- **GitHub Pages**: Como plataforma de despliegue para sitios web estáticos
+**Tecnologías Utilizadas:** <br>
+- **HTML**: Para la estructura y contenido de la página web <br>
+- **CSS**: Para el diseño visual, estilos y responsive design <br>
+- **GitHub Pages**: Como plataforma de despliegue para sitios web estáticos <br>
 
-**Proceso de Despliegue:**
+**Proceso de Despliegue:** <br>
 
-1. **Desarrollo**: La Landing Page fue desarrollada utilizando HTML semántico y CSS moderno, implementando un diseño responsive que se adapta a diferentes dispositivos.
+1. **Desarrollo**: La Landing Page fue desarrollada utilizando HTML semántico y CSS moderno, implementando un diseño responsive que se adapta a diferentes dispositivos. <br>
 
-2. **Repositorio**: El código fuente se almacenó en un repositorio de GitHub, manteniendo un control de versiones adecuado.
+2. **Repositorio**: El código fuente se almacenó en un repositorio de GitHub, manteniendo un control de versiones adecuado. <br>
 
-<img src="./img/landing1.png" alt="Landing1" width="500"/>
+<img src="./img/landing1.png" alt="Landing1" width="500"/> <br>
 
-3. **Despliegue con GitHub Pages**: Se configuró GitHub Pages para servir automáticamente la Landing Page desde el repositorio, proporcionando una URL pública accesible para los usuarios.
+3. **Despliegue con GitHub Pages**: Se configuró GitHub Pages para servir automáticamente la Landing Page desde el repositorio, proporcionando una URL pública accesible para los usuarios. <br>
 
-Link: https://1acc0238-2520-1807.github.io/LandingPage-iCafe/
+Link: https://1acc0238-2520-1807.github.io/LandingPage-iCafe/ <br>
 
-<img src="./img/landing2.png" alt="Landing2" width="500"/> 
-<img src="./img/landing3.png" alt="Landing3" width="500"/><br>
+<img src="./img/landing2.png" alt="Landing2" width="500"/> <br>
+<img src="./img/landing3.png" alt="Landing3" width="500"/> <br> 
 
 Diagrama C4: <br>
-<img src="./img/chapter-2/c4-deployment.png" alt="Deployment Diagram" width="500"/>
+<img src="./img/chapter-2/c4-deployment.png" alt="Deployment Diagram" width="500"/><br>
 
-**Despliegue en aplicación android en firebase**
-Se crea un nuevo proyecto en la consola de firebase app distribution
-<img src="./img/chapter-4/firebase-1.png" alt="Deployment Diagram" width="500"/>
-Se debe cargar el archivo .apk que previamente generaste en android studio y añanir los tester a traves de correo.
-<img src="./img/chapter-4/Firebase-2.png" alt="Deployment Diagram" width="500"/>
+**Despliegue en aplicación android en firebase**<br>
+Se crea un nuevo proyecto en la consola de firebase app distribution<br>
+<img src="./img/chapter-4/firebase-1.png" alt="Deployment Diagram" width="500"/><br>
+Se debe cargar el archivo .apk que previamente generaste en android studio y añanir los tester a traves de correo.<br>
+<img src="./img/chapter-4/Firebase-2.png" alt="Deployment Diagram" width="500"/><br>
 
-**link:**  https://appdistribution.firebase.google.com/testerapps/1:892002161154:android:b7ff4a0dbfb60be018cd1b/releases/2mvv6lj5b2l4o?utm_source=firebase-console
+**link:**  https://appdistribution.firebase.google.com/testerapps/1:892002161154:android:b7ff4a0dbfb60be018cd1b/releases/2mvv6lj5b2l4o?utm_source=firebase-console<br>
 
 #### 4.2.2.8. Team Collaboration Insights during Sprint
 En la siguiente sección se presentarán las evidencias del trabajo colaborativo realizado durante el Sprint 2. En este periodo se llevaron a cabo mejoras en la landing page, el backend desarrollado en Spring Boot, la aplicación Android y la aplicación Flutter. Para sustentar este trabajo conjunto, se mostrarán las gráficas generadas a partir de la actividad registrada en GitHub.
 
-**Landing page**
-Actualización de la landing page
-<img src="./img/chapter-4/sprint-2-commits-landing.png" alt="landing" width="500"/>
+**Landing page** <br>
+Actualización de la landing page<br>
+<img src="./img/chapter-4/sprint-2-commits-landing.png" alt="landing" width="500"/><br>
 
-**Aplicacion Backend**
-Fechas en donde se desarrollo el backend durante el sprint 2
-<img src="./img/chapter-4/sprint-2-fechas-commit-backend.png" alt="landing" width="500"/>
-Colaboradores que participaron en el desarrollo de la aplicación backend
-<img src="./img/chapter-4/sprint-2-commits-backend.png" alt="landing" width="500"/>
-**Aplicacion Android**
-Fechas en donde se desarrollo la aplicación Android durante el sprint 2
-<img src="./img/chapter-4/sprint-2-fechas-commit-android.png" alt="landing" width="500"/>
-Colaboradores que participaron en el desarrollo de la aplicación android
-<img src="./img/chapter-4/sprint-2-commits-android.png" alt="landing" width="500"/>
-**Aplicacion Flutter**
-Colaboradores que participaron en el desarrollo de la aplicación flutter
-<img src="./img/chapter-4/sprint-2-commits-flutter.png" alt="landing" width="500"/>
+**Aplicacion Backend** <br>
+Fechas en donde se desarrollo el backend durante el sprint 2 <br>
+<img src="./img/chapter-4/sprint-2-fechas-commit-backend.png" alt="landing" width="500"/> <br>
+Colaboradores que participaron en el desarrollo de la aplicación backend <br>
+<img src="./img/chapter-4/sprint-2-commits-backend.png" alt="landing" width="500"/> <br>
+
+**Aplicacion Android** <br>
+Fechas en donde se desarrollo la aplicación Android durante el sprint 2 <br>
+<img src="./img/chapter-4/sprint-2-fechas-commit-android.png" alt="landing" width="500"/> <br>
+Colaboradores que participaron en el desarrollo de la aplicación android <br>
+<img src="./img/chapter-4/sprint-2-commits-android.png" alt="landing" width="500"/> <br>
+
+**Aplicacion Flutter** <br>
+Colaboradores que participaron en el desarrollo de la aplicación flutter <br>
+<img src="./img/chapter-4/sprint-2-commits-flutter.png" alt="landing" width="500"/> <br> 
 
 
 ### 4.2.3. Sprint 3
@@ -3568,7 +3570,7 @@ En esta sección describiré las actividades desarrolladas durante el Sprint 2, 
     <div style="text-align:center; width:45%;">
         <h3 style="margin-bottom:10px;">Vista de las sedes</h3>
         <img src="./img/sedes.jpeg" 
-             style="width:100%; height:auto; border:1px solid #ccc;" 
+             style="width:35%; height:auto; border:1px solid #ccc;" 
              alt="Sedes">
         <p>Vista de la implementación de las sedes dentro de la aplicación Android.</p>
     </div>
@@ -3576,7 +3578,7 @@ En esta sección describiré las actividades desarrolladas durante el Sprint 2, 
     <div style="text-align:center; width:45%;">
         <h3 style="margin-bottom:10px;">Vista de estadísticas</h3>
         <img src="./img/estadisticas.jpeg"
-             style="width:100%; height:auto; border:1px solid #ccc;" 
+             style="width:35%; height:auto; border:1px solid #ccc;" 
              alt="Estadísticas">
         <p>Vista de estadísticas y métricas dentro de la aplicación Android.</p>
     </div>
@@ -3589,7 +3591,7 @@ En esta sección describiré las actividades desarrolladas durante el Sprint 2, 
     <div style="text-align:center; width:45%;">
         <h3 style="margin-bottom:10px;">Vista de compras y ventas</h3>
         <img src="./img/compras_ventas.jpeg"
-             style="width:100%; height:auto; border:1px solid #ccc;" 
+             style="width:35%; height:auto; border:1px solid #ccc;" 
              alt="Compras y Ventas">
         <p>Vista de compras y ventas integradas en la aplicación Android.</p>
     </div>
@@ -3597,7 +3599,7 @@ En esta sección describiré las actividades desarrolladas durante el Sprint 2, 
     <div style="text-align:center; width:45%;">
         <h3 style="margin-bottom:10px;">Vista de movimientos</h3>
         <img src="./img/movimiento.jpeg"
-             style="width:100%; height:auto; border:1px solid #ccc;" 
+             style="width:35%; height:auto; border:1px solid #ccc;" 
              alt="Movimientos">
         <p>Vista de movimientos y transacciones registradas en la aplicación Android.</p>
     </div>
@@ -3612,14 +3614,14 @@ En esta sección describiré las actividades desarrolladas durante el Sprint 2, 
     <div style="text-align:center; width:45%;">
         <h3 style="margin-bottom:10px;">Inicio de sessión</h3>
         <img src="./img/chapter-4/login-flutter.png" 
-             style="width:100%; height:auto; border:1px solid #ccc;">
+             style="width:35%; height:auto; border:1px solid #ccc;">
         <p>Vista al iniciar la aplicacion para iniciar sesessión con correo y contraseña</p>
     </div>
     <!-- Imagen 2 -->
     <div style="text-align:center; width:45%;">
         <h3 style="margin-bottom:10px;">Elección de sede</h3>
         <img src="./img/chapter-4/Sedes-flutter.png"
-             style="width:100%; height:auto; border:1px solid #ccc;">
+             style="width:35%; height:auto; border:1px solid #ccc;">
          <p>Vista donde pogras elegir la sede por la sede, además de editar la informacion o en el caso de querer eliminar la sede</p>
     </div>
 
@@ -3630,14 +3632,14 @@ En esta sección describiré las actividades desarrolladas durante el Sprint 2, 
     <div style="text-align:center; width:45%;">
         <h3 style="margin-bottom:10px;">Home y resumen</h3>
         <img src="./img/chapter-4/Home-flutter.png" 
-             style="width:100%; height:auto; border:1px solid #ccc;">
+             style="width:35%; height:auto; border:1px solid #ccc;">
          <p>Vista al iniciar donde podras ver el resumen financiero de una sede</p>
     </div>
     <!-- Imagen 2 -->
     <div style="text-align:center; width:45%;">
         <h3 style="margin-bottom:10px;">Inventario</h3>
         <img src="./img/chapter-4/inventario-flutter.png"
-             style="width:100%; height:auto; border:1px solid #ccc;">
+             style="width:35%; height:auto; border:1px solid #ccc;">
          <p>Vista donde podras visualizar los insumos y productos que tiene tu sede</p>
     </div>
 
